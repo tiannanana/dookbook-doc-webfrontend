@@ -1,4 +1,4 @@
-TOPICS: HTML web
+TOPICS: HTML html element
 AUTHORS: itplus; eforegist@github.com; github:eforegist
          xgqfrms; xgqfrms@github.com; github:xgqfrms
          Dong WEI; FredWe@mozilla.net; mdn:FredWe
