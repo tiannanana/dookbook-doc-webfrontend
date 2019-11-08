@@ -2,6 +2,8 @@ TOPICS: <body>
         HTML body element
         HTML body tag
 
+# HTML &lt;body&gt; 元素
+
 ## `<body>`
 
 **HTML `body` 元素**表示文档的内容。`document.body`属性提供了可以轻松访问[[HTML]]文档的`<body>`元素的脚本。
