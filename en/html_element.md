@@ -1,4 +1,4 @@
-TOPICS: HTML web
+TOPICS: HTML html element
 AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Tobias Frei; ToBeFree@mozilla.net; mdn:ToBeFree
          Eric Bailey; ericwbailey@github.com; github:ericwbailey
@@ -28,9 +28,9 @@ AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Peter; pwdst@mozilla.net; mdn:pwdst
          Trevor Hobson; trevorhobson@github.com; github:trevorhobson
 
-# `<HTML>`
+# `html` Element `<html>`
 
-The HTML `<html>` element represents the root (top-level element) of an HTML document, so it is also
+The HTML `<html>` element represents the root (top-level element) of an [[HTML]] document, so it is also
 referred to as the root element. All other elements must be descendants of this element.
 
 |  |  |
