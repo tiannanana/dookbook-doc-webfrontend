@@ -11,6 +11,9 @@ TOPICS: <html>
         HTML title element
         HTML title tag
         HTML5 Bone
+        <body>
+        HTML body element
+        HTML body tag
 
 # 根元素
 
@@ -41,6 +44,10 @@ TOPICS: <html>
 ```
 
 ## `<html>`属性
+
+| 属性 | 描述 |
+| --- | --- |
+| `xmlns` | 指派文档的 XML 命名空间。默认的值是`"http://www.w3.org/1999/xhtml"`。这在 XHTML 中是必要的，而在 HTML 中则是可选的。 |
 
 ## `<html>`可访问性
 
@@ -73,14 +80,6 @@ TOPICS: <html>
 | **标签遗漏** | 同时需要开标签和闭标签。注意：遗漏`</title>`标签会导致浏览器忽略掉页面的剩余部分。|
 | **允许的父标签** | 一个 `<head>`元素只能包含一个`<title>`元素 |
 | **DOM接口** | `HTMLTitleElement` |
-
-
-
-元素包含 全局属性。
-
-| 属性 | 描述 |
-| --- | --- |
-| `xmlns` | 指派文档的 XML 命名空间。默认的值是`"http://www.w3.org/1999/xhtml"`。这在 XHTML 中是必要的，而在 HTML 中则是可选的。 |
 
 ## `<body>`
 
