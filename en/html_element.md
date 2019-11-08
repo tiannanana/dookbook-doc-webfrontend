@@ -1,34 +1,6 @@
-TOPICS: HTML html element
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Tobias Frei; ToBeFree@mozilla.net; mdn:ToBeFree
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Eric Shepherd; sheppy@mozilla.net;mdn:sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Hadley; hadleyel@mozilla.net; mdn:hadleyel
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Taylor Hunt; tigt@github.com; github:tigt
-         Mike Botazzo; magic_mike@mozilla.net; mdn:magic_mike
-         Paul Irish; paul.irish@mozilla.net; mdn:paul.irish
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Justin Anthony Knapp; justinkoavf@gmail.com; github:koavf
-         Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         David Smatlak; dsmatlak@gmail.com; github:dsmatlak
-         Davis Silverman; sinistersnare@gmail.com; github:sinistersnare
-         Spencer Williams; enderandpeter@mozilla.net; mdn:enderandpeter
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Peter; pwdst@mozilla.net; mdn:pwdst
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
+TOPICS: <html>
 
-# `html` Element `<html>`
+# root Element
 
 The HTML `<html>` element represents the root (top-level element) of an [[HTML]] document, so it is also
 referred to as the root element. All other elements must be descendants of this element.
