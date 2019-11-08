@@ -2,6 +2,8 @@ TOPICS: <html>
         HTML html element
         HTML root element
         HTML html tag
+        <html> lang attribute
+        <html> Accessibility Concerns
         <head>
         HTML head element
         HTML head tag
@@ -40,6 +42,29 @@ referred to as the **root element**. All other elements must be descendants of t
 </body>
 </html>
 ```
+
+## `<html>` Attributes
+
+This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+
+| Attributes | Description |
+| --- | --- |
+| `xmlns` | Specifies the **XML Namespace** of the document. Default value is `"http://www.w3.org/1999/xhtml"`.
+This is required in documents parsed with XML parsers, and optional in `text/html` documents. |
+
+## `<html>` Accessibility Concerns
+
+Providing a `lang` attribute with a [valid IETF identifying language tag](https://www.ietf.org/rfc/bcp/bcp47.txt)
+on the `<html>` element will help screen reading technology determine the proper language to
+announce. The identifying language tag should describe the language used by the majority of the
+content of the page. Without it, screen readers will typically default to the operating system's set
+language, which may cause mispronunciations.
+
+Including a valid `lang` declaration on the `<html>` element also ensures that important metadata
+contained in the page's `<head>`, such as the page's `<title>`, are also announced properly.
+
+- [MDN Understanding WCAG, Guideline 3.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.1_%E2%80%94_Readable_Make_text_content_readable_and_understandable)
+- [Understanding Success Criterion 3.1.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/meaning-doc-lang-id.html)
 
 ## `<head>`
 
@@ -108,28 +133,19 @@ often artificially reduce your page's position in the search results.
 - Try to make sure your titles are as unique as possible within your own site. Duplicate—or
 near-duplicate—titles can contribute to inaccurate search results.
 
-## Attributes
-
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
-
-`xmlns`
-
-Specifies the XML Namespace of the document. Default value is `"http://www.w3.org/1999/xhtml"`.
-This is required in documents parsed with XML parsers, and optional in text/html documents.
-
 ## `<body>`
 
 The HTML `<body>` Element represents the content of an HTML document. There can be only
 one `<body>` element in a document.
 
 |  |  |
-| -- | -- |
-| Content categories | Sectioning root.
-| Permitted content | Flow content.
-| Tag omission | The start tag may be omitted if the first thing inside it is not a space character, comment, |`<script>` element or `<style>` element. The end tag may be omitted if the `<body>` element has contents or has a start tag, and is not immediately followed by a comment.|
-Permitted parents | It must be the second element of an `<html>` element. |
-| Permitted ARIA roles | None
-| DOM interface | `HTMLBodyElement` <br>The `<body>` element exposes the `HTMLBodyElement` interface.<br>You can access the `<body>` element through the `document.body` property.
+| :-- | :-- |
+| **Content categories** | Sectioning root. |
+| **Permitted content** | Flow content. |
+| **Tag omission** | The start tag may be omitted if the first thing inside it is not a space character, comment, |`<script>` element or `<style>` element. The end tag may be omitted if the `<body>` element has contents or has a start tag, and is not immediately followed by a comment.|
+| **Permitted parents** | It must be the second element of an `<html>` element. |
+| **Permitted ARIA roles** | None
+| **DOM interface** | `HTMLBodyElement` <br>The `<body>` element exposes the `HTMLBodyElement` interface.<br>You can access the `<body>` element through the `document.body` property.
 
 Attributes
 
@@ -205,29 +221,3 @@ Function to call when the user has moved backward in undo transaction history.
 `onunload`
 
 Function to call when the document is going away.
-
-```html
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <title>Document title</title>
-  </head>
-  <body>
-    <p>This is a paragraph</p>
-  </body>
-</html>
-```
-
-## Accessibility Concerns
-
-Providing a lang attribute with a [valid IETF identifying language tag](https://www.ietf.org/rfc/bcp/bcp47.txt)
-on the `<html>` element
-will help screen reading technology determine the proper language to announce. The identifying
-language tag should describe the language used by the majority of the content of the page. Without it,
-screen readers will typically default to the operating system's set language, which may cause mispronunciations.
-
-Including a valid `lang` declaration on the `<html>` element also ensures that important metadata
-contained in the page's `<head>`, such as the page's `<title>`, are also announced properly.
-
-- [MDN Understanding WCAG, Guideline 3.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.1_%E2%80%94_Readable_Make_text_content_readable_and_understandable)
-- [Understanding Success Criterion 3.1.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/meaning-doc-lang-id.html)

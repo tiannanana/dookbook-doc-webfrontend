@@ -2,6 +2,8 @@ TOPICS: <html>
         HTML html element
         HTML root element
         HTML html tag
+        <html> lang attribute
+        <html> Accessibility Concerns
         <head>
         HTML head element
         HTML head tag
@@ -38,6 +40,13 @@ TOPICS: <html>
 </html>
 ```
 
+## `<html>`属性
+
+## `<html>`可访问性
+
+在`html`元素上提供具有有效IETF标识语言标记的`lang`属性，将有助于屏幕阅读技术确定要陈述的正确语言。标识语言标签应描述页面大部分内容使用的语言。
+没有它，屏幕阅读器通常会默认使用操作系统的设置语言，这可能会导致错误陈述。
+
 ## `<head>`
 
 **HTML`<head>` 元素**规定文档相关的配置信息（**元数据**），包括文档的*标题*、*作者*、*描述*、以及引用的*文档样式（CSS）*和*脚本（JavaScript）*等。
@@ -65,7 +74,7 @@ TOPICS: <html>
 | **允许的父标签** | 一个 `<head>`元素只能包含一个`<title>`元素 |
 | **DOM接口** | `HTMLTitleElement` |
 
-## 属性
+
 
 元素包含 全局属性。
 
@@ -106,21 +115,3 @@ TOPICS: <html>
 | `onstorage` | 存储内容（`localStorage` / `sessionStorage`）发生改变时调用的函数。 |
 | `onundo` | 用户撤销操作时调用的函数。 |
 | `onunload` | 文档关闭时调用的函数。 |
-
-## 示例
-
-```html
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <title>Document title</title>
-  </head>
-  <body>
-    <p>This is a paragraph</p>
-  </body>
-</html>
-```
-
-## 可访问性
-
-在`html`元素上提供具有有效IETF标识语言标记的`lang`属性，将有助于屏幕阅读技术确定要陈述的正确语言。标识语言标签应描述页面大部分内容使用的语言。没有它，屏幕阅读器通常会默认使用操作系统的设置语言，这可能会导致错误陈述。
