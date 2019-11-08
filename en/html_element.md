@@ -2,7 +2,7 @@ TOPICS: HTML html element
 AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Tobias Frei; ToBeFree@mozilla.net; mdn:ToBeFree
          Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
+         Eric Shepherd; sheppy@mozilla.net;mdn:sheppy
          Teoli; teoli@mozilla.net; mdn:teoli
          Florian Scholz; fscholz@mozilla.net; mdn:fscholz
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker
