@@ -1,0 +1,19 @@
+TOPICS: <title>
+        HTML title element
+        HTML title tag
+
+# HTML Title Element
+
+## `<title>`
+
+**HTML`<title>`元素**定义文档的标题，显示在浏览器的标题栏或标签页上。它只可以包含文本，若是包含有标签，则包含的任何标签都不会被解释。
+
+## `<title>` 元数据
+
+|  |  |
+| :-- | :-- |
+| **内容分类** | 元数据内容。|
+| **允许内容** | 非空字符或特殊字符（inter-element whitespace）的文本 |
+| **标签遗漏** | 同时需要开标签和闭标签。注意：遗漏`</title>`标签会导致浏览器忽略掉页面的剩余部分。|
+| **允许的父标签** | 一个[`<head>`](/zh-hans/webfrontend/<head>/)元素只能包含一个`<title>`元素 |
+| **DOM接口** | `HTMLTitleElement` |

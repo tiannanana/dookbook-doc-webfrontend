@@ -7,9 +7,6 @@ TOPICS: <html>
         <head>
         HTML head element
         HTML head tag
-        <title>
-        HTML title element
-        HTML title tag
         HTML5 Bone
 
 # 根元素
@@ -21,7 +18,7 @@ TOPICS: <html>
 |  |  |
 | :-- | :-- |
 | **内容类别** | 无 |
-| **允许内容** | 一个`<head>`元素，后跟一个`<body>`元素。|
+| **允许内容** | 一个`<head>`元素，后跟一个[`<body>`](/zh-hans/webfrontend/<body>/)元素。|
 | **允许的父元素** | 作为文档的根元素，或是在复合文档中任意允许的子文档片段。|
 | **DOM接口** | `HTMLHtmlElement` |
 
@@ -60,20 +57,6 @@ TOPICS: <html>
 |  |  |
 | :-- | :-- |
 | **内容类别** | 无 |
-| **允许内容** | 至少包含一个`<title>` 元素来指定文档的标题信息，除非标题已经从更高等级协议中指定（`<iframe>` ）。|
+| **允许内容** | 至少包含一个[`<title>`](/zh-hans/webfrontend/<title>/)元素来指定文档的标题信息，除非标题已经从更高等级协议中指定（`<iframe>` ）。|
 | **允许父元素** | `<html>`元素，并作为其第一个子元素 |
 | **DOM接口** | `HTMLHeadElement` |
-
-## `<title>`
-
-**HTML`<title>`元素**定义文档的标题，显示在浏览器的标题栏或标签页上。它只可以包含文本，若是包含有标签，则包含的任何标签都不会被解释。
-
-### `<title>` 元数据
-
-|  |  |
-| :-- | :-- |
-| **内容分类** | 元数据内容。|
-| **允许内容** | 非空字符或特殊字符（inter-element whitespace）的文本 |
-| **标签遗漏** | 同时需要开标签和闭标签。注意：遗漏`</title>`标签会导致浏览器忽略掉页面的剩余部分。|
-| **允许的父标签** | 一个 `<head>`元素只能包含一个`<title>`元素 |
-| **DOM接口** | `HTMLTitleElement` |
