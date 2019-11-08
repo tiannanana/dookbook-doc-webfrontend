@@ -22,6 +22,21 @@ TOPICS: <html>
 | **允许的父元素** | 作为文档的根元素，或是在复合文档中任意允许的子文档片段。|
 | **DOM接口** | `HTMLHtmlElement` |
 
+## HTML5骨架
+
+```html
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <title>网页标题</title>
+</head>
+<body>
+  网页内容
+</body>
+</html>
+```
+
 ## `<head>`
 
 **HTML`<head>` 元素**规定文档相关的配置信息（**元数据**），包括文档的*标题*、*作者*、*描述*、以及引用的*文档样式（CSS）*和*脚本（JavaScript）*等。

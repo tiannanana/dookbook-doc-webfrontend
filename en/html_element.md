@@ -25,6 +25,21 @@ referred to as the **root element**. All other elements must be descendants of t
 | **Permitted ARIA roles** | None |
 | **DOM interface** | `HTMLHtmlElement` |
 
+## HTML5 Bone
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page Title</title>
+</head>
+<body>
+  content
+</body>
+</html>
+```
+
 ## `<head>`
 
 The HTML `<head>` element contains machine-readable information (**metadata**) about the document,
