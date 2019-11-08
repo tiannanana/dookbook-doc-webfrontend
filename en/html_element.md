@@ -22,7 +22,7 @@ referred to as the **root element**. All other elements must be descendants of t
 |  |  |
 | :-- | :-- |
 | **Content categories** | None |
-| **Permitted content** | One `<head>` element, followed by one `<body>` element.|
+| **Permitted content** | One `<head>` element, followed by one [`<body>`](/en/webfrontend/<body>/) element.|
 | **Tag omission** | The start tag may be omitted if the first thing inside the `<html>` element is not a comment. The end tag may be omitted if the `<html>` element is not immediately followed by a comment. |
 | **Permitted parents** | None. This is the root element of a document. |
 | **Permitted ARIA roles** | None |
@@ -48,9 +48,8 @@ referred to as the **root element**. All other elements must be descendants of t
 This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
 
 | Attributes | Description |
-| --- | --- |
-| `xmlns` | Specifies the **XML Namespace** of the document. Default value is `"http://www.w3.org/1999/xhtml"`.
-This is required in documents parsed with XML parsers, and optional in `text/html` documents. |
+| :--- | :--- |
+| `xmlns` | Specifies the **XML Namespace** of the document. Default value is `"http://www.w3.org/1999/xhtml"`. This is required in documents parsed with XML parsers, and optional in `text/html` documents. |
 
 ## `<html>` Accessibility Concerns
 
