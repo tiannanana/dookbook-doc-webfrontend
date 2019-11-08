@@ -1,4 +1,7 @@
-TOPICS: main web
+TOPICS: <main>
+        HTML main element
+        HTML main tag
+        <html> Accessibility Concerns
 AUTHORS: Theone Lucas; theone.luc@gmail.com; github:theonelucas
          Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Eric Bailey; ericwbailey@github.com; github:ericwbailey
@@ -17,24 +20,28 @@ AUTHORS: Theone Lucas; theone.luc@gmail.com; github:theonelucas
          Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
          Joshua Smith; Joshua-S@mozilla.net; mdn:Joshua-S
 
-# `<main>`
+# HTML Main Element
 
-The HTML `<main>` element represents the dominant content of the `<body>` of a document.
-The main content area consists of content that is directly related to or expands upon
+## `<main>`
+
+The HTML `<main>` element represents the dominant content of the [`<body>`](/en/webfrontend/<body>/)
+of a document. The main content area consists of content that is directly related to or expands upon
 the central TOPICS of a document, or the central functionality of an application.
 
 A document mustn't have more than one `<main>` element that doesn't have the hidden attribute specified.
 
-|||
-| -- | --|
-| Content categories | Flow content, palpable content.|
-| Permitted content | Flow content. |
-| Tag omission | None; both the starting and ending TOPICS are mandatory.|
-| Permitted parents | Where flow content is expected, but only if it is a hierarchically correct `main` element.|
-| Permitted ARIA roles | The `main` role is applied to `<main>` by default, and the `presentation` role is permitted as well.|
-| DOM interface | `HTMLElement` |
+## `<main>` Meta
 
-## Attributes
+| | |
+| :-- | :-- |
+| **Content categories** | Flow content, palpable content.|
+| **Permitted content** | Flow content. |
+| **Tag omission** | None; both the starting and ending TOPICS are mandatory.|
+| **Permitted parents** | Where flow content is expected, but only if it is a hierarchically correct `main` element.|
+| **Permitted ARIA roles** | The `main` role is applied to `<main>` by default, and the `presentation` role is permitted as well.|
+| **DOM interface** | `HTMLElement` |
+
+## `<main>` Attributes
 
 This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
 
@@ -46,8 +53,8 @@ site logos, and search forms shouldn't be included unless the search form is
 the main function of the page.
 
 `<main>` doesn't contribute to the document's outline; that is, unlike elements such as
-`<body>`, headings such as `<h2>`, and such, `<main>` doesn't affect the DOM's concept
-of the structure of the page. It's strictly informative.
+[`<body>`](/en/webfrontend/<body>/), headings such as `<h2>`, and such, `<main>` doesn't affect the
+DOM's concept of the structure of the page. It's strictly informative.
 
 ## Example
 
@@ -57,7 +64,7 @@ of the structure of the page. It's strictly informative.
 <main>
   <h1>Apples</h1>
   <p>The apple is the pomaceous fruit of the apple tree.</p>
-  
+
   <article>
     <h2>Red Delicious</h2>
     <p>These bright red apples are the most common found in many
