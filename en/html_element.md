@@ -1,12 +1,15 @@
 TOPICS: <html>
+        HTML html element
+        HTML root element
+        HTML html tag
 
 # root Element
 
 The HTML `<html>` element represents the root (top-level element) of an [[HTML]] document, so it is also
-referred to as the root element. All other elements must be descendants of this element.
+referred to as the **root element**. All other elements must be descendants of this element.
 
 |  |  |
-| -- | -- |
+| :-- | :-- |
 | Content categories | None |
 | Permitted content | One `<head>` element, followed by one `<body>` element.|
 | Tag omission | The start tag may be omitted if the first thing inside the `<html>` element is not a comment.

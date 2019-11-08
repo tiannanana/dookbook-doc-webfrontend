@@ -1,4 +1,7 @@
-TOPICS: HTML html element
+TOPICS: <html>
+        HTML html element
+        HTML root element
+        HTML html tag
 AUTHORS: itplus; eforegist@github.com; github:eforegist
          xgqfrms; xgqfrms@github.com; github:xgqfrms
          Dong WEI; FredWe@mozilla.net; mdn:FredWe
@@ -10,9 +13,9 @@ AUTHORS: itplus; eforegist@github.com; github:eforegist
          liutian; sweetliu@mozilla.net; mdn:sweetliu
          潘韬; pantao@mozilla.net; mdn:pantao
 
-# `<HTML>`
+# 根元素
 
-**HTML `<html>` 元素** 表示一个HTML文档的根（顶级元素），所以它也被称为根元素。所有其他元素必须是此元素的后代。
+**HTML元素 `<html>`**表示一个[[HTML]]文档的根（顶级元素），所以它也被称为**根元素**。所有其他元素必须是此元素的后代(子元素)。
 
 |  |  |
 | -- | -- |
