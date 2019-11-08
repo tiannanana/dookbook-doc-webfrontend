@@ -57,7 +57,8 @@ content of the page. Without it, screen readers will typically default to the op
 language, which may cause mispronunciations.
 
 Including a valid `lang` declaration on the `<html>` element also ensures that important metadata
-contained in the page's `<head>`, such as the page's `<title>`, are also announced properly.
+contained in the page's `<head>`, such as the page's [`<title>`](/en/webfrontend/<title>/), are also
+announced properly.
 
 - [MDN Understanding WCAG, Guideline 3.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.1_%E2%80%94_Readable_Make_text_content_readable_and_understandable)
 - [Understanding Success Criterion 3.1.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/meaning-doc-lang-id.html)
@@ -80,9 +81,8 @@ markup. [This auto-creation is not guaranteed in ancient browsers](https://www.s
 |  |  |
 | :-- | :-- |
 | **Content categories** | None |
-| **Permitted content** | If the document is an `<iframe>` `srcdoc` document, or if title information is available from a higher level protocol (like the subject line in HTML email), zero or more elements of metadata content.<br><br>Otherwise, one or more elements of metadata content where exactly one is a `<title>` element.|
+| **Permitted content** | If the document is an `<iframe>` `srcdoc` document, or if title information is available from a higher level protocol (like the subject line in HTML email), zero or more elements of metadata content.<br><br>Otherwise, one or more elements of metadata content where exactly one is a [`<title>`](/en/webfrontend/<title>/) element.|
 | **Tag omission** | The start tag may be omitted if the first thing inside the `<head>` element is an element. The end tag may be omitted if the first thing following the `<head>` element is not a space character or a comment. |
 | **Permitted parents** | An `<html>` element, as its first child.|
 | **Permitted ARIA roles** | An `<html>` element, as its first child. |
 | **DOM interface** | `HTMLHeadElement` |
-
