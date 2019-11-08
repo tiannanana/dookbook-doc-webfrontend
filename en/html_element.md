@@ -2,21 +2,46 @@ TOPICS: <html>
         HTML html element
         HTML root element
         HTML html tag
+        <head>
+        HTML head element
+        HTML head tag
 
 # root Element
 
 The HTML `<html>` element represents the root (top-level element) of an [[HTML]] document, so it is also
 referred to as the **root element**. All other elements must be descendants of this element.
 
+## `<html>` Meta
+
 |  |  |
 | :-- | :-- |
-| Content categories | None |
-| Permitted content | One `<head>` element, followed by one `<body>` element.|
-| Tag omission | The start tag may be omitted if the first thing inside the `<html>` element is not a comment.
-The end tag may be omitted if the `<html>` element is not immediately followed by a comment. |
-| Permitted parents | None. This is the root element of a document. |
-| Permitted ARIA roles | None |
-| DOM interface | HTMLHtmlElement |
+| **Content Categories** | None |
+| **Permitted Content** | One `<head>` element, followed by one `<body>` element.|
+| **Tag Omission** | The start tag may be omitted if the first thing inside the `<html>` element is not a comment. The end tag may be omitted if the `<html>` element is not immediately followed by a comment. |
+| **Permitted Parents** | None. This is the root element of a document. |
+| **Permitted ARIA Roles** | None |
+| **DOM Interface** | `HTMLHtmlElement` |
+
+## `<head>`
+
+The HTML `<head>` element contains machine-readable information (metadata) about the document,
+like its *title*, *scripts*, and *style sheets*.
+
+!!! info
+    **Note**: `<head>` primarily holds information for **machine processing**, not human-readability.
+    For human-visible information, like top-level headings and listed authors, see the `<header>` element.
+
+### `<head>` Meta
+
+|  |  |
+| :-- | :-- |
+| **Content Categories** | None |
+| **Permitted Content** | If the document is an `<iframe>` `srcdoc` document, or if title information is available from a higher level protocol (like the subject line in HTML email), zero or more elements of metadata content.<br><br>Otherwise, one or more elements of metadata content where exactly one is a `<title>` element.|
+| **Tag Omission** | The start tag may be omitted if the first thing inside the `<head>` element is an element.
+The end tag may be omitted if the first thing following the `<head>` element is not a space character or a comment. |
+| **Permitted Parents** | An `<html>` element, as its first child.|
+| **Permitted ARIA Roles** | An `<html>` element, as its first child. |
+| **DOM interface** | `HTMLHeadElement` |
 
 ## Attributes
 
@@ -26,25 +51,6 @@ This element includes the [global attributes](https://wiki.developer.mozilla.org
 
 Specifies the XML Namespace of the document. Default value is `"http://www.w3.org/1999/xhtml"`.
 This is required in documents parsed with XML parsers, and optional in text/html documents.
-
-## `<head>`
-
-The HTML `<head>` element contains machine-readable information (metadata) about the document,
-like its title, scripts, and style sheets.
-
-!!! note
-    Note: `<head>` primarily holds information for machine processing, not human-readability. For
-    human-visible information, like top-level headings and listed authors, see the `<header>` element.
-
-|  |  |
-| -- | -- |
-| Content categories | None |
-| Permitted content | If the document is an `<iframe>` `srcdoc` document, or if title information is available from a higher level protocol (like the subject line in HTML email), zero or more elements of metadata content.<br><br>Otherwise, one or more elements of metadata content where exactly one is a `<title>` element.|
-| Tag omission | The start tag may be omitted if the first thing inside the `<head>` element is an element.
-The end tag may be omitted if the first thing following the `<head>` element is not a space character or a comment. |
-| Permitted parents | An `<html>` element, as its first child.|
-| Permitted ARIA roles | An `<html>` element, as its first child. |
-| DOM interface | `HTMLHeadElement` |
 
 ### `<title>`
 

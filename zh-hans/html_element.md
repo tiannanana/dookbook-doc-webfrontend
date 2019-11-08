@@ -2,27 +2,35 @@ TOPICS: <html>
         HTML html element
         HTML root element
         HTML html tag
-AUTHORS: itplus; eforegist@github.com; github:eforegist
-         xgqfrms; xgqfrms@github.com; github:xgqfrms
-         Dong WEI; FredWe@mozilla.net; mdn:FredWe
-         Alex Chao; Alex1990@github.com; github:Alex1990
-         许振涛; Annlix@mozilla.net; mdn:Annlix
-         Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         kite-js; kite-js@gmail.com; github:kite-js
-         李杰华; JoshuaLee@mozilla.net; mdn:JoshuaLee
-         liutian; sweetliu@mozilla.net; mdn:sweetliu
-         潘韬; pantao@mozilla.net; mdn:pantao
+        <head>
+        HTML head element
+        HTML head tag
 
 # 根元素
 
 **HTML元素 `<html>`**表示一个[[HTML]]文档的根（顶级元素），所以它也被称为**根元素**。所有其他元素必须是此元素的后代(子元素)。
 
+## `<html>` 元数据
+
 |  |  |
-| -- | -- |
-| 内容类别 | 无 |
-| 允许内容 | 一个 `<head>` 元素，后跟一个 `<body>` 元素。|
-| 允许的父元素 | 作为文档的根元素，或是在复合文档中任意允许的子文档片段。|
-| DOM 接口 | HTMLHtmlElement |
+| :-- | :-- |
+| **内容类别** | 无 |
+| **允许内容** | 一个 `<head>` 元素，后跟一个 `<body>` 元素。|
+| **允许的父元素** | 作为文档的根元素，或是在复合文档中任意允许的子文档片段。|
+| **DOM接口** | `HTMLHtmlElement` |
+
+## `<head>`
+
+**HTML `head` 元素** 规定文档相关的配置信息（元数据），包括文档的标题，引用的文档样式和脚本等。
+
+### `<head>` 元数据
+
+|  |  |
+| :-- | :-- |
+| **内容类别** | 无 |
+| **允许内容** | 至少包含一个`<title>` 元素来指定文档的标题信息，除非标题已经从更高等级协议中指定（`<iframe>` ）。|
+| **允许父元素** | `<html>`元素，并作为其第一个子元素 |
+| **DOM接口** | `HTMLHeadElement` |
 
 ## 属性
 
@@ -31,17 +39,6 @@ AUTHORS: itplus; eforegist@github.com; github:eforegist
 | 属性 | 描述 |
 | --- | --- |
 | `xmlns` | 指派文档的 XML 命名空间。默认的值是`"http://www.w3.org/1999/xhtml"`。这在 XHTML 中是必要的，而在 HTML 中则是可选的。 |
-
-## `<head>`
-
-**HTML `head` 元素** 规定文档相关的配置信息（元数据），包括文档的标题，引用的文档样式和脚本等。
-
-|  |  |
-| -- | -- |
-| 内容类别 | 无 |
-| 允许内容 | 至少包含一个`<title>` 元素来指定文档的标题信息，除非标题已经从更高等级协议中指定（`<iframe>` ）。|
-| 允许父元素 | `<html>` 元素 |
-| DOM接口 | `HTMLHeadElement` |
 
 ## `<title>`
 
