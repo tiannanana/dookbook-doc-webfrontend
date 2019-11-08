@@ -2,26 +2,61 @@ TOPICS: <html>
         HTML html element
         HTML root element
         HTML html tag
+        <html> lang attribute
+        <html> Accessibility Concerns
         <head>
         HTML head element
         HTML head tag
+        <title>
+        HTML title element
+        HTML title tag
+        HTML5 Bone
+        <body>
+        HTML body element
+        HTML body tag
 
 # 根元素
 
-**HTML元素 `<html>`**表示一个[[HTML]]文档的根（顶级元素），所以它也被称为**根元素**。所有其他元素必须是此元素的后代(子元素)。
+**HTML`<html>`元素**表示一个[[HTML]]文档的根（顶级元素），所以它也被称为**根元素**。所有其他元素必须是此元素的后代(子元素)。
 
 ## `<html>` 元数据
 
 |  |  |
 | :-- | :-- |
 | **内容类别** | 无 |
-| **允许内容** | 一个 `<head>` 元素，后跟一个 `<body>` 元素。|
+| **允许内容** | 一个`<head>`元素，后跟一个`<body>`元素。|
 | **允许的父元素** | 作为文档的根元素，或是在复合文档中任意允许的子文档片段。|
 | **DOM接口** | `HTMLHtmlElement` |
 
+## HTML5骨架
+
+```html
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <title>网页标题</title>
+</head>
+<body>
+  网页内容
+</body>
+</html>
+```
+
+## `<html>`属性
+
+| 属性 | 描述 |
+| --- | --- |
+| `xmlns` | 指派文档的 XML 命名空间。默认的值是`"http://www.w3.org/1999/xhtml"`。这在 XHTML 中是必要的，而在 HTML 中则是可选的。 |
+
+## `<html>`可访问性
+
+在`html`元素上提供具有有效IETF标识语言标记的`lang`属性，将有助于屏幕阅读技术确定要陈述的正确语言。标识语言标签应描述页面大部分内容使用的语言。
+没有它，屏幕阅读器通常会默认使用操作系统的设置语言，这可能会导致错误陈述。
+
 ## `<head>`
 
-**HTML `head` 元素** 规定文档相关的配置信息（元数据），包括文档的标题，引用的文档样式和脚本等。
+**HTML`<head>` 元素**规定文档相关的配置信息（**元数据**），包括文档的*标题*、*作者*、*描述*、以及引用的*文档样式（CSS）*和*脚本（JavaScript）*等。
 
 ### `<head>` 元数据
 
@@ -32,25 +67,19 @@ TOPICS: <html>
 | **允许父元素** | `<html>`元素，并作为其第一个子元素 |
 | **DOM接口** | `HTMLHeadElement` |
 
-## 属性
-
-元素包含 全局属性。
-
-| 属性 | 描述 |
-| --- | --- |
-| `xmlns` | 指派文档的 XML 命名空间。默认的值是`"http://www.w3.org/1999/xhtml"`。这在 XHTML 中是必要的，而在 HTML 中则是可选的。 |
-
 ## `<title>`
 
-**HTML `<title>` 元素** 定义文档的标题，显示在浏览器的标题栏或标签页上。它只可以包含文本，若是包含有标签，则包含的任何标签都不会被解释。
+**HTML`<title>`元素**定义文档的标题，显示在浏览器的标题栏或标签页上。它只可以包含文本，若是包含有标签，则包含的任何标签都不会被解释。
+
+### `<title>` 元数据
 
 |  |  |
-| -- | -- |
-| 内容分类 | 元数据内容。|
-| 允许内容 | 非空字符或特殊字符（inter-element whitespace）的文本 |
-| 标签遗漏 | 同时需要开标签和闭标签。注意：遗漏 `</title>` 标签会导致浏览器忽略掉页面的剩余部分。|
-| 允许的父标签 | 一个 `<head>` 元素只能包含一个 `<title>` 元素 |
-| DOM 接口 | HTMLTitleElement |
+| :-- | :-- |
+| **内容分类** | 元数据内容。|
+| **允许内容** | 非空字符或特殊字符（inter-element whitespace）的文本 |
+| **标签遗漏** | 同时需要开标签和闭标签。注意：遗漏`</title>`标签会导致浏览器忽略掉页面的剩余部分。|
+| **允许的父标签** | 一个 `<head>`元素只能包含一个`<title>`元素 |
+| **DOM接口** | `HTMLTitleElement` |
 
 ## `<body>`
 
@@ -85,21 +114,3 @@ TOPICS: <html>
 | `onstorage` | 存储内容（`localStorage` / `sessionStorage`）发生改变时调用的函数。 |
 | `onundo` | 用户撤销操作时调用的函数。 |
 | `onunload` | 文档关闭时调用的函数。 |
-
-## 示例
-
-```html
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <title>Document title</title>
-  </head>
-  <body>
-    <p>This is a paragraph</p>
-  </body>
-</html>
-```
-
-## 可访问性
-
-在`html`元素上提供具有有效IETF标识语言标记的`lang`属性，将有助于屏幕阅读技术确定要陈述的正确语言。标识语言标签应描述页面大部分内容使用的语言。没有它，屏幕阅读器通常会默认使用操作系统的设置语言，这可能会导致错误陈述。
