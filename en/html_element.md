@@ -1,7 +1,4 @@
 TOPICS: <html>
-        HTML html element
-        HTML root element
-        HTML html tag
         <html> lang attribute
         <html> Accessibility Concerns
         <head>
