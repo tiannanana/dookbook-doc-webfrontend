@@ -6,7 +6,7 @@ TOPICS: <html>
         HTML head tag
         HTML5 Bone
 
-# `<html>`: Root Element
+# Root Element: `<html>`
 
 The HTML `<html>` element represents the root (top-level element) of an [[HTML]] document, so it is also
 referred to as the **root element**. All other elements must be descendants of this element.
