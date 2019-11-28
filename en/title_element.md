@@ -1,13 +1,9 @@
 TOPICS: <title>
-        HTML title element
-        HTML title tag
 
-# HTML Title Element
+# HTML Title Element: `<title>`
 
-## `<title>`
-
-The HTML `<title>` element defines the document's title that is shown in a browser's title
-bar or a page's tab. It only contains text and TOPICS within the element are ignored.
+The HTML `<title>` element defines the document's **title** that is shown in a browser's *title
+bar* or a *page's tab*. It only contains text and TOPICS within the element are ignored.
 
 ## `<title>` Meta
 
@@ -22,15 +18,15 @@ bar or a page's tab. It only contains text and TOPICS within the element are ign
 
 ## Usage Notes
 
-The `<title>` element is always used within a page's `<head>` block.
+The `<title>` element is always used within a page's [`<head>`](/en/webfrontend/<head>/) block.
 
 ### Page titles and SEO
 
-The contents of a page title can have significant implications for **search engine optimization** (**SEO**).
-In general, a longer, descriptive title will perform better than short or uninspired titles.
-Not only is the content of the title one of the components used by algorithms to decide the order
-in which to list pages in search results, but the title is the initial "hook" by which you grab the
-attention of readers glancing at the search results page.
+The contents of a page title can have significant implications for
+**[[search engine optimization]]** (**SEO**). In general, a longer, descriptive title will perform
+better than short or uninspired titles. Not only is the content of the title one of the components
+used by algorithms to decide the order in which to list pages in search results, but the title is
+the initial "hook" by which you grab the attention of readers glancing at the search results page.
 
 A few guidelines and tips for composing good titles:
 
