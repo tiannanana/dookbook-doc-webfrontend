@@ -1,6 +1,6 @@
 TOPICS: <title>
 
-# HTML Title Element: `<title>`
+# HTML 标题元素: `<title>`
 
 **HTML`<title>`元素**定义文档的**标题**，显示在浏览器的*标题栏*或*标签页*上。它只可以包含文本，若是包含有标签，则包含的任何标签都不会被解释。
 
