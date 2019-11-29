@@ -1,6 +1,6 @@
 TOPICS: <body>
 
-# HTML 元素: `<body>`
+# HTML 章节根元素: `<body>`
 
 ## `<body>`
 

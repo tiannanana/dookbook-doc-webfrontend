@@ -1,6 +1,6 @@
 TOPICS: <body>
 
-# HTML Body Element: `<body>`
+# HTML Sectioning Root Element: `<body>`
 
 ## `<body>`
 
