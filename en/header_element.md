@@ -1,38 +1,19 @@
 TOPICS: <header>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Jamhur Mustafayev; github@jmstfv.com; github:jmstfv
-         Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Akseli Nurmio; akselinurmio@github.com; github:akselinurmio
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Peter; pwdst@mozilla.net; mdn:pwdst
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
 
-# `<header>`
+# HTML `<header>` Element
 
-The HTML `<header>` element represents introductory content, typically a group of introductory or
-navigational aids. It may contain some heading elements but also a logo,
+The HTML `<header>` element represents **introductory content**, typically a group of *introductory*
+or *navigational* aids. It may contain some heading elements but also a logo,
 a search form, an author name, and other elements.
 
 |||
-| -- | --|
-| ontent categories | Flow content, palpable content.|
-| Permitted content | Flow content, but with no `<header>` or `<footer>` descendant.|
-| Tag omission | None, both the starting and ending tag are mandatory.|
-| Permitted parents | Any element that accepts flow content. Note that a `<header>` element must not be a descendant of an `<address>`, `<footer>` or another `<header>` element.|
-| Permitted ARIA roles | `group`, `presentation`|
-| DOM interface | `HTMLElement` |
+| :-- | :--|
+| **Content categories** | Flow content, palpable content.|
+| **Permitted content** | Flow content, but with no `<header>` or [`<footer>`](/en/webfrontend/<footer>) descendant.|
+| **Tag omission** | None, both the starting and ending tag are mandatory.|
+| **Permitted parents** | Any element that accepts flow content. Note that a `<header>` element must not be a descendant of an [`<address>`](/en/webfrontend/<address>), [`<footer>`](/en/webfrontend/<footer>) or another `<header>` element.|
+| **Permitted ARIA roles** | `group`, `presentation`|
+| **DOM interface** | `HTMLElement` |
 
 ## Usage Notes
 
