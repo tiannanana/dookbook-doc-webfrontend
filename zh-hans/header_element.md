@@ -1,4 +1,4 @@
-TOPICS: header web
+TOPICS: <header>
 AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
          紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
          huha; hutuxu@mozilla.net; mdn:hutuxu
