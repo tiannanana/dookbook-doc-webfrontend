@@ -1,4 +1,4 @@
-TOPICS: header web
+TOPICS: <header>
 AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Jamhur Mustafayev; github@jmstfv.com; github:jmstfv
          Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
