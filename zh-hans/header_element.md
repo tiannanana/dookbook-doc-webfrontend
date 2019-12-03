@@ -6,7 +6,7 @@ HTML `<header>` 元素用于展示**介绍性内容**，通常包含一组*介�
 但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。
 
 |||
-| -- | --|
+| :-- | :--|
 | **内容类型** | Flow content，palpable content。|
 | **许可内容** | Flow content，但是不允许 `<header>` 或[`<footer>`](/zh-hans/webfrontend/<footer>) 成为子元素 |
 | **标记省略** | 不允许，开始标签和结束标签都不能省略。|
