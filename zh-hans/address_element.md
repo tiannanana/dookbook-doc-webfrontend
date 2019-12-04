@@ -1,7 +1,7 @@
 TOPICS: <address>
 AUTHORS: 黄怡林;Huangyilin19@github.com; github:Huangyilin19
          Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         GuangHui Ren; rguanghui@github.com; githubrguanghui
+         GuangHui Ren; rguanghui@github.com; github:rguanghui
 
 # `<address>`
 
