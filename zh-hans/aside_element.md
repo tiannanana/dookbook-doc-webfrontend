@@ -1,10 +1,9 @@
 TOPICS: <aside>
-AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         GuangHui Ren; rguanghui@github.com; github:rguanghui
 
 # `<aside>`
 
-**HTML `<aside>` 元素**表示一个和其余页面内容几乎无关的部分，被认为是独立于该内容的一部分并且可以被单独的拆分出来而不会使整体受影响。其通常表现为侧边栏或者标注框（call-out boxes）。
+**HTML `<aside>` 元素**表示一个和其余页面内容几乎无关的部分，被认为是独立于该内容的一部分并且可以被单独的拆分出来而不会使整体受影响。其通常表现为
+**侧边栏**或者**标注框**（call-out boxes）。
 
 |  |  |
 | :-- | :-- |
@@ -12,7 +11,7 @@ AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSl
 | **允许的内容** | `流式元素`. |
 | **标签省略** | 不允许，开始标签和结束标签都不能省略。|
 | **允许的父元素** | 所有元素接受流式元素。注意 `<aside>` 不能是[`<address>`](/zh-hans/webfrontend/<address>) 元素的后代 |
-| **允许的 ARIA 角色** | `feed`, `note`, `presentation`, `region`, `search`
+| **允许的 ARIA 角色** | `feed`, `note`, `presentation`, `region`, `search` |
 | **DOM 接口** | `HTMLElement` |
 
 ## 属性
