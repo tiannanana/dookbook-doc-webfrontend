@@ -1,0 +1,68 @@
+TOPICS: <aside>
+AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
+         Eric Bailey; ericwbailey@github.com; github:ericwbailey
+         Sphinx; SphinxKnight@github.com; github:SphinxKnight
+         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
+         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
+         Teoli; teoli@mozilla.net; mdn:teoli
+         Kasper; kaspergotcha@mozilla.net; mdn:kaspergotcha
+         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+         Renato Giordanelli; Renatvs88@mozilla.net; mdn:Renatvs88
+         Dan Scott; dbs@mozilla.net; mdn:dbs
+         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+         Frédéric Bourgeon; FredericBourgeon@github.com; github:FredericBourgeon
+         Thierry Régagnon; tregagnon@github.com; github:tregagnon
+         Keiichi; ethertank@mozilla.net; mdn:ethertank
+         Christian Sonne; cers@mozilla.net; mdn:cers
+         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
+         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
+         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
+         Janet Swisher; jmswisher@github.com; github:jmswisher
+
+# `<aside>`
+
+The HTML `<aside>` element represents a portion of a document whose content is only indirectly
+related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+|  |  |
+| :-- | :-- |
+| **Content categories** | Flow content, sectioning content, palpable content. |
+| **Permitted content** | Flow content. |
+| **Tag omission** | None, both the starting and ending tag are mandatory. |
+| **Permitted parents** | Any element that accepts flow content. Note that an `<aside>` element must not be a descendant of an [`<address>`](/en/webfrontend/<address>) element. |
+| **Permitted ARIA roles** | [`feed`](https://w3c.github.io/aria/#feed), [`note`](https://w3c.github.io/aria/#note), [`presentation`](https://w3c.github.io/aria/#presentation), [`region`](https://w3c.github.io/aria/#region), [`search`](https://w3c.github.io/aria/#search)|
+| **DOM interface** | `HTMLElement` |
+
+## Attributes
+
+This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+
+## Usage Notes
+
+- Do not use the `<aside>` element to tag parenthesized text, as this
+kind of text is considered part of the main flow.
+
+## Examples
+
+### Using `<aside>`
+
+This example uses `<aside>` to mark up a paragraph in an article. The paragraph is only indirectly
+related to the main article content:
+
+```html
+<article>
+  <p>
+    The Disney movie <cite>The Little Mermaid</cite> was
+    first released to theatres in 1989.
+  </p>
+  <aside>
+    <p>
+      The movie earned $87 million during its initial release.
+    </p>
+  </aside>
+  <p>
+    More info about the movie...
+  </p>
+</article>
+```
