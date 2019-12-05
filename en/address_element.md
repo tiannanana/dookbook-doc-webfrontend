@@ -16,7 +16,6 @@ AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Christian Sonne; cers@mozilla.net; mdn:cers
          Jonathan Wilsson; jwilsson@github.com; github:jwilsson
          Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jeremy Keith; adactio@mozilla.net; mdn:adactio
 
 # `<address>`
 

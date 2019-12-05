@@ -4,29 +4,6 @@ TOPICS: <h1>
         <h4>
         <h5>
         <h6>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Nicholas Cassleman; nichniq@github.com; github:nichniq
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Alexander Sandberg; hi@alexandersandberg.com; github:alexandersandberg
-         Adam Sisk; CalamityAdam@github.com; github:CalamityAdam
-         Schalk Neethling; schalkneethling@mozilla.net; mdn:schalkneethling
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Mark E Bieganek; mrscurvs@mozilla.net; mdn:mrscurvs
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Ian Ramos; IanRamosC@mozilla.net; mdn:IanRamosC
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Thomas Park; thomaspark@mozilla.net; mdn:thomaspark
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # `<h1>`~`<h6>`
 

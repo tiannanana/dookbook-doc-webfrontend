@@ -5,7 +5,6 @@ AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Teoli; teoli@mozilla.net; mdn:teoli
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker
          Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Mark Beleski; MarkBeleski@mozilla.net; mdn:MarkBeleski
          China Wang; chinaowl@mozilla.net; mdn:chinaowl
          Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
