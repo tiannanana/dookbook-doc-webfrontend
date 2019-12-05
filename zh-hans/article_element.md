@@ -1,13 +1,8 @@
 TOPICS: <article>
-AUTHORS: Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         imgg; GalvinGao@github.com; github:GalvinGao
-         GuangHui Ren; rguanghui@github.com; github:rguanghui
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         huha; hutuxu@mozilla.net; mdn:hutuxu
 
 # `<article>`
 
-**HTML `<article>` 元素**表示文档、页面、应用或网站中的独立结构，其意在成为可独立分配的或可复用的结构，如在发布中，它可能是论坛帖子、杂志或新闻文章、博客、用户提交的评论、交互式组件，或者其他独立的内容项目。​​
+**HTML `<article>` 元素**表示*文档*、*页面*、*应用*或*网站*中的**独立结构**，其意在成为**可独立分配的或可复用的结构**，如在发布中，它可能是论坛帖子、杂志或新闻文章、博客、用户提交的评论、交互式组件，或者其他独立的内容项目。​​
 
 给定文档中可以包含多篇文章;例如，阅读器在博客上滚动时一个接一个地显示每篇文章的文本，每个帖子将包含在`<article>`元素中，可能包含一个或多个[`<section>`](/zh-hans/webfrontend/<section>)。
 
@@ -31,7 +26,7 @@ AUTHORS: Sphinx; SphinxKnight@github.com; github:SphinxKnight
 - `<article>`元素的作者信息可通过[`<address>`](/zh-hans/webfrontend/<address>)元素提供，但是不适用于嵌套的`<article>`元素。
 - `<article>`元素的发布日期和时间可通过[`<time>`](/zh-hans/webfrontend/<time>)元素的`pubdate`属性表示。
 - 可以使用[`<time>`](/zh-hans/webfrontend/<time>) 元素的`datetime`属性来描述`<article>`元素的发布日期和时间。
-请注意[`<time>`](/zh-hans/webfrontend/<time>)的`pubdate`属性不再是W3C HTML5标准。
+**请注意[`<time>`](/zh-hans/webfrontend/<time>)的`pubdate`属性不再是W3C HTML5标准。**
 
 ## 示例
 
