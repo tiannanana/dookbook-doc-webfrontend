@@ -1,32 +1,15 @@
 TOPICS: <address>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Karl Stolley; karlstolley@github.com; github:karlstolley
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Peter; pwdst@mozilla.net; mdn:pwdst
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Tetsuharu OHZEKI; saneyuki_s@mozilla.net; mdn:saneyuki_s
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<address>`
 
-The **HTML `<address>` element** indicates that the enclosed HTML provides contact information for
+The **HTML `<address>` element** indicates that the enclosed HTML provides **contact information** for
 a person or people, or for an organization.
 
 The contact information provided by an `<address>` element's contents can take whatever form is
 appropriate for the context, and may include any type of contact information that is needed,
-such as physical address, URL, email address, phone number, social media handle, geographic coordinates,
-and so forth. The `<address>` element should include the name of the person, people, or organization
-to which the contact information refers.
+such as *physical address*, *[[URL]]*, *email address*, *phone number*, *social media handle*,
+*geographic coordinates*, and so forth. The `<address>` element should include the name of the
+person, people, or organization to which the contact information refers.
 
 `<address>` can be used in a variety of contexts, such as providing a business's contact information
 in the page header, or indicating the author of an article by including an `<address>`
@@ -39,7 +22,7 @@ element within the [`<article>`](/en/webfrontend/<article>).
 | **Tag omission** | None, both the starting and ending tag are mandatory. |
 | **Permitted parents** | Any element that accepts flow content, but always excluding `<address>` elements (according to the logical principle of symmetry, if `<address>` tag, as a parent, can not have nested `<address>` element, then the same `<address>` content can not have `<address>` tag as its parent). |
 | **Permitted ARIA roles** | None |
-| **DOM interface** | `HTMLElement` Prior to Gecko 2.0 (Firefox 4), Gecko implemented this element using the `HTMLSpanElement` interface |
+| **DOM interface** | `HTMLElement` |
 
 ## Attributes
 
@@ -61,9 +44,9 @@ information for an article's author.
 
 ```html
 <address>
-    You can contact author at <a href="http://www.somedomain.com/contact">
-    www.somedomain.com</a>.<br>
-    If you see any bugs, please <a href="mailto:webmaster@somedomain.com">
+    You can contact author at <a href="https://dookbook.info/about/en/">
+    dookbook.info</a>.<br>
+    If you see any bugs, please <a href="mailto:dookbook@zhiliaokeji.com">
     contact webmaster</a>.<br>
     You may also want to visit us:<br>
     Mozilla Foundation<br>
