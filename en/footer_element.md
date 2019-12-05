@@ -29,7 +29,11 @@ in the outline.
 ## Examples
 
 ```html
-<footer>
-  Some copyright info or perhaps some author info for an <code>&lt;article&gt;<code>?
-</footer>
+<article>
+  <!-- content here -->
+
+  <footer>
+    Some copyright info or perhaps some author info for an <code>&lt;article&gt;<code>?
+    <address>Written by Li Yun.</address>
+  </footer>
 ```

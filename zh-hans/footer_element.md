@@ -24,7 +24,11 @@ TOPICS: <footer>
 ## 示例
 
 ```html
-<footer>
-  Some copyright info or perhaps some author info for an <code>&lt;article&gt;</code>?
-</footer>
+<article>
+  <!-- 此处为主体内容 -->
+
+  <footer>
+    一些关于此<code>&lt;article&gt;<code>中内容的版权信息或作者信息？
+    <address>由某某撰写。</address>
+  </footer>
 ```
