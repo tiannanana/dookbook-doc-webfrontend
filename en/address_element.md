@@ -31,7 +31,7 @@ to which the contact information refers.
 
 `<address>` can be used in a variety of contexts, such as providing a business's contact information
 in the page header, or indicating the author of an article by including an `<address>`
-element within the [`<article>`](/en/webfrontend/<script>).
+element within the [`<article>`](/en/webfrontend/<article>).
 
 |  |  |
 | :-- | :-- |
@@ -53,7 +53,7 @@ This element only includes the [global attributes](https://wiki.developer.mozill
 - This element should not contain more information than the contact information, like a publication
 date (which belongs in a [`<time>`](/en/webfrontend/<time>) element).
 - Typically an `<address>` element can be placed inside the
-`<footer>` element of the current section, if any.
+[`<footer>`](/en/webfrontend/<footer>) element of the current section, if any.
 
 ## Example
 

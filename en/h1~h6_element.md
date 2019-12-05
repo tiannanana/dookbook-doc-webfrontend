@@ -1,4 +1,9 @@
-TOPICS: <h1>~<h6>
+TOPICS: <h1>
+        <h2>
+        <h3>
+        <h4>
+        <h5>
+        <h6>
 AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
          Nicholas Cassleman; nichniq@github.com; github:nichniq
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker
@@ -32,7 +37,7 @@ section level and `<h6>` is the lowest.
 | :-- | :-- |
 | **Content categories** | Flow content, heading content, palpable content. |
 | **Permitted content** | Phrasing content. |
-**Tag omission** None, both the starting and ending tag are mandatory. |
+| **Tag omission** | None, both the starting and ending tag are mandatory. |
 | **Permitted parents** | Any element that accepts flow content; don't use a heading element as a child of the [`<hgroup>`](/en/webfrontend/<hgroup>) element — it is now deprecated.|
 | **Permitted ARIA roles** | `tab`, `presentation` |
 | **DOM interface** | `HTMLHeadingElement` |

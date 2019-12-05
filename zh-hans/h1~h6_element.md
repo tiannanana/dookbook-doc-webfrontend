@@ -1,4 +1,9 @@
-TOPICS: <h1>~<h6>
+TOPICS: <h1>
+        <h2>
+        <h3>
+        <h4>
+        <h5>
+        <h6>
 AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
          Nicholas Cassleman; nichniq@github.com; github:nichniq
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker

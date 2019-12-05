@@ -37,7 +37,7 @@ Note: If the contents of the element would make sense syndicated as a standalone
 | :-- | :-- |
 | **Content categories** | Flow content, Sectioning content, palpable content. |
 | **Permitted content** | Flow content. |
-**Tag omission** | None, both the starting and ending tag are mandatory. |
+| **Tag omission** | None, both the starting and ending tag are mandatory. |
 | **Permitted parents** | Any element that accepts flow content. Note that a `<section>` element must not be a descendant of an [`<address>`](/en/webfrontend/<address>) element. |
 | **Permitted ARIA roles** | alert, alertdialog, application, banner, complementary, contentinfo, dialog, document, feed, log, main, marquee, navigation, search, status, tabpanel |
 | **DOM interface** | `HTMLElement`
