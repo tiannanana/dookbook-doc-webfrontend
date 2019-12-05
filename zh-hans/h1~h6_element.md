@@ -11,10 +11,10 @@ TOPICS: <h1>
 
 |  |  |
 | :-- | :-- |
-| **内容类别** | 流内容，标题内容，可触知的内容。 |
-| **允许的内容** | 短语内容。 |
+| **内容类别** | `流内容`，`标题内容`，`可触知的内容`。 |
+| **允许的内容** | `短语内容`。 |
 | **标签遗漏** | 没有，开始标签和结束标签都是必需的。 |
-| **允许的父元素** | 接受流内容的任何元素； 不要将heading元素用作[`<hgroup>`](/zh-hans/webfrontend/<hgroup>)元素的子元素-现在已弃用。|
+| **允许的父元素** | 接受`流内容`的任何元素； 不要将`<h1>`~`<h6>`元素用作[`<hgroup>`](/zh-hans/webfrontend/<hgroup>)元素的子元素-现在已弃用。|
 | **允许的ARIA角色** | `tab`, `presentation` |
 | **DOM 接口** | `HTMLHeadingElement` |
 
@@ -28,9 +28,9 @@ TOPICS: <h1>
 ## Usage Notes
 
 - 标题信息可以由用户代理使用，例如，自动为文档构建目录。
-- 避免使用标题TOPICS来调整文本大小。 而是使用CSS font-size属性。 标题使用大小来指示其相对重要性，但是CSS是通用调整大小的首选。
+- 避免使用标题来调整文本大小。 而是使用[[CSS]] `font-size`属性。 标题使用大小来指示其相对重要性，但是[[CSS]]是通用调整大小的首选。
 - 避免跳过标题级别：始终从 `<h1>` 开始，然后再使用 `<h2>`，依此类推。
-- 您应该考虑避免在页面上多次使用`<h1>`。 有关更多信息，请参见定义部分。
+- 您应该考虑避免在页面上多次使用`<h1>`。
 
 ## 示例
 
@@ -39,12 +39,12 @@ TOPICS: <h1>
 以下代码显示了正在使用的所有标题级别。
 
 ```html
-<h1>Heading level 1</h1>
-<h2>Heading level 2</h2>
-<h3>Heading level 3</h3>
-<h4>Heading level 4</h4>
-<h5>Heading level 5</h5>
-<h6>Heading level 6</h6>
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
+<h5>五级标题</h5>
+<h6>六级标题</h6>
 ```
 
 ### 示例页面
@@ -52,22 +52,22 @@ TOPICS: <h1>
 以下代码显示了一些标题及其下的某些内容。
 
 ```html
-<h1>Heading elements</h1>
-<h2>Summary</h2>
-<p>Some text here...</p>
+<h1>元素标题</h1>
+<h2>概述</h2>
+<p>一些描述性文字。。。</p>
 
-<h2>Examples</h2>
-<h3>Example 1</h3>
-<p>Some text here...</p>
+<h2>示例</h2>
+<h3>示例 1</h3>
+<p>示例文字。。。</p>
 
-<h3>Example 2</h3>
-<p>Some text here...</p>
+<h3>示例 2</h3>
+<p>示例文字。。。</p>
 
-<h2>See Also</h2>
-<p>Some text here...</p>
+<h2>参考</h2>
+<p>参考文字。。。</p>
 ```
 
-## 可达性问题
+## 访问性问题
 
 ### 导航
 
@@ -76,17 +76,17 @@ TOPICS: <h1>
 错误用法
 
 ```html
-<h1>Heading level 1</h1>
-<h3>Heading level 3</h3>
-<h4>Heading level 4</h4>
+<h1>一级标题</h1>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
 ```
 
 正确用法
 
 ```html
-<h1>Heading level 1</h1>
-<h2>Heading level 2</h2>
-<h3>Heading level 3</h3>
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<h3>三级标题</h3>
 ```
 
 ### 嵌套
@@ -115,11 +115,11 @@ TOPICS: <h1>
 
 - [标题•页面结构•WAI Web无障碍教程](https://www.w3.org/WAI/tutorials/page-structure/headings/)
 - MDN了解WCAG，准则1.3的说明
-- [了解成功标准1.3.1 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
+    - [了解成功标准1.3.1 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
 - MDN了解WCAG，准则2.4解释
-- [了解成功标准2.4.1 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html)
-- [了解成功标准2.4.6 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
-- [了解成功标准2.4.10 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html)
+    - [了解成功标准2.4.1 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html)
+    - [了解成功标准2.4.6 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+    - [了解成功标准2.4.10 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html)
 
 ### 标签部分内容
 
@@ -132,22 +132,23 @@ TOPICS: <h1>
 ```html
 <header>
   <nav aria-labelledby="primary-navigation">
-    <h2 id="primary-navigation">Primary navigation</h2>
-    <!-- navigation items -->
+    <h2 id="primary-navigation">主导航</h2>
+    <!-- 导航项 -->
   </nav>
 </header>
 
-<!-- page content -->
+<!-- 网页内容 -->
 
 <footer>
   <nav aria-labelledby="footer-navigation">
-    <h2 id="footer-navigation">Footer navigation</h2>
-    <!-- navigation items -->
+    <h2 id="footer-navigation">页脚导航</h2>
+    <!-- 导航项 -->
   </nav>
 </footer>
 ```
 
-在此示例中，屏幕阅读技术将宣布有两个[`<nav>`](/zh-hans/webfrontend/<nav>)部分，一个称为“主导航”，另一个称为“页脚导航”。 如果未提供标签，则使用屏幕阅读软件的人员可能必须调查每个导航元素的内容以确定其目的。
+在此示例中，屏幕阅读技术将宣布有两个[`<nav>`](/zh-hans/webfrontend/<nav>)部分，一个称为“*主导航*”，另一个称为“*页脚导航*”。
+如果未提供标签，则使用屏幕阅读软件的人员可能必须调查每个导航元素的内容以确定其目的。
 
 - [使用aria-labelledby属性](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
 - [标签区域•页面结构•W3C WAI Web可访问性教程](https://www.w3.org/WAI/tutorials/page-structure/labels/#using-aria-labelledby)

@@ -4,29 +4,6 @@ TOPICS: <h1>
         <h4>
         <h5>
         <h6>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Nicholas Cassleman; nichniq@github.com; github:nichniq
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Alexander Sandberg; hi@alexandersandberg.com; github:alexandersandberg
-         Adam Sisk; CalamityAdam@github.com; github:CalamityAdam
-         Schalk Neethling; schalkneethling@mozilla.net; mdn:schalkneethling
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Mark E Bieganek; mrscurvs@mozilla.net; mdn:mrscurvs
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Ian Ramos; IanRamosC@mozilla.net; mdn:IanRamosC
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Thomas Park; thomaspark@mozilla.net; mdn:thomaspark
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # `<h1>`~`<h6>`
 
@@ -127,31 +104,31 @@ person quickly determine the hierarchy of the content:
 
 1. `h1` Beetles
    1. `h2` Etymology
-   1. `h2` Distribution and Diversity
-   1. `h2` Evolution
+   2. `h2` Distribution and Diversity
+   3. `h2` Evolution
       1. `h3` Late Paleozoic
-      1. `h3` Jurassic
-      1. `h3` Cretaceous
-      1. `h3` Cenozoic
-   1. `h2` External Morphology
+      2. `h3` Jurassic
+      3. `h3` Cretaceous
+      4. `h3` Cenozoic
+   4. `h2` External Morphology
       1. `h3` Head
          1. `h4` Mouthparts
-      1. `h3` Thorax
+      2. `h3` Thorax
          1. `h4` Prothorax
-         1. `h4` Pterothorax
-      1. `h3` Legs
-      1. `h3` Wings
-      1. `h3` Abdomen
+         2. `h4` Pterothorax
+      3. `h3` Legs
+      4. `h3` Wings
+      5. `h3` Abdomen
 
 When headings are nested, heading levels may be "skipped" when closing a subsection.
 
 - [Headings • Page Structure • WAI Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/page-structure/headings/)
 - MDN Understanding WCAG, Guideline 1.3 explanations
-- [Understanding Success Criterion 1.3.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
+    - [Understanding Success Criterion 1.3.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
 - MDN Understanding WCAG, Guideline 2.4 explanations
-- [Understanding Success Criterion 2.4.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html)
-- [Understanding Success Criterion 2.4.6 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
-- [Understanding Success Criterion 2.4.10 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html)
+    - [Understanding Success Criterion 2.4.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html)
+    - [Understanding Success Criterion 2.4.6 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+    - [Understanding Success Criterion 2.4.10 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html)
 
 ### Labeling section content
 
@@ -183,8 +160,8 @@ useful for situations where there is more than one sectioning element on the sam
 ```
 
 In this example, screen reading technology would announce that there are two
-[`<nav>`](/en/webfrontend/<nav>) sections, one called "Primary navigation" and one called
-"Footer navigation". If labels were not provided, the person using screen reading software may have
+[`<nav>`](/en/webfrontend/<nav>) sections, one called "*Primary navigation*" and one called
+"*Footer navigation*". If labels were not provided, the person using screen reading software may have
 to investigate each nav element's contents to determine their purpose.
 
 - [Using the aria-labelledby attribute](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
