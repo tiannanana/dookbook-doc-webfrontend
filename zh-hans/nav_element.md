@@ -3,16 +3,16 @@ AUTHORS: ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
          石博文; bowen-shi@mozilla.net; mdn:bowen-shi
          紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
-# `<nav>`
+# HTML导航元素: `<nav>`
 
-**HTML `<nav>` 元素**表示页面的一部分，其目的是在当前文档或其他文档中提供导航链接。导航部分的常见示例是菜单，目录和索引。
+**HTML `<nav>` 元素**表示页面的一部分，其目的是在当前文档或其他文档中提供**导航链接**。导航部分的常见示例是菜单，目录和索引。
 
 |  |  |
 | :-- | :-- |
-| **内容分类** | 流式内容, 区块内容, 可视的内容. |
-| **允许的内容** | 流式内容. |
+| **内容分类** | `流式内容`, `区块内容`, 可视的内容. |
+| **允许的内容** | `流式内容`. |
 | **忽略的标记** | 不允许，开始标签和结束标签都不能省略。|
-| **允许的父元素** | 所有允许流式内容的元素 |
+| **允许的父元素** | 所有允许`流式内容`的元素 |
 | **允许的 ARIA 角色** | None |
 | **DOM 接口** | `HTMLElement` |
 
@@ -31,9 +31,9 @@ AUTHORS: ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
 ```html
 <nav>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">关于</a></li>
+    <li><a href="#">联系</a></li>
   </ul>
 </nav>
 ```
