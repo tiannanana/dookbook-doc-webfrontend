@@ -40,6 +40,13 @@ This element only includes the [global attributes](https://wiki.developer.mozill
 <header>
   <h1>Main Page Title</h1>
   <img src="mdn-logo-sm.png" alt="MDN logo">
+
+  <!-- include navigation -->
+  <nav>
+    <a href="/home/" title="Home">Home</a>
+    <a href="/tab1/" title="Tab 1">Tab 1</a>
+    <a href="/tab2/" title="Tab 2">Tab 2</a>
+  </nav>
 </header>
 ```
 
@@ -52,6 +59,6 @@ This element only includes the [global attributes](https://wiki.developer.mozill
     <p>Posted on Wednesday, <time datetime="2017-10-04">4 October 2017</time> by Jane Smith</p>
   </header>
   <p>We live on a planet that's blue and green, with so many things still unseen.</p>
-  <p><a href="https://janesmith.com/the-planet-earth/">Continue reading....</a></p>
+  <p><a href="https://dookbook.info/">Continue reading....</a></p>
 </article>
 ```
