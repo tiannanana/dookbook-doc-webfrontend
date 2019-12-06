@@ -4,9 +4,7 @@ TRANSLATION: landmark = 界标
              Reader Mode = 阅读器模式
 SYNONYM: 阅读模式 = Reader Mode
 
-# HTML Main元素
-
-## `<main>`
+# HTML 主体元素: `<main>`
 
 HTML `<main>`元素呈现了文档的[`<body>`](/zh-hans/webfrontend/<body>/)或应用的**主体部分**。
 主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。
@@ -15,8 +13,8 @@ HTML `<main>`元素呈现了文档的[`<body>`](/zh-hans/webfrontend/<body>/)或
 
 | | |
 | :-- | :-- |
-| **内容类别** | 流内容, palpable content. |
-| **允许内容** | 流内容 |
+| **内容类别** | `流内容`, palpable content. |
+| **允许内容** | `流内容` |
 | **标签省略** | 无; 开始与结束都是强制性.|
 | **被允许的父级元素** | 任何支持流内容但可能不是继承元素的元素`<article>`, `<aside>`, `<footer>`, `<header>`, 或`<nav>` |
 | **DOM 接口** | `HTMLElement` |
