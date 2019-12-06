@@ -3,8 +3,6 @@ SYNONYM: skipnav = Skip Navigation
 
 # HTML Dominant Content Element: `<main>`
 
-## `<main>`
-
 The HTML `<main>` element represents the **dominant content** of the [`<body>`](/en/webfrontend/<body>/)
 of a document. The main content area consists of content that is directly related to or expands upon
 the central TOPICS of a document, or the central functionality of an application.
@@ -15,10 +13,10 @@ A document mustn't have more than one `<main>` element that doesn't have the `hi
 
 | | |
 | :-- | :-- |
-| **Content categories** | Flow content, palpable content.|
-| **Permitted content** | Flow content. |
+| **Content categories** | `Flow content`, palpable content.|
+| **Permitted content** | `Flow content`. |
 | **Tag omission** | None; both the starting and ending TOPICS are mandatory.|
-| **Permitted parents** | Where flow content is expected, but only if it is a hierarchically correct `main` element.|
+| **Permitted parents** | Where `flow content` is expected, but only if it is a hierarchically correct `<main>` element.|
 | **Permitted ARIA roles** | The `main` role is applied to `<main>` by default, and the `presentation` role is permitted as well.|
 | **DOM interface** | `HTMLElement` |
 
