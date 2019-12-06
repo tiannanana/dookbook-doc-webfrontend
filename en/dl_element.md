@@ -89,7 +89,7 @@ The **HTML `<dd>` element** provides the details about or the definition of the 
 | **Permitted parents** | `<dl>` or (in WHATWG HTML) a [`<div>`](/en/webfrontend/<div>) that is inside a `<dl>`. |
 | **Previous sibling** | `<dt>` or another `<dd>` element.|
 | **Permitted ARIA roles** | None |
-| **DOM interface** | HTMLElement |
+| **DOM interface** | `HTMLElement` |
 
 | Attribute | Description |
 | :-- | :-- |
