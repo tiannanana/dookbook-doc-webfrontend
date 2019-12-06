@@ -47,11 +47,11 @@ element in italic type, but is, by definition, no longer required to.
 - Typically this element is displayed in italic type. However, it should not be used simply to apply
 italic styling; use the CSS `font-style` property for that purpose.
 - Be sure the text in question is not actually more appropriate for another element.
-  - Use [`<em>`](/en/webfrontend/<em>) to indicate stress emphasis.
-  - Use [`<strong>`](/en/webfrontend/<strong>) to indicate stronger importance.
-  - Use [`<mark>`](/en/webfrontend/<mark>) to indicate relevance.
-  - Use [`<cite>`](/en/webfrontend/<cite>) to mark the name of a work, such as a book, play, or song.
-  - Use [`<dfn>`](/en/webfrontend/<dfn>) to mark the defining instance of a term.
+    - Use [`<em>`](/en/webfrontend/<em>) to indicate stress emphasis.
+    - Use [`<strong>`](/en/webfrontend/<strong>) to indicate stronger importance.
+    - Use [`<mark>`](/en/webfrontend/<mark>) to indicate relevance.
+    - Use [`<cite>`](/en/webfrontend/<cite>) to mark the name of a work, such as a book, play, or song.
+    - Use [`<dfn>`](/en/webfrontend/<dfn>) to mark the defining instance of a term.
 - It is a good idea to use the **class** attribute to identify why the element is being used,
 so that if the presentation needs to change at a later date, it can be done selectively with style sheets.
 
