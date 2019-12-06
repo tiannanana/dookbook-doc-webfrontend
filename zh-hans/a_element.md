@@ -1,4 +1,4 @@
-TOPICS: a web
+TOPICS: <a>
 AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
          sunbeyond; sunbeyond@github.com; github:sunbeyond
          Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
@@ -12,21 +12,21 @@ AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSl
 
 **HTML `<a>` 元素**（或称锚元素）可以创建通向其他网页、文件、同一页面内的位置、电子邮件地址或任何其他 URL 的超链接。
 
-|||
-|-|-|
-| 内容分类 | 流内容、文字内容、交互内容、可触摸内容。
-| 允许的内容 | 可见的内容（Transparent），包含流内容（不包括交互式内容）或文字内容（phrasing content）。|
-| 标签省略 | 不允许，开始标签和结束标签都不能省略。|
-| 允许的父元素 | 接受短语内容的任何元素或接受流内容的任何元素，但始终不接受 `<a>` 元素（根据对称的逻辑原理，如果 `<a>` 标记作为父元素，不能具有交互内容，则相同的 `<a>` 内容不能具有 `<a>` 标记作为其父元素）。|
-| Permitted ARIA roles | `button`, `checkbox`, `menuitem`, `menuitemcheckbox`, `menuitemradio`, `option`, `radio`, `switch`, `tab`, `treeitem` |
-| DOM 接口 | `HTMLAnchorElement` |
+|  |  |
+| :-- | :-- |
+| **内容分类** | 流内容、文字内容、交互内容、可触摸内容。
+| **允许的内容** | 可见的内容，包含流内容（不包括交互式内容）或文字内容。|
+| **标签省略** | 不允许，开始标签和结束标签都不能省略。|
+| **允许的父元素** | 接受短语内容的任何元素或接受流内容的任何元素，但始终不接受 `<a>` 元素（根据对称的逻辑原理，如果 `<a>` 标记作为父元素，不能具有交互内容，则相同的 `<a>` 内容不能具有 `<a>` 标记作为其父元素）。|
+| **Permitted ARIA roles** | `button`, `checkbox`, `menuitem`, `menuitemcheckbox`, `menuitemradio`, `option`, `radio`, `switch`, `tab`, `treeitem` |
+| **DOM 接口** | `HTMLAnchorElement` |
 
 ## 属性
 
 该元素的属性包含[全局属性](https://wiki.developer.mozilla.org/zh-CN/docs/HTML/Global_attributes)。
 
 | 属性 | 描述 |
-| --- | --- |
+| :-- | :-- |
 | `download` | 此属性指示浏览器下载 URL 而不是导航到它，因此将提示用户将其保存为本地文件。如果属性有一个值，那么此值将在下载保存过程中作为预填充的文件名（如果用户需要，仍然可以更改文件名）。此属性对允许的值没有限制，但是 `/` 和 `\` 会被转换为下划线。大多数文件系统限制了文件名中的标点符号，故此，浏览器将相应地调整建议的文件名。<br>**Note:**<br>此属性仅适用于同源 URL。<br>尽管 HTTP URL 需要位于同一源中，但是可以使用 `blob:` URL 和 `data:` URL ，以方便用户下载使用 JavaScript 生成的内容（例如使用在线绘图 Web 应用程序创建的照片）。<br>如果 HTTP 头中的 Content-Disposition 属性赋予了一个不同于此属性的文件名，HTTP 头属性优先于此属性。<br>如果 HTTP 头属性 `Content-Disposition` 被设置为inline（即`Content-Disposition='inline'`），那么 Firefox 优先考虑HTTP 头 `Content-Disposition`download 属性。 |
 | `href` | 包含超链接指向的 URL 或 URL 片段。URL 片段是哈希标记（#）前面的名称，哈希标记指定当前文档中的内部目标位置（HTML 元素的 ID）。URL 不限于基于 Web（HTTP）的文档，也可以使用浏览器支持的任何协议。例如，在大多数浏览器中正常工作的[`file:`](https://en.wikipedia.org/wiki/File_URI_scheme)、ftp:和mailto：。<br>**注意:**<br>可以使用 `href="#top"` 或者 `href="#"` 链接返回到页面顶部。[这种行为是 HTML5 的特性](http://www.whatwg.org/specs/web-apps/current-work/multipage/history.html#scroll-to-fragid)。 |
 | `hreflang` | 该属性用于指定链接文档的人类语言。其仅提供建议，并没有内置的功能。hreflang 允许的值取决于HTML5 [BCP47](http://www.ietf.org/rfc/bcp/bcp47.txt) |
@@ -111,4 +111,4 @@ html 3.2 只定义 name, href, rel, rev, 和 title 属性。
 
 锚点标签常常通过将 **href** 属性设置为 `"#"` 或 `"javascript:void(0)"` 来创造一个能阻止页面刷新的伪按钮的方式被滥用。 这些属性值会在拖动 /
 复制链接时导致意外行为，在新窗口 / 新标签打开链接，加入书签以及 JavaScript 仍在下载时会出现错误或被禁用。这也会向辅助技术（如屏幕阅读器）传达不正确的语义。在这些情况下，推荐使用
-`<button>` 来代替。通常情况下，您应该只将锚点用于正常的 URL 导航。
+[`<button>`](/zh-hans/webfrontend/<button>) 来代替。通常情况下，您应该只将锚点用于正常的 URL 导航。
