@@ -30,6 +30,13 @@ HTML `<header>` 元素用于展示**介绍性内容**，通常包含一组*介�
 <header>
   <h1>主页标题</h1>
   <img src="mdn-logo-sm.png" alt="MDN logo">
+
+  <!-- 可带页面导航 -->
+  <nav>
+    <a href="/home/" title="首页">首页</a>
+    <a href="/tab1/" title="导航 1">导航 1</a>
+    <a href="/tab2/" title="导航 2">导航 2</a>
+  </nav>
 </header>
 ```
 
