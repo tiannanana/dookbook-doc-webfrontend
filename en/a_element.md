@@ -31,7 +31,6 @@ AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Joe Medley; jmedley@chromium.org; github:jpmedley
          Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          luke crouch; lcrouch@mozilla.com; github:groovecoder
-         Abdel-Malik; Abdel-Malik13@mozilla.net; mdn:Abdel-Malik13
          Thierry Régagnon; tregagnon@github.com; github:tregagnon
          Rouven Weßling; realityking@github.com; github:realityking
          Chris Adams; chris@improbable.org; github:acdha
