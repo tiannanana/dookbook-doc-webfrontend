@@ -1,0 +1,30 @@
+TOPICS: <progress>
+AUTHORS: Florian Scholz; fscholz@mozilla.net; mdn:fscholz
+         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
+         Keiichi; ethertank@mozilla.net; mdn:ethertank
+
+# `<progress>`
+
+**HTML**中的`<progress>` 元素用来显示一项任务的完成进度.虽然规范中没有规定该元素具体如何显示,浏览器开发商可以自己决定,但通常情况下,该元素都显示为一个进度条形式.
+
+|  |  |
+| :-- | :-- |
+| **允许内容** | 短语内容 |
+| **是否可以省略标签** | 不可以,起始标签和结束标签都是必须的. |
+| **有效的父元素** | 短语内容, 但不能包含其他的`<progress>`后代元素. |
+| **规范文档** | HTML5, section 4.10.16 |
+
+## 属性
+
+和其他的HTML元素一样,该元素具有全局属性.
+
+| 属性 | 描述 |
+| :-- | :-- |
+| `max` | 该属性描述了这个progress元素所表示的任务一共需要完成多少工作. |
+| `value` | 该属性用来指定该进度条已完成的工作量.如果没有value属性,则该进度条的进度为"不确定",也就是说,进度条不会显示任何进度,你无法估计当前的工作会在何时完成(比如在下载一个未知大小的文件时,下载对话框中的进度条就是这样的).<br><br>你可以使用`orient`属性来指定该进度条的显示方向是横向(默认)还是纵向.CSS伪类`:indeterminate`可以用来匹配那些不确定的进度条. |
+
+## 示例
+
+```html
+<progress value="70" max="100">70 %</progress>
+```
