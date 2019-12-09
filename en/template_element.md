@@ -1,4 +1,3 @@
-
 TOPICS: <template>
 AUTHORS: Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
          Janet Swisher; jmswisher@github.com; github:jmswisher
