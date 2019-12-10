@@ -1,27 +1,18 @@
 TOPICS: <blockquote>
-AUTHORS: Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Charmander; charmander@mozilla.net; mdn:charmander
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Christian Sonne; cers@mozilla.net; mdn:cers
 
-# `<blockquote>`
+# HTML Block Quotation Element: `<blockquote>`
 
-The **HTML `<blockquote>` Element** (or HTML Block Quotation Element) indicates that the enclosed
+The **HTML `<blockquote>` Element** (or HTML **Block Quotation Element**) indicates that the enclosed
 text is an extended quotation. Usually, this is rendered visually by indentation
 (see Notes for how to change it). A URL for the source of the quotation may be given using the cite
 attribute, while a text representation of the source can be given using the
 [`<cite>`](/en/webfrontend/<cite>) element.
 
+## Meta
+
 |  |  |
 | :-- | :-- |
-| **Content categories** | Flow content, sectioning root, palpable content.|
+| **Content categories** | `Flow content`, sectioning root, palpable content.|
 | **Permitted content** | Flow content. |
 | **Tag omission** | None, both the starting and ending tag are mandatory. |
 | **Permitted parents** | Any element that accepts flow content.|
@@ -30,7 +21,7 @@ attribute, while a text representation of the source can be given using the
 
 ## Attributes
 
-This element's attributes include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_attribute).
 
 | Attribute | Description |
 | :-- | :-- |

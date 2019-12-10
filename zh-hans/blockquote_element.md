@@ -3,15 +3,26 @@ AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSli
          潘韬; pantao@mozilla.net; mdn:pantao
          Li Xipeng; lisnb@mozilla.net; mdn:lisnb
 
-# `<blockquote>`
+# HTML 块级引用元素: `<blockquote>`
 
 **HTML `<blockquote>` 元素**（或者 HTML 块级引用元素），代表其中的文字是引用内容。通常在渲染时，这部分的内容会有一定的缩进（注 中说明了如何更改）。
 若引文来源于网络，则可以将原内容的出处 URL 地址设置到 cite 特性上，若要以文本的形式告知读者引文的出处时，
 可以通过[`<cite>`](/zh-hans/webfrontend/<cite>) 元素。
 
+## 元数据
+
+|  |  |
+| :-- | :-- |
+| **内容分类** | `流式内容`, sectioning root, palpable content.|
+| **Permitted content** | Flow content. |
+| **Tag omission** | None, both the starting and ending tag are mandatory. |
+| **Permitted parents** | Any element that accepts flow content.|
+| **Permitted ARIA roles** | Any |
+| **DOM interface** | `HTMLQuoteElement` |
+
 ## 属性
 
-此元素的属性包含 全局属性。
+此元素的属性包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute)。
 
 | 属性 | 描述 |
 | :-- | :-- |
