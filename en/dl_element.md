@@ -1,33 +1,15 @@
 TOPICS: <dl>
         <dt>
         <dd>
-AUTHORS: Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Matthias Müller; MattDiMu@mozilla.net; mdn:MattDiMu
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         John Schram; jangajack@mozilla.net; mdn:jangajack
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Kyli Rouge; KyliRouge@mozilla.net; mdn:KyliRouge
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Ryan Scheel; Havvy@github.com; github:Havvy
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Colin Tedford; colin@colintedford.com; github:colintedford
-         JIM Taylor; jimtaylor1974@github.com; github:jimtaylor1974
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
 
-# `<dl>`
+# HTML Description List Element: `<dl>`
 
-The HTML `<dl>` element represents a description list. The element encloses a list of groups of
+The HTML `<dl>` element represents a **description list**. The element encloses a list of groups of
 terms (specified using the `<dt>` element) and descriptions (provided by `<dd>` elements).
-Common uses for this element are to implement a glossary or to display
-metadata (a list of key-value pairs).
+Common uses for this element are to implement a *glossary* or to display
+*metadata* (a list of key-value pairs).
+
+## `<dl>` Meta
 
 |  |  |
 | :-- | :-- |
@@ -38,17 +20,17 @@ metadata (a list of key-value pairs).
 | **Permitted ARIA roles** | `group`, `presentation` |
 | **DOM interface** | `HTMLDListElement` |
 
-## Attributes
+## `<dl>` Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_attribute).
 
 ## `<dt>`
 
-The **HTML `<dt>` element** specifies a term in a description or definition list, and as such must
+The **HTML `<dt>` element** specifies a **term** in a description or definition list, and as such must
 be used inside a `<dl>` element. It is usually followed by a `<dd>` element; however, multiple `<dt>`
 elements in a row indicate several terms that are all defined by the immediate next `<dd>` element.
 
-The subsequent `<dd>` (Description Details) element provides the definition or other related text
+The subsequent `<dd>` (**Description Details**) element provides the definition or other related text
 associated with the term specified using `<dt>`.
 
 |  |  |
@@ -58,7 +40,7 @@ associated with the term specified using `<dt>`.
 | **Tag omission** | Must have a start tag. The end tag may be omitted if this element is immediately followed by another `<dt>` element or a `<dd>`, or if there is no more content in the parent element. |
 | **Permitted parents** | Before a `<dt>` or a `<dd>` element, inside a `<dl>` or (in `WHATWG` HTML) a [`<div>`](/en/webfrontend/<div>) that is inside a `<dl>`. |
 | **Permitted ARIA roles** | None |
-| **DOM interface** | `HTMLElement` Up to Gecko 1.9.2 (Firefox 4) inclusive, Firefox implements the `HTMLSpanElement` interface for this element.
+| **DOM interface** | `HTMLDListElement` |
 
 ## Notes
 
@@ -78,8 +60,10 @@ its relationship to the other list items in the list grouping.
 
 ## `<dd>`
 
-The **HTML `<dd>` element** provides the details about or the definition of the preceding term
+The **HTML `<dd>` element** provides the **details** about or the **definition** of the preceding term
 (`<dt>`) in a description list (`<dl>`).
+
+### `<dd>` Meta
 
 |  |  |
 | :-- | :-- |
@@ -91,13 +75,15 @@ The **HTML `<dd>` element** provides the details about or the definition of the 
 | **Permitted ARIA roles** | None |
 | **DOM interface** | `HTMLElement` |
 
+### `<dd>` Attributes
+
 | Attribute | Description |
 | :-- | :-- |
-| `nowrap` | If the value of this attribute is set to `yes`, the definition text will not wrap. The default value is `no`.
+| `nowrap` (*no standard*) | If the value of this attribute is set to `yes`, the definition text will not wrap. The default value is `no`.
 
 ## Examples
 
-## Single term and description
+### Single term and description
 
 ```html
 <dl>
@@ -112,7 +98,7 @@ The **HTML `<dd>` element** provides the details about or the definition of the 
 </dl>
 ```
 
-## Multiple terms, single description
+### Multiple terms, single description
 
 ```html
 <dl>
@@ -130,7 +116,7 @@ The **HTML `<dd>` element** provides the details about or the definition of the 
 </dl>
 ```
 
-## Single term, multiple descriptions
+### Single term, multiple descriptions
 
 ```html
 <dl>
@@ -152,12 +138,12 @@ The **HTML `<dd>` element** provides the details about or the definition of the 
 </dl>
 ```
 
-## Multiple terms and descriptions
+### Multiple terms and descriptions
 
 It is also possible to define multiple terms with multiple corresponding descriptions,
 by combining the examples above.
 
-## Metadata
+### Metadata
 
 Description lists are useful for displaying metadata as a list of key-value pairs.
 
