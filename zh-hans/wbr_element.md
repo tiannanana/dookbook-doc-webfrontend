@@ -18,7 +18,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 这个元素仅仅包含 全局属性
 
-## Notes
+## 笔记
 
 在 UTF-8 编码的页面中， `<wbr>` 表现为 `U+200B ZERO-WIDTH SPACE` （零宽空格）代码点。特别是，它表现为 Unicode bidi BN 代码点，也就是说，它对
 bidi-ordering 没有影响：`<div dir=rtl>123,<wbr>456</div>` 展示 `123,456` 而不是 `456,123`，当不拆成的两行时候。

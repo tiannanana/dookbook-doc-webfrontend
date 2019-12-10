@@ -13,7 +13,7 @@ TOPICS: <mark>
 | **允许的 ARIA 角色** | 任何 |
 | **DOM 接口** | `HTMLElement` |
 
-## Attributes
+## 属性
 
 该元素仅包含[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)。
 

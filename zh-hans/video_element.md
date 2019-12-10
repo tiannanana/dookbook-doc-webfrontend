@@ -43,12 +43,12 @@ Adding captions and subtitles to HTML5 video。
 | `controls` | 加上这个属性，Gecko 会提供用户控制，允许用户控制视频的播放，包括音量，跨帧，暂停/恢复播放。 |
 | `crossorigin` | 该枚举属性指明抓取相关图片是否必须用到CORS（跨域资源共享）。 支持CORS的资源 可在 [`<canvas>`](/zh-hans/webfrontend/<canvas>) 元素中被重用，而不会被污染。允许的值如下： |
 
-### anonymous
+### 匿名
 
 跨域请求（即，使用 `Origin:` 的HTTP头）会被执行。但是不发送凭证（即，不发送cookie， X.509 证书或者 HTTP Basic 授权）。如果服务器不提供证书给源站点
 (不设置 `Access-Control-Allow-Origin:` HTTP头)，图片会被 污染 并且它的使用会受限。
 
-### use-credentials
+### 使用凭证
 
 跨域请求A cross-origin request (i.e. with `Origin:` HTTP header) 会被执行，且凭证会被发送 (即， 发送一个 cookie,
 一个证书和HTTP Basic授权会被执行)。如果服务器不提供证书给源站点 (通过`Access-Control-Allow-Credentials:` HTTP 头)，图像会被 污染 且它的使用会受限。

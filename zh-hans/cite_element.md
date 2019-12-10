@@ -13,11 +13,11 @@ TOPICS: <cite>
 | **允许的 ARIA 角色** | 任何 |
 | **DOM 接口** | `HTMLElement`直到Gecko 1.9.2（包括Firefox 4），Firefox都为此元素实现了`HTMLSpanElement`接口 |
 
-## Attributes
+## 属性
 
 该元素仅包含[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)。
 
-## Usage Notes
+## 使用说明
 
 在`<cite>`元素的上下文中，可能被引用的创造性作品可以是例如以下一项：
 

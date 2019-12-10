@@ -13,7 +13,7 @@ TOPICS: <abbr>
 | **允许的 ARIA 角色** | 任何 |
 | **DOM 接口** | `HTMLElement` |
 
-## Attributes
+## 属性
 
 该元素仅支持[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)。
 当与`<abbr>`元素一起使用时，`title`属性具有特定的语义含义。 它必须包含完整的人类可读描述或缩写的扩展。 当鼠标单击时，此文本通常由浏览器显示为工具提示
