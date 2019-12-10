@@ -1,8 +1,9 @@
 TOPICS: <q>
 
-# `<q>`
+# HTML 内联引用元素: `<q>`
 
-**HTML`<q>`元素** 表示所包含的文本是短内联引号。 大多数现代浏览器通过将文本用引号引起来来实现此目的。 此元素用于不需要段落分隔符的短引号； 对于长引用，请使用[`<blockquote>`](/zh-hans/webfrontend/<blockquote>)元素。
+**HTML`<q>`元素** 表示所包含的文本是短**内联引用**。 大多数现代浏览器通过将文本用**引号**包含来实现此目的。此元素用于不需要段落分隔符的短引号；
+对于长块级引用，请使用[`<blockquote>`](/zh-hans/webfrontend/<blockquote>)元素。
 
 |  |  |
 | :-- | :-- |
@@ -13,12 +14,12 @@ TOPICS: <q>
 | **允许的 ARIA 角色** | 任何 |
 | **DOM 接口** | `HTMLQuoteElement` |
 
-!!! warn "Don't try this at home"
-    使用说明：大多数现代浏览器都会在`<q>`元素内的文本周围自动添加引号。 在较旧的浏览器中可能需要样式规则才能添加引号。
+!!! warn "使用说明"
+    大多数现代浏览器都会在`<q>`元素内的文本周围自动添加引号。在较旧的浏览器中可能需要样式规则才能添加引号。
 
 ## 属性
 
-此元素包括[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_attribute).
 
 | 属性 | 描述 |
 | :-- | :-- |

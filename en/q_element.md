@@ -1,27 +1,11 @@
 TOPICS: <q>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
-# `<q>`
+# HTML Inline Quotation Element: `<q>`
 
-The **HTML `<q>` element** indicates that the enclosed text is a short inline quotation. Most modern
+The **HTML `<q>` element** indicates that the enclosed text is a **short inline quotation**. Most modern
 browsers implement this by surrounding the text in quotation marks. This element is intended for
 short quotations that don't require paragraph breaks; for long quotations use
-the `<blockquote>` element.
+the [`<blockquote>`](/en/webfrontend/<blockquote>) element.
 
 |  |  |
 | :-- | :-- |
@@ -32,13 +16,13 @@ the `<blockquote>` element.
 | **Permitted ARIA roles** | Any |
 | **DOM interface** | `HTMLQuoteElement` |
 
-!!! warn "Don't try this at home"
-    Usage note: Most modern browsers will automatically add quotation marks around text inside a `<q>`
+!!! warn "Usage note"
+    Most modern browsers will automatically add quotation marks around text inside a `<q>`
     element. A style rule may be needed to add quotation marks in older browsers.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_attribute).
 
 | Attribute | Description |
 | :-- | :-- |
