@@ -18,7 +18,7 @@ TOPICS: <iframe>
 | **允许的 ARIA 角色** | `application`, `document`, `img` |
 | **DOM 接口** | `HTMLIFrameElement` |
 
-## Attributes
+## 属性
 
 此元素包括[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
 
