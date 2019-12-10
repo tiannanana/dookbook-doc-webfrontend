@@ -13,7 +13,7 @@ HTML Definition元素（`<dfn>`）用于指示在定义短语或句子的上下�
 | **允许的 ARIA 角色** | 任何 |
 | **DOM 接口** | `HTMLElement` |
 
-## Attributes
+## 属性
 
 该元素的属性包括[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)。
 

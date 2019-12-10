@@ -112,7 +112,7 @@ textarea:valid {
 !!! warn "Don't try this at home"
     注意：占位符仅用于显示应输入表单的数据类型的示例； 它们不能替代绑定到输入的适当的[`<label>`](/zh-hans/webfrontend/<label>)元素。 有关完整说明，请参见[`<input>`](/zh-hans/webfrontend/<input>)中的Labels和占位符：Input（表单输入）元素。
 
-### Disabled and Readonly
+### 禁用和只读
 
 这个例子显示了两个`<textarea>`s-其中一个是`disabled`，另一个是`readonly`。 两者兼而有之，您会看到行为上的差异—禁用元素禁用为任何方式（并且其值未提交），
 而只读元素可选且其内容可复制（及其 值已提交）； 您只是无法编辑内容。
