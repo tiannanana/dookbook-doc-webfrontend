@@ -51,31 +51,31 @@ AUTHORS: Shaolin Wu; wslsdust@163.com; github:codevvvv9
 
 ## `<tfoot>`
 
-HTML 元素`<tfoot>`  定义了一组表格中各列的汇总行。
+**HTML 元素`<tfoot>`**  定义了一组表格中各列的汇总行。
 
 ## `<th>`
 
-HTML `<th>` 元素定义表格内的表头单元格。这部分特征是由 `scope` and `headers` 属性准确定义的。
+**HTML `<th>` 元素** 定义表格内的表头单元格。这部分特征是由 `scope` and `headers` 属性准确定义的。
 
 ## `<tr>`
 
-HTML `<tr>` 元素定义表格中的行。 Those can be a mix of `<td>` and `<th>` elements.
+**HTML `<tr>` 元素** 定义表格中的行。 Those can be a mix of `<td>` and `<th>` elements.
 
 ### `<td>`
 
-HTML `<td>` 元素定义表格中的列
+**HTML `<td>` 元素** 定义表格中的列
 
 ## `<caption>`
 
-HTML `<caption>` 元素 (or HTML 表格标题元素) 展示一个表格的标题， 它常常作为 `<table>` 的第一个子元素出现，同时显示在表格内容的最前面，但是，它同样可以被CSS样式化，所以，它同样可以出现在任何一个一个相对于表格的做任意位置。
+**HTML `<caption>` 元素** (or HTML 表格标题元素) 展示一个表格的标题， 它常常作为 `<table>` 的第一个子元素出现，同时显示在表格内容的最前面，但是，它同样可以被CSS样式化，所以，它同样可以出现在任何一个一个相对于表格的做任意位置。
 
 ## `<colgroup>`
 
-HTML 中的 表格列组（Column Group `<colgroup>`） 标签用来定义表中的一组列表。
+**HTML** 中的表格列组（Column Group **`<colgroup>`**） 标签用来定义表中的一组列表。
 
 ### `<col>`
 
-HTML `<col>` 元素 定义表格中的列，并用于定义所有公共单元格上的公共语义。它通常位于`<colgroup>`元素内。
+**HTML `<col>` 元素** 定义表格中的列，并用于定义所有公共单元格上的公共语义。它通常位于`<colgroup>`元素内。
 
 ## 示例
 
