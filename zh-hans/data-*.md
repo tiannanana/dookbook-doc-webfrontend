@@ -1,4 +1,4 @@
-TOPICS: data-*
+TOPICS: data-
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # data-*
@@ -18,7 +18,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 用法
 
-通过添加 **data-*** 属性，即使是普通的 HTML 元素也能变成相当复杂且强大的编程**对象**。例如，在游戏里的太空船 "sprite" 可以是一个带有一个 [class](/zh-hans/webfrontend/<class>)
+通过添加 **data-*** 属性，即使是普通的 HTML 元素也能变成相当复杂且强大的编程**对象**。例如，在游戏里的太空船 "sprite" 可以是一个带有一个 [class](/zh-hans/webfrontend/class)
 属性和几个 **data-***属性的简单 [`<img>`](/zh-hans/webfrontend/<img>) 元素：
 
 ```html
@@ -33,6 +33,6 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 相关链接
 
-- 所有的[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
-- [`HTMLElement.dataset`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)属性允许访问和修改这些值
+- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
+- [`HTMLElement.dataset`](/zh-hans/webfrontend/HTMLElement.dataset)属性允许访问和修改这些值
 - [使用数据属性](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)

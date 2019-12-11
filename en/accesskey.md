@@ -47,6 +47,6 @@ websites and web apps.
 
 ## See also
 
-- [`Element.accessKey`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Element/accessKey)
-- [`HTMLElement.accessKeyLabel`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/accessKeyLabel)
-- All [global attributes](/en/webfrontend/HTML_Global_Attribute).
+- [`Element.accessKey`](/en/webfrontend/Element.accessKey)
+- [`HTMLElement.accessKeyLabel`](/en/webfrontend/HTMLElement.accessKeyLabel)
+- All HTML [global attributes](/en/webfrontend/HTML_Global_Attribute).

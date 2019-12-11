@@ -1,4 +1,4 @@
-TOPICS: data-*
+TOPICS: data-
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # data-*
@@ -40,7 +40,7 @@ For a more in-depth tutorial about using HTML data attributes, see [Using data a
 
 ## See also
 
-- All [global attributes](/en/webfrontend/HTML_Global_Attribute).
-- The [`HTMLElement.dataset`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
+- All HTML [global attributes](/en/webfrontend/HTML_Global_Attribute).
+- The [`HTMLElement.dataset`](/en/webfrontend/HTMLElement.dataset)
 property that allows to access and modify these values.
 - [Using data attributes](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)

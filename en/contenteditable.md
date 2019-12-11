@@ -18,13 +18,14 @@ of the values `true`, `false` or the empty string is mandatory and that a shorth
 `<label contenteditable>Example Label</label>` is not allowed. The correct usage is
 `<label contenteditable="true">Example Label</label>`.
 
-You can set the color used to draw the text insertion caret with the CSS `caret-color` property.
+You can set the color used to draw the text insertion caret with the CSS [`caret-color`](/en/webfrontend/caret-color)
+property.
 
 ## See also
 
 - [Making content editable](https://wiki.developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content)
-- All [global attributes](/en/webfrontend/HTML_Global_Attribute)
-- [`HTMLElement.contentEditable`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/contentEditable)
-and [`HTMLElement.isContentEditable`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/isContentEditable)
-- The CSS [`caret-color`](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/caret-color) property
-- [`HTMLElement` `input` event](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event)
+- All HTML [global attributes](/en/webfrontend/HTML_Global_Attribute)
+- [`HTMLElement.contentEditable`](/en/webfrontend/HTMLElement.contentEditable)
+and [`HTMLElement.isContentEditable`](/en/webfrontend/HTMLElement.isContentEditable)
+- The CSS [`caret-color`](/en/webfrontend/caret-color) property
+- [`HTMLElement` `input` event](/en/webfrontend/HTMLElement_input_event)

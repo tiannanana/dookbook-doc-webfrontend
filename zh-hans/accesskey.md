@@ -37,6 +37,6 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 参见
 
-- [`Element.accessKey`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Element/accessKey)
-- [`HTMLElement.accessKeyLabel`](https://wiki.developer.mozilla.org/en-US/docs/Web/API/HTMLElement/accessKeyLabel)
-- 所有[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
+- [`Element.accessKey`](/zh-hans/webfrontend/Element.accessKey)
+- [`HTMLElement.accessKeyLabel`](/zh-hans/webfrontend/HTMLElement.accessKeyLabel)
+- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
