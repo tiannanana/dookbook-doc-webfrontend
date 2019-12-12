@@ -1,4 +1,4 @@
-TOPICS: class
+TOPICS: class attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # HTML Global Attribute: `class`
