@@ -1,9 +1,9 @@
-TOPICS: data-
+TOPICS: data- attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# data-*
+# HTML 全局属性: `data-*`
 
-**data-*** [全局属性](/zh-hans/webfrontend/HTML_Global_Attribute) 是一类被称为
+**data-*** [全局属性](/zh-hans/webfrontend/HTML_Global_Attributes) 是一类被称为
 **自定义数据属性**的属性，它赋予我们在所有 HTML 元素上嵌入自定义数据属性的能力，并可以通过脚本(一般指JavaScript) 与 HTML 之间进行专有数据的交换。
 
 所有这些自定义数据属性都可以通过所属元素的 `HTMLElement` 接口来访问。  `HTMLElement.dataset` 属性可以访问它们。 `*` 可以使用遵循 [xml名称生产规则](http://www.w3.org/TR/REC-xml/#NT-Name)
@@ -18,7 +18,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 用法
 
-通过添加 **data-*** 属性，即使是普通的 HTML 元素也能变成相当复杂且强大的编程**对象**。例如，在游戏里的太空船 "sprite" 可以是一个带有一个 [class](/zh-hans/webfrontend/class)
+通过添加 **data-*** 属性，即使是普通的 HTML 元素也能变成相当复杂且强大的编程**对象**。例如，在游戏里的太空船 "sprite" 可以是一个带有一个 [class](/zh-hans/webfrontend/class_attribute)
 属性和几个 **data-***属性的简单 [`<img>`](/zh-hans/webfrontend/<img>) 元素：
 
 ```html
@@ -33,6 +33,6 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 相关链接
 
-- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
+- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 - [`HTMLElement.dataset`](/zh-hans/webfrontend/HTMLElement.dataset)属性允许访问和修改这些值
 - [使用数据属性](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)

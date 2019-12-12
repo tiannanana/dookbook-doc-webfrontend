@@ -1,9 +1,9 @@
-TOPICS: accesskey
+TOPICS: accesskey attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# accesskey
+# HTML 全局属性: `accesskey`
 
-**accesskey** [全局属性](/zh-hans/webfrontend/HTML_Global_Attribute) 提供了为当前元素生成快捷键的方式。属性值必须包含一个可打印字符。
+**accesskey** [全局属性](/zh-hans/webfrontend/HTML_Global_Attributes) 提供了为当前元素生成快捷键的方式。属性值必须包含一个可打印字符。
 
 !!! warn "Don't try this at home"
     注意：在WHATWG规范中，它说你可以指定多个空格分隔的字符，浏览器将使用它所支持的第一个字符。然而，这在大多数浏览器中是行不通的。在IE/Edge中，它将使用它支持的第一个没有问题的，只要没有与其他命令冲突。
@@ -39,4 +39,4 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 - [`Element.accessKey`](/zh-hans/webfrontend/Element.accessKey)
 - [`HTMLElement.accessKeyLabel`](/zh-hans/webfrontend/HTMLElement.accessKeyLabel)
-- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
+- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).

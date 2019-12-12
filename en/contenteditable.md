@@ -1,9 +1,9 @@
-TOPICS: contenteditable
+TOPICS: contenteditable attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# contenteditable
+# HTML Global Attribute: `contenteditable`
 
-The **`contenteditable`** [global attribute](/en/webfrontend/HTML_Global_Attribute)
+The **`contenteditable`** [global attribute](/en/webfrontend/HTML_Global_Attributes)
 is an enumerated attribute indicating if the element should be editable by the user. If so, the
 browser modifies its widget to allow editing.
 
@@ -24,7 +24,7 @@ property.
 ## See also
 
 - [Making content editable](https://wiki.developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content)
-- All HTML [global attributes](/en/webfrontend/HTML_Global_Attribute)
+- All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes)
 - [`HTMLElement.contentEditable`](/en/webfrontend/HTMLElement.contentEditable)
 and [`HTMLElement.isContentEditable`](/en/webfrontend/HTMLElement.isContentEditable)
 - The CSS [`caret-color`](/en/webfrontend/caret-color) property

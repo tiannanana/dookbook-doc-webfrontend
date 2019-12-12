@@ -1,9 +1,9 @@
-TOPICS: autocapitalize
+TOPICS: autocapitalize attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# autocapitalize
+# HTML Global Attribute: `autocapitalize`
 
-The **`autocapitalize`** [global attribute](/en/webfrontend/HTML_Global_Attribute)
+The **`autocapitalize`** [global attribute](/en/webfrontend/HTML_Global_Attributes)
 is an enumerated attribute that controls whether and how text input is automatically capitalized as
 it is entered/edited by the user. The attribute must take one of the following values:
 

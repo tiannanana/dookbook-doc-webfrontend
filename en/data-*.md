@@ -1,9 +1,9 @@
-TOPICS: data-
+TOPICS: data- attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# data-*
+# HTML Global Attribute: `data-*`
 
-The **data-*** [global attributes](/en/webfrontend/HTML_Global_Attribute)
+The **data-*** [global attributes](/en/webfrontend/HTML_Global_Attributes)
 form a class of attributes called custom data attributes, that allow proprietary information to be
 exchanged between the HTML and its DOM representation by scripts.
 
@@ -40,7 +40,7 @@ For a more in-depth tutorial about using HTML data attributes, see [Using data a
 
 ## See also
 
-- All HTML [global attributes](/en/webfrontend/HTML_Global_Attribute).
+- All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes).
 - The [`HTMLElement.dataset`](/en/webfrontend/HTMLElement.dataset)
 property that allows to access and modify these values.
 - [Using data attributes](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
