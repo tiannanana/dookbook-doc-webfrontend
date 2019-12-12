@@ -1,9 +1,9 @@
-TOPICS: contenteditable
+TOPICS: contenteditable attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# contenteditable
+# HTML 全局属性: `contenteditable`
 
-[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute) **contenteditable**
+[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes) **contenteditable**
 是一个枚举属性，表示元素是否可被用户编辑。 如果可以，浏览器会修改元素的部件以允许编辑。
 
 该属性必须是下面的值之一：
