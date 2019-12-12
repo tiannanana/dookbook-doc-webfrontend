@@ -1,9 +1,9 @@
-TOPICS: autocapitalize
+TOPICS: autocapitalize attribute
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# autocapitalize
+# HTML 全局属性: `autocapitalize`
 
-**autocapitalize** [全局属性](/zh-hans/webfrontend/HTML_Global_Attribute) 是一个枚举属性，它控制用户输入/编辑文本输入时文本输入是否自动大写，以及如何自动大写。属性必须取下列值之一：
+**autocapitalize** [全局属性](/zh-hans/webfrontend/HTML_Global_Attributes) 是一个枚举属性，它控制用户输入/编辑文本输入时文本输入是否自动大写，以及如何自动大写。属性必须取下列值之一：
 
 - `off` or none: 没有应用自动大写（所有字母都默认为小写字母）。
 - `on` or sentences: 每个句子的第一个字母默认为大写字母；所有其他字母都默认为小写字母。
