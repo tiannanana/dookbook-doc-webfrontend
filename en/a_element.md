@@ -1,63 +1,13 @@
 TOPICS: <a>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         frontendlane; frontendlane@github.com; github:frontendlane
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Justin Tam; tamtzekin@gmail.com; github:tamtzekin
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Nikolay Shabalin; dev.nikolai.shabalin@gmail.com; github:nikolai-shabalin
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Franklin Yu; zyu13@binghamton.edu; github:FranklinYu
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Michiel Renty; mrenty@mozilla.net; mdn:mrenty
-         Seth McAllister; sethmcallister@github.com; github:sethmcallister
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Tzu-Hsuan (TH) Huang; thhuang@github.com; github:thhuang
-         Stephan Max; stephanmax@mozilla.net; mdn:stephanmax
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Hector; hectorcoronado@github.com; github:hectorcoronado
-         Laria; laria@laria.me; github:silvasur
-         Masataka Yakura; myakura@mozilla.net; mdn:myakura
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Jim Holby; jamesdholby@gmail.com; github:Jimmerz28
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Shaun Kelly; 6stringbeliever@mozilla.net; mdn:6stringbeliever
-         Tyson Gach; tysongach@mozilla.net; mdn:tysongach
-         Taylor Hunt; tigt@github.com; github:tigt
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Rouven Weßling; realityking@github.com; github:realityking
-         Chris Adams; chris@improbable.org; github:acdha
-         Rob Wu; rob@robwu.nl; github:Rob--W
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Chandradeep Dey; chandradeepdey@posteo.net; github:chandradeepdey
-         Pablo Alejandro Fiumara; pablo.fiumara@gmail.com; github:pablofiumara
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jonathan Watt; Jonathan_Watt@mozilla.net; mdn:Jonathan_Watt
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Égon Yuri Costa Lima; egonyucl@gmail.com; github:egonyuri
-         Thomas Parisot; oncletom@github.com; github:oncletom
-         Tom Schuster; evilpie@github.com; github:evilpie
-         David Bruant; bruant.d@gmail.com; github:DavidBruant
-         Shaun McCance; shaunm@mozilla.net; mdn:shaunm
-         Bob Chao; BobChao@mozilla.net; mdn:BobChao
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
 
-# `<a>`
+# HTML Anchor Element: `<a>`
 
-The **HTML `<a>` element** (or anchor element), along with it's href attribute, creates a
+The **HTML `<a>` element** (or anchor element), along with it's `href` attribute, creates a
 hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
 
 ## Attributes
 
-This element's attributes include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_attributes).
 
 | Attribute | Description |
 | :-- | :-- |
@@ -87,18 +37,14 @@ This element's attributes include the [global attributes](https://wiki.developer
 
 ```html
 <!-- anchor linking to external file -->
-<a href="https://www.mozilla.com/">
-External Link
-</a>
+<a href="https://dookbook.info/">External Link</a>
 ```
 
 ### Linking to another section on the same page
 
 ```html
 <!-- links to element on this page with id="attr-href" -->
-<a href="#attr-href">
-Description of Same-Page Links
-</a>
+<a href="#attr-href">Description of Same-Page Links</a>
 ```
 
 ### Creating an email link
@@ -107,7 +53,7 @@ It's common to create links that open in the user's email program to allow them 
 This is done with a `mailto:` link. Here's a simple example:
 
 ```html
-<a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+<a href="mailto:dookbook@zhiliaokeji.com">Send email to Dookbook</a>
 ```
 
 For additional details about the `mailto` URL scheme, such as including the subject, body,
@@ -134,7 +80,7 @@ link.textContent = 'download image';
 
 link.addEventListener('click', function(ev) {
     link.href = canvas.toDataURL();
-    link.download = "mypainting.png";
+    link.download = "my_painting.png";
 }, false);
 
 document.body.appendChild(link);
@@ -211,9 +157,7 @@ through repetitive links can be a laborious task.
 - MDN Understanding WCAG, Guideline 2.4 explanations
 - [Understanding Success Criterion 2.4.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html)
 
-### Size and proximit
-
-Size
+### Size
 
 Interactive elements such as links should provide an area large enough that it is easy to activate
 them. This helps a variety of people, including people with motor control issues and people using
