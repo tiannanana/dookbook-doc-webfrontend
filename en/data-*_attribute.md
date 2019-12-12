@@ -1,9 +1,8 @@
 TOPICS: data- attribute
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # HTML Global Attribute: `data-*`
 
-The **data-*** [global attributes](/en/webfrontend/HTML_Global_Attributes)
+The **`data-*`** [global attributes](/en/webfrontend/HTML_Global_Attributes)
 form a class of attributes called custom data attributes, that allow proprietary information to be
 exchanged between the HTML and its DOM representation by scripts.
 
@@ -24,16 +23,15 @@ next letter, converting the name to camelcase.
 
 ## Usage
 
-By adding **data-*** attributes, even ordinary HTML elements can become rather complex and powerful
+By adding `data-*` attributes, even ordinary HTML elements can become rather complex and powerful
 program-objects.  For example, a space-ship "sprite" in a game could be a simple [`<img>`](/en/webfrontend/<img>)
-element with a class attribute and several **data-*** attributes:
+element with a class attribute and several `data-*` attributes:
 
 ```html
 <img class="spaceship cruiserX3" src="shipX3.png"
   data-ship-id="324" data-weapons="laserI laserII" data-shields="72%"
   data-x="414354" data-y="85160" data-z="31940"
-  onclick="spaceships[this.dataset.shipId].blasted()">
-</img>
+  onclick="spaceships[this.dataset.shipId].blasted()"/>
 ```
 
 For a more in-depth tutorial about using HTML data attributes, see [Using data attributes](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).
@@ -43,4 +41,3 @@ For a more in-depth tutorial about using HTML data attributes, see [Using data a
 - All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes).
 - The [`HTMLElement.dataset`](/en/webfrontend/HTMLElement.dataset)
 property that allows to access and modify these values.
-- [Using data attributes](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
