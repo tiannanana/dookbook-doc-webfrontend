@@ -7,7 +7,7 @@ hyperlink to other web pages, files, locations within the same page, email addre
 
 ## Attributes
 
-This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_attribute).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_attributes).
 
 | Attribute | Description |
 | :-- | :-- |
