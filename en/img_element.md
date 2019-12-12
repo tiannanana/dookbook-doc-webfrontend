@@ -1,48 +1,13 @@
 TOPICS: <img>
-AUTHORS: Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         David Dias; thedaviddias@gmail.com; github:thedaviddias
-         Taylor Hunt; tigt@github.com; github:tigt
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Djalil Dreamski; dreamski21@github.com; github:dreamski21
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Greggman; github@greggman.com; github:greggman
-         intr0; mozdevcontrib@github.com; github:mozdevcontrib
-         Zane; ZaneHannanAU@mozilla.net; mdn:ZaneHannanAU
-         hinell; al.neodim@gmail.com; github:hinell
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Seth McAllister; sethmcallister@github.com; github:sethmcallister
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Breno Calazans; klzns@mozilla.net; mdn:klzns
-         Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Colin Cheng; zbinlin@outlook.com; github:zbinlin
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Wladimir Palant; Wladimir_Palant@mozilla.net; mdn:Wladimir_Palant
-         Rouven Weßling; realityking@github.com; github:realityking
-         ishita; ishita@github.com; github:ishita
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Pablo Alejandro Fiumara; pablo.fiumara@gmail.com; github:pablofiumara
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Masahiko Imanaka; marsf@github.com; github:marsf
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
-# `<img>`
+# HTML Image Element: `<img>`
 
-The **HTML `<img>` element** embeds an image into the document. It is a replaced element.
+The **HTML `<img>` element** embeds an **image** into the document. It is a *replaced element*.
 
 The above example shows very simple usage of the `<img>` element. The src attribute is required,
-and contains the path to the image you want to embed. The alt attribute contains a textual
+and contains the path to the image you want to embed. The `alt` attribute contains a textual
 description of the image, which isn't mandatory but is incredibly useful for accessibility —
-screenreaders read this description out to their users so they know what the image shows, and it is
+screen readers read this description out to their users so they know what the image shows, and it is
 also displayed on the page if the image can't be loaded for some reason.
 
 There are many other attributes that can be specified to achieve various purposes, for example:
@@ -52,6 +17,17 @@ There are many other attributes that can be specified to achieve various purpose
 space taken up by an image to ensure the page layout is stable before it loads.
 - Responsive image hints using `sizes` and `srcset` (See Also the [`<picture>`](/en/webfrontend/<picture>)
 element, and our Responsive images tutorial).
+
+## Technical Summary
+
+|  |  |
+| :-- | :-- |
+| **Content categories** | Flow content, phrasing content, embedded content, palpable content. If the element has a `usemap` attribute, it also is a part of the interactive content category.|
+| **Permitted content** | None, it is an empty element.|
+| **Tag omission** | Must have a start tag and must not have an end tag.|
+| **Permitted parents** | Any element that accepts embedded content.|
+| **Permitted ARIA roles** | Any |
+| **DOM interface** | `HTMLImageElement` |
 
 ## Supported image Formats
 
@@ -87,7 +63,7 @@ dimensions, and no dimensions were specified in the `<img>` element's attributes
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_attribute).
 
 | Attribute | Description |
 | :-- | :-- |
@@ -155,8 +131,7 @@ The following simple example embeds an image into the page, and includes alterna
 text to improve accessibility.
 
 ```html
-<img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
-     alt="MDN logo — a dinosaur logo with the text MDN">
+<img src="https://dookbook.info/static/img/logo-tail.svg" alt="Dookbook logo">
 ```
 
 ### Image link
@@ -167,9 +142,8 @@ consideration is that you should made the alternative text describe the resource
 pointing to.
 
 ```html
-<a href="https://developer.mozilla.org">
-  <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
-       alt="Visit the MDN site">
+<a href="https://dookbook.info">
+  <img src="https://dookbook.info/static/img/logo-tail.svg" alt="Visit the Dookbook site">
 </a>
 ```
 
@@ -180,16 +154,16 @@ of the logo; this will be loaded instead of the `src` image on high-resolution d
 referenced in the `src` attribute is counted as a `1x` candidate in user agents that support `srcset`.
 
 ```html
-<img src="mdn-logo-sm.png"
-      alt="MDN"
-      srcset="mdn-logo-HD.png 2x">
+<img src="dookbook-logo-tail.svg"
+      alt="Dookbook"
+      srcset="dookbook-logo-tail.svg 2x">
 ```
 
 ### Using the srcset and sizes attributes
 
 The `src` attribute is ignored in user agents that support `srcset` when `'w'` descriptors are
-included. When the (`max-width: 600px`) media condition matches, the 200px wide image will be loaded
-(it is the one that matches 200px most closely), otherwise the other image will be loaded.
+included. When the (`max-width: 600px`) media condition matches, the `200px` wide image will be loaded
+(it is the one that matches `200px` most closely), otherwise the other image will be loaded.
 
 ```html
 <img src="clock-demo-thumb-200.png"
@@ -246,14 +220,3 @@ accompany an image's `alt` description. If an image needs a caption, use a combi
 `figure` and `figcaption` elements.
 
 - Using the HTML title attribute – updated | The Paciello Group
-
-## Technical Summary
-
-|  |  |
-| :-- | :-- |
-| **Content categories** | Flow content, phrasing content, embedded content, palpable content. If the element has a usemap attribute, it also is a part of the interactive content category.|
-| **Permitted content** | None, it is an empty element.|
-| **Tag omission** | Must have a start tag and must not have an end tag.|
-| **Permitted parents** | Any element that accepts embedded content.|
-| **Permitted ARIA roles** | Any |
-| **DOM interface** | `HTMLImageElement` |
