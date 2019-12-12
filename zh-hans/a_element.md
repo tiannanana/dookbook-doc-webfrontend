@@ -17,7 +17,7 @@ TOPICS: <a>
 
 ## 属性
 
-该元素的属性包含[HTML全局属性](/zh-hans/webfrontend/HTML_Global_attribute)。
+该元素的属性包含[HTML全局属性](/zh-hans/webfrontend/HTML_Global_attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

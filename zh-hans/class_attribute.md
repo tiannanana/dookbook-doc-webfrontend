@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # HTML 全局属性: `class`
 
-[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute) **`class`** 的值是一个以空格分
+[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes) **`class`** 的值是一个以空格分
 隔的元素的类名（classes）列表，它允许 [[CSS]] 和 [[Javascript]] 通过[类选择器 (class selectors)](/zh-hans/webfrontend/CSS_Class_Selector)
 或DOM方法([`document.getElementsByClassName`](/zh-hans/webfrontend/Document.getElementsByClassName))
 来选择和访问特定的元素。
@@ -12,6 +12,6 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 更多
 
-- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute).
+- 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 - [`element.className`](/zh-hans/webfrontend/Element.className)
 - [`element.classList`](/zh-hans/webfrontend/Element.classList)
