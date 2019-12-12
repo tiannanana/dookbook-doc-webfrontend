@@ -63,7 +63,7 @@ dimensions, and no dimensions were specified in the `<img>` element's attributes
 
 ## Attributes
 
-This element includes the [global attributes](/en/webfrontend/HTML_Global_attribute).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_attributes).
 
 | Attribute | Description |
 | :-- | :-- |

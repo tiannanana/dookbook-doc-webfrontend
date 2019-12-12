@@ -20,7 +20,7 @@ TOPICS: <img>
 
 ## 属性
 
-这个元素包括 [HTML全局属性](/zh-hans/webfrontend/HTML_Global_Attribute)。
+这个元素包括 [HTML全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |
