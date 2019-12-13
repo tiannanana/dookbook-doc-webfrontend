@@ -83,7 +83,7 @@ vocabulary are, with respect to handling the case of multiple items with the sam
 
 - All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes).
 - Other, microdata related, global attributes:
-  - [`itemid`](/en/webfrontend/itemid_attribute)
-  - [`itemprop`](/en/webfrontend/itemprop_attribute)
-  - [`itemref`](/en/webfrontend/itemref_attribute)
-  - [`itemscope`](/en/webfrontend/itemscope_attribute)
+    - [`itemid`](/en/webfrontend/itemid_attribute)
+    - [`itemprop`](/en/webfrontend/itemprop_attribute)
+    - [`itemref`](/en/webfrontend/itemref_attribute)
+    - [`itemscope`](/en/webfrontend/itemscope_attribute)

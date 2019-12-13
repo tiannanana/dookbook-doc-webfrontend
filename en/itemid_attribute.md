@@ -35,7 +35,7 @@ identifier can coexist and, if so, how items with the same identifier are handle
 
 - All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes).
 - Other, microdata related, global attributes:
-  - [`itemprop`](/en/webfrontend/itemprop_attribute)
-  - [`itemref`](/en/webfrontend/itemref_attribute)
-  - [`itemscope`](/en/webfrontend/itemscope_attribute)
-  - [`itemtype`](/en/webfrontend/itemtype_attribute)
+    - [`itemprop`](/en/webfrontend/itemprop_attribute)
+    - [`itemref`](/en/webfrontend/itemref_attribute)
+    - [`itemscope`](/en/webfrontend/itemscope_attribute)
+    - [`itemtype`](/en/webfrontend/itemtype_attribute)

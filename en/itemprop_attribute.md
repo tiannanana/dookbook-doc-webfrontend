@@ -352,7 +352,7 @@ And the following
 
 - All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes).
 - Other, microdata related, global attributes:
-  - [`itemid`](/en/webfrontend/itemid_attribute)
-  - [`itemref`](/en/webfrontend/itemref_attribute)
-  - [`itemscope`](/en/webfrontend/itemscope_attribute)
-  - [`itemtype`](/en/webfrontend/itemtype_attribute)
+    - [`itemid`](/en/webfrontend/itemid_attribute)
+    - [`itemref`](/en/webfrontend/itemref_attribute)
+    - [`itemscope`](/en/webfrontend/itemscope_attribute)
+    - [`itemtype`](/en/webfrontend/itemtype_attribute)

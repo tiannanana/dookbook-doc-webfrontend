@@ -46,7 +46,7 @@ The itemref attribute can only be specified on elements that have an itemscope a
 
 - All HTML [global attributes](/en/webfrontend/HTML_Global_Attributes).
 - Other, microdata related, global attributes:
-  - [`itemid`](/en/webfrontend/itemid_attribute)
-  - [`itemprop`](/en/webfrontend/itemprop_attribute)
-  - [`itemscope`](/en/webfrontend/itemscope_attribute)
-  - [`itemtype`](/en/webfrontend/itemtype_attribute)
+    - [`itemid`](/en/webfrontend/itemid_attribute)
+    - [`itemprop`](/en/webfrontend/itemprop_attribute)
+    - [`itemscope`](/en/webfrontend/itemscope_attribute)
+    - [`itemtype`](/en/webfrontend/itemtype_attribute)

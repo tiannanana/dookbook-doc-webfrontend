@@ -314,7 +314,7 @@ ID不是人性化的，所以产品的名字是用的人所能看懂的文字而
 
 - 所有HTML[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 - 其它 `microdata` 相关的全局属性
-  - [`itemid`](/zh-hans/webfrontend/itemid_attribute)
-  - [`itemref`](/zh-hans/webfrontend/itemref_attribute)
-  - [`itemscope`](/zh-hans/webfrontend/itemscope_attribute)
-  - [`itemtype`](/zh-hans/webfrontend/itemtype_attribute)
+    - [`itemid`](/zh-hans/webfrontend/itemid_attribute)
+    - [`itemref`](/zh-hans/webfrontend/itemref_attribute)
+    - [`itemscope`](/zh-hans/webfrontend/itemscope_attribute)
+    - [`itemtype`](/zh-hans/webfrontend/itemtype_attribute)
