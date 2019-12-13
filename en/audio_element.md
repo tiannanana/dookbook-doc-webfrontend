@@ -1,34 +1,4 @@
 TOPICS: <audio>
-AUTHORS: Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Mojtaba Javan; javan.mojtaba@gmail.com; github:mrmowji
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Jen Simmons; jensimmons@github.com; github:jensimmons
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Connor Shea; connor.james.shea@gmail.com; github:connorshea
-         Taylor Hunt; tigt@github.com; github:tigt
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Stephan Max; stephanmax@mozilla.net; mdn:stephanmax
-         Roy Vanegas; code-warrior@github.com; github:code-warrior
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Karl Groves; karlgroves@gmail.com; github:karlgroves
-         Christian Weiske; cweiske@github.com; github:cweiske
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Druzion; Druzion@mozilla.net; mdn:Druzion
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Rob Wu; rob@robwu.nl; github:Rob--W
-         Tom Morris; tommorris@mozilla.net; mdn:tommorris
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Mateus Machado Luna; mateus.m.luna@mozilla.net; mdn:mateus.m.luna
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<audio>`
 

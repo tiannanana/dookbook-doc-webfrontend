@@ -1,5 +1,4 @@
 TOPICS: <u>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<u>`
 

@@ -1,6 +1,4 @@
 TOPICS: <embed>
-AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
 
 # `<embed>`
 

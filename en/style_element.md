@@ -1,22 +1,4 @@
 TOPICS: <style>
-AUTHORS: Alfred Myers; alfredmyers@github.com; github:alfredmyers
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Tang Yun; ntutangyun@gmail.com; github:ntutangyun
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         PhistucK; phistuck@mozilla.net; mdn:phistuck
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         一丝; yisibl@mozilla.net; mdn:yisibl
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Masahiko Imanaka; marsf@github.com; github:marsf
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<style>`
 

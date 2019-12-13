@@ -1,7 +1,4 @@
 TOPICS: <section>
-AUTHORS: 许振涛; Annlix@mozilla.net; mdn:Annlix
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
 
 # `<section>`
 

@@ -1,30 +1,4 @@
 TOPICS: <button>
-AUTHORS: Christian Sonne; cers@mozilla.net; mdn:cers
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Taylor Hunt; tigt@github.com; github:tigt
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Ian James; _irj@mozilla.net; mdn:_irj
-         Barry; bagaffey@mozilla.net; mdn:bagaffey
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Simon Speich; speich@github.com; github:speich
-         Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
-         Tieson Trowbridge; TiesonT@mozilla.net; mdn:TiesonT
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Rick Waldron; waldron.rick@gmail.com; github:rwaldron
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Matěj Cepl; mcepl@mozilla.net; mdn:mcepl
-         Les Orchard; me@lmorchard.com; github:lmorchard
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<button>`
 

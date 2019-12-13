@@ -1,22 +1,4 @@
 TOPICS: <wbr>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         bripmccann; bripmccann@github.com; github:bripmccann
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Marek ‘saji’ Augustynowicz; marek-saji@mozilla.net; mdn:marek-saji
-         Kumar Harsh; khs@mozilla.net; mdn:khs
-         Dan Scott; dbs@mozilla.net; mdn:dbs
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<wbr>`
 

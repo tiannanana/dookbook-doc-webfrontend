@@ -1,25 +1,5 @@
 TOPICS: <ul>
         <li>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         ExE-Boss; ExE-Boss@mozilla.net; mdn:ExE-Boss
-         Tzu-Hsuan (TH) Huang; thhuang@github.com; github:thhuang
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Ian Gall; ianpgall@mozilla.net; mdn:ianpgall
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Stanciu Andreea-Diana; AndreeaStanciu@mozilla.net; mdn:AndreeaStanciu
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<ul>`
 

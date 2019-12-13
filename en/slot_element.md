@@ -1,11 +1,4 @@
 TOPICS: <slot>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Taylor Hunt; tigt@github.com; github:tigt
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Henri Manson; Hfmanson@mozilla.net; mdn:Hfmanson
 
 # `<slot>`
 

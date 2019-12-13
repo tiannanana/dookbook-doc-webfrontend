@@ -1,6 +1,4 @@
 TOPICS: <ins>
-AUTHORS: Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
-         潘韬; pantao@mozilla.net; mdn:pantao
 
 # `<ins>`
 

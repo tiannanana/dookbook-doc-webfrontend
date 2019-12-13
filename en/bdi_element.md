@@ -1,18 +1,4 @@
 TOPICS: <bdi>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Gergan Zhekov; gerganzh@mozilla.net; mdn:gerganzh
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Tim Ellison; timothyellison85@gmail.com; github:timothyjellison
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Rory O’Kane; rory@roryokane.com; github:roryokane
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Onur Avsar; avsaro@mozilla.net; mdn:avsaro
 
 # `<bdi>`
 

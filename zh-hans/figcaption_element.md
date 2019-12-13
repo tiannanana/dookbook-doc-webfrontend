@@ -1,7 +1,5 @@
 TOPICS: <figcaption>
         <figure>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
 
 # `<figcaption>`
 

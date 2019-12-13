@@ -3,11 +3,6 @@ TOPICS: <ruby>
         <rt>
         <rb>
         <rtc>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
-         Yujiyang; Yujiyang@github.com; github:Yujiyang
-         yumin; richardminyu@foxmail.com; github:richardmyu
-         Hodor Jorn; zhaohaodang@mozilla.net; mdn:zhaohaodang
 
 # `<ruby>`
 

@@ -1,18 +1,4 @@
 TOPICS: <hr>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Jon Petto; jpetto@mozilla.net; mdn:jpetto
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
 
 # `<hr>`
 

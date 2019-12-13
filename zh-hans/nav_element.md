@@ -1,7 +1,4 @@
 TOPICS: <nav>
-AUTHORS: ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
-         石博文; bowen-shi@mozilla.net; mdn:bowen-shi
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # HTML导航元素: `<nav>`
 

@@ -1,11 +1,6 @@
 TOPICS: <select>
         <option>
         <optgroup>
-AUTHORS: King; King.@mozilla.net; mdn:King.
-         Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         Judy; pavilion2t@github.com; github:pavilion2t
-         DUHUAZHI; DUHZ@mozilla.net; mdn:DUHZ
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<select>`
 

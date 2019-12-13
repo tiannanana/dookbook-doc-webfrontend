@@ -1,24 +1,4 @@
 TOPICS: <section>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Jamhur Mustafayev; github@jmstfv.com; github:jmstfv
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         wilson-farfetch; wilson-farfetch@github.com; github:wilson-farfetch
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Scott Isaacman; Popodopolos@mozilla.net; mdn:Popodopolos
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         MusikAnimal; MusikAnimal@github.com; github:MusikAnimal
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<section>`
 

@@ -1,6 +1,4 @@
 TOPICS: <picture>
-AUTHORS: 谭九鼎; imba-tjd@github.com; github:imba-tjd
-         一丝; yisibl@mozilla.net; mdn:yisibl
 
 # `<picture>`
 

@@ -1,7 +1,4 @@
 TOPICS: <audio>
-AUTHORS: RoXoM; xyy94813@gmail.com; github:xyy94813
-         George Cheng; Gerhut@GMail.com; github:Gerhut
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<audio>`
 

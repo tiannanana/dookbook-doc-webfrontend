@@ -1,27 +1,4 @@
 TOPICS: <canvas>
-AUTHORS: Takeshi Kurosawa; takenspc@github.com; github:takenspc
-         Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         El-Hussein Abdelraouf; husseinraoouf@gmail.com; github:husseinraoouf
-         David Gilbertson; David_Gilbertson@mozilla.net; mdn:David_Gilbertson
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         sotos; sroskylo@github.com; github:sroskylo
-         Bradley Flood; bradleyflood@github.com; github:bradleyflood
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Wladimir Palant; Wladimir_Palant@mozilla.net; mdn:Wladimir_Palant
-         Paul Irish; paul.irish@mozilla.net; mdn:paul.irish
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Benjamin Peterson; Gutworth@mozilla.net; mdn:Gutworth
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<canvas>`
 

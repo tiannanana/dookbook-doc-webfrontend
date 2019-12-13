@@ -1,12 +1,4 @@
 TOPICS: <param>
-AUTHORS: Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<param>`
 

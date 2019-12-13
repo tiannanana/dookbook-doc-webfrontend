@@ -1,7 +1,4 @@
 TOPICS: <progress>
-AUTHORS: Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
 
 # `<progress>`
 

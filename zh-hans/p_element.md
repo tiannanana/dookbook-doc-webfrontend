@@ -1,6 +1,4 @@
 TOPICS: <p>
-AUTHORS: Zhou Yuanda; yd.zhou@foxmail.com; github:Adashuai5
-         Dong WEI; FredWe@mozilla.net; mdn:FredWe
 
 # `<p>`
 

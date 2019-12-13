@@ -1,6 +1,4 @@
 TOPICS: <pre>
-AUTHORS: xgqfrms; xgqfrms@github.com; github:xgqfrms
-         Jiang X.W; jiangseventeen@mozilla.net; mdn:jiangseventeen
 
 # `<pre>`
 

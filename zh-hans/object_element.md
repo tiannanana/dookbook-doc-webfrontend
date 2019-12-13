@@ -1,8 +1,4 @@
 TOPICS: <object>
-AUTHORS: zhengzaixu; zzxdzld@github.com; github:zzxdzld
-         Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
 
 # `<object>`
 

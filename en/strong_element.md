@@ -1,15 +1,4 @@
 TOPICS: <strong>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<strong>`
 

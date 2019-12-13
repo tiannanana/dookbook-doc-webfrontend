@@ -8,18 +8,6 @@ TOPICS: <table>
         <caption>
         <colgroup>
         <col>
-AUTHORS: Shaolin Wu; wslsdust@163.com; github:codevvvv9
-         xgqfrms; xgqfrms@github.com; github:xgqfrms
-         itplus; eforegist@github.com; github:eforegist
-         Dong WEI; FredWe@mozilla.net; mdn:FredWe
-         Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         砂漠の毒虫; 853419196@qq.com; github:853419196
-         Nagisa(Daxiong); nagisa_tk@outlook.com; github:nagisatk
-         levinit; levinit@github.com; github:levinit
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Bayes; 827130441@qq.com; github:coconilu
-         S; soyaine@github.com; github:soyaine
-         潘韬; pantao@mozilla.net; mdn:pantao
 
 # `<table>`
 

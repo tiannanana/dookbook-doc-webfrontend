@@ -1,5 +1,4 @@
 TOPICS: <small>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<small>`
 

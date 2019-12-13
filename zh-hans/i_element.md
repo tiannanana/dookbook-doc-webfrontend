@@ -1,6 +1,4 @@
 TOPICS: <i>
-AUTHORS: Mike Chen; ranwu@mozilla.net; mdn:ranwu
-         潘韬; pantao@mozilla.net; mdn:pantao
 
 # `<i>`
 

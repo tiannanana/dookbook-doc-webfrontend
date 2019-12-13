@@ -1,5 +1,4 @@
 TOPICS: <span>
-AUTHORS: King; King.@mozilla.net; mdn:King.
 
 # `<span>`
 

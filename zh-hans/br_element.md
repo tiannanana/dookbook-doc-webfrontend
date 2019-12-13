@@ -1,5 +1,4 @@
 TOPICS: <br>
-AUTHORS: kite-js; kite-js@gmail.com; github:kite-js
 
 # `<br>`
 

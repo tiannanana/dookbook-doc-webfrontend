@@ -1,6 +1,4 @@
 TOPICS: <div>
-AUTHORS: 潘韬; pantao@mozilla.net; mdn:pantao
-         Dong WEI; FredWe@mozilla.net; mdn:FredWe
 
 # `<div>`
 

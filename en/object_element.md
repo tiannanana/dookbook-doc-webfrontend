@@ -1,23 +1,4 @@
 TOPICS: <object>
-AUTHORS: ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Matijs Brinkhuis; matijs@mozilla.net; mdn:matijs
-         Taylor Hunt; tigt@github.com; github:tigt
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Maurizio; m32po@mozilla.net; mdn:m32po
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         J. McNair; J-Mackerel@mozilla.net; mdn:J-Mackerel
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<object>`
 

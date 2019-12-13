@@ -1,6 +1,4 @@
 TOPICS: <time>
-AUTHORS: Xun Morl; xunmorl@mozilla.net; mdn:xunmorl
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<time>`
 

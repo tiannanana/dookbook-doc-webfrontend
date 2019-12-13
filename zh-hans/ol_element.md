@@ -1,8 +1,5 @@
 TOPICS: <ol>
         <li>
-AUTHORS: Dong WEI; FredWe@mozilla.net; mdn:FredWe
-         Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         李杰华; JoshuaLee@mozilla.net; mdn:JoshuaLee
 
 # `<ol>`
 

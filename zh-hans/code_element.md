@@ -1,6 +1,4 @@
 TOPICS: <code>
-AUTHORS: 紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         郭云鹤/Guo Yunhe; guoyunhebrave@mozilla.net; mdn:guoyunhebrave
 
 # `<code>`
 

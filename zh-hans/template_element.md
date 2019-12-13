@@ -1,6 +1,4 @@
 TOPICS: <template>
-AUTHORS: xgqfrms; xgqfrms@github.com; github:xgqfrms
-         Breezewish; Breezewish@mozilla.net; mdn:Breezewish
 
 # `<template>`
 

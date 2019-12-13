@@ -1,6 +1,4 @@
 TOPICS: <noscript>
-AUTHORS: William Jing; monkeykingisback@gmail.com; github:fattypiggy
-         xgqfrms; xgqfrms@github.com; github:xgqfrms
 
 # `<noscript>`
 

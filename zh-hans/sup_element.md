@@ -1,5 +1,4 @@
 TOPICS: <sup>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<sup>`
 

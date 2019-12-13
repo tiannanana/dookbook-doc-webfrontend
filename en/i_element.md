@@ -1,20 +1,4 @@
 TOPICS: <i>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         LaySent; laysent@gmail.com; github:laysent
-         bripmccann; bripmccann@github.com; github:bripmccann
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Carlo Martini; CarloMartini@mozilla.net; mdn:CarloMartini
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<i>`
 

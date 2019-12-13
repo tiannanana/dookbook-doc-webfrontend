@@ -1,14 +1,4 @@
 TOPICS: <var>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # `<var>`
 

@@ -1,18 +1,4 @@
 TOPICS: <bdo>
-AUTHORS: Connor Shea; connor.james.shea@gmail.com; github:connorshea
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Onur Avsar; avsaro@mozilla.net; mdn:avsaro
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         C. Stipkovic; clauber.halic@gmail.com; github:cstipkovic
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<bdo>`
 

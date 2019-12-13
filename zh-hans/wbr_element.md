@@ -1,5 +1,4 @@
 TOPICS: <wbr>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<wbr>`
 

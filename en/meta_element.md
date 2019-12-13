@@ -1,41 +1,4 @@
 TOPICS: <meta>
-AUTHORS: Simon Siefke; simon.siefke@gmail.com; github:SimonSiefke
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         retnikt; _@retnikt.uk; github:retnikt
-         D. Pardal; dd-pardal@github.com; github:dd-pardal
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         David Bruant; bruant.d@gmail.com; github:DavidBruant
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Gregg Virostek; g_viro@mozilla.net; mdn:g_viro
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Alexander Holman; alexanderholman@mozilla.net; mdn:alexanderholman
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Taylor Hunt; tigt@github.com; github:tigt
-         Daniel Abromeit aka Abro; Abromeit@github.com; github:Abromeit
-         Christian Weiske; cweiske@github.com; github:cweiske
-         Greg Venech; gregvenech@mozilla.net; mdn:gregvenech
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Afzaal Ahmad Zeeshan; afzaal_ahmad_zeeshan@mozilla.net; mdn:afzaal_ahmad_zeeshan
-         Andre Sanchez; andrezsanchez@mozilla.net; mdn:andrezsanchez
-         Kyli Rouge; KyliRouge@mozilla.net; mdn:KyliRouge
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Tantek Çelik; tantek@mozilla.net; mdn:tantek
-         Rohit Vighne; rvighne@mozilla.net; mdn:rvighne
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Jamie; JamieT@mozilla.net; mdn:JamieT
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Divya Manian; nimbupani@mozilla.net; mdn:nimbupani
-         Les Orchard; me@lmorchard.com; github:lmorchard
-         Alex; alex@alexj.org; github:alexjohnj
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<meta>`
 

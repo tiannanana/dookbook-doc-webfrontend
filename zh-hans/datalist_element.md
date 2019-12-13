@@ -1,6 +1,4 @@
 TOPICS: <datalist>
-AUTHORS: Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<datalist>`
 

@@ -1,8 +1,4 @@
 TOPICS: <em>
-AUTHORS: Hu XinSen; xinsen.hu@gmail.com; github:huxinsen
-         Bobby; 41377284@qq.com; github:bobo159357456
-         夏凌晨; xgqfrms@mozilla.net; mdn:xgqfrms
-         潘韬; pantao@mozilla.net; mdn:pantao
 
 # `<em>`
 

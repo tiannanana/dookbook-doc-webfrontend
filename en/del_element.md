@@ -1,21 +1,4 @@
 TOPICS: <del>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Fabio Lior Rahamim; fabio.rahamim@mozilla.net; mdn:fabio.rahamim
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Maurizio; m32po@mozilla.net; mdn:m32po
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<del>`
 

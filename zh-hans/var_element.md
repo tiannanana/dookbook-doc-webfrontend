@@ -1,5 +1,4 @@
 TOPICS: <var>
-AUTHORS: Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
 
 # `<var>`
 

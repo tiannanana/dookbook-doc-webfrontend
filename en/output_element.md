@@ -1,25 +1,4 @@
 TOPICS: <output>
-AUTHORS: ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Gerald; geraldfullam@github.com; github:geraldfullam
-         Taylor Hunt; tigt@github.com; github:tigt
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Jan Kühle; frigus02@github.com; github:frigus02
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Claude Pache; claudepache@mozilla.net; mdn:claudepache
-         Daniel Imms; Tyriar@github.com; github:Tyriar
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Marat Tanalin; MTonly@mozilla.net; mdn:MTonly
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         M.S.Rishikesh; msrishikesh@mozilla.net; mdn:msrishikesh
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<output>`
 

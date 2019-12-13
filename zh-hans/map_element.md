@@ -1,7 +1,5 @@
 TOPICS: <map>
         <area>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         purcy; purcyguo@gmail.com; github:guochun
 
 # `<map>`
 

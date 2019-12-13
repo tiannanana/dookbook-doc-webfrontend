@@ -1,5 +1,4 @@
 TOPICS: <strong>
-AUTHORS: Bobby; 41377284@qq.com; github:bobo159357456
 
 # `<strong>`
 

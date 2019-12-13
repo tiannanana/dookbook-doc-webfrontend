@@ -1,26 +1,4 @@
 TOPICS: <cite>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Pam Pierce; PamPierceLearnAboutGreen@github.com; github:PamPierceLearnAboutGreen
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Roy Vanegas; code-warrior@github.com; github:code-warrior
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         John Karahalis; openjck@mozilla.net; mdn:openjck
-         Justin Crawford; hoosteeno@github.com; github:hoosteeno
-         Charmander; charmander@mozilla.net; mdn:charmander
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<cite>`
 

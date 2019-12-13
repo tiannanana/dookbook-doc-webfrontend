@@ -1,8 +1,4 @@
 TOPICS: <base>
-AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         xgqfrms; xgqfrms@github.com; github:xgqfrms
-         itplus; eforegist@github.com; github:eforegist
-         Mengz You; mengzyou@mozilla.net; mdn:mengzyou
 
 # `<base>`
 

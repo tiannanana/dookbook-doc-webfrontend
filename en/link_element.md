@@ -1,38 +1,4 @@
 TOPICS: <link>
-AUTHORS: Mojtaba Javan; javan.mojtaba@gmail.com; github:mrmowji
-         Dominic Farolino; domfarolino@mozilla.net; mdn:domfarolino
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Justin Anthony Knapp; justinkoavf@gmail.com; github:koavf
-         Jordi; jordevo@github.com; github:jordevo
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Emilio Cobos Álvarez; emilio@crisal.io; github:emilio
-         Jwan Khalaf; JwanKhalaf@github.com; github:JwanKhalaf
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Jakub Vrána; vrana@github.com; github:vrana
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Louis Lazaris; impressivewebs@github.com; github:impressivewebs
-         Rory O’Kane; rory@roryokane.com; github:roryokane
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         David Condrey; dcondrey@mozilla.net; mdn:dcondrey
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sam Dutton; samdutton@github.com; github:samdutton
-         Timo Tijhof; krinklemail@gmail.com; github:Krinkle
-         Justin Crawford; hoosteeno@github.com; github:hoosteeno
-         Rob Wu; rob@robwu.nl; github:Rob--W
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Andrew Rota; rota.andrew@gmail.com; github:andrewrota
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Mo; Balfa@github.com; github:Balfa
-         Paul Irish; paul.irish@mozilla.net; mdn:paul.irish
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Benoit; BenoitL@mozilla.net; mdn:BenoitL
 
 # `<link>`
 

@@ -1,21 +1,4 @@
 TOPICS: <track>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Winston Liu; 50Wliu@github.com; github:50Wliu
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Mohamed Moughamir; moughamir@mozilla.net; mdn:moughamir
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Ralph Giles; rillian@mozilla.net; mdn:rillian
-         Kohei Yoshino; kohei.yoshino@mozilla.net; mdn:kohei.yoshino
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Scott Rowe; scottrowe@mozilla.net; mdn:scottrowe
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
 
 # `<track>`
 

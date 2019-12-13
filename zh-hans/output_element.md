@@ -1,5 +1,4 @@
 TOPICS: <output>
-AUTHORS: King; King.@mozilla.net; mdn:King.
 
 # `<output>`
 

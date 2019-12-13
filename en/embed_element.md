@@ -1,21 +1,4 @@
 TOPICS: <embed>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         PaRaDoX; xakep812@rambler.ru; github:PaRaD0XCORP
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Ben Creasy; jcrben@mozilla.net; mdn:jcrben
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<embed>`
 

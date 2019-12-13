@@ -1,24 +1,4 @@
 TOPICS: <source>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Mojtaba Javan; javan.mojtaba@gmail.com; github:mrmowji
-         Justin Anthony Knapp; justinkoavf@gmail.com; github:koavf
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Mattia; equinusocio@mozilla.net; mdn:equinusocio
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Dan Shin; dey.shin@mozilla.net; mdn:dey.shin
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         David Bruant; bruant.d@gmail.com; github:DavidBruant
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Jesper Kristensen; Dikrib@mozilla.net; mdn:Dikrib
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Matthew Gregan; Kinetik@mozilla.net; mdn:Kinetik
 
 # `<source>`
 

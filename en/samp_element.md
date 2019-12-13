@@ -1,23 +1,4 @@
 TOPICS: <samp>
-AUTHORS: Luke Faraone; luke@faraone.cc; github:lfaraone
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Gergan Zhekov; gerganzh@mozilla.net; mdn:gerganzh
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Carlo Martini; CarloMartini@mozilla.net; mdn:CarloMartini
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Eric; 1ace@mozilla.net; mdn:1ace
-         Daniel Imms; Tyriar@github.com; github:Tyriar
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Rory O’Kane; rory@roryokane.com; github:roryokane
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<samp>`
 

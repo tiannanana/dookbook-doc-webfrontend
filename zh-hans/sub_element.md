@@ -1,5 +1,4 @@
 TOPICS: <sub>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<sub>`
 

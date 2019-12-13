@@ -8,60 +8,6 @@ TOPICS: <table>
         <caption>
         <colgroup>
         <col>
-AUTHORS: Simon Speich; speich@github.com; github:speich
-         codingdudecom; codingdudecom@github.com; github:codingdudecom
-         Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Filipus Klutiero; Chealer@mozilla.net; mdn:Chealer
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Taylor Hunt; tigt@github.com; github:tigt
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Sam Eaton; sam_eaton@mozilla.net; mdn:sam_eaton
-         Alex Chao; Alex1990@github.com; github:Alex1990
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Les Orchard; me@lmorchard.com; github:lmorchard
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
-         Renoir Boulanger; renoirb@mozilla.net; mdn:renoirb
-         Christophe Hurpeau; christophe@hurpeau.com; github:christophehurpeau
-         Michael Beckwith; tw2113@github.com; github:tw2113
-         Manuel Strehl; Boldewyn@github.com; github:Boldewyn
-         Ryan Grove; yaypie@mozilla.net; mdn:yaypie
-         Tzu-Hsuan (TH) Huang; thhuang@github.com; github:thhuang
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Nick Shvelidze; captain@pirrate.me; github:shvelo
-         sorawee; sorawee@github.com; github:sorawee
-         JIM Taylor; jimtaylor1974@github.com; github:jimtaylor1974
-         Daniel D. Beck; daniel@ddbeck.com; github:ddbeck
-         aceman; aceman-bugzilla@mozilla.net; mdn:aceman-bugzilla
-         Albert Wiersch; HTMLValidator@mozilla.net; mdn:HTMLValidator
-         Irene Smith; ismith@mozilla.com; github:irenesmith
-         Sean Macdonald; sean@crazyhorsecoding.com; github:sean9999
-         Matt Brubeck; mbrubeck@limpet.net; github:mbrubeck
-         ishita; ishita@github.com; github:ishita
-         aceman; aceman-bugzilla@mozilla.net; mdn:aceman-bugzilla
-         Pam Pierce; PamPierceLearnAboutGreen@github.com; github:PamPierceLearnAboutGreen
-         David Rogers AKA "AL the X"; al-the-x@github.com; github:al-the-x
-         Kushal; kushal.developer@gmail.com; github:9034725985
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Yihang Ho; yihangho@mozilla.net; mdn:yihangho
-         codeboyim; me@codeboy.im; github:me@codeboy.im
-         Mo; Balfa@github.com; github:Balfa
-         Hawken Rives; hawkrives@mozilla.net; mdn:hawkrives
-         Fuqiao Xue; xfq@mozilla.net; mdn:xfq
-         Peter; pwdst@mozilla.net; mdn:pwdst
 
 # `<table>`
 

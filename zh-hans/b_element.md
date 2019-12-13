@@ -1,7 +1,4 @@
 TOPICS: <b>
-AUTHORS: kite-js; kite-js@gmail.com; github:kite-js
-         Liu; i@lc-soft.io; github:lc-soft
-         庄引; zhuangyin8@gmail.com; github:zhuangyin8
 
 # `<b>`
 

@@ -1,27 +1,4 @@
 TOPICS: <base>
-AUTHORS: Taylor Hunt; tigt@github.com; github:tigt
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Lucas Lombardo; LucasLombardo@github.com; github:LucasLombardo
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Teoli; teoli@mozilla.net; mdn:teoli
-         DYM; noformnocontent@mozilla.net; mdn:noformnocontent
-         Mary; marymar@mozilla.net; mdn:marymar
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Renoir Boulanger; renoirb@mozilla.net; mdn:renoirb
-         sotos; sroskylo@github.com; github:sroskylo
-         Joe Medley; jmedley@chromium.org;github:jpmedley
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Rodney Rehm; rodneyrehm@github.com; github:rodneyrehm
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Masahiko Imanaka; marsf@github.com; github:marsf
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<base>`
 

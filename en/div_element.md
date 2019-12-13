@@ -1,15 +1,4 @@
 TOPICS: <div>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<div>`
 

@@ -1,7 +1,4 @@
 TOPICS: <video>
-AUTHORS: Zion Dotson; Blackman99@github.com; github:Blackman99
-         S; soyaine@github.com; github:soyaine
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<video>`
 

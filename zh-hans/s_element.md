@@ -1,5 +1,4 @@
 TOPICS: <s>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<s>`
 

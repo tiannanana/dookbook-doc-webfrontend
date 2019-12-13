@@ -1,5 +1,4 @@
 TOPICS: <slot>
-AUTHORS: 夏凌晨; xgqfrms@mozilla.net; mdn:xgqfrms
 
 # `<slot>`
 

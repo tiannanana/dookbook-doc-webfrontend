@@ -1,21 +1,4 @@
 TOPICS: <span>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         叶世清; PageYe@mozilla.net; mdn:PageYe
-         Taylor Hunt; tigt@github.com; github:tigt
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Pablo Alejandro Fiumara; pablo.fiumara@gmail.com; github:pablofiumara
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<span>`
 

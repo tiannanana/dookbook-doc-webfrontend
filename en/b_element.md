@@ -1,20 +1,4 @@
 TOPICS: <b>
-AUTHORS: Chris Ashton; ChrisBAshton@github.com; github:ChrisBAshton
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Carlo Martini; CarloMartini@mozilla.net; mdn:CarloMartini
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Onur Avsar; avsaro@mozilla.net; mdn:avsaro
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<b>`
 
