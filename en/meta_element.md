@@ -13,7 +13,7 @@ elements, like [`<base>`](/en/webfrontend/<base>), [`<link>`](/en/webfrontend/<l
 | **Content categories** | Metadata content. If the itemprop attribute is present: flow content, phrasing content.
 | **Permitted content** | None, it is an empty element.
 | **Tag omission** | As it is a void element, the start tag must be present and the end tag must not be present.
-| **Permitted parents** | `<meta charset>`,`<meta http-equiv>`: a [`<head>`](/en/webfrontend/<head>) element. If the http-equiv is not an encoding declaration, it can also be inside a [`<noscript>`](/en/webfrontend/<noscript>) element, itself inside a [`<head>`](/en/webfrontend/<head>) element.
+| **Permitted parents** | `<meta charset>`,`<meta http-equiv>`: a [`<head>`](/en/webfrontend/<head>) element. If the `http-equiv` is not an encoding declaration, it can also be inside a [`<noscript>`](/en/webfrontend/<noscript>) element, itself inside a [`<head>`](/en/webfrontend/<head>) element.
 | **Permitted ARIA roles** | None
 | **DOM interface** | `HTMLMetaElement`
 
