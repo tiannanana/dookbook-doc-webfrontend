@@ -1,41 +1,6 @@
 TOPICS: <select>
         <option>
         <optgroup>
-AUTHORS: Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Kasper; kaspergotcha@mozilla.net; mdn:kaspergotcha
-         Taylor Hunt; tigt@github.com; github:tigt
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Rory O’Kane; rory@roryokane.com; github:roryokane
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Spencer Williams; enderandpeter@mozilla.net; mdn:enderandpeter
-         Praveen Puglia; praveenpuglia@mozilla.net; mdn:praveenpuglia
-         David Ross; bunnybooboo@github.com; github:bunnybooboo
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Michiel Renty; mrenty@mozilla.net; mdn:mrenty
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Stefan W; Foo@mozilla.net; mdn:Foo
-         Tyler Childs; tylerchilds@github.com; github:tylerchilds
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
-         Les Orchard; me@lmorchard.com; github:lmorchard
-         Patrick Wied; pa7@mozilla.net; mdn:pa7
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Gaurang Patel; g-patel@github.com; github:g-patel
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Akash Agrawal; akagr@outlook.com; github:akagr
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Christian Sonne; cers@mozilla.net; mdn:cers
 
 # `<select>`
 
@@ -74,7 +39,7 @@ For further examples, see The native form widgets: Drop-down content.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

@@ -1,27 +1,5 @@
 TOPICS: <fieldset>
         <legend>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Yuusaku Miyazaki; toumin.m7@gmail.com; github:sutara79
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Taylor Hunt; tigt@github.com; github:tigt
-         David Ross; bunnybooboo@github.com; github:bunnybooboo
-         一丝; yisibl@mozilla.net; mdn:yisibl
-         Tom Morris; tommorris@mozilla.net; mdn:tommorris
-         Jonathan Allard; jonathan@allard.io; github:joallard
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<fieldset>`
 
@@ -37,7 +15,7 @@ even if it is not nested inside it, and disabled, which allows you to disable th
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

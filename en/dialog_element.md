@@ -1,23 +1,4 @@
 TOPICS: <dialog>
-AUTHORS: Brendan Quinn; quinn.197@gmail.com; github:Mathdrquinn
-         Gan Eng Chin; ecgan@mozilla.net; mdn:ecgan
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Luis Faría; faria.luis.d@gmail.com; github:luisdfp
-         Taylor Hunt; tigt@github.com; github:tigt
-         Milan Raj; rajsite@mozilla.net; mdn:rajsite
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Andrew C. Dvorak; andy@andydvorak.net; github:acdvorak
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Emil; thatemil@mozilla.net; mdn:thatemil
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Edwin Cosme Mercado; edwinmdn1@mozilla.net; mdn:edwinmdn1
-         Filipus Klutiero; Chealer@mozilla.net; mdn:Chealer
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Oleg Torbasow; torbasow@mozilla.net; mdn:torbasow
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Lucien Greathouse; LPGhatguy@mozilla.net; mdn:LPGhatguy
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
 
 # `<dialog>`
 
@@ -35,7 +16,7 @@ such as an inspector or window.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 The tabindex attribute must not be used on the `<dialog>` element.
 
 | Attribute | Description |

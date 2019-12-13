@@ -3,29 +3,6 @@ TOPICS: <ruby>
         <rt>
         <rb>
         <rtc>
-AUTHORS: ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Makoto Kato; mkato@mozilla.net; mdn:mkato
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Ali; alispivak@mozilla.net; mdn:alispivak
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Onur Avsar; avsaro@mozilla.net; mdn:avsaro
-         Towkir Ahmed; towkir17@mozilla.net; mdn:towkir17
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Aleksey Shvayka; shvaikalesh@mozilla.net; mdn:shvaikalesh
-         Inkbug; Inkbug@github.com; github:Inkbug
 
 # `<ruby>`
 
@@ -43,7 +20,7 @@ pronunciation of East Asian characters.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes)
 
 ## `<rp>`
 

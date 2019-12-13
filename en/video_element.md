@@ -1,38 +1,4 @@
 TOPICS: <video>
-AUTHORS: Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Joé Jemmely; joe.jemmely@mozilla.net; mdn:joe.jemmely
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Irene Smith; ismith@mozilla.com; github:irenesmith
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Zane; ZaneHannanAU@mozilla.net; mdn:ZaneHannanAU
-         Ben Wiley; benwiley4000@github.com; github:benwiley4000
-         Yahya Elharony; yahya@elharony.com; github:elharony
-         Grivel-l; leogrivel@protonmail.com; github:Grivel-l
-         oh; tcmal@github.com; github:tcmal
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Tushar Vaghela; tusharv@mozilla.net; mdn:tusharv
-         Trond Kjetil Bremnes; tkbremnes@mozilla.net; mdn:tkbremnes
-         Chris Fullman; chrisfullman@mozilla.net; mdn:chrisfullman
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Michiel Renty; mrenty@mozilla.net; mdn:mrenty
-         Taylor Hunt; tigt@github.com; github:tigt
-         Rolfe Dlugy-Hegwer; rolfedh@github.com; github:rolfedh
-         dul; dulwebid@mozilla.net; mdn:dulwebid
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jesper Kristensen; Dikrib@mozilla.net; mdn:Dikrib
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Karl Dubost; karlcow@github.com; github:karlcow
-         Benoit; BenoitL@mozilla.net; mdn:BenoitL
 
 # `<video>`
 
@@ -80,7 +46,7 @@ Video and audio content beginner's tutorial.
 
 ## Attributes
 
-Like all other HTML elements, this element supports the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+Like all other HTML elements, this element supports the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

@@ -1,30 +1,4 @@
 TOPICS: <textarea>
-AUTHORS: Lucas Werkmeister; mail@lucaswerkmeister.de; github:lucaswerkmeister
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Arthur Ogawa; ArthurOgawa@github.com; github:ArthurOgawa
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Marco van den Hout; mvdhout@mozilla.net; mdn:mvdhout
-         Tang Yun; ntutangyun@gmail.com; github:ntutangyun
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
-         Claude Pache; claudepache@mozilla.net; mdn:claudepache
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Ali; alispivak@mozilla.net; mdn:alispivak
-         Theodore Brown; theodorejb@github.com; github:theodorejb
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Anders G. Jørgensen; Spirit55555@mozilla.net; mdn:Spirit55555
-         Ward Muylaert; ward@mozilla.net; mdn:ward
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
 
 # `<textarea>`
 
@@ -56,7 +30,7 @@ such as `autocomplete`, `autofocus`, `disabled`, `placeholder`, `readonly`, and 
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

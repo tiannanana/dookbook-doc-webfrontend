@@ -20,7 +20,7 @@ HTML `<header>` 元素用于展示**介绍性内容**，通常包含一组*介�
 
 ## 属性
 
-此元素仅拥有 *全局属性*。
+此元素仅拥有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

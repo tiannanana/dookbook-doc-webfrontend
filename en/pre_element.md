@@ -1,19 +1,4 @@
 TOPICS: <pre>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         AJ Jordan; Strugee Strugee@mozilla.net; mdn:Strugee
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Taylor Hunt; tigt@github.com; github:tigt
-         Jim Holby; jamesdholby@gmail.com; github:Jimmerz28
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<pre>`
 
@@ -32,7 +17,7 @@ font. Whitespace inside this element is displayed as written.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

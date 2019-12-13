@@ -1,7 +1,4 @@
 TOPICS: <blockquote>
-AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         潘韬; pantao@mozilla.net; mdn:pantao
-         Li Xipeng; lisnb@mozilla.net; mdn:lisnb
 
 # HTML 块级引用元素: `<blockquote>`
 

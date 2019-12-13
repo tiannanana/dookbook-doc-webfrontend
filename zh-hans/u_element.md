@@ -1,5 +1,4 @@
 TOPICS: <u>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<u>`
 
@@ -20,7 +19,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 ## 属性
 
-这个元素仅包含全局属性。
+这个元素仅包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 使用说明
 

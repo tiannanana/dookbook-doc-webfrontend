@@ -1,21 +1,4 @@
 TOPICS: <template>
-AUTHORS: Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         hinell; al.neodim@gmail.com; github:hinell
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Connor Lanigan; dev@connorlanigan.com; github:connorlanigan
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Ariel Viera; ariel.viera@gmail.com; github:avierax
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Thomas Tortorini; Mr21@mozilla.net; mdn:Mr21
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Rouven Weßling; realityking@github.com; github:realityking
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
 
 # `<template>`
 
@@ -38,7 +21,7 @@ it does so only to ensure that those contents are valid; the element's contents 
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Examples
 

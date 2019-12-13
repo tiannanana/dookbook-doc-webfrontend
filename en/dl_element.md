@@ -172,7 +172,7 @@ dt::after {
 
 WHATWG HTML allows wrapping each name-value group in a `<dl>` element in a
 [`<div>`](/en/webfrontend/<div>) element.
-This can be useful when using microdata, or when [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)
+This can be useful when using microdata, or when [global attributes](/en/webfrontend/HTML_Global_Attributes)
 apply to a whole group, or for styling purposes.
 
 ```html

@@ -1,7 +1,5 @@
 TOPICS: <figcaption>
         <figure>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
 
 # `<figcaption>`
 
@@ -18,7 +16,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 ## 属性
 
-仅仅包含 全局属性
+仅仅包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)
 
 ## `<figure>`
 

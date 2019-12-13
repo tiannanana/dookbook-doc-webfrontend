@@ -1,5 +1,4 @@
 TOPICS: <span>
-AUTHORS: King; King.@mozilla.net; mdn:King.
 
 # `<span>`
 
@@ -17,7 +16,7 @@ AUTHORS: King; King.@mozilla.net; mdn:King.
 
 ## 属性
 
-该元素仅包含 全局属性。
+该元素仅包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

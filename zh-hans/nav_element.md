@@ -1,7 +1,4 @@
 TOPICS: <nav>
-AUTHORS: ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
-         石博文; bowen-shi@mozilla.net; mdn:bowen-shi
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # HTML导航元素: `<nav>`
 
@@ -18,7 +15,7 @@ AUTHORS: ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
 
 ## 属性
 
-这个元素只包含全局属性.
+这个元素只包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 ## 使用说明
 

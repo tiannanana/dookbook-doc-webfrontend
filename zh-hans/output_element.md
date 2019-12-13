@@ -1,5 +1,4 @@
 TOPICS: <output>
-AUTHORS: King; King.@mozilla.net; mdn:King.
 
 # `<output>`
 
@@ -16,7 +15,7 @@ AUTHORS: King; King.@mozilla.net; mdn:King.
 
 ## 属性
 
-这个标签具有 全局属性。
+这个标签具有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

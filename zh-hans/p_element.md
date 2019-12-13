@@ -1,6 +1,4 @@
 TOPICS: <p>
-AUTHORS: Zhou Yuanda; yd.zhou@foxmail.com; github:Adashuai5
-         Dong WEI; FredWe@mozilla.net; mdn:FredWe
 
 # `<p>`
 
@@ -16,7 +14,7 @@ AUTHORS: Zhou Yuanda; yd.zhou@foxmail.com; github:Adashuai5
 
 ## 属性
 
-这个元素包含全局属性。
+这个元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 `<p>` 元素的 `align` 属性已被弃用，请不要使用。
 

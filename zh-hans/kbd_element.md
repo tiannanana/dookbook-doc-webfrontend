@@ -6,7 +6,7 @@ HTML键盘输入元素(**`<kbd>`**) 用于表示用户输入，它将产生一�
 
 ## 属性
 
-该元素仅支持全局属性.
+该元素仅支持[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 ## 示例
 

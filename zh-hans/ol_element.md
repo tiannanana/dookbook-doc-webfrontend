@@ -1,8 +1,5 @@
 TOPICS: <ol>
         <li>
-AUTHORS: Dong WEI; FredWe@mozilla.net; mdn:FredWe
-         Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         李杰华; JoshuaLee@mozilla.net; mdn:JoshuaLee
 
 # `<ol>`
 
@@ -19,7 +16,7 @@ AUTHORS: Dong WEI; FredWe@mozilla.net; mdn:FredWe
 
 ## 属性
 
-这个元素包含 全局属性.
+这个元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |

@@ -1,6 +1,4 @@
 TOPICS: <i>
-AUTHORS: Mike Chen; ranwu@mozilla.net; mdn:ranwu
-         潘韬; pantao@mozilla.net; mdn:pantao
 
 # `<i>`
 
@@ -8,7 +6,7 @@ AUTHORS: Mike Chen; ranwu@mozilla.net; mdn:ranwu
 
 ## 属性
 
-该元素只包含 全局属性。
+该元素只包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

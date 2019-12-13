@@ -1,5 +1,4 @@
 TOPICS: <strong>
-AUTHORS: Bobby; 41377284@qq.com; github:bobo159357456
 
 # `<strong>`
 
@@ -15,7 +14,7 @@ Strong 元素 (`<strong>`)表示文本十分重要，一般用粗体显示。
 
 ## 属性
 
-只具有全局属性.
+只具有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 ## 示例
 

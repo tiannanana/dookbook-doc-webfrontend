@@ -1,17 +1,4 @@
 TOPICS: <small>
-AUTHORS: Taylor Hunt; tigt@github.com; github:tigt
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<small>`
 
@@ -31,7 +18,7 @@ independent of its styled presentation.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     **Implementation note:** up to Gecko 1.9.2 inclusive, Firefox implements the

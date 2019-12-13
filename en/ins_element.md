@@ -1,18 +1,4 @@
 TOPICS: <ins>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Maurizio; m32po@mozilla.net; mdn:m32po
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<ins>`
 
@@ -31,7 +17,7 @@ range of text that has been deleted from the document.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

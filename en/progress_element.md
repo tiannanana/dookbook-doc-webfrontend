@@ -1,31 +1,4 @@
 TOPICS: <progress>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Scott O'Hara; scottaohara@github.com; github:scottaohara
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Chris Rebert; cvrebert@mozilla.net; mdn:cvrebert
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Blixa Morgan; MrMakeIt@mozilla.net; mdn:MrMakeIt
-         Claude Pache; claudepache@mozilla.net; mdn:claudepache
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Peter; pwdst@mozilla.net; mdn:pwdst
-         Kumar Harsh; khs@mozilla.net; mdn:khs
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Pablo Terradillos; tehsis@github.com; github:tehsis
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Gordon P. Hemsley; GPHemsley@mozilla.net; mdn:GPHemsley
-         Yann Brelière; Yann Dìnendal@mozilla.net; mdn:Yann Dìnendal
 
 # `<progress>`
 
@@ -43,7 +16,7 @@ typically displayed as a progress bar.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

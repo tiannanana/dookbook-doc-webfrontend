@@ -1,26 +1,4 @@
 TOPICS: <abbr>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Rory O’Kane; rory@roryokane.com; github:roryokane
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Ryan Scheel; Havvy@github.com; github:Havvy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Slashcat; Slashcat@mozilla.net; mdn:Slashcat
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Charmander; charmander@mozilla.net; mdn:charmander
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Berker Peksag; berker.peksag@gmail.com; github:berkerpeksag
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<abbr>`
 
@@ -39,7 +17,7 @@ contain this full description and nothing else.
 
 ## Attributes
 
-This element only supports the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only supports the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 The `title` attribute has a specific semantic
 meaning when used with the `<abbr>` element; it must contain a full human-readable description or
 expansion of the abbreviation. This text is often presented by browsers as a tooltip when the mouse

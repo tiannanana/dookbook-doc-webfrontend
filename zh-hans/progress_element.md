@@ -1,7 +1,4 @@
 TOPICS: <progress>
-AUTHORS: Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
 
 # `<progress>`
 
@@ -16,7 +13,7 @@ AUTHORS: Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 ## 属性
 
-和其他的HTML元素一样,该元素具有全局属性.
+和其他的HTML元素一样,该元素具有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |

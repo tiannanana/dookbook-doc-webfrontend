@@ -1,7 +1,4 @@
 TOPICS: <audio>
-AUTHORS: RoXoM; xyy94813@gmail.com; github:xyy94813
-         George Cheng; Gerhut@GMail.com; github:Gerhut
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<audio>`
 
@@ -21,7 +18,7 @@ HTML `<audio>` 元素用于在文档中表示音频内容。 `<audio>` 元素可
 
 ## 属性
 
-该元素包含 全局属性。
+该元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

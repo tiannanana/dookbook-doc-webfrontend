@@ -1,24 +1,4 @@
 TOPICS: <menu>
-AUTHORS: ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Grzegorz Zapała; zapala.grzegorz@gmail.com; github:zapalagrzegorz
-         Mattia; equinusocio@mozilla.net; mdn:equinusocio
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Jakub Fiala; jakubfiala@mozilla.net; mdn:jakubfiala
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Влад; ifantom@mozilla.net; mdn:ifantom
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
-         Anthony; crazytonyi@mozilla.net; mdn:crazytonyi
-         João Tomás; Syle91@mozilla.net; mdn:Syle91
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Florian Bender; fbender@mozilla.net; mdn:fbender
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Yann Brelière; Yann Dìnendal@mozilla.net; mdn:Yann Dìnendal
 
 # `<menu>`
 
@@ -41,7 +21,7 @@ such as those that might appear underneath a button after it has been clicked.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

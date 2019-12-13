@@ -1,8 +1,4 @@
 TOPICS: <em>
-AUTHORS: Hu XinSen; xinsen.hu@gmail.com; github:huxinsen
-         Bobby; 41377284@qq.com; github:bobo159357456
-         夏凌晨; xgqfrms@mozilla.net; mdn:xgqfrms
-         潘韬; pantao@mozilla.net; mdn:pantao
 
 # `<em>`
 
@@ -10,7 +6,7 @@ HTML 着重元素 (**`<em>`**) 标记出需要用户着重阅读的内容， `<e
 
 ## 属性
 
-此元素只包括全局属性。
+此元素只包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

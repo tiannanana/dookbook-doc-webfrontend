@@ -15,7 +15,7 @@ HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不�
 
 ## 属性
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
    Note: the attribute `name` has a specific meaning for the `<meta>` element, and the

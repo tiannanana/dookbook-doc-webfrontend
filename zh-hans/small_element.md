@@ -1,5 +1,4 @@
 TOPICS: <small>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 # `<small>`
 
@@ -16,7 +15,7 @@ HTML 中的`<small>`元素將使文本的字体变小一号。(例如从大变�
 
 ## 属性
 
-这个元素只有全局属性。
+这个元素只有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

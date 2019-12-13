@@ -1,29 +1,4 @@
 TOPICS: <label>
-AUTHORS: Greg Price; gnprice@github.com; github:gnprice
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Foluso; Foluso@mozilla.net; mdn:Foluso
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Roger Pence; roger.pence@gmail.com; github:rogerpence
-         Bradley Flood; bradleyflood@github.com; github:bradleyflood
-         Teoli; teoli@mozilla.net; mdn:teoli
-         David Ross; bunnybooboo@github.com; github:bunnybooboo
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Javier Sánchez Mendoza; javier1nc@github.com; github:javier1nc
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Oleg Torbasow; torbasow@mozilla.net; mdn:torbasow
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Tom; tshinnic@mozilla.net; mdn:tshinnic
-         Viktor Zozuliak; zuzusik@mozilla.net; mdn:zuzusik
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<label>`
 
@@ -63,7 +38,7 @@ click event is also raised for the associated control.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

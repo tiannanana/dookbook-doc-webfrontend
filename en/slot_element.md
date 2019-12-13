@@ -1,11 +1,4 @@
 TOPICS: <slot>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Taylor Hunt; tigt@github.com; github:tigt
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Henri Manson; Hfmanson@mozilla.net; mdn:Hfmanson
 
 # `<slot>`
 
@@ -25,7 +18,7 @@ trees and present them together.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

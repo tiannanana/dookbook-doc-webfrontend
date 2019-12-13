@@ -1,6 +1,4 @@
 TOPICS: <embed>
-AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
 
 # `<embed>`
 
@@ -13,7 +11,7 @@ HTML `<embed>` 元素将外部内容嵌入文档中的指定位置。此内容�
 
 ## 属性
 
-这个元素的属性包括 全局属性。
+这个元素的属性包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

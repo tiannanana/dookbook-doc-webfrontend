@@ -1,27 +1,4 @@
 TOPICS: <time>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         albert; jalbertbowden@gmail.com; github:jalbertbowden
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Crystal Yungwirth; crystal-dawn@github.com; github:crystal-dawn
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Anton Ingfors; antoningfors@github.com; github:antoningfors
-         Teoli; teoli@mozilla.net; mdn:teoli
-         John Jago; hello@johnjago.com; github:johnjago
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Michiel Renty; mrenty@mozilla.net; mdn:mrenty
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Sami Jaktholm; sjakthol@mozilla.net; mdn:sjakthol
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Mahdi Dibaiee; mdibaiee@pm.me; github:mdibaiee
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         Makoto Kato; mkato@mozilla.net; mdn:mkato
-         Soki Briggs; Briggz5d@mozilla.net; mdn:Briggz5d
-         Onur Avsar; avsaro@mozilla.net; mdn:avsaro
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<time>`
 
@@ -46,7 +23,7 @@ It may represent one of the following:
 
 ## Attributes
 
-Like all other HTML elements, this element supports the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+Like all other HTML elements, this element supports the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

@@ -1,11 +1,5 @@
 TOPICS: <form>
         <input>
-AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         Xu Jianxiang; xjxtju@163.com; github:Alfxjx
-         地上马; linjialiang@163.com; github:linjialiang
-         Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         Dong WEI; FredWe@mozilla.net; mdn:FredWe
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<form>`
 
@@ -23,7 +17,7 @@ AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSl
 
 ## 属性
 
-这个元素包括一些 全局属性.
+这个元素包括一些[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |

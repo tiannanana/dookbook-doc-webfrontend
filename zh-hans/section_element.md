@@ -1,7 +1,4 @@
 TOPICS: <section>
-AUTHORS: 许振涛; Annlix@mozilla.net; mdn:Annlix
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
-         ZoomZhao; zoom.zhao@gmail.com; github:ZoomZhao
 
 # `<section>`
 
@@ -23,7 +20,7 @@ AUTHORS: 许振涛; Annlix@mozilla.net; mdn:Annlix
 
 ## 属性
 
-此元素只包含全局属性
+此元素只包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)
 
 ## 使用说明
 

@@ -1,17 +1,4 @@
 TOPICS: <s>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Connor Shea; connor.james.shea@gmail.com; github:connorshea
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Vlad Filippov; vladikoff@github.com; github:vladikoff
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # `<s>`
 
@@ -31,7 +18,7 @@ appropriate when indicating document edits; for that, use the
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     **Implementation note**: Up to Gecko 1.9.2 inclusive, Firefox implements the `HTMLSpanElement`

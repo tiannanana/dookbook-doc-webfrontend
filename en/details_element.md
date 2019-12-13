@@ -1,29 +1,5 @@
 TOPICS: <details>
         <summary>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Schalk Neethling; schalkneethling@mozilla.net; mdn:schalkneethling
-         Taylor Hunt; tigt@github.com; github:tigt
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Fuqiao Xue; xfq@mozilla.net; mdn:xfq
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Oliver Isenrich; Oliver.Isenrich.dev@gmail.com; github:IsenrichO
-         Cody Ogden; cody@codyogden.com; github:codyogden
-         Ting-Yu Lin; Tingyu@mozilla.net; mdn:Tingyu
-         Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
-         Samuel Nord; mrsonord@github.com; github:mrsonord
 
 # `<details>`
 
@@ -73,7 +49,7 @@ See Customizing the disclosure widget for further details.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

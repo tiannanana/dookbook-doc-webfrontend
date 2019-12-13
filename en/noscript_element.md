@@ -1,15 +1,4 @@
 TOPICS: <noscript>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Pikadude No. 1; PikadudeNo1@github.com; github:PikadudeNo1
-         Christian Sonne; cers@mozilla.net; mdn:cers
 
 # `<noscript>`
 
@@ -27,7 +16,7 @@ page is unsupported or if scripting is currently turned off in the browser.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ```html
 <noscript>

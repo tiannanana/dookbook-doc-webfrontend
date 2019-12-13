@@ -1,41 +1,4 @@
 TOPICS: <script>
-AUTHORS: ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Mojtaba Javan; javan.mojtaba@gmail.com; github:mrmowji
-         Victor Paolo C. Reyes; preyes323@github.com; github:preyes323
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Trent; tbillington@github.com; github:tbillington
-         Wasim Hossain; wascloud@github.com; github:wascloud
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Fuqiao Xue; xfq@mozilla.net; mdn:xfq
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Milan Raj; rajsite@mozilla.net; mdn:rajsite
-         Philipp A.; flying-sheep@web.de; github:flying-sheep
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Yue Wu; tiancaiwuyue@mozilla.net; mdn:tiancaiwuyue
-         Marc-Aurèle DARCHE; madarche@github.com; github:madarche
-         Timo Tijhof; krinklemail@gmail.com; github:Krinkle
-         Oleg Torbasow; torbasow@mozilla.net; mdn:torbasow
-         PhistucK; phistuck@mozilla.net; mdn:phistuck
-         Vlad GURDIGA; gurdiga@gmail.com; github:gurdiga
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Mike Whitfield; mgwhitfield@mozilla.net; mdn:mgwhitfield
-         Florian Bender; fbender@mozilla.net; mdn:fbender
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         luke; Luke314@mozilla.net; mdn:Luke314
-         Syrian; Syrian-Guy@mozilla.net; mdn:Syrian-Guy
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Chris Adams; chris@improbable.org; github:acdha
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Paul Irish; paul.irish@mozilla.net; mdn:paul.irish
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Jonas Sicking; sicking@mozilla.net; mdn:sicking
-         Kris Maglione; kmaglione@mozilla.net; mdn:kmaglione
 
 # `<script>`
 
@@ -54,7 +17,7 @@ languages, such as WebGL's GLSL shader programming language.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

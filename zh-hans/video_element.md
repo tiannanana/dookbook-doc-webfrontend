@@ -1,7 +1,4 @@
 TOPICS: <video>
-AUTHORS: Zion Dotson; Blackman99@github.com; github:Blackman99
-         S; soyaine@github.com; github:soyaine
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<video>`
 
@@ -34,7 +31,7 @@ Adding captions and subtitles to HTML5 video。
 
 ## 属性
 
-就像其他的HTML元素一样，这个元素也同样支持全局属性。
+就像其他的HTML元素一样，这个元素也同样支持[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

@@ -1,16 +1,4 @@
 TOPICS: <picture>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Mojtaba Javan; javan.mojtaba@gmail.com; github:mrmowji
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Taylor Hunt; tigt@github.com; github:tigt
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Patrik Affentranger; hello@patrikaffentranger.me; github:pzi
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Teoli; teoli@mozilla.net; mdn:teoli
-         一丝; yisibl@mozilla.net; mdn:yisibl
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Rouven Weßling; realityking@github.com; github:realityking
 
 # `<picture>`
 
@@ -45,7 +33,7 @@ versions in data-saving modes, and you don't have to write explicit media condit
 
 ## Attributes
 
-This element includes only [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes only [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

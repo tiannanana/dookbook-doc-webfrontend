@@ -1,11 +1,6 @@
 TOPICS: <select>
         <option>
         <optgroup>
-AUTHORS: King; King.@mozilla.net; mdn:King.
-         Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         Judy; pavilion2t@github.com; github:pavilion2t
-         DUHUAZHI; DUHZ@mozilla.net; mdn:DUHZ
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<select>`
 
@@ -13,7 +8,7 @@ AUTHORS: King; King.@mozilla.net; mdn:King.
 
 ## 属性
 
-包括下列全局属性。
+包括下列[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

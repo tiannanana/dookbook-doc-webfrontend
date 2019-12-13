@@ -1,53 +1,4 @@
 TOPICS: <iframe>
-AUTHORS: Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Taylor Hunt; tigt@github.com; github:tigt
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         エヌユル; ncaq@mozilla.net; mdn:ncaq
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Laria; laria@laria.me; github:silvasur
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Pool; JonathanPool@mozilla.net; mdn:JonathanPool
-         Benjamin Wiley Sittler; bsittler@mozilla.net; mdn:bsittler
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Scott O'Hara; scottaohara@github.com; github:scottaohara
-         Joe Medley; jmedley@chromium.org; github:jpmedley
-         Mori; mori79@gmail.com; github:Mori79
-         Winston Liu; 50Wliu@github.com; github:50Wliu
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Claude Pache; claudepache@mozilla.net; mdn:claudepache
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Jonathan Watt; Jonathan_Watt@mozilla.net; mdn:Jonathan_Watt
-         James M. Greene; JamesGreene@mozilla.net; mdn:JamesGreene
-         Duncan McDonald; duncanmcdonald@mozilla.net; mdn:duncanmcdonald
-         Rob Wu; rob@robwu.nl; github:Rob--W
-         Arindam Ganguly; technoAri@mozilla.net; mdn:technoAri
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
-         HUAJAY; huajay99@mozilla.net; mdn:huajay99
-         David Dorward; Dorward@mozilla.net; mdn:Dorward
-         Diane Montana; dmon2013@mozilla.net; mdn:dmon2013
-         Bruno Heridet; delapouite@gmail.com; github:Delapouite
-         PhistucK; phistuck@mozilla.net; mdn:phistuck
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Pablo Alejandro Fiumara; pablo.fiumara@gmail.com; github:pablofiumara
-         Mathias Bynens; mathiasbynens@mozilla.net; mdn:mathiasbynens
-         Paul Irish; paul.irish@mozilla.net; mdn:paul.irish
-         Chaitanya GSNR; ChaitanyaGSNR@mozilla.net; mdn:ChaitanyaGSNR
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Daniel Hug; daniel@hugwebdesign.com; github:Daniel-Hug
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Johan Sundström; johan@mozilla.net; mdn:johan
-         Gavin Kistner; Phrogz@mozilla.net; mdn:Phrogz
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<iframe>`
 
@@ -74,7 +25,7 @@ no parent — is usually the browser window, represented by the Window object.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

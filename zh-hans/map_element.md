@@ -1,7 +1,5 @@
 TOPICS: <map>
         <area>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         purcy; purcyguo@gmail.com; github:guochun
 
 # `<map>`
 
@@ -17,7 +15,7 @@ HTML `<map>` 属性 与 `<area>` 属性一起使用来定义一个图像映射(�
 
 ## 属性
 
-这个元素拥有全局属性。
+这个元素拥有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

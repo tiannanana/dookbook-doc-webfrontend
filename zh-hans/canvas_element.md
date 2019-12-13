@@ -1,8 +1,4 @@
 TOPICS: <canvas>
-AUTHORS: Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
-         潘韬; pantao@mozilla.net; mdn:pantao
-         King; King.521@mozilla.net; mdn:King.521
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<canvas>`
 
@@ -12,7 +8,7 @@ AUTHORS: Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
 
 ## 属性
 
-本元素支持 全局属性.
+本元素支持 [全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |

@@ -1,19 +1,4 @@
 TOPICS: <hgroup>
-AUTHORS: Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Patrick Dark; Patrick_Dark@mozilla.net; mdn:Patrick_Dark
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<hgroup>`
 
@@ -31,7 +16,7 @@ It groups a set of [`<h1>`](/en/webfrontend/<h1>)–[`<h6>`](/en/webfrontend/<h6
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

@@ -1,22 +1,4 @@
 TOPICS: <p>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Taylor Hunt; tigt@github.com; github:tigt
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Christina; shoelaces@mozilla.net; mdn:shoelaces
-         David Ross; bunnybooboo@github.com; github:bunnybooboo
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Pablo Alejandro Fiumara; pablo.fiumara@gmail.com; github:pablofiumara
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # `<p>`
 
@@ -38,7 +20,7 @@ block-level element is parsed before the closing `</p>` tag. See “**Tag omissi
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     Note: The `align` attribute on `<p>` TOPICS is obsolete and shouldn't be used.

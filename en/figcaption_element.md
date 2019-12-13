@@ -1,24 +1,5 @@
 TOPICS: <figcaption>
         <figure>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Vikash Agrawal; Vikash@mozilla.net; mdn:Vikash
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Ebere Uzodufa; EbereUzodufa@github.com; github:EbereUzodufa
-         庄引; zhuangyin8@gmail.com; github:zhuangyin8
-         Konstantin Rouda; Konrud@mozilla.net; mdn:Konrud
-         dul; dulwebid@mozilla.net; mdn:dulwebid
-         7cc; 7cc@github.com; github:7cc
-         Charmander; charmander@mozilla.net; mdn:charmander
 
 # `<figcaption>`
 
@@ -36,7 +17,7 @@ rest of the contents of its parent `<figure>` element.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## `<figure>`
 

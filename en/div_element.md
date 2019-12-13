@@ -1,15 +1,4 @@
 TOPICS: <div>
-AUTHORS: Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<div>`
 
@@ -31,7 +20,7 @@ section of a document as being written in a different language (using the lang a
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     Note: The align attribute is obsolete; do not use it anymore. Instead, you should use CSS properties

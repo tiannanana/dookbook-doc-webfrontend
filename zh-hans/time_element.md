@@ -1,6 +1,4 @@
 TOPICS: <time>
-AUTHORS: Xun Morl; xunmorl@mozilla.net; mdn:xunmorl
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<time>`
 
@@ -24,7 +22,7 @@ AUTHORS: Xun Morl; xunmorl@mozilla.net; mdn:xunmorl
 
 ## 属性
 
-像所有其他元素一样，此元素拥有可以使用 通用属性。
+像所有其他元素一样，此元素拥有可以使用[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

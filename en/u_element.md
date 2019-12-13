@@ -1,18 +1,4 @@
 TOPICS: <u>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Yuhei Yasuda; yuhei.yasuda1003@gmail.com; github:yuheiy
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Cristian Trifan; criss.trifan@gmail.com; github:crissdev
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Madhav Gupta; madhavsvg@mozilla.net; mdn:madhavsvg
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Sourav Lahoti; souravlahoti@mozilla.net; mdn:souravlahoti
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # `<u>`
 
@@ -36,7 +22,7 @@ default as a simple solid underline, but may be altered using CSS.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

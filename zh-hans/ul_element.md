@@ -1,9 +1,5 @@
 TOPICS: <ul>
         <li>
-AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
-         李杰华; JoshuaLee@mozilla.net; mdn:JoshuaLee
-         Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSlide
-         noname; 390353137@qq.com; github:Eternaldeath
 
 # `<ul>`
 
@@ -20,7 +16,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 ## 属性
 
-此元素仅含有全局属性。
+此元素仅含有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

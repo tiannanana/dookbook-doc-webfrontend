@@ -20,7 +20,7 @@ TOPICS: <address>
 
 ## 属性
 
-此元素只有全局属性。
+此元素只有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 用法说明节
 

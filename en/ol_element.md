@@ -1,27 +1,5 @@
 TOPICS: <ol>
         <li>
-AUTHORS: Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Konstantin Rouda; Konrud@mozilla.net; mdn:Konrud
-         Vitalii Burlai; vitaly.burlai@gmail.com; github:vburlai
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Sebastian Zartner; SebastianZ@github.com; github:SebastianZ
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Keiichi; ethertank@mozilla.net; mdn:ethertank
-         Trevor Hobson; trevorhobson@github.com; github:trevorhobson
-         Makoto Kato; mkato@mozilla.net; mdn:mkato
-         Michael Beckwith; tw2113@github.com; github:tw2113
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Christian Sonne; cers@mozilla.net; mdn:cers
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
-         Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Thierry Régagnon; tregagnon@github.com; github:tregagnon
-         Jonathan Wilsson; jwilsson@github.com; github:jwilsson
 
 # `<ol>`
 
@@ -38,7 +16,7 @@ The HTML `<ol>` element represents an ordered list of items, typically rendered 
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

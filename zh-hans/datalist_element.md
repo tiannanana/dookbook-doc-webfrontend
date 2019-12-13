@@ -1,6 +1,4 @@
 TOPICS: <datalist>
-AUTHORS: Sphinx; SphinxKnight@github.com; github:SphinxKnight
-         紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 # `<datalist>`
 
@@ -17,7 +15,7 @@ HTML `<datalist>` 元素包含了一组[`<option>`](/zh-hans/webfrontend/<option
 
 ## 属性
 
-该元素除了公用的全局属性之外，没有其他属性。
+该元素除了公用的[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)之外，没有其他属性。
 
 ## 示例
 

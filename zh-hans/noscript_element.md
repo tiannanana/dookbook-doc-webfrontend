@@ -1,6 +1,4 @@
 TOPICS: <noscript>
-AUTHORS: William Jing; monkeykingisback@gmail.com; github:fattypiggy
-         xgqfrms; xgqfrms@github.com; github:xgqfrms
 
 # `<noscript>`
 
@@ -16,7 +14,7 @@ AUTHORS: William Jing; monkeykingisback@gmail.com; github:fattypiggy
 
 ## 属性
 
-该元素只包含 全局属性.
+该元素只包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 ## 示例
 

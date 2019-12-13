@@ -15,7 +15,7 @@ TOPICS: <meter>
 
 ## 属性
 
-该元素包含所有的全局属性.
+该元素包含所有的[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |
