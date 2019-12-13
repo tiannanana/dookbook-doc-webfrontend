@@ -10,8 +10,8 @@ TOPICS: <meta> charset attribute
 - **不得使用**`CESU-8`，`UTF-7`，`BOCU-1`和或`SCSU`编码，会导致*跨站点脚本攻击*(*cross-site scripting attacks*)。
 - **不应该**使用`UTF-32`，因为并非所有HTML5编码算法都能将其与`UTF-16`区别开。
 - 声明的字符编码必须与保存页面时使用的字符编码相匹配，以避免出现乱码和安全漏洞。
-  声明编码的`<meta>`元素必须位于[`<head>`](/zh-hans/webfrontend/<head>)元素之内并且**在HTML的前1024个字节之内**，
-  因为某些浏览器在选择编码之前仅查看这些字节。`<meta>`元素只是确定页面字符集的算法的一部分。HTTP头部`Content-Type`和所有字节顺序标记都将覆盖此元素。
+  声明编码的[`<meta>`](/zh-hans/webfrontend/<meta>)元素必须位于[`<head>`](/zh-hans/webfrontend/<head>)元素之内并且**在HTML的前1024个字节之内**，
+  因为某些浏览器在选择编码之前仅查看这些字节。[`<meta>`](/zh-hans/webfrontend/<meta>)元素只是确定页面字符集的算法的一部分。HTTP头部`Content-Type`和所有字节顺序标记都将覆盖此元素。
 
 **强烈建议定义字符编码**。如果页面的编码未定义，则可以使用跨脚本技术，例如`UTF-7`后备交叉脚本技术。
 
@@ -23,6 +23,7 @@ TOPICS: <meta> charset attribute
 
   <!-- 以下字符集声明，已经在HTML5中废弃。用charset属性代替。 -->
   <meta http-equiv="Content-Type" content="text/html"; charset="IANAcharset">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
   <!-- 其他元数据声明 ... -->
 </head>
