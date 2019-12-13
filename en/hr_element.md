@@ -34,7 +34,7 @@ presentational terms, so if you wish to draw a horizontal line, you should do so
 
 ## Attributes
 
-This element's attributes include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

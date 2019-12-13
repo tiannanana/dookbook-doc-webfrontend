@@ -37,7 +37,7 @@ This element is often (but need not be) rendered by applying a strike-through st
 
 ## Attributes
 
-This element's attributes include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

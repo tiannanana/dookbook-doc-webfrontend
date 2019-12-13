@@ -36,7 +36,7 @@ element which is the nearest ancestor of the `<dfn>` is considered to be the def
 
 ## Attributes
 
-This element's attributes include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 In HTML5, the `title` attribute has special meaning, as noted below.
 

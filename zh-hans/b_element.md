@@ -19,7 +19,7 @@ AUTHORS: kite-js; kite-js@gmail.com; github:kite-js
 
 ## 属性
 
-这个元素只包含全局属性。
+这个元素只包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 使用说明
 

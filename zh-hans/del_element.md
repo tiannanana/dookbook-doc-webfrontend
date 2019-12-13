@@ -17,7 +17,7 @@ HTML的`<del>`标签表示一些被从文档中删除的文字内容。比如可
 
 ## 属性
 
-这个标签包含全局属性。
+这个标签包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

@@ -7,7 +7,7 @@ AUTHORS: 夏凌晨; xgqfrms@mozilla.net; mdn:xgqfrms
 
 ## 属性
 
-此元素有全局属性。
+此元素有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

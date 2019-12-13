@@ -35,7 +35,7 @@ for example to automatically handle subtitles. The tracks are formatted in WebVT
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

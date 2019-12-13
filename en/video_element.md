@@ -80,7 +80,7 @@ Video and audio content beginner's tutorial.
 
 ## Attributes
 
-Like all other HTML elements, this element supports the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+Like all other HTML elements, this element supports the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

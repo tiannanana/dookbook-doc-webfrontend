@@ -79,7 +79,7 @@ two-dimensional table comprised of rows and columns of cells containing data.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## `<thead>`
 

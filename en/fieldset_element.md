@@ -37,7 +37,7 @@ even if it is not nested inside it, and disabled, which allows you to disable th
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

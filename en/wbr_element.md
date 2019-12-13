@@ -35,7 +35,7 @@ otherwise create a break at that location.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ### Notes
 

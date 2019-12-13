@@ -39,7 +39,7 @@ AUTHORS: Shaolin Wu; wslsdust@163.com; github:codevvvv9
 
 ## 属性
 
-表格标签支持 全局属性。
+表格标签支持[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## `<thead>`
 

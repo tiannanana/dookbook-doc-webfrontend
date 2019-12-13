@@ -39,7 +39,7 @@ contain this full description and nothing else.
 
 ## Attributes
 
-This element only supports the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only supports the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 The `title` attribute has a specific semantic
 meaning when used with the `<abbr>` element; it must contain a full human-readable description or
 expansion of the abbreviation. This text is often presented by browsers as a tooltip when the mouse

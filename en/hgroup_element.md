@@ -31,7 +31,7 @@ It groups a set of [`<h1>`](/en/webfrontend/<h1>)–[`<h6>`](/en/webfrontend/<h6
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

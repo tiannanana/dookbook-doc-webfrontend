@@ -14,7 +14,7 @@ AUTHORS: Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
 
 ## 属性
 
-本元素仅支持 全局属性.
+本元素仅支持[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 默认样式
 

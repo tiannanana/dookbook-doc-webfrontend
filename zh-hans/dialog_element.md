@@ -15,7 +15,7 @@ TOPICS: <dialog>
 
 ## 属性
 
-此元素包括[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)。 tabindex属性不能在`<dialog>`元素上使用。
+此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。 tabindex属性不能在`<dialog>`元素上使用。
 
 | 属性 | 描述 |
 | :-- | :-- |

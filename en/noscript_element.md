@@ -27,7 +27,7 @@ page is unsupported or if scripting is currently turned off in the browser.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ```html
 <noscript>

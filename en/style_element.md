@@ -39,7 +39,7 @@ to your document depending on media features such as viewport width.
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

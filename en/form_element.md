@@ -97,7 +97,7 @@ element based on whether or not the individual `elements` within the form are va
 
 **Attributes**:
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

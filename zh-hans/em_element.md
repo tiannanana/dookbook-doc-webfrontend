@@ -10,7 +10,7 @@ HTML 着重元素 (**`<em>`**) 标记出需要用户着重阅读的内容， `<e
 
 ## 属性
 
-此元素只包括全局属性。
+此元素只包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

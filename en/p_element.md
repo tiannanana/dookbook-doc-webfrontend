@@ -38,7 +38,7 @@ block-level element is parsed before the closing `</p>` tag. See “**Tag omissi
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     Note: The `align` attribute on `<p>` TOPICS is obsolete and shouldn't be used.

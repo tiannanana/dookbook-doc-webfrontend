@@ -30,7 +30,7 @@ used as the `<head>` element. At some point, it was decided to use a different n
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Examples
 

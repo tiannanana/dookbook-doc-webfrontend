@@ -17,7 +17,7 @@ HTML HTML `<source>`元素为[`<picture>`](/zh-hans/webfrontend/<picture>)，
 
 ## 属性
 
-此元素包括[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |

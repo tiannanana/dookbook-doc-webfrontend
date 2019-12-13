@@ -20,7 +20,7 @@ TOPICS: <h1>
 
 ## 属性
 
-这些元素仅包含[全局属性](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes)。
+这些元素仅包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 !!! warn "Don't try this at home"
     `align`属性已过时； 不要使用它。

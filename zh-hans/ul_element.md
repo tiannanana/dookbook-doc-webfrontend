@@ -20,7 +20,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 ## 属性
 
-此元素仅含有全局属性。
+此元素仅含有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

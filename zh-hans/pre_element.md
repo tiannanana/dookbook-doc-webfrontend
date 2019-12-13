@@ -20,7 +20,7 @@ AUTHORS: xgqfrms; xgqfrms@github.com; github:xgqfrms
 
 ## 属性
 
-这个元素只具有全局属性。
+这个元素只具有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

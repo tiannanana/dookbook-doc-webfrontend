@@ -22,7 +22,7 @@ A document mustn't have more than one `<main>` element that doesn't have the `hi
 
 ## `<main>` Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

@@ -78,7 +78,7 @@ but its semantics are less clear.
 
 ## Attributes
 
-Like all other HTML elements, this element supports the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes),
+Like all other HTML elements, this element supports the [global attributes](/en/webfrontend/HTML_Global_Attributes),
 except that the
 `dir` attribute behaves differently than normal: it defaults to auto, meaning its value is
 never inherited from the parent element. This means that unless you specify a value of either

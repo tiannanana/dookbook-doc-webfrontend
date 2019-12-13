@@ -21,7 +21,7 @@ in an `<article>` element, possibly with one or more [`<section>`](/en/webfronte
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

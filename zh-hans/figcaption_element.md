@@ -18,7 +18,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 ## 属性
 
-仅仅包含 全局属性
+仅仅包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)
 
 ## `<figure>`
 

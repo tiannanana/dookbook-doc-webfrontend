@@ -45,7 +45,7 @@ versions in data-saving modes, and you don't have to write explicit media condit
 
 ## Attributes
 
-This element includes only [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes only [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

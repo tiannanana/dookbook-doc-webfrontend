@@ -14,7 +14,7 @@ HTML `<param>`元素为[`<object>`](/zh-hans/webfrontend/<object>)元素定义�
 
 ## 属性
 
-这个元素包含 全局属性.
+这个元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 | 属性 | 描述 |
 | :-- | :-- |

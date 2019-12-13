@@ -31,7 +31,7 @@ independent of its styled presentation.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     **Implementation note:** up to Gecko 1.9.2 inclusive, Firefox implements the

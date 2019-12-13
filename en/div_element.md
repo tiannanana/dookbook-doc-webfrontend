@@ -31,7 +31,7 @@ section of a document as being written in a different language (using the lang a
 
 ## Attributes
 
-This element includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     Note: The align attribute is obsolete; do not use it anymore. Instead, you should use CSS properties

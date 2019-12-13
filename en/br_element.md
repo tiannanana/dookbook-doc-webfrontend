@@ -29,7 +29,7 @@ elements and use the CSS] `margin` property to control their size.
 
 ## Attributes
 
-This element's attributes include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ### Deprecated attributes
 

@@ -28,7 +28,7 @@ HTML `<picture>` 元素通过包含零或多个 [`<source>`](/zh-hans/webfronten
 
 ## 属性
 
-这个元素只包含全局属性。
+这个元素只包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 用法提示
 

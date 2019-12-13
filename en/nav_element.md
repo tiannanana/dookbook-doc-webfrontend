@@ -17,7 +17,7 @@ sections are menus, tables of contents, and indexes.
 
 ## Attributes
 
-This element only includes the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## Usage Notes
 

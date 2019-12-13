@@ -37,7 +37,7 @@ that represent the values available for other controls.
 
 ## Attributes
 
-This element has no other attributes than the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes),
+This element has no other attributes than the [global attributes](/en/webfrontend/HTML_Global_Attributes),
 common to all elements.
 
 ## Examples

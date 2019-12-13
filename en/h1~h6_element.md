@@ -21,7 +21,7 @@ section level and `<h6>` is the lowest.
 
 ## Attributes
 
-These elements only include the [global attributes](https://wiki.developer.mozilla.org/en-US/docs/HTML/Global_attributes).
+These elements only include the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Don't try this at home"
     The `align` attribute is obsolete; don't use it.

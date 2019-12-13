@@ -23,7 +23,7 @@ AUTHORS: Wizard; wizardforcel@mozilla.net; mdn:wizardforcel
 
 ## 属性
 
-本元素支持 全局属性。
+本元素支持[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## `<rp>`
 

@@ -8,7 +8,7 @@ AUTHORS: 紫云飞; ziyunfei@mozilla.net; mdn:ziyunfei
 
 ## 属性
 
-此元素仅包含全局属性.
+此元素仅包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 ## 示例
 

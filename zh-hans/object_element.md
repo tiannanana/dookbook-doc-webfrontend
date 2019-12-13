@@ -10,7 +10,7 @@ AUTHORS: zhengzaixu; zzxdzld@github.com; github:zzxdzld
 
 ## 属性
 
-元素包含全局属性。
+元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

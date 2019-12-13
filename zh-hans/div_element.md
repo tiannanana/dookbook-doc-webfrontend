@@ -10,7 +10,7 @@ HTML `<div>` 元素 (或 HTML 文档分区元素) 是一个通用型的流内容
 
 ## 属性
 
-该元素包含全局属性。
+该元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## 示例
 

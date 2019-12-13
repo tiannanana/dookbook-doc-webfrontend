@@ -21,7 +21,7 @@ HTML `<audio>` 元素用于在文档中表示音频内容。 `<audio>` 元素可
 
 ## 属性
 
-该元素包含 全局属性。
+该元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

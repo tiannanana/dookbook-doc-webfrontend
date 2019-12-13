@@ -17,7 +17,7 @@ AUTHORS: Yuyang ZHOU; Martin.Chow@mozilla.net; mdn:Martin.Chow
 
 ## 属性
 
-该元素支持所有 全局特性，除此以外还支持下列属性：
+该元素支持所有[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)，除此以外还支持下列属性：
 
 | 属性 | 描述 |
 | :-- | :-- |

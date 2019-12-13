@@ -13,7 +13,7 @@ AUTHORS: King; King.@mozilla.net; mdn:King.
 
 ## 属性
 
-包括下列全局属性。
+包括下列[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |

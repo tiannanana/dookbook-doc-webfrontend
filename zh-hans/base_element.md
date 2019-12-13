@@ -21,7 +21,7 @@ AUTHORS: Crystal-RainSlide; Crystal-RainSlide@github.com; github:Crystal-RainSl
 
 ## 属性
 
-该标签包含全局属性。
+该标签包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 | 属性 | 描述 |
 | :-- | :-- |
