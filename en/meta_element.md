@@ -1,6 +1,6 @@
 TOPICS: <meta>
 
-# `<meta>`
+# HTML Metadata Element: `<meta>`
 
 The HTML `<meta>` element represents **metadata** that cannot be represented by other HTML meta-related
 elements, like [`<base>`](/en/webfrontend/<base>), [`<link>`](/en/webfrontend/<link>),
@@ -28,10 +28,10 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 
 | Attribute | Description |
 | :-- | :-- |
-| **`charset`** | This attribute declares the page's **[[character encoding]]**. It must contain a standard [[IANA]] [[MIME]] name for character encodings. Although the standard doesn't request a specific encoding, it suggests:<br> &nbsp;- Authors are *encouraged* to use **`UTF-8`**.<br> &nbsp;- Authors *should not* use ASCII-incompatible encodings to avoid security risk: browsers not supporting them may interpret harmful content as HTML. This happens with the `JIS_C6226-1983`, `JIS_X0212-1990`,`HZ-GB-2312`, `JOHAB`, the `ISO-2022` family and the `EBCDIC` family.<br> &nbsp;- **Note:** ASCII-incompatible encodings are those that don't map the 8-bit code points `0x20` to `0x7E` to the `0x0020` to `0x007E` Unicode code points)<br> &nbsp;- **Error:** Authors *must not* use `CESU-8`, `UTF-7`, `BOCU-1` and/or `SCSU` as cross-site scripting attacks with these encodings have been demonstrated.<br> &nbsp;- Authors *should not* use `UTF-32` because not all HTML5 encoding algorithms can distinguish it from `UTF-16`.<br> &nbsp;- **Note:** The declared character encoding must match the one the page was saved with to avoid garbled characters and security holes. The `<meta>` element declaring the encoding must be inside the [`<head>`](/en/webfrontend/<head>) element and **within the first 1024 bytes** of the [[HTML]] as some browsers only look at those bytes before choosing an encoding.<br> &nbsp;- This `<meta>` element is only one part of the algorithm to determine a page's character set. The **`Content-Type`** header and any **Byte-Order Marks** override this element.<br><br>**It is strongly recommended to define the character encoding.** If a page's encoding is undefined, cross-scripting techniques are possible, such as the `UTF-7` fallback cross-scripting technique.<br><br>The `<meta>` element with a charset attribute is a synonym for the pre-HTML5 `<meta http-equiv="Content-Type" content="text/html; charset=IANAcharset">`, where `IANAcharset` contains the value of the equivalent `charset` attribute. This syntax is still allowed, although **no longer recommended**.
-| **`content`** | This attribute contains the value for the `http-equiv` or `name` attribute, depending on which is used.
+| **[`charset`](/en/webfrontend/<meta>_charset_attribute)** | This attribute declares the page's **[[character encoding]]**. |
 | **`http-equiv`** | Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed values are names of particular **HTTP headers**:<br><br>**`content-language`**<br>**It is obsolete**. Prefer the `lang` attribute on the [`<html>`](/en/webfrontend/<html>) element.<br><br>**`content-security-policy`**<br>Allows page authors to define a **content policy** for the current page. Content policies mostly specify allowed server origins and script endpoints which help guard against *cross-site scripting attacks.*<br><br>**`content-type`**<br>**It is obsolete**. Use the `charset` attribute on the `<meta>` element.<br><br>**`refresh`**<br>This instruction specifies: <br>1. The **number of seconds until the page should be reloaded** - only if the `content` attribute contains a *positive integer*.<br>2. The **number of seconds until the page should redirect to another** - only if the `content` attribute contains a *positive integer* followed by the string '`;url=`', and a valid URL.<br><br>**`set-cookie`**<br>**It is obsolete.** Use the HTTP header `Set-Cookie` instead.
 | **`name`** | This attribute defines the **name of a piece of document-level metadata**. It should not be set if one of the attributes `itemprop`, `http-equiv` or `charset` is also set.<br>This metadata name is associated with the value contained by the `content` attribute.<br>The possible values for the `name` attribute are:<br><br>**`application-name`** which defines the name of the application running in the web page.<br>**Note:** Browsers may use this to identify the application. It is different from the [`<title>`](/en/webfrontend/<title>) element, which usually contain the application name, but may also contain information like the document name or a status.<br>Simple web pages shouldn't define an application-name.<br><br>**`author`** which defines the name of the document's author.<br><br>**`description`** which contains a short and accurate summary of the content of the page. Several browsers, like Firefox and Opera, use this as the default description of bookmarked pages.<br><br>**`generator`** which contains the identifier of the software that generated the page.<br><br>**`keywords`** which contains words relevant to the page's content separated by commas.<br><br>**`referrer`** which controls the `Referer` HTTP header attached to requests sent from the document.
+| **`content`** | This attribute contains the value for the `http-equiv` or `name` attribute, depending on which is used.
 
 ### Values for the `content` attribute of `<meta name="referrer">`
 
@@ -175,8 +175,6 @@ semantics of the metadata is user-specific.
 ## Examples
 
 ```html
-<meta charset="utf-8">
-
 <!-- Dookbook is the author of this page -->
 <meta name="author" content="Dookbook">
 

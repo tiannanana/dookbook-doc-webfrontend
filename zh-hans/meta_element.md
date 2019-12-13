@@ -24,10 +24,10 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 
 | 属性 | 描述 |
 | :-- | :-- |
-| **`charset`** | 此属性声明页面的 **[字符编码](/zh-hans/glossary/Character_Set)**。它必须包含用于字符编码的标准[[IANA]] [[MIME]]名称。尽管该标准不要求特定的编码，但建议：<br> &nbsp;- *鼓励*作者使用 **`UTF-8`**。<br> &nbsp;- 作者*不应使用*不兼容ASCII的编码来避免安全风险：不支持它们的浏览器可能会将有害内容解释为HTML。<br>**注意:** 与ASCII不兼容的`JIS_C6226-1983`，`JIS_X0212-1990`，`HZ-GB-2312`，`JOHAB`，`ISO-2022`系列和`EBCDIC`系列会发生这种情况。编码是那些未将8位代码点`0x20`到`0x7E`映射到`0x0020`到`0x007E` Unicode代码点的编码）<br> &nbsp;- **错误:** 作者*不得使用*`CESU-8`，`UTF-7`，`BOCU-1`和或`SCSU`作为使用这些编码的跨站点脚本攻击已得到证明。<br> &nbsp;- 作者*不应该*使用`UTF-32`，因为并非所有HTML5编码算法都能将其与UTF-16区别开。<br> &nbsp;- **注意:** 声明的字符编码必须与保存页面时使用的字符编码相匹配，以避免出现乱码和安全漏洞。声明编码的`<meta>`元素必须位于[`<head>`](/zh-hans/webfrontend/<head>)元素之内并且**在HTML的前1024个字节之内**，因为某些浏览器在选择编码之前仅查看这些字节。`<meta>`元素只是确定页面字符集的算法的一部分。`Content-Type`标头和所有字节顺序标记都将覆盖此元素。<br><br>**强烈建议定义字符编码**。如果页面的编码未定义，则可以使用跨脚本技术，例如`UTF-7`后备交叉脚本技术。<br><br>具有`charset`属性的`<meta>`元素是HTML5之前版本的同义词。 `<meta http-equiv="Content-Type" content="text/html"; charset="IANAcharset">`，其中`IANAcharset`包含等效的`charset`属性的值。尽管**不再建议使用此语法**. |
-| **`content`** | 此属性包含`http-equiv`或`name`属性的值，具体取决于所使用的属性。|
+| **[`charset`]((/zh-hans/webfrontend/<meta>_charset_attribute))** | 此属性声明页面的 **[字符编码](/zh-hans/glossary/Character_Set)**。|
 | **`http-equiv`** | 定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称：<br><br>**`content-language`**<br>**已过时废弃**。请在`<html>`元素上使用`lang`属性替代。<br><br>**`content-security-policy`**<br>允许页面作者为当前页面定义**内容策略**。内容策略主要指定允许的服务器来源和脚本端点，以帮助防止跨站点脚本攻击。<br><br>**`content-type`**<br>**已过时废弃**。请在`<meta>`元素上使用`charset`属性来替代。<br><br>**`refresh`**<br>此指令指定：<br>1. **重新加载当前页面的间隔时间（单位：秒）** - 仅在`content`属性包含*正整数*的情况下。<br>2. **重定向到另一页面的时间间隔**（单位：秒) - 仅在`content`属性包含*正整数*后跟字符串 `;url=`和有效URL的情况下。<br><br>**`set-cookie`**<br>**错误：** 不要使用此指令，因为它**已过时废弃**。请改用HTTP标头`Set-Cookie`。 |
 | **`name`** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，`http-equiv`或`charset`之一，则不应设置此属性。<br>此元数据名称与`content`属性所包含的值相关。<br>可能的值用于`name`属性的有：<br><br>**`application-name`**，用于定义在网页中运行的**应用程序的名称**。<br> **注意：** 浏览器可以使用它来标识该应用程序。它与通常包含应用程序名称的[`<title>`](/zh-hans/webfrontend/<title>)元素不同，但也可能包含文档名称或状态之类的信息。<br>简单的网页不应定义应用程序名称。<br><br>**`author`**定义文档作者姓名的“作者”。<描述>“描述”包含页面内容的简短准确摘要。一些浏览器，例如Firefox和Opera，都将其用作添加了书签的页面的默认描述。<br><br>**`generator`**包含生成页面的**软件的标识符**。<br><br>**`keywords`**包含与**页面内容相关的单词**，用逗号隔开。<br><br>**`referrer`**控制附加到文档发送的请求的`Referer` HTTP标头 |
+| **`content`** | 此属性包含`http-equiv`或`name`属性的值，具体取决于所使用的属性。|
 
 ### `<meta name="referrer">`的`content`属性值
 
@@ -144,8 +144,6 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 ## 示例
 
 ```html
-<meta charset="utf-8">
-
 <!-- 标注网站作者信息：Dookbook是这个网页的作者 -->
 <meta name="author" content="Dookbook">
 
