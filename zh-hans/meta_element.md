@@ -2,14 +2,16 @@ TOPICS: <meta>
 
 # `<meta>`
 
-HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不能表示这些元数据，例如[`<base>`](/zh-hans/webfrontend/<base>)、[`<link>`](/zh-hans/webfrontend/<link>)、[`<script>`](/zh-hans/webfrontend/<script>)、[`<style>`](/zh-hans/webfrontend/<style>)或[`<title>`](/zh-hans/webfrontend/<title>)。
+HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素不能表示这些元数据，例如[`<base>`](/zh-hans/webfrontend/<base>)、[`<link>`](/zh-hans/webfrontend/<link>)、[`<script>`](/zh-hans/webfrontend/<script>)、[`<style>`](/zh-hans/webfrontend/<style>)或[`<title>`](/zh-hans/webfrontend/<title>)。
+
+## 元数据
 
 |  |  |
 | :-- | :-- |
 | **内容分类** | 元数据内容。 如果存在`itemprop`属性：流程内容，短语内容. |
 | **允许的内容** | 无，这是一个空元素. |
 | **标签遗漏** | 由于它是一个void元素，因此必须存在开始标签，而不能存在结束标签. |
-| **允许的父元素** | `<meta charset>`，`<meta http-equiv>`：一个[`<head>`](/zh-hans/webfrontend/<head>)元素。 如果http-equiv不是编码声明，则它也可以位于[`<noscript>`](/zh-hans/webfrontend/<noscript>)元素内部，本身也位于[`<head>`](/zh-hans/webfrontend/<head>)元素内部. |
+| **允许的父元素** | `<meta charset>`，`<meta http-equiv>`：一个[`<head>`](/zh-hans/webfrontend/<head>)元素。 如果`http-equiv`不是编码声明，则它也可以位于[`<noscript>`](/zh-hans/webfrontend/<noscript>)元素内部，本身也位于[`<head>`](/zh-hans/webfrontend/<head>)元素内部. |
 | **允许的 ARIA 角色** | 没有 |
 | **DOM 接口** | `HTMLMetaElement` |
 
@@ -17,21 +19,19 @@ HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不�
 
 此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
-!!! warn "Don't try this at home"
-   Note: the attribute `name` has a specific meaning for the `<meta>` element, and the
-   itemprop attribute must not be set on the same `<meta>` element that has any existing
-   `name`, `http-equiv` or `charset` attributes.
+!!! warn "注意"
+    属性`name`对`<meta>`元素具有特定的含义，并且`itemprop`属性不能用在已经存在`name`, `http-equiv`或`charset`属性的同一个`<meta>`元素上。
 
 | 属性 | 描述 |
 | :-- | :-- |
-| `charset` | 此属性声明页面的字符编码。它必须包含用于字符编码的标准IANA MIME名称。尽管该标准不要求特定的编码，但建议：<br>鼓励作者使用“ UTF-8”。<br>作者不应使用不兼容ASCII的编码来避免安全风险：不支持它们的浏览器可能会解释有害内容为HTML。 <br>**注意:** 与ASCII不兼容的JIS_C6226-1983，JIS_X0212-1990，HZ-GB-2312，JOHAB，ISO-2022系列和EBCDIC系列会发生这种情况。编码是那些未将8位代码点0x20到0x7E映射到0x0020到0x007E Unicode代码点的编码）<br>**错误:** 作者不得使用CESU-8，UTF-7，BOCU-1和/或SCSU作为使用这些编码的跨站点脚本攻击已得到证明。<br>作者不应该使用UTF-32，因为并非所有HTML5编码算法都能将其与UTF-16区别开。<br> **注意:** 声明的字符编码必须与保存页面时使用的字符编码相匹配，以避免出现乱码和安全漏洞。声明编码的`<meta>`元素必须位于[`<head>`](/zh-hans/webfrontend/<head>)元素之内并且**在HTML的前1024个字节之内**，因为某些浏览器在选择编码之前仅查看这些字节。 `<meta>`元素只是确定页面字符集的算法的一部分。`Content-Type`标头和所有字节顺序标记都将覆盖此元素。<br>强烈建议定义字符编码。如果页面的编码未定义，则可以使用跨脚本技术，例如`UTF-7`后备交叉脚本技术。<br>具有charset属性的`<meta>`元素是HTML5之前版本的同义词。 `<meta http-equiv="Content-Type" content="text/html"; charset="IANAcharset">`，其中`IANAcharset`包含等效的`charset`属性的值。尽管不再建议使用此语法. |
-| `content` | 此属性包含http-equiv或name属性的值，具体取决于所使用的属性。|
-| `http-equiv` | 定义一个编译指示。该属性被命名为`http-equiv(alent)`，因为所有允许的值都是特定HTTP标头的名称：<br>`content-language` <br>定义页面的默认语言。可以被任何元素上的lang属性覆盖。<br> **错误：** 请勿使用此值，因为它已过时。最好在<html>元素上使用lang属性。<br>`content-security-policy` <br>允许页面作者为当前页面定义内容策略。内容策略主要指定允许的服务器来源和脚本端点，以帮助防止跨站点脚本攻击。<br>`content-type` <br>定义文档的MIME类型，然后定义字符编码。它遵循与HTTP内容类型实体标头字段相同的语法，但是由于它位于HTML页面内，因此不可能输入除text / html之外的大多数值。因此，其内容的有效语法是字符串`text/html`，后跟具有以下语法的字符集：`;charset=IANAcharset`，其中IANAcharset是IANA定义的字符集的首选MIME名称。<br> **错误：** 不要使用此值，因为它已过时。请在`<meta>`元素上使用charset属性。<br> **注意：** 由于`<meta>`在XHTML或HTML5的XHTML序列化中无法更改文档的类型，因此切勿将MIME类型设置为一个带有`<meta>`的XHTML MIME类型。<br>`refresh` <br>此指令指定：<br>直到应该重新加载页面的秒数-仅在content属性包含正整数的情况下。<br>直到页面重定向到另一页面的秒数-仅在content属性包含正整数后跟字符串 `;url=`和有效URL的情况下。<br>`set-cookie` <br>定义页面的Cookie。它的内容必须遵循IETF HTTP Cookie规范中定义的语法。<br> **错误：** 不要使用此指令，因为它已过时。请改用HTTP标头Set-Cookie。它已从标准中删除，Firefox 68和Chrome 65不再支持。|
-| `name` | 该属性定义了一段文档级元数据的名称。如果还设置了属性itemprop，`http-equiv`或`charset`之一，则不应设置此属性。<br>此元数据名称与content属性所包含的值相关。<br>可能的值用于name属性的有：<br> application-name，用于定义在网页中运行的应用程序的名称。<br> **注意：** 浏览器可以使用它来标识该应用程序。它与通常包含应用程序名称的[`<title>`](/zh-hans/webfrontend/<title>)元素不同，但也可能包含文档名称或状态之类的信息。<br>简单的网页不应定义应用程序名称。<br>定义文档作者姓名的“作者”。<描述>“描述”包含页面内容的简短准确摘要。一些浏览器，例如Firefox和Opera，都将其用作添加了书签的页面的默认描述。<br>`generator`包含生成页面的软件的标识符。<br>`keywords`包含与页面内容相关的单词<br>`referrer`分隔，它控制附加到文档发送的请求的`Referer` HTTP标头: |
+| **`charset`** | 此属性声明页面的 **[字符编码](/zh-hans/glossary/Character_Set)**。它必须包含用于字符编码的标准[[IANA]] [[MIME]]名称。尽管该标准不要求特定的编码，但建议：<br> &nbsp;- *鼓励*作者使用 **`UTF-8`**。<br> &nbsp;- 作者*不应使用*不兼容ASCII的编码来避免安全风险：不支持它们的浏览器可能会将有害内容解释为HTML。<br>**注意:** 与ASCII不兼容的`JIS_C6226-1983`，`JIS_X0212-1990`，`HZ-GB-2312`，`JOHAB`，`ISO-2022`系列和`EBCDIC`系列会发生这种情况。编码是那些未将8位代码点`0x20`到`0x7E`映射到`0x0020`到`0x007E` Unicode代码点的编码）<br> &nbsp;- **错误:** 作者*不得使用*`CESU-8`，`UTF-7`，`BOCU-1`和或`SCSU`作为使用这些编码的跨站点脚本攻击已得到证明。<br> &nbsp;- 作者*不应该*使用`UTF-32`，因为并非所有HTML5编码算法都能将其与UTF-16区别开。<br> &nbsp;- **注意:** 声明的字符编码必须与保存页面时使用的字符编码相匹配，以避免出现乱码和安全漏洞。声明编码的`<meta>`元素必须位于[`<head>`](/zh-hans/webfrontend/<head>)元素之内并且**在HTML的前1024个字节之内**，因为某些浏览器在选择编码之前仅查看这些字节。`<meta>`元素只是确定页面字符集的算法的一部分。`Content-Type`标头和所有字节顺序标记都将覆盖此元素。<br><br>**强烈建议定义字符编码**。如果页面的编码未定义，则可以使用跨脚本技术，例如`UTF-7`后备交叉脚本技术。<br><br>具有`charset`属性的`<meta>`元素是HTML5之前版本的同义词。 `<meta http-equiv="Content-Type" content="text/html"; charset="IANAcharset">`，其中`IANAcharset`包含等效的`charset`属性的值。尽管**不再建议使用此语法**. |
+| **`content`** | 此属性包含`http-equiv`或`name`属性的值，具体取决于所使用的属性。|
+| **`http-equiv`** | 定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP标头**的名称：<br><br>**`content-language`**<br>**错误：** 请勿使用此值，因为它**已过时废弃**。请在<html>元素上使用`lang`属性替代。<br>定义页面的**默认语言**。可以被任何元素上的`lang`属性覆盖。<br><br>**`content-security-policy`**<br>允许页面作者为当前页面定义**内容策略**。内容策略主要指定允许的服务器来源和脚本端点，以帮助防止跨站点脚本攻击。<br><br>**`content-type`**<br>**错误：** 不要使用此值，因为它**已过时废弃**。请在`<meta>`元素上使用`charset`属性来替代。<br>定义文档的 **[[MIME]]类型**，然后定义**字符编码**。它遵循与HTTP `Content-Type`实体标头字段相同的语法，但是由于它位于HTML页面内，因此不可能输入除`text/html`之外的大多数值。因此，其内容的有效语法是字符串`text/html`，后跟具有以下语法的字符集：`;charset=IANAcharset`，其中`IANAcharset`是[[IANA]]定义的字符集的首选[[MIME]]名称。<br> **注意：** 由于`<meta>`在XHTML或HTML5的XHTML序列化中无法更改文档的类型，因此切勿将MIME类型设置为一个带有`<meta>`的XHTML MIME类型。<br><br>**`refresh`**<br>此指令指定：<br>直到应该**重新加载页面的秒数**-仅在`content`属性包含*正整数*的情况下。<br>直到页面重定向到另一页面的秒数-仅在`content`属性包含*正整数*后跟字符串 `;url=`和有效URL的情况下。<br><br>**`set-cookie`**<br>**错误：** 不要使用此指令，因为它**已过时废弃**。请改用HTTP标头`Set-Cookie`。它已从标准中删除。<br>定义页面的**Cookie**。它的内容必须遵循[[IETF]] HTTP Cookie规范中定义的语法。<br> |
+| **`name`** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，`http-equiv`或`charset`之一，则不应设置此属性。<br>此元数据名称与`content`属性所包含的值相关。<br>可能的值用于`name`属性的有：<br><br>**`application-name`**，用于定义在网页中运行的**应用程序的名称**。<br> **注意：** 浏览器可以使用它来标识该应用程序。它与通常包含应用程序名称的[`<title>`](/zh-hans/webfrontend/<title>)元素不同，但也可能包含文档名称或状态之类的信息。<br>简单的网页不应定义应用程序名称。<br><br>**`author`**定义文档作者姓名的“作者”。<描述>“描述”包含页面内容的简短准确摘要。一些浏览器，例如Firefox和Opera，都将其用作添加了书签的页面的默认描述。<br><br>**`generator`**包含生成页面的**软件的标识符**。<br><br>**`keywords`**包含与**页面内容相关的单词**，用逗号隔开。<br><br>**`referrer`**控制附加到文档发送的请求的`Referer` HTTP标头 |
 
-### `<meta name="referrer">`的`content`属性的值
+### `<meta name="referrer">`的`content`属性值
 
-|  |  |
+| 值 | 描述 |
 | :-- | :-- |
 | `no-referrer` | 不发送HTTP Referer标头. |
 | `origin` | 发送文件原点. |
@@ -79,7 +79,7 @@ HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不�
 - `publisher` 定义文档发布者的名称。
 - `robots` 定义了协作爬网程序或“机器人”应与页面一起使用的行为。 它是以下值的逗号分隔列表：
 
-### `<meta name="robots">`的内容的值
+### `<meta name="robots">`的`content`属性值
 
 | 值 | 描述 | 使用者 |
 | :-- | :-- | :-- |
@@ -104,7 +104,7 @@ HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不�
 - slurp是机器人的同义词，但仅适用于Slurp-Yahoo Search的搜寻器。
 - 视口，它会提示有关视口初始尺寸的大小。 仅用于移动设备。
 
-### `<meta name="viewport">`的内容值
+### `<meta name="viewport">`的`content`属性值
 
 | 值 | 可能的子值 | 描述 |
 | :-- | :-- | :-- |
@@ -121,19 +121,18 @@ HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不�
 
 另请参见：@viewport
 
-!!! warn "Don't try this at home"
+!!! warn "事实上的主导地位"
     尽管没有标准化，但由于事实上的主导地位，大多数移动浏览器都尊重此声明。
     设备和浏览器的默认值可能会有所不同.
-    要了解Firefox for Mobile中的此声明，请参阅本文.
 
 | 属性 | 描述 |
 | :-- | :-- |
 | `scheme` | 此属性定义描述元数据的方案。 方案是一种导致对内容值（例如格式）进行正确解释的上下文。|
 
-!!! error ""
-    警告：请勿使用此值，因为它已过时。 没有替代品，因为没有实际用途。
+!!! error "警告：过时废弃"
+    请勿使用此值，因为它**已过时废弃**。 没有替代品，因为没有实际用途。
 
-## 笔记
+## 注意事项
 
 根据属性集，元数据的类型可以是以下之一：
 
@@ -147,8 +146,18 @@ HTML的`<meta>`元素表示元数据，而其他HTML的与元相关的元素不�
 ```html
 <meta charset="utf-8">
 
-<!-- Redirect page after 3 seconds -->
-<meta http-equiv="refresh" content="3;url=https://www.mozilla.org">
+<!-- 标注网站作者信息：Dookbook是这个网页的作者 -->
+<meta name="author" content="Dookbook">
+
+<!-- 描述这个网页 -->
+<meta name="description" content="A Dookbook webpage">
+
+<!-- 关于这个网页的关键字，用逗号隔开 -->
+<meta name="keywords" content="Dookbook,a,b">
+
+<!-- 3秒后重新加载（刷新）这个网页 -->
+<meta http-equiv="refresh" content="3">
+<meta http-equiv="refresh" content="3;url=https://dookbook.info">
 ```
 
 ## 可达性问题
