@@ -4,14 +4,14 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 ## `Array.prototype.findIndex()`
 
 The `findIndex()` method returns the index of the first element in the array that satisfies the
-provided testing function. Otherwise, it returns -1, indicating that no element passed the test.
+provided testing function. Otherwise, it returns `-1`, indicating that no element passed the test.
 
 See also the [`find()`](/en/webfrontend/Array.prototype.find) method, which returns the value of an
 array element, instead of its index.
 
 ## Syntax
 
-```html
+```javascript
 arr.findIndex(callback[, thisArg])
 ```
 
@@ -20,7 +20,7 @@ arr.findIndex(callback[, thisArg])
 | `callback` | A function to execute on each value in the array until the function returns true, indicating that the satisfying element was found. It takes three arguments:<br>**`element`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array.<br><br>**`array`** Optional<br>The array `findIndex` was called upon.
 | `thisValue` | Optional object to use as `this` when executing `callback`. |
 
-**Return value**：The index of the first element in the array that passes the test. Otherwise, -1.
+**Return value**：The index of the first element in the array that passes the test. Otherwise, `-1`.
 
 ## Description
 
@@ -29,7 +29,7 @@ in the array until it finds the one where `callback` returns a truthy value
 (a value that coerces to `true`).
 
 If such an element is found, `findIndex` immediately returns the element's index. If the `callback`
-never returns a truthy value (or the array's `length` is 0), `findIndex` returns -1. Unlike other
+never returns a truthy value (or the array's `length` is `0`), `findIndex` returns `-1`. Unlike other
 array methods such as [`Array.some`](/en/webfrontend/Array.prototype.some), the `callback` is called
 even for indexes with unassigned values.
 
@@ -53,7 +53,7 @@ If an existing, unvisited element of the array is changed by callback, its value
 ### Find the index of a prime number in an array
 
 The following example returns the index of the first element in the array that is a prime number,
-or -1 if there is no prime number.
+or `-1` if there is no prime number.
 
 ```javascript
 function isPrime(element, index, array) {

@@ -7,7 +7,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.keys()
 ```
 

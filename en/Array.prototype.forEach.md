@@ -7,7 +7,7 @@ The `forEach()` method executes a provided function once for each array element.
 
 ## Syntax
 
-```html
+```javascript
 arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
 ```
 
@@ -110,7 +110,7 @@ items.forEach(function(item){
 !!! warn "Note"
     In order to display the content of an array in the console, you can use [`console.table()`](/en/webfrontend/console.table)
     which will print a formatted version of the array. The following example illustrates another
-    way of doing so, using forEach().
+    way of doing so, using `forEach()`.
 
 The following code logs a line for each element in an array:
 

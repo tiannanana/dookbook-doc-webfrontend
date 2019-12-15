@@ -3,18 +3,18 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## `Array.prototype.includes()`
 
-`includes()` 方法用来判断一个数组是否包含一个指定的值，根据情况，如果包含则返回 true，否则返回false。
+`includes()` 方法用来判断一个数组是否包含一个指定的值，根据情况，如果包含则返回 `true`，否则返回`false`。
 
 ## 语法
 
-```html
+```javascript
 arr.includes(valueToFind[, fromIndex])
 ```
 
 | 参数 | 说明 |
 | :-- | :-- |
 | `valueToFind` | 需要查找的元素值。<br>**Note:** 使用 `includes()`比较字符串和字符时是区分大小写。
-| `fromIndex` 可选 | 从`fromIndex` 索引处开始查找 `valueToFind`。如果为负值，则按升序从 `array.length + fromIndex` 的索引开始搜 （即使从末尾开始往前跳 `fromIndex` 的绝对值个索引，然后往后搜寻）。默认为 0。 |
+| `fromIndex` 可选 | 从`fromIndex` 索引处开始查找 `valueToFind`。如果为负值，则按升序从 `array.length + fromIndex` 的索引开始搜 （即使从末尾开始往前跳 `fromIndex` 的绝对值个索引，然后往后搜寻）。默认为 `0`。 |
 
 **返回类型**: Boolean
 

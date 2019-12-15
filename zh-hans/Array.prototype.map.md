@@ -7,7 +7,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 var new_array = arr.map(function callback(currentValue[, index[, array]]) {
  // Return element for new_array
 }[, thisArg])
@@ -16,7 +16,7 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 | 参数 | 说明 |
 | :-- | :-- |
 | `callback` | 生成新数组元素的函数，使用三个参数：<br>**`currentValue`**<br>`callback` 数组中正在处理的当前元素。<br><br>**`index`** 可选<br>`callback`数组中正在处理的当前元素的索引。<br><br>**`array`** 可选<br>`map` 方法调用的数组。|
-| `thisArg` | 执行 `callback` 函数时值被用作this。 |
+| `thisArg` | 执行 `callback` 函数时值被用作`this`。 |
 
 **返回类型**: 回调函数的结果组成了新数组的每一个元素。
 

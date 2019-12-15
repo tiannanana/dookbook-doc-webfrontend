@@ -7,7 +7,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.pop()
 ```
 
@@ -20,7 +20,7 @@ arr.pop()
 `pop` 方法从一个数组中删除并返回最后一个元素。
 
 `pop` 方法有意具有通用性。该方法和 [`call()`](/zh-hans/webfrontend/Function.prototype.call) 或
-[`apply()`](/zh-hans/webfrontend/Function.prototype.apply) 一起使用时，可应用在类似数组的对象上。`pop`方法根据 `length`属性来确定最后一个元素的位置。如果不包含`length`属性或`length`属性不能被转成一个数值，会将`length`置为0，并返回[`undefined`](/zh-hans/webfrontend/undefined)。
+[`apply()`](/zh-hans/webfrontend/Function.prototype.apply) 一起使用时，可应用在类似数组的对象上。`pop`方法根据 `length`属性来确定最后一个元素的位置。如果不包含`length`属性或`length`属性不能被转成一个数值，会将`length`置为`0`，并返回[`undefined`](/zh-hans/webfrontend/undefined)。
 
 如果你在一个空数组上调用 `pop()`，它返回[`undefined`](/zh-hans/webfrontend/undefined)。
 

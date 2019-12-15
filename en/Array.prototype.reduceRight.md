@@ -10,7 +10,7 @@ See also [`Array.prototype.reduce()`](/en/webfrontend/Array.prototype.reduce) fo
 
 ## Syntax
 
-```html
+```javascript
 arr.reduceRight(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 ```
 

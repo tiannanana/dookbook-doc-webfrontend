@@ -7,7 +7,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.join([separator])
 ```
 
@@ -15,7 +15,7 @@ arr.join([separator])
 | :-- | :-- |
 | `separator` | 指定一个字符串来分隔数组的每个元素。如果需要，将分隔符转换为字符串。如果缺省该值，数组元素用逗号（`,`）分隔。如果`separator`是空字符串(`""`)，则所有元素之间都没有任何字符。|
 
-**返回类型**: 一个所有数组元素连接的字符串。如果 `arr.length` 为0，则返回空字符串。
+**返回类型**: 一个所有数组元素连接的字符串。如果 `arr.length` 为 `0`，则返回空字符串。
 
 ## 描述
 

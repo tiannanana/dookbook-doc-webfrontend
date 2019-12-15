@@ -9,7 +9,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.reduceRight(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 ```
 
@@ -57,7 +57,7 @@ array.reduceRight(function(accumulator, currentValue, index, array) {
 | third call | 9 | 1 | 1 | [0, 1, 2, 3, 4] | 10 |
 | fourth call | 10 | 0 | 0 | [0, 1, 2, 3, 4] | 10 |
 
-`reduceRight` 返回值是最后一次调用回调的返回值（10）。
+`reduceRight` 返回值是最后一次调用回调的返回值（`10`）。
 
 如果提供了一个 `initialValue` 参数，则结果如下：
 
@@ -75,7 +75,7 @@ array.reduceRight(function(accumulator, currentValue, index, array) {
 | fourth call | 19 | 1 | 1 | [0, 1, 2, 3, 4] | 20 |
 | fifth call | 20 | 0 | 0 | [0, 1, 2, 3, 4] | 20 |
 
-`reduceRight` 返回值为 20。
+`reduceRight` 返回值为 `20`。
 
 ## 示例
 

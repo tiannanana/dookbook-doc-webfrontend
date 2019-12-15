@@ -18,13 +18,13 @@ across each iteration throughout the array and ultimately becomes the final, sin
 
 ## Syntax
 
-```html
+```javascript
 arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 ```
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | A function to execute on each element in the array (except for the first, if no `initialValue` is supplied), taking four arguments:<br>**`accumulator`**<br>The accumulator accumulates the callback's return values. It is the accumulated value previously returned in the last invocation of the callback, or `initialValue`, if supplied (see below).<br>**`currentValue`**<br>The current element being processed in the array.<br>**`index`** Optional<br>The index of the current element being processed in the array. Starts from index 0 if an `initialValue` is provided. Otherwise, starts from index 1.<br>**`array`** Optional<br>The array `reduce()` was called upon. |
+| `callback` | A function to execute on each element in the array (except for the first, if no `initialValue` is supplied), taking four arguments:<br>**`accumulator`**<br>The accumulator accumulates the callback's return values. It is the accumulated value previously returned in the last invocation of the callback, or `initialValue`, if supplied (see below).<br><br>**`currentValue`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array. Starts from index 0 if an `initialValue` is provided. Otherwise, starts from index `1`.<br><br>**`array`** Optional<br>The array `reduce()` was called upon. |
 | `initialValue` | A value to use as the first argument to the first call of the `callback`. If no `initialValue` is supplied, the first element in the array will be used and skipped. Calling `reduce()` on an empty array without an `initialValue` will throw a `TypeError`. |
 
 **Return value**: The single value that results from the reduction.
@@ -47,7 +47,7 @@ equal to the second.
 
 !!! warn "Note"
     If `initialValue` is not provided, `reduce()` will execute the callback function starting at
-    index 1, skipping the first index. If `initialValue` is provided, it will start at index 0.
+    index `1`, skipping the first index. If `initialValue` is provided, it will start at index `0`.
 
 If the array is empty and no `initialValue` is provided, [`TypeError`](/en/webfrontend/TypeError)
 will be thrown. If the array only has one element (regardless of position) and no initialValue is

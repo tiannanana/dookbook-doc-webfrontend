@@ -8,19 +8,19 @@ returning true or false as appropriate.
 
 ## Syntax
 
-```html
+```javascript
 arr.includes(valueToFind[, fromIndex])
 ```
 
 | parameter | Description |
 | :-- | :-- |
 | `valueToFind` | The value to search for. <br>**Note:** When comparing strings and characters, `includes()` is **case-sensitive**. |
-| `fromIndex` | Optional, The position in this array at which to begin searching for `valueToFind`; the first character to be searched is found at `fromIndex` for positive values of `fromIndex`, or at array.length + `fromIndex` for negative values of `fromIndex` (using the absolute value of `fromIndex` as the number of characters from the end of the array at which to start the search). Defaults to 0. |
+| `fromIndex` | Optional, The position in this array at which to begin searching for `valueToFind`; the first character to be searched is found at `fromIndex` for positive values of `fromIndex`, or at array.length + `fromIndex` for negative values of `fromIndex` (using the absolute value of `fromIndex` as the number of characters from the end of the array at which to start the search). Defaults to `0`. |
 
 **Return value**：A Boolean which is true if the value valueToFind is found within the array (or the
 part of the array indicated by the index fromIndex, if specified). Values of zero are all considered
-to be equal regardless of sign (that is, -0 is considered to be equal to both 0 and +0), but false is
-not considered to be the same as 0.
+to be equal regardless of sign (that is, `-0` is considered to be equal to both `0` and `+0`),
+but false is not considered to be the same as `0`.
 
 !!! warn "Note"
     Technically speaking, `includes()` uses the [`sameValueZero`](/en/webfrontend/sameValueZero)

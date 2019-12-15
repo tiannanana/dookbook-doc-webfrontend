@@ -8,7 +8,7 @@ changes the length of the array.
 
 ## Syntax
 
-```html
+```javascript
 arr.pop()
 ```
 

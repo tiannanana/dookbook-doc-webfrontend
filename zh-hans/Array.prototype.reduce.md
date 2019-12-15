@@ -16,13 +16,13 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 ```
 
 | 参数 | 说明 |
 | :-- | :-- |
-| `callback` | 执行数组中每个值 (如果没有提供`initialValue`则第一个值除外)的函数，包含四个参数：<br>**`accumulator`**<br>累计器累计回调的返回值; 它是上一次调用回调时返回的累积值，或`initialValue`（见于下方）。<br><br>**`currentValue`**<br>数组中正在处理的元素。<br><br>**`index`** 可选<br>数组中正在处理的当前元素的索引。 如果提供了`initialValue`，则起始索引号为0，否则从索引1起始。<br><br>**`array`** 可选<br>调用`reduce()`的数组
+| `callback` | 执行数组中每个值 (如果没有提供`initialValue`则第一个值除外)的函数，包含四个参数：<br>**`accumulator`**<br>累计器累计回调的返回值; 它是上一次调用回调时返回的累积值，或`initialValue`（见于下方）。<br><br>**`currentValue`**<br>数组中正在处理的元素。<br><br>**`index`** 可选<br>数组中正在处理的当前元素的索引。如果提供了`initialValue`，则起始索引号为`0`，否则从索引`1`起始。<br><br>**`array`** 可选<br>调用`reduce()`的数组
 | `initialValue` 可选 | 作为第一次调用 `callback`函数时的第一个参数的值。 如果没有提供初始值，则将使用数组中的第一个元素。 在没有初始值的空数组上调用 `reduce` 将报错。 |
 
 **返回类型**: 函数累计处理的结果
@@ -40,7 +40,7 @@ arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue]
 `initialValue`，`currentValue`取数组中的第一个值；如果没有提供 `initialValue`，那么`accumulator`取数组中的第一个值，`currentValue`取数组中的第二个值。
 
 !!! warn "注意"
-    如果没有提供`initialValue`，`reduce` 会从索引1的地方开始执行 `callback` 方法，跳过第一个索引。如果提供`initialValue`，从索引0开始。
+    如果没有提供`initialValue`，`reduce` 会从索引1的地方开始执行 `callback` 方法，跳过第一个索引。如果提供`initialValue`，从索引`0`开始。
 
 如果数组为空且没有提供`initialValue`，会抛出[`TypeError`](/zh-hans/webfrontend/TypeError)。如果数组仅有一个元素（无论位置如何）并且没有提供
 `initialValue`， 或者有提供`initialValue`但是数组为空，那么此唯一值将被返回并且`callback`不会被执行。
@@ -80,7 +80,7 @@ var maxCallback2 = ( max, cur ) => Math.max( max, cur );
 | third call | 3 | 3 | 3 | [0, 1, 2, 3, 4] | 6 |
 | fourth call | 6 | 4 | 4 | [0, 1, 2, 3, 4] | 10 |
 
-由`reduce`返回的值将是最后一次回调返回值（10）。
+由`reduce`返回的值将是最后一次回调返回值（`10`）。
 
 你同样可以使用箭头函数的形式，下面的代码会输出跟前面一样的结果
 

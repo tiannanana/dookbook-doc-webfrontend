@@ -8,7 +8,7 @@ the array.
 
 ## Syntax
 
-```html
+```javascript
 arr.keys()
 ```
 

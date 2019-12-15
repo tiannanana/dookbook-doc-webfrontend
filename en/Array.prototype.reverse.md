@@ -8,7 +8,7 @@ last array element becomes the first.
 
 ## Syntax
 
-```html
+```javascript
 a.reverse()
 ```
 
