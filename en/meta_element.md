@@ -10,10 +10,10 @@ elements, like [`<base>`](/en/webfrontend/<base>), [`<link>`](/en/webfrontend/<l
 
 |  |  |
 | :-- | :-- |
-| **Content categories** | Metadata content. If the itemprop attribute is present: flow content, phrasing content.
+| **Content categories** | Metadata content. If the `itemprop` attribute is present: flow content, phrasing content.
 | **Permitted content** | None, it is an empty element.
 | **Tag omission** | As it is a void element, the start tag must be present and the end tag must not be present.
-| **Permitted parents** | `<meta charset>`,`<meta http-equiv>`: a [`<head>`](/en/webfrontend/<head>) element. If the `http-equiv` is not an encoding declaration, it can also be inside a [`<noscript>`](/en/webfrontend/<noscript>) element, itself inside a [`<head>`](/en/webfrontend/<head>) element.
+| **Permitted parents** | [`<meta charset>`](/en/webfrontend/<meta>_charset_attribute), [`<meta http-equiv>`](/en/webfrontend/<meta>_http-equiv_attribute): a [`<head>`](/en/webfrontend/<head>) element. If the `http-equiv` is not an encoding declaration, it can also be inside a [`<noscript>`](/en/webfrontend/<noscript>) element, itself inside a [`<head>`](/en/webfrontend/<head>) element.
 | **Permitted ARIA roles** | None
 | **DOM interface** | `HTMLMetaElement`
 
@@ -22,35 +22,17 @@ elements, like [`<base>`](/en/webfrontend/<base>), [`<link>`](/en/webfrontend/<l
 This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 !!! warn "Note"
-    The attribute `name` has a specific meaning for the `<meta>` element, and the
-    `itemprop` attribute must not be set on the same `<meta>` element that has any existing
-    `name`, `http-equiv` or `charset` attributes.
+    The attribute [`name`](/en/webfrontend/<meta>_name_attribute) has a specific meaning for the
+    `<meta>` element, and the `itemprop` attribute must not be set on the same `<meta>` element that
+    has any existing [`name`](/en/webfrontend/<meta>_name_attribute), [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute)
+    or [`charset`](/en/webfrontend/<meta>_charset_attribute) attributes.
 
 | Attribute | Description |
 | :-- | :-- |
 | **[`charset`](/en/webfrontend/<meta>_charset_attribute)** | This attribute declares the page's **[[character encoding]]**. |
-| **`http-equiv`** | Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed values are names of particular **HTTP headers**:<br><br>**`content-language`**<br>**It is obsolete**. Prefer the `lang` attribute on the [`<html>`](/en/webfrontend/<html>) element.<br><br>**`content-security-policy`**<br>Allows page authors to define a **content policy** for the current page. Content policies mostly specify allowed server origins and script endpoints which help guard against *cross-site scripting attacks.*<br><br>**`content-type`**<br>**It is obsolete**. Use the `charset` attribute on the `<meta>` element.<br><br>**`refresh`**<br>This instruction specifies: <br>1. The **number of seconds until the page should be reloaded** - only if the `content` attribute contains a *positive integer*.<br>2. The **number of seconds until the page should redirect to another** - only if the `content` attribute contains a *positive integer* followed by the string '`;url=`', and a valid URL.<br><br>**`set-cookie`**<br>**It is obsolete.** Use the HTTP header `Set-Cookie` instead.
-| **`name`** | This attribute defines the **name of a piece of document-level metadata**. It should not be set if one of the attributes `itemprop`, `http-equiv` or `charset` is also set.<br>This metadata name is associated with the value contained by the `content` attribute.<br>The possible values for the `name` attribute are:<br><br>**`application-name`** which defines the name of the application running in the web page.<br>**Note:** Browsers may use this to identify the application. It is different from the [`<title>`](/en/webfrontend/<title>) element, which usually contain the application name, but may also contain information like the document name or a status.<br>Simple web pages shouldn't define an application-name.<br><br>**`author`** which defines the name of the document's author.<br><br>**`description`** which contains a short and accurate summary of the content of the page. Several browsers, like Firefox and Opera, use this as the default description of bookmarked pages.<br><br>**`generator`** which contains the identifier of the software that generated the page.<br><br>**`keywords`** which contains words relevant to the page's content separated by commas.<br><br>**`referrer`** which controls the `Referer` HTTP header attached to requests sent from the document.
-| **`content`** | This attribute contains the value for the `http-equiv` or `name` attribute, depending on which is used.
-
-### Values for the `content` attribute of `<meta name="referrer">`
-
-| Value | Description |
-| :-- | :-- |
-| `no-referrer` | Do not send a HTTP Referrer header. |
-| `origin` | Send the origin of the document. |
-| `no-referrer-when-downgrade` | Send the origin as a referrer to URLs as secure as the current page, (https→https), but does not send a referrer to less secure URLs (https→http). This is the default behaviour.
-| `origin-when-cross-origin` | Send the full URL (stripped of parameters) for same-origin requests, but only send the origin for other cases. |
-| `same-origin` | A referrer will be sent for same-site origins, but cross-origin requests will contain no referrer information. |
-| `strict-origin` | Only send the origin of the document as the referrer to a-priori as-much-secure destination (HTTPS->HTTPS), but don't send it to a less secure destination (HTTPS->HTTP). |
-| `strict-origin-when-cross-origin` | Send a full URL when performing a same-origin request, only send the origin of the document to a-priori as-much-secure destination (HTTPS->HTTPS), and send no header to a less secure destination (HTTPS->HTTP). |
-| `unsafe-URL` | Send the full URL (stripped of parameters) for same-origin or cross-origin requests.|
-
-!!! warn "Don't try this at home"
-    - Some browsers support the deprecated values of always, default, and never for referrer.
-    - Dynamically inserting `<meta name="referrer">` (with `document.write`
-    or `appendChild`) makes the referrer behaviour unpredictable.
-    - When several conflicting policies are defined, the no-referrer policy is applied.
+| **[`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute)** | Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed values are names of particular **HTTP headers**.
+| **[`name`](/en/webfrontend/<meta>_name_attribute)** | This attribute defines the **name of a piece of document-level metadata**. It should not be set if one of the attributes `itemprop`, [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or [`charset`](/en/webfrontend/<meta>_charset_attribute) is also set.
+| **`content`** | This attribute contains the value for the [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or [`name`](/en/webfrontend/<meta>_name_attribute) attribute, depending on which is used.
 
 - `theme-color` which indicates a suggested color that user agents should use to customize the display
 of the page or of the surrounding user interface. The content attribute contains a valid CSS `<color>`.
@@ -165,44 +147,17 @@ See Also: `@viewport`
 
 Depending on the attributes set, the kind of metadata can be one of the following:
 
-- If `name` is set, it is document-level metadata, applying to the whole page.
-- If `http-equiv` is set, it is a pragma directive — information normally given by the web
+- If [`name`](/en/webfrontend/<meta>_name_attribute) is set, it is document-level metadata, applying
+  to the whole page.
+- If [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) is set, it is a pragma directive —
+  information normally given by the web
 server about how the web page is served.
-- If `charset` is set, it is a charset declaration — the character encoding used by the webpage.
+- If [`charset`](/en/webfrontend/<meta>_charset_attribute) is set, it is a charset declaration — the
+  character encoding used by the webpage.
 - If `itemprop` is set, it is user-defined metadata — transparent for the user-agent as the
 semantics of the metadata is user-specific.
 
-## Examples
-
-```html
-<!-- Dookbook is the author of this page -->
-<meta name="author" content="Dookbook">
-
-<!-- Describe this page -->
-<meta name="description" content="A Dookbook webpage">
-
-<!-- Keywords about this page, separated by commas -->
-<meta name="keywords" content="Dookbook,a,b">
-
-<!-- Redirect page after 3 seconds -->
-<meta http-equiv="refresh" content="3">
-<meta http-equiv="refresh" content="3;url=https://dookbook.info">
-```
-
 ## Accessibility Concerns
-
-### Refreshing content
-
-Pages set with a refresh value run the risk of having the time interval being too short. People
-navigating with the aid of assistive technology such as a screen reader may be unable to read through
-and understand the page's content before being automatically redirected. The abrupt, unannounced
-updating of the page content may also be disorienting for people experiencing low vision conditions.
-
-- [MDN Understanding WCAG, Guideline 2.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#Guideline_2.2_%E2%80%94_Enough_Time_Provide_users_enough_time_to_read_and_use_content)
-- [MDN Understanding WCAG, Guideline 3.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.2_%E2%80%94_Predictable_Make_Web_pages_appear_and_operate_in_predictable_ways)
-- [Understanding Success Criterion 2.2.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html)
-- [Understanding Success Criterion 2.2.4 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html)
-- [Understanding Success Criterion 3.2.5 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html)
   
 ### Viewport scaling
 
