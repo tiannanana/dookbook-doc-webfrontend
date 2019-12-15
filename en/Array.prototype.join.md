@@ -1,0 +1,56 @@
+TOPICS: Array.prototype.join
+AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
+
+## `Array.prototype.join()`
+
+The `join()` method creates and returns a new string by concatenating all of the elements in an
+array (or an array-like object), separated by commas or a specified separator string. If
+the array has only one item, then that item will be returned without using the separator.
+
+## Syntax
+
+```html
+arr.join([separator])
+```
+
+| parameter | Description |
+| :-- | :-- |
+| `separator` Optional | Specifies a string to separate each pair of adjacent elements of the array. The separator is converted to a string if necessary. If omitted, the array elements are separated with a comma (","). If separator is an empty string, all elements are joined without any characters in between them. |
+
+**Return value**: A string with all array elements joined. If arr.length is 0, the empty string is returned.
+
+## Description
+
+The string conversions of all array elements are joined into one string.
+
+!!! error
+    If an element is undefined, null or an empty array [], it is converted to an empty string.
+
+## Examples
+
+### Joining an array four different ways
+
+The following example creates an array, a, with three elements, then joins the array four times:
+using the default separator, then a comma and a space, then a plus and an empty string.
+
+```javascript
+var a = ['Wind', 'Water', 'Fire'];
+a.join();      // 'Wind,Water,Fire'
+a.join(', ');  // 'Wind, Water, Fire'
+a.join(' + '); // 'Wind + Water + Fire'
+a.join('');    // 'WindWaterFire'
+```
+
+### Joining an array-like object
+
+The following example joins array-like object (`arguments`), by calling [`Function.prototype.call`](/en/webfrontend/Function.prototype.call)
+on `Array.prototype.join`.
+
+```javascript
+function f(a, b, c) {
+  var s = Array.prototype.join.call(arguments);
+  console.log(s); // '1,a,true'
+}
+f(1, 'a', true);
+//expected output: "1,a,true"
+```
