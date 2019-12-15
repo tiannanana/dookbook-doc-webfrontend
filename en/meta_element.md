@@ -73,76 +73,6 @@ This works at the document level in the same way that the CSS `color-scheme` pro
 individual elements specify their preferred and accepted color schemes. Your styles can adapt to the
 current color scheme using the `prefers-color-scheme` CSS media feature.
 
-This attribute may also have a value taken from the extended list defined on
-WHATWG Wiki MetaExtensions page. Although none have been formally accepted yet,
-a few commonly used names are:
-
-- `creator` which defines the name of the creator of the document, such as an organization or
-institution. If there are more than one, several `<meta>` elements should be used.
-- `googlebot`, a synonym of robots, is only followed by Googlebot (the indexing crawler for Google).
-- `publisher` which defines the name of the document's publisher.
-- `robots` which defines the behaviour that cooperative crawlers, or "robots",
-should use with the page. It is a comma-separated list of the values below:
-
-### Values for the content of `<meta name="robots">`
-
-| Value | Description | Used by |
-| :-- | :-- | :-- |
-| `index` | Allows the robot to index the page (default). | All |
-| `noindex` | Requests the robot to not index the page. | All |
-| `follow` | Allows the robot to follow the links on the page (default). | All |
-| `nofollow` | Requests the robot to not follow the links on the page. | All |
-| `none` | Equivalent to noindex, nofollow | Google |
-| `noodp` | Prevents using the Open Directory Project description, if any, as the page description in search engine results.| Google, Yahoo, Bing |
-| `noarchive` | Requests the search engine not to cache the page content. | Google, Yahoo, Bing|
-| `nosnippet` | Prevents displaying any description of the page in search engine results. | Google, Bing|
-| `noimageindex` | Requests this page not to appear as the referring page of an indexed image.| Google|
-| `nocache` | Synonym of noarchive. | Bing |
-
-!!! warn "Don't try this at home"
-    - Only cooperative robots follow these rules. Do not expect to prevent e-mail harvesters with them.
-    - The robot still needs to access the page in order to read these rules. To prevent bandwidth
-    consumption, use a robots.txt file.
-    - If you want to remove a page, `noindex` will work, but only after the robot visits the page
-    again. Ensure that the `robots.txt` file is not preventing revisits.
-    - Some values are mutually exclusive, like `index` and `noindex`, or `follow` and `nofollow`.
-    In these cases the robot's behaviour is undefined and may vary between them.
-    - Some crawler robots, like Google, Yahoo and Bing, support the same values for the HTTP header
-    `X-Robots-Tag`; this allows non-HTML documents like images to use these rules.
-
-- slurp, is a synonym of robots, but only for Slurp - the crawler for Yahoo Search.
-- viewport, which gives hints about the size of the initial size of the viewport.
-Used by mobile devices only.
-
-### Values for the content of `<meta name="viewport">`
-
-| Value | Possible subvalues | Description |
-| :-- | :-- | :-- |
-| `width` | A positive integer number, or the text `device-width` | Defines the pixel width of the viewport that you want the web site to be rendered at.
-| `height` | A positive integer, or the text `device-height` |Defines the height of the viewport. Not used by any browser.
-| `initial-scale` | A positive number between `0.0` and `10.0` | Defines the ratio between the device width (device-width in portrait mode or device-height in landscape mode) and the viewport size.
-| `maximum-scale` | A positive number between `0.0` and `10.0` | Defines the maximum amount to zoom in. It must be greater or equal to the minimum-scale or the behaviour is undefined. Browser settings can ignore this rule and iOS10+ ignores it by default.
-| `minimum-scale` | A positive number between `0.0` and `10.0` | Defines the minimum zoom level. It must be smaller or equal to the maximum-scale or the behaviour is undefined. Browser settings can ignore this rule and iOS10+ ignores it by default.
-| `user-scalable` | `yes` or `no` | If set to no, the user is not able to zoom in the webpage. The default is yes. Browser settings can ignore this rule, and iOS10+ ignores it by default.
-
-| Specification | Status | Comment |
-| :-- | :-- | :-- |
-| CSS Device Adaptation The definition of '`<meta name="viewport">`' in that specification. | Working Draft | Non-normatively describes the Viewport META element
-
-See Also: `@viewport`
-
-!!! warn "de-facto dominance"
-    Though unstandardized, this declaration is respected by most mobile browsers due to de-facto dominance.
-    The default values may vary between devices and browsers.
-
-| Attribute | Description |
-| :-- | :-- |
-| `scheme` | This attribute defines the scheme in which metadata is described. A scheme is a context leading to the correct interpretations of the content value, like a format.
-
-!!! error "Warning: it is obsolete"
-    Do not use this value, as it is obsolete. There is no
-    replacement as there was no real usage for it.
-
 ## Notes
 
 Depending on the attributes set, the kind of metadata can be one of the following:
@@ -156,13 +86,3 @@ server about how the web page is served.
   character encoding used by the webpage.
 - If `itemprop` is set, it is user-defined metadata — transparent for the user-agent as the
 semantics of the metadata is user-specific.
-
-## Accessibility Concerns
-  
-### Viewport scaling
-
-Disabling zooming capabilities by setting `user-scalable` to a value of no prevents people
-experiencing low vision conditions from being able to read and understand page content.
-
-- [MDN Understanding WCAG, Guideline 1.4 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
-- [Understanding Success Criterion 1.4.4 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
