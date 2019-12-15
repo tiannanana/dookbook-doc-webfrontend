@@ -73,38 +73,6 @@ This works at the document level in the same way that the CSS `color-scheme` pro
 individual elements specify their preferred and accepted color schemes. Your styles can adapt to the
 current color scheme using the `prefers-color-scheme` CSS media feature.
 
-- viewport, which gives hints about the size of the initial size of the viewport.
-Used by mobile devices only.
-
-### Values for the content of `<meta name="viewport">`
-
-| Value | Possible subvalues | Description |
-| :-- | :-- | :-- |
-| `width` | A positive integer number, or the text `device-width` | Defines the pixel width of the viewport that you want the web site to be rendered at.
-| `height` | A positive integer, or the text `device-height` |Defines the height of the viewport. Not used by any browser.
-| `initial-scale` | A positive number between `0.0` and `10.0` | Defines the ratio between the device width (device-width in portrait mode or device-height in landscape mode) and the viewport size.
-| `maximum-scale` | A positive number between `0.0` and `10.0` | Defines the maximum amount to zoom in. It must be greater or equal to the minimum-scale or the behaviour is undefined. Browser settings can ignore this rule and iOS10+ ignores it by default.
-| `minimum-scale` | A positive number between `0.0` and `10.0` | Defines the minimum zoom level. It must be smaller or equal to the maximum-scale or the behaviour is undefined. Browser settings can ignore this rule and iOS10+ ignores it by default.
-| `user-scalable` | `yes` or `no` | If set to no, the user is not able to zoom in the webpage. The default is yes. Browser settings can ignore this rule, and iOS10+ ignores it by default.
-
-| Specification | Status | Comment |
-| :-- | :-- | :-- |
-| CSS Device Adaptation The definition of '`<meta name="viewport">`' in that specification. | Working Draft | Non-normatively describes the Viewport META element
-
-See Also: `@viewport`
-
-!!! warn "de-facto dominance"
-    Though unstandardized, this declaration is respected by most mobile browsers due to de-facto dominance.
-    The default values may vary between devices and browsers.
-
-| Attribute | Description |
-| :-- | :-- |
-| `scheme` | This attribute defines the scheme in which metadata is described. A scheme is a context leading to the correct interpretations of the content value, like a format.
-
-!!! error "Warning: it is obsolete"
-    Do not use this value, as it is obsolete. There is no
-    replacement as there was no real usage for it.
-
 ## Notes
 
 Depending on the attributes set, the kind of metadata can be one of the following:
@@ -118,13 +86,3 @@ server about how the web page is served.
   character encoding used by the webpage.
 - If `itemprop` is set, it is user-defined metadata — transparent for the user-agent as the
 semantics of the metadata is user-specific.
-
-## Accessibility Concerns
-  
-### Viewport scaling
-
-Disabling zooming capabilities by setting `user-scalable` to a value of no prevents people
-experiencing low vision conditions from being able to read and understand page content.
-
-- [MDN Understanding WCAG, Guideline 1.4 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
-- [Understanding Success Criterion 1.4.4 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)

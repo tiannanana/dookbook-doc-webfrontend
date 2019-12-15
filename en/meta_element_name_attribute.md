@@ -119,3 +119,37 @@ should use with the page. It is a *comma-separated* list of the values.
     In these cases the robot's behaviour is undefined and may vary between them.
     - Some crawler robots, like Google, Yahoo and Bing, support the same values for the HTTP header
     `X-Robots-Tag`; this allows non-HTML documents like images to use these rules.
+
+## `<meta name="viewport">`
+
+This attribute gives hints about the **size of the initial size of the viewport**.
+**Used by mobile devices only**.
+
+!!! warn "de-facto dominance"
+    Though unstandardized, this declaration is respected by most mobile browsers due to de-facto dominance.
+    The default values may vary between devices and browsers.
+
+### Values for the content of `<meta name="viewport">`
+
+| Value | Possible sub-values | Description |
+| :-- | :-- | :-- |
+| `width` | A *positive integer number*, or the text `device-width` | Defines the **pixel width** of the viewport that you want the web site to be rendered at.
+| `height` | A *positive integer*, or the text `device-height` | Defines the **height** of the viewport. **Not used by any browser.**
+| `initial-scale` | A *positive number* between `0.0` and `10.0` | Defines the ratio between the device width (device-width in portrait mode or device-height in landscape mode) and the viewport size.
+| `maximum-scale` | A *positive number* between `0.0` and `10.0` | Defines the maximum amount to zoom in. It must be greater or equal to the minimum-scale or the behaviour is undefined. Browser settings can ignore this rule and **iOS10+** ignores it by default.
+| `minimum-scale` | A *positive number* between `0.0` and `10.0` | Defines the minimum zoom level. It must be smaller or equal to the maximum-scale or the behaviour is undefined. Browser settings can ignore this rule and **iOS10+** ignores it by default.
+| `user-scalable` | `yes` or `no` | If set to no, the user is not able to zoom in the webpage. The default is yes. Browser settings can ignore this rule, and **iOS10+** ignores it by default.
+  
+### Accessibility Concerns of Viewport Scaling
+
+Disabling zooming capabilities by setting `user-scalable` to a value of `no` prevents people
+experiencing low vision conditions from being able to read and understand page content.
+
+- [MDN Understanding WCAG, Guideline 1.4 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
+- [Understanding Success Criterion 1.4.4 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
+
+## `<meta name="scheme">`
+
+!!! error "Warning: it is obsolete"
+    Do not use this value, as it is obsolete. There is no
+    replacement as there was no real usage for it.

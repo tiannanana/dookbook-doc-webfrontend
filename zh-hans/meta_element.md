@@ -55,36 +55,6 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 
 这在文档级别上的工作方式与CSS`color-scheme`属性允许单个元素指定其首选和可接受的配色方案的方式相同。 您的样式可以使用`prefers-color-scheme` CSS媒体功能来适应当前的配色方案。
 
-- 视口，它会提示有关视口初始尺寸的大小。 仅用于移动设备。
-
-### `<meta name="viewport">`的`content`属性值
-
-| 值 | 可能的子值 | 描述 |
-| :-- | :-- | :-- |
-| `width` | 一个正整数或文本`device-width` | 定义要在其上呈现网站的视口的像素宽度. |
-| `height` | 一个正整数或文本`device-height` | 定义视口的高度。 未被任何浏览器使用. |
-| `initial-scale` | 介于`0.0`和`10.0`之间的正数 | 定义设备宽度（纵向模式下的设备宽度或横向模式下的设备高度）与视口大小之间的比率. |
-| `maximum-scale` | 介于`0.0`和`10.0`之间的正数 | 定义放大的最大数量。它必须大于或等于最小比例，否则行为未定义。 浏览器设置可以忽略此规则，而iOS10 +默认会忽略它. |
-| `minimum-scale` | 介于`0.0`和`10.0`之间的正数 | 定义最小缩放级别。 它必须小于或等于最大比例，否则行为是不确定的。 浏览器设置可以忽略此规则，而iOS10 +默认会忽略它. |
-| `user-scalable` | `yes`或`no` | 如果设置为no，则用户将无法放大网页。 默认值为是。 浏览器设置可以忽略此规则，默认情况下，iOS10 +会将其忽略.
-
-| 规格 | 状态 | 评论 |
-| :-- | :-- | :-- |
-| CSS设备适配该规范中`<meta name="viewport">`的定义. | 工作草案 | 非规范地描述了视口META元素 |
-
-另请参见：@viewport
-
-!!! warn "事实上的主导地位"
-    尽管没有标准化，但由于事实上的主导地位，大多数移动浏览器都尊重此声明。
-    设备和浏览器的默认值可能会有所不同.
-
-| 属性 | 描述 |
-| :-- | :-- |
-| `scheme` | 此属性定义描述元数据的方案。 方案是一种导致对内容值（例如格式）进行正确解释的上下文。|
-
-!!! error "警告：过时废弃"
-    请勿使用此值，因为它**已过时废弃**。 没有替代品，因为没有实际用途。
-
 ## 注意事项
 
 根据属性集，元数据的类型可以是以下之一：
@@ -93,12 +63,3 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 - 如果设置了[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)，则它是一个编译指示，即Web服务器通常提供的有关如何提供网页的信息。
 - 如果设置了[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)，则它是一个字符集声明-网页使用的字符编码。
 - 如果设置了`itemprop`，则它是用户定义的元数据-对用户代理而言是透明的，因为元数据的语义是特定于用户的。
-
-## 可达性问题
-  
-### 视口缩放
-
-通过将`user-scalable`设置为no来禁用缩放功能，这会阻止视力不好的人阅读和理解页面内容。
-
-- [MDN了解WCAG，准则1.4解释](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
-- [了解成功标准1.4.4 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)

@@ -104,3 +104,34 @@ TOPICS: <meta> name attribute
     - 如果要删除页面，`noindex`将起作用，但仅在爬虫再次访问该页面之后才起作用。 确保`robots.txt`文件没有阻止再次访问。
     - 一些值是互斥的，例如`index`和`noindex`或`follow`和`nofollow`。 在这些情况下，爬虫的行为是不确定的，并且在它们之间可能有所不同。
     - 一些爬虫机器人，例如Google，Yahoo和Bing，都为HTTP标头`X-Robots-Tag`支持相同的值；这允许图像之类的非HTML文档使用这些规则。
+
+## `<meta name="viewport">`
+
+这个属性会提示有关视口**初始尺寸的大小**。**仅用于移动设备**。
+
+!!! warn "事实上的主导地位"
+    尽管没有标准化，但由于事实上的主导地位，大多数移动浏览器都尊重此声明。
+    设备和浏览器的默认值可能会有所不同。
+
+### `<meta name="viewport">`的`content`属性值
+
+| 值 | 可能的子值 | 描述 |
+| :-- | :-- | :-- |
+| `width` | 一个正整数或文本`device-width` | 定义要在其上呈现网站的视口的**像素宽度**. |
+| `height` | 一个正整数或文本`device-height` | 定义视口的**高度**。 **未被任何浏览器使用**. |
+| `initial-scale` | 介于`0.0`和`10.0`之间的正数 | 定义设备宽度（纵向模式下的设备宽度或横向模式下的设备高度）与视口大小之间的比率. |
+| `maximum-scale` | 介于`0.0`和`10.0`之间的正数 | 定义放大的最大数量。它必须大于或等于最小比例，否则行为未定义。 浏览器设置可以忽略此规则，而**iOS10+** 默认会忽略它. |
+| `minimum-scale` | 介于`0.0`和`10.0`之间的正数 | 定义最小缩放级别。 它必须小于或等于最大比例，否则行为是不确定的。 浏览器设置可以忽略此规则，而**iOS10+** 默认会忽略它. |
+| `user-scalable` | `yes`或`no` | 如果设置为`no`，则用户将无法放大网页。 默认值为`yes`。 浏览器设置可以忽略此规则，默认情况下，**iOS10+** 会将其忽略.
+
+### 视口缩放的访问性问题
+
+通过将`user-scalable`设置为`no`来禁用缩放功能，这会阻止视力不好的人阅读和理解页面内容。
+
+- [MDN了解WCAG，准则1.4解释](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
+- [了解成功标准1.4.4 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
+
+## `<meta name="scheme">`
+
+!!! error "已过时废弃"
+    没有替代品，因为没有实际用途。
