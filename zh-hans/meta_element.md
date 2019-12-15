@@ -11,7 +11,7 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 | **内容分类** | 元数据内容。 如果存在`itemprop`属性：流程内容，短语内容. |
 | **允许的内容** | 无，这是一个空元素. |
 | **标签遗漏** | 由于它是一个void元素，因此必须存在开始标签，而不能存在结束标签. |
-| **允许的父元素** | `<meta charset>`，`<meta http-equiv>`：一个[`<head>`](/zh-hans/webfrontend/<head>)元素。 如果`http-equiv`不是编码声明，则它也可以位于[`<noscript>`](/zh-hans/webfrontend/<noscript>)元素内部，本身也位于[`<head>`](/zh-hans/webfrontend/<head>)元素内部. |
+| **允许的父元素** | [`<meta charset>`](/zh-hans/webfrontend/<meta>_charset_attribute)，[`<meta http-equiv>`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)：一个[`<head>`](/zh-hans/webfrontend/<head>)元素。 如果`http-equiv`不是编码声明，则它也可以位于[`<noscript>`](/zh-hans/webfrontend/<noscript>)元素内部，本身也位于[`<head>`](/zh-hans/webfrontend/<head>)元素内部. |
 | **允许的 ARIA 角色** | 没有 |
 | **DOM 接口** | `HTMLMetaElement` |
 
@@ -20,12 +20,12 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 !!! warn "注意"
-    属性`name`对`<meta>`元素具有特定的含义，并且`itemprop`属性不能用在已经存在`name`, `http-equiv`或`charset`属性的同一个`<meta>`元素上。
+    属性`name`对`<meta>`元素具有特定的含义，并且`itemprop`属性不能用在已经存在`name`, [`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)属性的同一个`<meta>`元素上。
 
 | 属性 | 描述 |
 | :-- | :-- |
 | **[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)** | 此属性声明页面的 **[字符编码](/zh-hans/glossary/Character_Set)**。|
-| **`http-equiv`** | 定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称：<br><br>**`content-language`**<br>**已过时废弃**。请在`<html>`元素上使用`lang`属性替代。<br><br>**`content-security-policy`**<br>允许页面作者为当前页面定义**内容策略**。内容策略主要指定允许的服务器来源和脚本端点，以帮助防止跨站点脚本攻击。<br><br>**`content-type`**<br>**已过时废弃**。请在`<meta>`元素上使用`charset`属性来替代。<br><br>**`refresh`**<br>此指令指定：<br>1. **重新加载当前页面的间隔时间（单位：秒）** - 仅在`content`属性包含*正整数*的情况下。<br>2. **重定向到另一页面的时间间隔**（单位：秒) - 仅在`content`属性包含*正整数*后跟字符串 `;url=`和有效URL的情况下。<br><br>**`set-cookie`**<br>**错误：** 不要使用此指令，因为它**已过时废弃**。请改用HTTP标头`Set-Cookie`。 |
+| **[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)** | 定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。 |
 | **`name`** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，`http-equiv`或`charset`之一，则不应设置此属性。<br>此元数据名称与`content`属性所包含的值相关。<br>可能的值用于`name`属性的有：<br><br>**`application-name`**，用于定义在网页中运行的**应用程序的名称**。<br> **注意：** 浏览器可以使用它来标识该应用程序。它与通常包含应用程序名称的[`<title>`](/zh-hans/webfrontend/<title>)元素不同，但也可能包含文档名称或状态之类的信息。<br>简单的网页不应定义应用程序名称。<br><br>**`author`**定义文档作者姓名的“作者”。<描述>“描述”包含页面内容的简短准确摘要。一些浏览器，例如Firefox和Opera，都将其用作添加了书签的页面的默认描述。<br><br>**`generator`**包含生成页面的**软件的标识符**。<br><br>**`keywords`**包含与**页面内容相关的单词**，用逗号隔开。<br><br>**`referrer`**控制附加到文档发送的请求的`Referer` HTTP标头 |
 | **`content`** | 此属性包含`http-equiv`或`name`属性的值，具体取决于所使用的属性。|
 
@@ -152,23 +152,9 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 
 <!-- 关于这个网页的关键字，用逗号隔开 -->
 <meta name="keywords" content="Dookbook,a,b">
-
-<!-- 3秒后重新加载（刷新）这个网页 -->
-<meta http-equiv="refresh" content="3">
-<meta http-equiv="refresh" content="3;url=https://dookbook.info">
 ```
 
 ## 可达性问题
-
-### 刷新内容
-
-设置了刷新值的页面存在时间间隔太短的风险。借助屏幕阅读器等辅助技术进行导航的人们在自动重定向之前可能无法阅读并理解页面的内容。 页面内容的突然且未经通知的更新也可能使视力低下的人迷失方向。
-
-- [MDN了解WCAG，准则2.1的说明](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#Guideline_2.2_%E2%80%94_Enough_Time_Provide_users_enough_time_to_read_and_use_content)
-- [MDN了解WCAG，准则3.1的说明](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.2_%E2%80%94_Predictable_Make_Web_pages_appear_and_operate_in_predictable_ways)
-- [了解成功标准2.2.1 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html)
-- [了解成功标准2.2.4 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html)
-- [了解成功标准3.2.5 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html)
   
 ### 视口缩放
 

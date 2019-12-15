@@ -10,10 +10,10 @@ elements, like [`<base>`](/en/webfrontend/<base>), [`<link>`](/en/webfrontend/<l
 
 |  |  |
 | :-- | :-- |
-| **Content categories** | Metadata content. If the itemprop attribute is present: flow content, phrasing content.
+| **Content categories** | Metadata content. If the `itemprop` attribute is present: flow content, phrasing content.
 | **Permitted content** | None, it is an empty element.
 | **Tag omission** | As it is a void element, the start tag must be present and the end tag must not be present.
-| **Permitted parents** | `<meta charset>`,`<meta http-equiv>`: a [`<head>`](/en/webfrontend/<head>) element. If the `http-equiv` is not an encoding declaration, it can also be inside a [`<noscript>`](/en/webfrontend/<noscript>) element, itself inside a [`<head>`](/en/webfrontend/<head>) element.
+| **Permitted parents** | [`<meta charset>`](/en/webfrontend/<meta>_charset_attribute), [`<meta http-equiv>`](/en/webfrontend/<meta>_http-equiv_attribute): a [`<head>`](/en/webfrontend/<head>) element. If the `http-equiv` is not an encoding declaration, it can also be inside a [`<noscript>`](/en/webfrontend/<noscript>) element, itself inside a [`<head>`](/en/webfrontend/<head>) element.
 | **Permitted ARIA roles** | None
 | **DOM interface** | `HTMLMetaElement`
 
@@ -24,14 +24,15 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 !!! warn "Note"
     The attribute `name` has a specific meaning for the `<meta>` element, and the
     `itemprop` attribute must not be set on the same `<meta>` element that has any existing
-    `name`, `http-equiv` or `charset` attributes.
+    `name`, [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or
+    [`charset`](/en/webfrontend/<meta>_charset_attribute) attributes.
 
 | Attribute | Description |
 | :-- | :-- |
 | **[`charset`](/en/webfrontend/<meta>_charset_attribute)** | This attribute declares the page's **[[character encoding]]**. |
-| **`http-equiv`** | Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed values are names of particular **HTTP headers**:<br><br>**`content-language`**<br>**It is obsolete**. Prefer the `lang` attribute on the [`<html>`](/en/webfrontend/<html>) element.<br><br>**`content-security-policy`**<br>Allows page authors to define a **content policy** for the current page. Content policies mostly specify allowed server origins and script endpoints which help guard against *cross-site scripting attacks.*<br><br>**`content-type`**<br>**It is obsolete**. Use the `charset` attribute on the `<meta>` element.<br><br>**`refresh`**<br>This instruction specifies: <br>1. The **number of seconds until the page should be reloaded** - only if the `content` attribute contains a *positive integer*.<br>2. The **number of seconds until the page should redirect to another** - only if the `content` attribute contains a *positive integer* followed by the string '`;url=`', and a valid URL.<br><br>**`set-cookie`**<br>**It is obsolete.** Use the HTTP header `Set-Cookie` instead.
+| **[`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute)** | Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed values are names of particular **HTTP headers**.
 | **`name`** | This attribute defines the **name of a piece of document-level metadata**. It should not be set if one of the attributes `itemprop`, `http-equiv` or `charset` is also set.<br>This metadata name is associated with the value contained by the `content` attribute.<br>The possible values for the `name` attribute are:<br><br>**`application-name`** which defines the name of the application running in the web page.<br>**Note:** Browsers may use this to identify the application. It is different from the [`<title>`](/en/webfrontend/<title>) element, which usually contain the application name, but may also contain information like the document name or a status.<br>Simple web pages shouldn't define an application-name.<br><br>**`author`** which defines the name of the document's author.<br><br>**`description`** which contains a short and accurate summary of the content of the page. Several browsers, like Firefox and Opera, use this as the default description of bookmarked pages.<br><br>**`generator`** which contains the identifier of the software that generated the page.<br><br>**`keywords`** which contains words relevant to the page's content separated by commas.<br><br>**`referrer`** which controls the `Referer` HTTP header attached to requests sent from the document.
-| **`content`** | This attribute contains the value for the `http-equiv` or `name` attribute, depending on which is used.
+| **`content`** | This attribute contains the value for the [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or `name` attribute, depending on which is used.
 
 ### Values for the `content` attribute of `<meta name="referrer">`
 
@@ -183,26 +184,9 @@ semantics of the metadata is user-specific.
 
 <!-- Keywords about this page, separated by commas -->
 <meta name="keywords" content="Dookbook,a,b">
-
-<!-- Redirect page after 3 seconds -->
-<meta http-equiv="refresh" content="3">
-<meta http-equiv="refresh" content="3;url=https://dookbook.info">
 ```
 
 ## Accessibility Concerns
-
-### Refreshing content
-
-Pages set with a refresh value run the risk of having the time interval being too short. People
-navigating with the aid of assistive technology such as a screen reader may be unable to read through
-and understand the page's content before being automatically redirected. The abrupt, unannounced
-updating of the page content may also be disorienting for people experiencing low vision conditions.
-
-- [MDN Understanding WCAG, Guideline 2.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#Guideline_2.2_%E2%80%94_Enough_Time_Provide_users_enough_time_to_read_and_use_content)
-- [MDN Understanding WCAG, Guideline 3.1 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.2_%E2%80%94_Predictable_Make_Web_pages_appear_and_operate_in_predictable_ways)
-- [Understanding Success Criterion 2.2.1 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html)
-- [Understanding Success Criterion 2.2.4 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html)
-- [Understanding Success Criterion 3.2.5 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html)
   
 ### Viewport scaling
 
