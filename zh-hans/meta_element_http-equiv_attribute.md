@@ -1,49 +1,74 @@
-TOPICS: <meta> http-equiv attribute
+TOPICS: <meta> name attribute
 
-# `<meta>`元素的`http-equiv`属性
+# `<meta>`元素的`name`属性
 
-定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。
+该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)之一，则不应设置此属性。
 
-## `content-language`
+此元数据名称与`content`属性所包含的值相关。
 
-!!! error "已过时废弃"
-    请改用[`<html>`](/zh-hans/webfrontend/<html>)元素上的`lang`属性替代。
+## `<meta name="application-name">`
 
-## `content-security-policy`
+**`application-name`**，用于定义在网页中运行的**应用程序的名称**。
 
-允许定义当前页面的**内容策略**。内容策略主要指定允许的服务器来源和脚本端点，以帮助防止跨站点脚本攻击。
+**注意：** 浏览器可以使用它来标识该应用程序。它与通常包含应用程序名称的[`<title>`](/zh-hans/webfrontend/<title>)元素不同，但也可能包含文档名称或状态之类的信息。
 
-## `content-type`
+简单的网页不应定义应用程序名称`application-name`。
 
-!!! error "已过时废弃"
-    请改用[`<meta>`](/zh-hans/webfrontend/<meta>)元素上的`charset`属性来替代。
+## `<meta name="author">`
 
-## `refresh`
+**`author`**，用于定义文档的**作者信息**。
 
-此指令指定：
-
-1. **重新加载当前页面的间隔时间（单位：秒）** - 仅在`content`属性包含*正整数*的情况下。
-2. **重定向到另一页面的时间间隔**（单位：秒) - 仅在`content`属性包含*正整数*后跟字符串 `;url=`和有效URL的情况下。
-
-### 刷新内容示例
+例如：
 
 ```html
-<!-- 3秒后重新加载（刷新）这个网页 -->
-<meta http-equiv="refresh" content="3">
-<meta http-equiv="refresh" content="3;url=https://dookbook.info">
+<!-- 标注网站作者信息：Dookbook是这个网页的作者 -->
+<meta name="author" content="Dookbook">
 ```
 
-### 刷新内容的可访问性问题
+## `<meta name="description">`
 
-设置了刷新值的页面存在时间间隔太短的风险。借助屏幕阅读器等辅助技术进行导航的人们在自动重定向之前可能无法阅读并理解页面的内容。页面内容的突然且未经通知的更新也可能使视力低下的人迷失方向。
+**`description`**，用于包含页面内容的**简短准确摘要**。一些浏览器，例如Firefox和Opera，都将其用作添加了书签的页面的默认描述。
 
-- [MDN了解WCAG，准则2.1的说明](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#Guideline_2.2_%E2%80%94_Enough_Time_Provide_users_enough_time_to_read_and_use_content)
-- [MDN了解WCAG，准则3.1的说明](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#Guideline_3.2_%E2%80%94_Predictable_Make_Web_pages_appear_and_operate_in_predictable_ways)
-- [了解成功标准2.2.1 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html)
-- [了解成功标准2.2.4 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html)
-- [了解成功标准3.2.5 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html)
+例如：
 
-## `set-cookie`
+```html
+<!-- 描述这个网页 -->
+<meta name="description" content="A Dookbook webpage">
+```
 
-!!! error "已过时废弃"
-    请改用HTTP标头`Set-Cookie`来替代。
+## `<meta name="generator">`
+
+**`generator`**，用于包含生成页面的**软件的标识符**。
+
+## `<meta name="keywords">`
+
+**`keywords`**，用于包含与**页面内容相关的单词**，用*逗号*隔开。
+
+例如：
+
+```html
+<!-- 关于这个网页的关键字，用逗号隔开 -->
+<meta name="keywords" content="Dookbook,a,b">
+```
+
+## `<meta name="referrer">`
+
+**`referrer`**，用于控制附加到文档发送的请求的`Referer`HTTP头部。
+
+### `<meta name="referrer">`的`content`属性值
+
+!!! warn "注意"
+    - 某些浏览器支持废弃的`referrer`值：`always`，`default`和`never`。
+    - 动态插入`<meta name =“ referrer”>`（带有`document.write`或`appendChild`）会使引荐来源网址的行为不可预测。
+    - 当定义了多个冲突策略时，将应用无引用策略`no-referrer`。
+
+| 值 | 描述 |
+| :-- | :-- |
+| `no-referrer` | 不发送HTTP `Referer`头部. |
+| `origin` | 发送文件来源. |
+| `no-referrer-when-downgrade` | 将来源作为引荐来源发送到与当前页面一样安全的URL（https→https），但不将引荐来源发送给安全程度较低的URL（https→http）。 这是*默认*行为.|
+| `origin-when-cross-origin` | 发送相同来源请求的完整URL（带参数的），但仅发送其他情况下的来源. |
+| `same-origin` | 将发送针对相同站点来源的引荐来源网址，但跨域请求将不包含引荐来源网址信息. |
+| `strict-origin` | 仅将文档的原始来源作为引荐来源发送到优先级较高的目标（HTTPS-> HTTPS），而不将其发送到安全性较低的目标（HTTPS-> HTTP）. |
+| `strict-origin-when-cross-origin` | 在执行相同来源的请求时发送完整的URL，仅将文档的原点发送到先验的非常安全的目标（HTTPS-> HTTPS），不发送标头到次安全的目标（HTTPS-> HTTP ）. |
+| `unsafe-URL` | 发送同源或跨域请求的完整URL（带参数的URL）. |

@@ -11,7 +11,7 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 | **内容分类** | 元数据内容。 如果存在`itemprop`属性：流程内容，短语内容. |
 | **允许的内容** | 无，这是一个空元素. |
 | **标签遗漏** | 由于它是一个void元素，因此必须存在开始标签，而不能存在结束标签. |
-| **允许的父元素** | [`<meta charset>`](/zh-hans/webfrontend/<meta>_charset_attribute)，[`<meta http-equiv>`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)：一个[`<head>`](/zh-hans/webfrontend/<head>)元素。 如果`http-equiv`不是编码声明，则它也可以位于[`<noscript>`](/zh-hans/webfrontend/<noscript>)元素内部，本身也位于[`<head>`](/zh-hans/webfrontend/<head>)元素内部. |
+| **允许的父元素** | [`<meta charset>`](/zh-hans/webfrontend/<meta>_charset_attribute)，[`<meta http-equiv>`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)：一个[`<head>`](/zh-hans/webfrontend/<head>)元素。 如果[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)不是编码声明，则它也可以位于[`<noscript>`](/zh-hans/webfrontend/<noscript>)元素内部，本身也位于[`<head>`](/zh-hans/webfrontend/<head>)元素内部. |
 | **允许的 ARIA 角色** | 没有 |
 | **DOM 接口** | `HTMLMetaElement` |
 
@@ -20,32 +20,15 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 此元素包括[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes).
 
 !!! warn "注意"
-    属性`name`对`<meta>`元素具有特定的含义，并且`itemprop`属性不能用在已经存在`name`, [`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)属性的同一个`<meta>`元素上。
+    属性[`name`](/zh-hans/webfrontend/<meta>_name_attribute)对`<meta>`元素具有特定的含义，并且`itemprop`属性不能用在已经存在
+    [`name`](/zh-hans/webfrontend/<meta>_name_attribute), [`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)属性的同一个`<meta>`元素上。
 
 | 属性 | 描述 |
 | :-- | :-- |
 | **[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)** | 此属性声明页面的 **[字符编码](/zh-hans/glossary/Character_Set)**。|
 | **[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)** | 定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。 |
-| **`name`** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，`http-equiv`或`charset`之一，则不应设置此属性。<br>此元数据名称与`content`属性所包含的值相关。<br>可能的值用于`name`属性的有：<br><br>**`application-name`**，用于定义在网页中运行的**应用程序的名称**。<br> **注意：** 浏览器可以使用它来标识该应用程序。它与通常包含应用程序名称的[`<title>`](/zh-hans/webfrontend/<title>)元素不同，但也可能包含文档名称或状态之类的信息。<br>简单的网页不应定义应用程序名称。<br><br>**`author`**定义文档作者姓名的“作者”。<描述>“描述”包含页面内容的简短准确摘要。一些浏览器，例如Firefox和Opera，都将其用作添加了书签的页面的默认描述。<br><br>**`generator`**包含生成页面的**软件的标识符**。<br><br>**`keywords`**包含与**页面内容相关的单词**，用逗号隔开。<br><br>**`referrer`**控制附加到文档发送的请求的`Referer` HTTP标头 |
-| **`content`** | 此属性包含`http-equiv`或`name`属性的值，具体取决于所使用的属性。|
-
-### `<meta name="referrer">`的`content`属性值
-
-| 值 | 描述 |
-| :-- | :-- |
-| `no-referrer` | 不发送HTTP Referer标头. |
-| `origin` | 发送文件原点. |
-| `no-referrer-when-downgrade` | 将来源作为引荐来源发送到与当前页面一样安全的URL（https→https），但不将引荐来源发送给安全程度较低的URL（https→http）。 这是默认行为.|
-| `origin-when-cross-origin` | 发送相同来源请求的完整URL（带参数的），但仅发送其他情况下的来源. |
-| `same-origin` | 将发送针对相同站点来源的引荐来源网址，但跨域请求将不包含引荐来源网址信息. |
-| `strict-origin` | 仅将文档的原始来源作为引荐来源发送到优先级较高的目标（HTTPS-> HTTPS），而不将其发送到安全性较低的目标（HTTPS-> HTTP）. |
-| `strict-origin-when-cross-origin` | 在执行相同来源的请求时发送完整的URL，仅将文档的原点发送到先验的非常安全的目标（HTTPS-> HTTPS），不发送标头到次安全的目标（HTTPS-> HTTP ）. |
-| `unsafe-URL` | 发送同源或跨域请求的完整URL（带参数的URL）. |
-
-!!! warn "Don't try this at home"
-    - 某些浏览器支持引荐来源的始终，默认和从不推荐的值.
-    - 动态插入`<meta name =“ referrer”>`（带有`document.write`或`appendChild`）会使引荐来源网址的行为不可预测.
-    - 当定义了多个冲突策略时，将应用无引用策略.
+| **[`name`](/zh-hans/webfrontend/<meta>_name_attribute)** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)之一，则不应设置此属性。 |
+| **`content`** | 此属性包含[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`name`](/zh-hans/webfrontend/<meta>_name_attribute)属性的值，具体取决于所使用的属性。|
 
 - `theme-color`，指示用户代理用来自定义页面或周围用户界面显示的建议颜色。`content`属性包含有效的CSS`color`.
 - `color-scheme`: 指定与文档兼容的一种或多种配色方案。 浏览器将与用户的浏览器或设备设置一起使用此信息，以确定从背景和前景到窗体控件和滚动条，什么颜色用于所有内容。 `<meta name="color-scheme">`的主要用途是指示与浅色和深色模式的兼容性以及优先顺序.
@@ -136,23 +119,10 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 
 根据属性集，元数据的类型可以是以下之一：
 
-- 如果设置了`name`，则它是文档级元数据，适用于整个页面。
-- 如果设置了`http-equiv`，则它是一个编译指示，即Web服务器通常提供的有关如何提供网页的信息。
-- 如果设置了`charset`，则它是一个字符集声明-网页使用的字符编码。
+- 如果设置了[`name`](/zh-hans/webfrontend/<meta>_name_attribute)，则它是文档级元数据，适用于整个页面。
+- 如果设置了[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)，则它是一个编译指示，即Web服务器通常提供的有关如何提供网页的信息。
+- 如果设置了[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)，则它是一个字符集声明-网页使用的字符编码。
 - 如果设置了`itemprop`，则它是用户定义的元数据-对用户代理而言是透明的，因为元数据的语义是特定于用户的。
-
-## 示例
-
-```html
-<!-- 标注网站作者信息：Dookbook是这个网页的作者 -->
-<meta name="author" content="Dookbook">
-
-<!-- 描述这个网页 -->
-<meta name="description" content="A Dookbook webpage">
-
-<!-- 关于这个网页的关键字，用逗号隔开 -->
-<meta name="keywords" content="Dookbook,a,b">
-```
 
 ## 可达性问题
   
