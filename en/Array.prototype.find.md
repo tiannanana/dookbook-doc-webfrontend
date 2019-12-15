@@ -20,7 +20,7 @@ arr.find(callback[, thisArg])
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | Function to execute on each value in the array, taking 3 arguments:<br>**`element`**<br>The current element in the array.<br>**`index`** Optional<br>The index (position) of the current element in the array.<br>**`array`** Optional<br>The array that `find` was called on.
+| `callback` | Function to execute on each value in the array, taking 3 arguments:<br>**`element`**<br>The current element in the array.<br><br>**`index`** Optional<br>The index (position) of the current element in the array.<br><br>**`array`** Optional<br>The array that `find` was called on.
 | `thisValue` | Object to use as `this` inside callback. |
 
 **Return value**：The value of the first element in the array that satisfies the provided testing

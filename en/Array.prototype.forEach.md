@@ -13,7 +13,7 @@ arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | Function to execute on each element, taking three arguments:<br>**`element`**<br>The current element being processed in the array.<br>**`index`** Optional<br>The index of the current element being processed in the array.<br>**`array`** Optional<br>TThe array `forEach()` was called upon.
+| `callback` | Function to execute on each element, taking three arguments:<br>**`element`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array.<br><br>**`array`** Optional<br>TThe array `forEach()` was called upon.
 | `thisValue` | Value to use as `this` when executing `callback`. |
 
 **Return value**：undefined
@@ -107,8 +107,8 @@ items.forEach(function(item){
 
 ### Printing the contents of an array
 
-!!! warn ""
-    Note: In order to display the content of an array in the console, you can use [`console.table()`](/en/webfrontend/console.table)
+!!! warn "Note"
+    In order to display the content of an array in the console, you can use [`console.table()`](/en/webfrontend/console.table)
     which will print a formatted version of the array. The following example illustrates another
     way of doing so, using forEach().
 

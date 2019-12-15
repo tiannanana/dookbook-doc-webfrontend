@@ -18,7 +18,7 @@ var new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | Function that produces an element of the new Array, taking three arguments:<br>**`currentValue`**<br>The current element being processed in the array.<br>**`index`** Optional<br>The index of the current element being processed in the array.<br>**`array`** Optional<br>The array map was called upon.
+| `callback` | Function that produces an element of the new Array, taking three arguments:<br>**`currentValue`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array.<br><br>**`array`** Optional<br>The array map was called upon.
 | `thisArg` | Value to use as this when executing callback. |
 
 **Return value**：A new array with each element being the result of the callback function and

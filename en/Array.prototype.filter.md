@@ -14,7 +14,7 @@ var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | Function is a predicate, to test each element of the array. Return true to keep the element, false otherwise. It accepts three arguments:<br>**`element`**<br>The current element being processed in the array.<br>**`index`** Optional<br>The index of the current element being processed in the array.<br>**`array`** Optional<br>The array filter was called upon.
+| `callback` | Function is a predicate, to test each element of the array. Return true to keep the element, false otherwise. It accepts three arguments:<br><br>**`element`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array.<br>**`array`** Optional<br>The array filter was called upon.
 | `thisValue` | Optional, Value to use as this when executing callback. |
 
 **Return value**：A new array with the elements that pass the test. If no elements pass the test, an

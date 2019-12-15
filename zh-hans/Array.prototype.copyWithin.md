@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Array.prototype.copyWithin()`
 
-`copyWithin()` 方法浅复制数组的一部分到同一数组中的另一个位置，并返回它，不会改变原数组的长度。
+"`copyWithin()`" 方法浅复制数组的一部分到同一数组中的另一个位置，并返回它，不会改变原数组的长度。
 
 ## 语法
 
@@ -13,9 +13,9 @@ arr.copyWithin(target[, start[, end]])
 
 | 参数 | 说明 |
 | :-- | :-- |
-| `target` | 0 为基底的索引，复制序列到该位置。如果是负数，`target` 将从末尾开始计算。<br>如果 `target` 大于等于 `arr.length`，将会不发生拷贝。如果 `target` 在 `start` 之后，复制的序列将被修改以符合 `arr.length`。|
-| `start` | 0 为基底的索引，开始复制元素的起始位置。如果是负数，`start` 将从末尾开始计算。<br>如果 `start` 被忽略，`copyWithin` 将会从0开始复制。|
-| `end` | 0 为基底的索引，开始复制元素的结束位置。`copyWithin` 将会拷贝到该位置，但不包括 `end` 这个位置的元素。如果是负数，`end` 将从末尾开始计算。<br>如果 `end` 被忽略，`copyWithin` 方法将会一直复制至数组结尾（默认为 `arr.length`）|
+| `target` | "`0`" 为基底的索引，复制序列到该位置。如果是负数，`target` 将从末尾开始计算。<br>如果 `target` 大于等于 `arr.length`，将会不发生拷贝。如果 `target` 在 `start` 之后，复制的序列将被修改以符合 `arr.length`。|
+| `start` | "`0`" 为基底的索引，开始复制元素的起始位置。如果是负数，`start` 将从末尾开始计算。<br>如果 `start` 被忽略，"`copyWithin`" 将会从0开始复制。|
+| `end` | "`0`" 为基底的索引，开始复制元素的结束位置。"`copyWithin`" 将会拷贝到该位置，但不包括 `end` 这个位置的元素。如果是负数，`end` 将从末尾开始计算。<br>如果 `end` 被忽略，"`copyWithin`" 方法将会一直复制至数组结尾（默认为 `arr.length`）|
 
 **返回类型**：Array
 
@@ -25,14 +25,14 @@ arr.copyWithin(target[, start[, end]])
 
 如果 `start` 为负，则其指定的索引位置等同于 `length+start`，`length` 为数组的长度。`end` 也是如此。
 
-`copyWithin` 方法不要求其 `this` 值必须是一个数组对象；除此之外，`copyWithin` 是一个可变方法，它可以改变 `this` 对象本身，并且返回它，而不仅仅是它的拷贝。
+"`copyWithin`" 方法不要求其 `this` 值必须是一个数组对象；除此之外，"`copyWithin`" 是一个可变方法，它可以改变 `this` 对象本身，并且返回它，而不仅仅是它的拷贝。
 
-`copyWithin` 就像 `C` 和 `C++` 的 `memcpy` 函数一样，且它是用来移动 [`Array`](/zh-hans/webfrontend/Array_Object) 或者
+"`copyWithin`" 就像 `C` 和 `C++` 的 `memcpy` 函数一样，且它是用来移动 [`Array`](/zh-hans/webfrontend/Array_Object) 或者
 [`TypedArray`](/zh-hans/webfrontend/TypedArray) 数据的一个高性能的方法。复制以及粘贴序列这两者是为一体的操作;即使复制和粘贴区域重叠，粘贴的序列也会有拷贝来的值。
 
-`copyWithin` 函数被设计为通用式的，其不要求其 `this` 值必须是一个数组对象。
+"`copyWithin`" 函数被设计为通用式的，其不要求其 `this` 值必须是一个数组对象。
 
-`copyWithin` 是一个可变方法，它不会改变 `this` 的长度 `length`，但是会改变 `this` 本身的内容，且需要时会创建新的属性。
+"`copyWithin`" 是一个可变方法，它不会改变 `this` 的长度 `length`，但是会改变 `this` 本身的内容，且需要时会创建新的属性。
 
 ## 示例
 

@@ -17,7 +17,7 @@ arr.findIndex(callback[, thisArg])
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | A function to execute on each value in the array until the function returns true, indicating that the satisfying element was found. It takes three arguments:<br>**`element`**<br>The current element being processed in the array.<br>**`index`** Optional<br>The index of the current element being processed in the array.<br>**`array`** Optional<br>The array `findIndex` was called upon.
+| `callback` | A function to execute on each value in the array until the function returns true, indicating that the satisfying element was found. It takes three arguments:<br>**`element`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array.<br><br>**`array`** Optional<br>The array `findIndex` was called upon.
 | `thisValue` | Optional object to use as `this` when executing `callback`. |
 
 **Return value**：The index of the first element in the array that passes the test. Otherwise, -1.

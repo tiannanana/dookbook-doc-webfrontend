@@ -17,7 +17,7 @@ arr.every(callback[, thisArg])
 
 | parameter | Description |
 | :-- | :-- |
-| `callback` | A function to test for each element, taking three arguments:<br>**`element`**<br>The current element being processed in the array.<br>**`index`** Optional<br>The index of the current element being processed in the array.<br>**`array`** Optional<br>The array every was called upon.
+| `callback` | A function to test for each element, taking three arguments:<br>**`element`**<br>The current element being processed in the array.<br><br>**`index`** Optional<br>The index of the current element being processed in the array.<br><br>**`array`** Optional<br>The array every was called upon.
 | `thisArg` | A value to use as this when executing callback. |
 
 **Return value**：Boolen
