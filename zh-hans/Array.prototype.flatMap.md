@@ -3,8 +3,8 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## `Array.prototype.flatMap()`
 
-"`flatMap()`" 方法首先使用映射函数映射每个元素，然后将结果压缩成一个新数组。它与 [`map`](/zh-hans/webfrontend/Array.prototype.map)
-连着深度值为1的 [`flat`](/zh-hans/webfrontend/Array.prototype.flat) 几乎相同，但 "`flatMap`" 通常在合并成一种方法的效率稍微高一些。
+`flatMap()` 方法首先使用映射函数映射每个元素，然后将结果压缩成一个新数组。它与 [`map`](/zh-hans/webfrontend/Array.prototype.map)
+连着深度值为1的 [`flat`](/zh-hans/webfrontend/Array.prototype.flat) 几乎相同，但 `flatMap` 通常在合并成一种方法的效率稍微高一些。
 
 ## 语法
 
@@ -57,7 +57,7 @@ arr1.flatMap(x => x.split(" "));
 
 ### 在一个 `map()` 期间增加或去除一些项
 
-"`flatMap`" 能用于在map期间增删项目（也就是修改items的数量）。换句话说，它允许你遍历很多项使之成为另一些项（靠分别把它们放进去来处理），而不是总是一对一。 从这个意义上讲，它的作用类似于
+`flatMap` 能用于在map期间增删项目（也就是修改items的数量）。换句话说，它允许你遍历很多项使之成为另一些项（靠分别把它们放进去来处理），而不是总是一对一。 从这个意义上讲，它的作用类似于
 [`filter`](/zh-hans/webfrontend/Array.prototype.filter)的对立面。只需返回一个1项元素数组以保留该项，返回一个多元素数组以添加项，或返回一个0项元素数组以删除该项。
 
 ```javascript

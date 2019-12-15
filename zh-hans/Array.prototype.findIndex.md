@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## `Array.prototype.findIndex()`
 
-"`findIndex()`"方法返回数组中满足提供的测试函数的第一个元素的索引。否则返回-1。
+`findIndex()`方法返回数组中满足提供的测试函数的第一个元素的索引。否则返回-1。
 
 另请参见 [`find()`](/zh-hans/webfrontend/Array.prototype.find) 方法，它返回数组中找到的元素的值，而不是其索引。
 
@@ -15,7 +15,7 @@ arr.findIndex(callback[, thisArg])
 
 | 参数 | 说明 |
 | :-- | :-- |
-| `callback` | 针对数组中的每个元素, 都会执行该回调函数, 执行时会自动传入下面三个参数:<br>**`element`**<br>当前元素。<br><br>**`index`**<br>当前元素的索引。<br><br>**`array`**<br>调用"`findIndex`"的数组。
+| `callback` | 针对数组中的每个元素, 都会执行该回调函数, 执行时会自动传入下面三个参数:<br>**`element`**<br>当前元素。<br><br>**`index`**<br>当前元素的索引。<br><br>**`array`**<br>调用`findIndex`的数组。
 | `thisValue` | 可选。执行`callback`时作为`this`对象的值. |
 
 **返回类型**：返回符合测试条件的第一个数组元素索引，如果没有符合条件的则返回 -1。

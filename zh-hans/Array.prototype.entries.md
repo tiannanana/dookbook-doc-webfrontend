@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Array.prototype.entries()`
 
-"`entries()`" 方法返回一个新的Array Iterator对象，该对象包含数组中每个索引的键/值对。
+`entries()` 方法返回一个新的Array Iterator对象，该对象包含数组中每个索引的键/值对。
 
 ## 语法
 
