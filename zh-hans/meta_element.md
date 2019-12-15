@@ -55,36 +55,6 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 
 这在文档级别上的工作方式与CSS`color-scheme`属性允许单个元素指定其首选和可接受的配色方案的方式相同。 您的样式可以使用`prefers-color-scheme` CSS媒体功能来适应当前的配色方案。
 
-此属性还可以具有从WHATWG Wiki MetaExtensions页面上定义的扩展列表中获取的值。 尽管尚未正式接受任何名称，但一些常用名称是：
-
-- `creator` 它定义了文档创建者的名称，例如组织或机构。 如果不止一个，则应使用多个`<meta>`元素。
-- `googlebot` Googlebot（Google的索引搜寻器）仅跟随机器人的同义词。
-- `publisher` 定义文档发布者的名称。
-- `robots` 定义了协作爬网程序或“机器人”应与页面一起使用的行为。 它是以下值的逗号分隔列表：
-
-### `<meta name="robots">`的`content`属性值
-
-| 值 | 描述 | 使用者 |
-| :-- | :-- | :-- |
-| `index` | 允许机械手索引页面（默认）. | 所有 |
-| `noindex` | 要求机械手不索引页面. | 所有 |
-| `follow` | 允许漫游器跟踪页面上的链接（默认）. | 所有 |
-| `nofollow` | 要求漫游器不遵循页面上的链接. | 所有 |
-| `none` | 相当于noindex，nofollow | Google |
-| `noodp` | 禁止将Open Directory Project描述（如果有）用作搜索引擎结果中的页面描述.| Google, Yahoo, Bing |
-| `noarchive` | 要求搜索引擎不要缓存页面内容. | Google, Yahoo, Bing|
-| `nosnippet` | 防止在搜索引擎结果中显示页面的任何描述. | Google, Bing|
-| `noimageindex` | 要求此页面不显示为索引图像的引用页面.| Google|
-| `nocache` | Synonym of noarchive. | Bing |
-
-!!! warn "Don't try this at home"
-    - 只有合作机器人遵守这些规则。 不要期望阻止电子邮件收集器。
-    - 机器人仍然需要访问页面才能阅读这些规则。 为防止带宽消耗，请使用robots.txt文件.
-    - 如果要删除页面，`noindex`将起作用，但仅在机器人再次访问该页面之后才起作用。 确保`robots.txt`文件没有阻止再次访问。
-    - 一些值是互斥的，例如`index`和`noindex`或`follow`和`nofollow`。 在这些情况下，机器人的行为是不确定的，并且在它们之间可能有所不同。
-    - 一些爬虫机器人，例如Google，Yahoo和Bing，都为HTTP标头`X-Robots-Tag`支持相同的值；这允许图像之类的非HTML文档使用这些规则。
-
-- slurp是机器人的同义词，但仅适用于Slurp-Yahoo Search的搜寻器。
 - 视口，它会提示有关视口初始尺寸的大小。 仅用于移动设备。
 
 ### `<meta name="viewport">`的`content`属性值

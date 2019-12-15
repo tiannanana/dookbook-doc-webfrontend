@@ -72,3 +72,35 @@ TOPICS: <meta> name attribute
 | `strict-origin` | 仅将文档的原始来源作为引荐来源发送到优先级较高的目标（HTTPS-> HTTPS），而不将其发送到安全性较低的目标（HTTPS-> HTTP）. |
 | `strict-origin-when-cross-origin` | 在执行相同来源的请求时发送完整的URL，仅将文档的原点发送到先验的非常安全的目标（HTTPS-> HTTPS），不发送标头到次安全的目标（HTTPS-> HTTP ）. |
 | `unsafe-URL` | 发送同源或跨域请求的完整URL（带参数的URL）. |
+
+## `<meta name="robots">`
+
+此属性还可以具有从WHATWG Wiki MetaExtensions页面上定义的扩展列表中获取的值。 尽管尚未正式接受任何名称，但一些常用名称是：
+
+- `creator` 它定义了文档创建者的名称，例如组织或机构。 如果不止一个，则应使用多个[`<meta>`](/zh-hans/webfrontend/<meta>)元素。
+- `googlebot` **Googlebot**（Google搜索的爬虫）。
+- `slurp` **Slurp-Yahoo**搜索的爬虫。
+- `publisher` 定义文档**发布者的名称**。
+- `robots` 定义了**协作爬虫程序**（“机器人”）应与页面交互的行为。它是以下值的*逗号*分隔列表：
+
+### `<meta name="robots">`的`content`属性值
+
+| 值 | 描述 | 使用者 |
+| :-- | :-- | :-- |
+| `index` | 允许机械手索引页面（默认）. | 所有 |
+| `noindex` | 要求机械手不索引页面. | 所有 |
+| `follow` | 允许漫游器跟踪页面上的链接（默认）. | 所有 |
+| `nofollow` | 要求漫游器不遵循页面上的链接. | 所有 |
+| `none` | 相当于`noindex` + `nofollow` | Google |
+| `noodp` | 禁止将Open Directory Project描述（如果有）用作搜索引擎结果中的页面描述.| Google, Yahoo, Bing |
+| `noarchive` | 要求搜索引擎不要缓存页面内容. | Google, Yahoo, Bing|
+| `nosnippet` | 防止在搜索引擎结果中显示页面的任何描述. | Google, Bing|
+| `noimageindex` | 要求此页面不显示为索引图像的引用页面.| Google|
+| `nocache` | 等同于`noarchive`. | Bing |
+
+!!! info "Note"
+    - 只有合作爬虫遵守这些规则。 不要期望阻止电子邮件收集器。
+    - 爬虫仍然需要访问页面才能阅读这些规则。 为防止带宽消耗，请使用`robots.txt`文件.
+    - 如果要删除页面，`noindex`将起作用，但仅在爬虫再次访问该页面之后才起作用。 确保`robots.txt`文件没有阻止再次访问。
+    - 一些值是互斥的，例如`index`和`noindex`或`follow`和`nofollow`。 在这些情况下，爬虫的行为是不确定的，并且在它们之间可能有所不同。
+    - 一些爬虫机器人，例如Google，Yahoo和Bing，都为HTTP标头`X-Robots-Tag`支持相同的值；这允许图像之类的非HTML文档使用这些规则。

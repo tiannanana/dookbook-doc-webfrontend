@@ -73,44 +73,6 @@ This works at the document level in the same way that the CSS `color-scheme` pro
 individual elements specify their preferred and accepted color schemes. Your styles can adapt to the
 current color scheme using the `prefers-color-scheme` CSS media feature.
 
-This attribute may also have a value taken from the extended list defined on
-WHATWG Wiki MetaExtensions page. Although none have been formally accepted yet,
-a few commonly used names are:
-
-- `creator` which defines the name of the creator of the document, such as an organization or
-institution. If there are more than one, several `<meta>` elements should be used.
-- `googlebot`, a synonym of robots, is only followed by Googlebot (the indexing crawler for Google).
-- `publisher` which defines the name of the document's publisher.
-- `robots` which defines the behaviour that cooperative crawlers, or "robots",
-should use with the page. It is a comma-separated list of the values below:
-
-### Values for the content of `<meta name="robots">`
-
-| Value | Description | Used by |
-| :-- | :-- | :-- |
-| `index` | Allows the robot to index the page (default). | All |
-| `noindex` | Requests the robot to not index the page. | All |
-| `follow` | Allows the robot to follow the links on the page (default). | All |
-| `nofollow` | Requests the robot to not follow the links on the page. | All |
-| `none` | Equivalent to noindex, nofollow | Google |
-| `noodp` | Prevents using the Open Directory Project description, if any, as the page description in search engine results.| Google, Yahoo, Bing |
-| `noarchive` | Requests the search engine not to cache the page content. | Google, Yahoo, Bing|
-| `nosnippet` | Prevents displaying any description of the page in search engine results. | Google, Bing|
-| `noimageindex` | Requests this page not to appear as the referring page of an indexed image.| Google|
-| `nocache` | Synonym of noarchive. | Bing |
-
-!!! warn "Don't try this at home"
-    - Only cooperative robots follow these rules. Do not expect to prevent e-mail harvesters with them.
-    - The robot still needs to access the page in order to read these rules. To prevent bandwidth
-    consumption, use a robots.txt file.
-    - If you want to remove a page, `noindex` will work, but only after the robot visits the page
-    again. Ensure that the `robots.txt` file is not preventing revisits.
-    - Some values are mutually exclusive, like `index` and `noindex`, or `follow` and `nofollow`.
-    In these cases the robot's behaviour is undefined and may vary between them.
-    - Some crawler robots, like Google, Yahoo and Bing, support the same values for the HTTP header
-    `X-Robots-Tag`; this allows non-HTML documents like images to use these rules.
-
-- slurp, is a synonym of robots, but only for Slurp - the crawler for Yahoo Search.
 - viewport, which gives hints about the size of the initial size of the viewport.
 Used by mobile devices only.
 
