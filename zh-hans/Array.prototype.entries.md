@@ -3,11 +3,11 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Array.prototype.entries()`
 
-`entries()` 方法返回一个新的Array Iterator对象，该对象包含数组中每个索引的键/值对。
+`entries()` 方法返回一个新的**Array Iterator**对象，该对象包含数组中每个索引的键/值对。
 
 ## 语法
 
-```html
+```javascript
 arr.entries()
 ```
 
@@ -32,7 +32,7 @@ console.log(iterator);
 */
 ```
 
-### 2、iterator.next()
+### 2、`iterator.next()`
 
 ```javascript
 var arr = ["a", "b", "c"];
@@ -51,7 +51,7 @@ console.log(iterator.next());
 // next.value是一个["key","value"]的数组，是返回的迭代器中的元素值。
 ```
 
-### 3、iterator.next方法运行
+### 3、`iterator.next`方法运行
 
 ```javascript
 var arr = ["a", "b", "c"];
@@ -102,7 +102,7 @@ sortArr(arr);
 */
 ```
 
-### 5、使用for…of 循环
+### 5、使用`for…of` 循环
 
 ```javascript
 var arr = ["a", "b", "c"];

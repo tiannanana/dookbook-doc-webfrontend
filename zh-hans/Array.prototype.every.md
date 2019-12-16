@@ -6,11 +6,11 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 `every()` 方法测试一个数组内的所有元素是否都能通过某个指定函数的测试。它返回一个布尔值。
 
 !!! warn "注意"
-    若收到一个空数组，此方法在一切情况下都会返回 true。
+    若收到一个空数组，此方法在一切情况下都会返回 `true`。
 
 ## 语法
 
-```html
+```javascript
 arr.every(callback[, thisArg])
 ```
 
@@ -42,7 +42,7 @@ arr.every(callback[, thisArg])
 
 ### 检测所有数组元素的大小
 
-下例检测数组中的所有元素是否都大于 10。
+下例检测数组中的所有元素是否都大于 `10`。
 
 ```javascript
 function isBigEnough(element, index, array) {

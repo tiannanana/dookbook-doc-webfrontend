@@ -8,7 +8,7 @@ to an end index (default array length) with a static value. It returns the modif
 
 ## Syntax
 
-```html
+```javascript
 arr.fill(value[, start[, end]])
 ```
 
