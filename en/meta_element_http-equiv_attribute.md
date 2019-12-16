@@ -2,7 +2,7 @@ TOPICS: <meta> http-equiv attribute
 
 # `http-equiv` Attribute of `<meta>` Element
 
-Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed
+Define a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed
 values are names of particular **HTTP headers**.
 
 ## `content-language`
@@ -12,7 +12,7 @@ values are names of particular **HTTP headers**.
 
 ## `content-security-policy`
 
-Allows page authors to define a **content policy** for the current page. Content policies mostly
+Define a **content policy** for the current page. Content policies mostly
 specify allowed server origins and script endpoints which help guard against
 *cross-site scripting attacks*.
 
@@ -55,3 +55,12 @@ updating of the page content may also be disorienting for people experiencing lo
 
 !!! error "It is obsolete"
     Use the HTTP header `Set-Cookie` instead.
+
+## `X-UA-Compatible`
+
+Determine which version of the browser to use to render the current page.
+
+```html
+<!-- latest version of IE and Chrome -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+```

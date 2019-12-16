@@ -7,7 +7,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
 ```
 
@@ -47,7 +47,7 @@ arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
     除了抛出异常以外，没有办法中止或跳出 `forEach()` 循环。如果你需要中止或跳出循环，`forEach()` 方法不是应当使用的工具。
     若你需要提前终止循环，你可以使用：
     1. 一个简单的 `for` 循环
-    2. for...of / for...in 循环
+    2. `for...of` / `for...in` 循环
     3. [`Array.prototype.every()`](/zh-hans/webfrontend/Array.prototype.every)
     4. [`Array.prototype.some()`](/zh-hans/webfrontend/Array.prototype.some)
     5. [`Array.prototype.find()`](/zh-hans/webfrontend/Array.prototype.find)
@@ -221,9 +221,9 @@ const problem = [1, 2, 3, [4, 5, [6, 7], 8, 9]];
 flatten(problem); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-## 针对 promise 或 async 函数的使用备注
+## 针对 `promise` 或 `async` 函数的使用备注
 
-如果使用 promise 或 async 函数作为 `forEach()` 等类似方法的 `callback` 参数，最好对造成的执行顺序影响多加考虑，否则容易出现错误。
+如果使用 `promise` 或 `async` 函数作为 `forEach()` 等类似方法的 `callback` 参数，最好对造成的执行顺序影响多加考虑，否则容易出现错误。
 
 ```javascript
 let ratings = [5, 4, 5];

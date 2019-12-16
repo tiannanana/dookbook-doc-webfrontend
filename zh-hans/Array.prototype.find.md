@@ -12,7 +12,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 arr.find(callback[, thisArg])
 ```
 
@@ -73,7 +73,7 @@ console.log([4, 6, 8, 12].find(isPrime)); // undefined, not found
 console.log([4, 5, 8, 12].find(isPrime)); // 5
 ```
 
-当在回调中删除数组中的一个值时，当访问到这个位置时，其传入的值是 undefined：
+当在回调中删除数组中的一个值时，当访问到这个位置时，其传入的值是 `undefined`：
 
 ```javascript
 // Declare array with no element at index 2, 3 and 4

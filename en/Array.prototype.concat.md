@@ -8,7 +8,7 @@ arrays, but instead returns a new array.
 
 ## Syntax
 
-```html
+```javascript
 var new_array = old_array.concat(value1[, value2[, ...[, valueN]]])
 ```
 

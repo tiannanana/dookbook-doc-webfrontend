@@ -8,7 +8,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 var new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
     // return element for new_array
 }[, thisArg])
