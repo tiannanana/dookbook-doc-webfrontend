@@ -7,7 +7,10 @@ The `ArrayBuffer` object is used to represent a generic, fixed-length raw binary
 
 It is an array of bytes, often referred to in other languages as a "byte array".
 
-You cannot directly manipulate the contents of an ArrayBuffer; instead, you create one of the [typed array objects](/en/webfrontend/TypedArray_Object) or a [DataView](/en/webfrontend/DataView_Object) object which represents the buffer in a specific format, and use that to read and write the contents of the buffer.
+You cannot directly manipulate the contents of an ArrayBuffer;
+instead, you create one of the [typed array objects](/en/webfrontend/TypedArray_Object)
+or a [DataView](/en/webfrontend/DataView_Object) object which represents the buffer in a specific format,
+and use that to read and write the contents of the buffer.
 
 ```JavaScript
 // create an ArrayBuffer with a size in bytes
@@ -35,7 +38,8 @@ new ArrayBuffer(length)
 
 ### Exceptions
 
-A [RangeError](/en/webfrontend/RangeError_Object) is thrown if the length is larger than [Number.MAX_SAFE_INTEGER (>= 2 ** 53)](/en/webfrontend/Number.MAX_SAFE_INTEGER) or negative.
+A [RangeError](/en/webfrontend/RangeError_Object) is thrown if the length is larger than
+[Number.MAX_SAFE_INTEGER (>= 2 ** 53)](/en/webfrontend/Number.MAX_SAFE_INTEGER) or negative.
 
 ## Description
 
@@ -81,7 +85,8 @@ All `ArrayBuffer` instances inherit from [ArrayBuffer.prototype](/en/webfrontend
 
 ## Example
 
-In this example, we create a 8-byte buffer with a [Int32Array](/en/webfrontend/Int32Array_Object) view referring to the buffer:
+In this example, we create a 8-byte buffer with a
+[Int32Array](/en/webfrontend/Int32Array_Object) view referring to the buffer:
 
 ```Instances
 var buffer = new ArrayBuffer(8);
@@ -90,7 +95,10 @@ var view   = new Int32Array(buffer);
 
 ## Compatibility notes
 
-Starting with ECMAScript 2015, `ArrayBuffer` constructors require to be constructed with a [new operator](/en/webfrontend/new_operator). Calling an `ArrayBuffer` constructor as a function without [new](/en/webfrontend/new_operator), will throw a [TypeError](/en/webfrontend/TypeError_Object) from now on.
+Starting with ECMAScript 2015,
+`ArrayBuffer` constructors require to be constructed with a [new operator](/en/webfrontend/new_operator).
+ Calling an `ArrayBuffer` constructor as a function without [new](/en/webfrontend/new_operator),
+ will throw a [TypeError](/en/webfrontend/TypeError_Object) from now on.
 
 ```Instances
 var dv = ArrayBuffer(10);
