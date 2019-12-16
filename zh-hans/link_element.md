@@ -1,8 +1,8 @@
 TOPICS: <link>
 
-# `<link>`
+# HTML外部资源链接元素：`<link>`
 
-**HTML外部资源链接元素（`<link>`）** 指定当前文档和外部资源之间的关系。此元素最常用于链接到样式表，但也用于建立站点图标（“收藏夹”样式图标以及用于主屏幕和移动设备上的应用程序的图标）。
+**HTML外部资源链接元素（`<link>`）** 指定当前文档和**外部资源**之间的关系。此元素最常用于链接到**样式表**，但也用于建立站点图标（“**favicon**”样式图标以及用于**主屏幕**和移动设备上的**应用程序的图标**）。
 
 要链接外部样式表，您需要在[`<head>`](/zh-hans/webfrontend/<head>)内包含一个`<link>`元素，如下所示：
 
@@ -17,6 +17,8 @@ TOPICS: <link>
 
 ```html
 <link rel="icon" href="favicon.ico">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 ```
 
 还有许多其他的图标`rel`值，主要用于指示在各种移动平台上使用的特殊图标类型，例如：
@@ -102,9 +104,9 @@ TOPICS: <link>
 用户可以从“视图”>“页面样式”菜单中选择要使用的样式表。这为用户提供了一种查看页面的多个版本的方法。
 
 ```html
-<link href="default.css" rel="stylesheet" title="Default Style">
-<link href="fancy.css" rel="alternate stylesheet" title="Fancy">
-<link href="basic.css" rel="alternate stylesheet" title="Basic">
+<link href="default.css" rel="stylesheet" title="默认样式">
+<link href="fancy.css" rel="alternate stylesheet" title="花哨">
+<link href="basic.css" rel="alternate stylesheet" title="基础">
 ```
 
 ### 提供用于不同用法上下文的图标
@@ -112,16 +114,17 @@ TOPICS: <link>
 您可以在同一页面上包含指向多个不同图标的链接，浏览器将使用`rel`和`sizes`值作为提示来选择最适合其特定上下文的图标。
 
 ```html
-<!-- third-generation iPad with high-resolution Retina display: -->
+<!-- 带高分辨率Retina显示屏的第三代iPad: -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon144.png">
-<!-- iPhone with high-resolution Retina display: -->
+<!-- 带高分辨率Retina显示屏的iPhone: -->
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon114.png">
-<!-- first- and second-generation iPad: -->
+<!-- 第一代、第二代 iPad: -->
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon72.png">
-<!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<!-- 非Retina屏的iPhone, iPod Touch, 和Android 2.1+设备: -->
 <link rel="apple-touch-icon-precomposed" href="favicon57.png">
-<!-- basic favicon -->
+<!-- 基础favicon -->
 <link rel="icon" href="favicon32.png">
+<link rel="shortcut icon" href="favicon32.png">
 ```
 
 ### 通过媒体查询有条件地加载资源
@@ -166,9 +169,9 @@ myStylesheet.onerror = function() {
 
 |  |  |
 | :-- | :-- |
-| **内容分类** | 元数据内容。 如果存在itemprop：流程内容和短语内容. |
+| **内容分类** | 元数据内容。 如果存在`itemprop`：流程内容和短语内容. |
 | **允许的内容** | 无，这是一个空元素. |
 | **标签遗漏** | 由于它是一个void元素，因此必须存在开始标签，而不能存在结束标签 |
-| **允许的父元素** | 接受元数据元素的任何元素。 如果存在itemprop：接受短语内容的任何元素。 |
+| **允许的父元素** | 接受元数据元素的任何元素。 如果存在`itemprop`：接受短语内容的任何元素。 |
 | **允许的 ARIA 角色** | 没有 |
 | **DOM 接口** | `HTMLLinkElement` |

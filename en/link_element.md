@@ -1,11 +1,11 @@
 TOPICS: <link>
 
-# `<link>`
+# HTML External Resource Link Element: `<link>`
 
 The **HTML External Resource Link element (`<link>`)** specifies relationships between the current
-document and an external resource. This element is most commonly used to link to stylesheets,
-but is also used to establish site icons (both "favicon" style icons and icons for the home screen
-and apps on mobile devices) among other things.
+document and an **external resource**. This element is most commonly used to link to **stylesheets**,
+but is also used to establish site icons (both "**favicon**" style icons and icons for the **home screen**
+and **apps** on mobile devices) among other things.
 
 To link an external stylesheet, you'd include a `<link>` element inside your [`<head>`](/en/webfrontend/<head>)
 like this:
@@ -24,6 +24,8 @@ There are a number of other common types you'll come across. For example, a link
 
 ```html
 <link rel="icon" href="favicon.ico">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 ```
 
 There are a number of other icon `rel` values, mainly used to indicate special icon types
@@ -103,7 +105,7 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 | `prefetch` | This attribute identifies a resource that might be required by the next navigation and that the user agent should retrieve it. This allows the user agent to respond faster when the resource is requested in the future. |
 | `target` | Defines the frame or window name that has the defined linking relationship or that will show the rendering of any linked resource. |
 
-## Styling with CSSs
+## Styling with CSS
 
 The `<link>` element has no visual presence on a web document, therefore it has no styling
 considerations to worry about.
@@ -195,9 +197,9 @@ You can find a number of `<link rel="preload">` examples in Preloading content w
 
 |  |  |
 | :-- | :-- |
-| **Content categories** | Metadata content. If itemprop is present: flow content and phrasing content. |
+| **Content categories** | Metadata content. If `itemprop` is present: flow content and phrasing content. |
 | **Permitted content** | None, it is an empty element. |
 | **Tag omission** | As it is a void element, the start tag must be present and the end tag must not be present |
-| **Permitted parents** | Any element that accepts metadata elements. If itemprop is present: any element that accepts phrasing content. |
+| **Permitted parents** | Any element that accepts metadata elements. If `itemprop` is present: any element that accepts phrasing content. |
 | **Permitted ARIA roles** | None |
 | **DOM interface** | `HTMLLinkElement` |
