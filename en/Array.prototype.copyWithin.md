@@ -8,7 +8,7 @@ returns it without modifying its length.
 
 ## Syntax
 
-```html
+```javascript
 arr.copyWithin(target[, start[, end]])
 ```
 
@@ -16,13 +16,13 @@ arr.copyWithin(target[, start[, end]])
 | :-- | :-- |
 | `target` | Zero-based index at which to copy the sequence to. If negative, `target` will be counted from the end.<br>If `target` is at or greater than `arr.length`, nothing will be copied. If `target` is positioned after start, the copied sequence will be trimmed to fit `arr.length`. |
 | `start` | Zero-based index at which to `start` copying elements from. If negative, `start` will be counted from the end.<br>If `start` is omitted, `copyWithin` will copy from index 0. |
-| `end` | Zero-based index at which to `end` copying elements from. `copyWithin` copies up to but not including `end`. If negative, `end` will be counted from the `end`.<br>If `end` is omitted, `copyWithin` will copy until the last index (default to arr.length).|
+| `end` | Zero-based index at which to `end` copying elements from. `copyWithin` copies up to but not including `end`. If negative, `end` will be counted from the `end`.<br>If `end` is omitted, `copyWithin` will copy until the last index (default to `arr.length`).|
 
 **Return value**：Array
 
 ## Description
 
-The `copyWithin` works like C and C++'s `memmove`, and is a high-performance method to shift the
+The `copyWithin` works like `C` and `C++`'s `memmove`, and is a high-performance method to shift the
 data of an [`Array`](/en/webfrontend/Array_Object). This especially applies to the [`TypedArray`](/en/webfrontend/TypedArray)
 method of the same name. The sequence is copied and pasted as one operation; pasted sequence will
 have the copied values even when the copy and paste region overlap.

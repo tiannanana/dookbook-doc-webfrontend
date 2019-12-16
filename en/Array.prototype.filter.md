@@ -8,7 +8,7 @@ provided function.
 
 ## Syntax
 
-```html
+```javascript
 var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
 ```
 
@@ -51,7 +51,7 @@ Elements which are appended to the array after the call to `filter()` begins wil
 ### Filtering out all small values
 
 The following example uses `filter()` to create a filtered array that has all elements with values
-less than 10 removed.
+less than `10` removed.
 
 ```javascript
 function isBigEnough(value) {

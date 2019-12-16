@@ -14,7 +14,7 @@ with the value instead of using a testing function.)
 
 ## Syntax
 
-```html
+```javascript
 arr.find(callback[, thisArg])
 ```
 

@@ -11,7 +11,7 @@ provided function. It returns a Boolean value.
 
 ## Syntax
 
-```html
+```javascript
 arr.every(callback[, thisArg])
 ```
 
@@ -46,13 +46,13 @@ If existing elements of the array are changed, their value as passed to `callbac
 at the time `every` visits them. Elements that are deleted are not visited.
 
 `every` acts like the "for all" quantifier in mathematics. In particular, for an empty array, it
-returns true. (It is vacuously true that all elements of the empty set satisfy any given condition.)
+returns `true`. (It is vacuously `true` that all elements of the empty set satisfy any given condition.)
 
 ## Examples
 
 ### Testing size of all array elements
 
-The following example tests whether all elements in the array are bigger than 10.
+The following example tests whether all elements in the array are bigger than `10`.
 
 ```javascript
 function isBigEnough(element, index, array) {
