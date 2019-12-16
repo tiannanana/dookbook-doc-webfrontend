@@ -47,3 +47,12 @@ TOPICS: <meta> http-equiv attribute
 
 !!! error "已过时废弃"
     请改用HTTP标头`Set-Cookie`来替代。
+
+## `X-UA-Compatible`
+
+要求浏览器采取何种版本渲染当前页面。
+
+```html
+<!-- 最新版本的IE和Chrome -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+```

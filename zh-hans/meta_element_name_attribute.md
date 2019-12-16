@@ -38,7 +38,7 @@ TOPICS: <meta> name attribute
 
 ## `<meta name="generator">`
 
-**`generator`**，用于包含生成页面的**软件的标识符**。
+**`generator`**，用于包含生成或制作页面的**软件的标识符**。
 
 ## `<meta name="keywords">`
 
