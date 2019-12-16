@@ -3,9 +3,15 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript Atomics Object
 
-The `Atomics` object provides atomic operations as static methods. They are used with [SharedArrayBuffer](/en/webfrontend/SharedArrayBuffer_Object) objects.
+The `Atomics` object provides atomic operations as static methods.
+They are used with [SharedArrayBuffer](/en/webfrontend/SharedArrayBuffer_Object) objects.
 
-The Atomic operations are installed on an Atomics module. Unlike the other global objects, Atomics is not a constructor. You cannot use it with a [new](/en/webfrontend/new_operator) operator or invoke the Atomics object as a function. All properties and methods of Atomics are static (as is the case with the [Math](/en/webfrontend/Math_Object) object, for example).
+The Atomic operations are installed on an Atomics module.
+Unlike the other global objects, Atomics is not a constructor.
+You cannot use it with a
+[new](/en/webfrontend/new_operator) operator or invoke the Atomics object as a function.
+All properties and methods of Atomics are static (as is the case with the
+[Math](/en/webfrontend/Math_Object) object, for example).
 
 ## Properties
 
@@ -17,7 +23,9 @@ The Atomic operations are installed on an Atomics module. Unlike the other globa
 
 ### Atomic operations
 
-When memory is shared, multiple threads can read and write the same data in memory. Atomic operations make sure that predictable values are written and read, that operations are finished before the next operation starts and that operations are not interrupted.
+When memory is shared, multiple threads can read and write the same data in memory.
+Atomic operations make sure that predictable values are written and read,
+that operations are finished before the next operation starts and that operations are not interrupted.
 
 | Methods | Despcription |
 | :-- | :-- |
@@ -33,7 +41,9 @@ When memory is shared, multiple threads can read and write the same data in memo
 
 ### Wait and notify
 
-The [wait()](/en/webfrontend/Atomics.wait) and [notify()](/en/webfrontend/Atomics.notify) methods are modeled on Linux futexes ("fast user-space mutex") and provide ways for waiting until a certain condition becomes true and are typically used as blocking constructs.
+The [wait()](/en/webfrontend/Atomics.wait) and [notify()](/en/webfrontend/Atomics.notify) methods
+are modeled on Linux futexes ("fast user-space mutex") and provide ways for waiting until a certain
+condition becomes true and are typically used as blocking constructs.
 
 | Methods | Despcription |
 | :-- | :-- |
@@ -43,9 +53,15 @@ The [wait()](/en/webfrontend/Atomics.wait) and [notify()](/en/webfrontend/Atomic
 
 ## Compatibility notes
 
-Prior to Firefox 48, the latest API names and semantics weren't implemented yet. The changes between Firefox version 46 and version 48 are:
+Prior to Firefox 48, the latest API names and semantics weren't implemented yet.
+The changes between Firefox version 46 and version 48 are:
 
-- The methods `Atomics.futexWakeOrRequeue()` and `Atomics.fence()` are now removed entirely (bug 1259544 and bug 1225028).
-- The methods `Atomics.wait()` and `Atomics.wake()` were named `Atomics.futexWait()` and `Atomics.futexWake()` (bug 1260910). Note: The old names have been removed in version 49 and later (bug 1262062). Atomics.wake() has then been renamed to `Atomics.notify()` in version 63.
-- The properties `Atomics.OK`, `Atomics.TIMEDOUT`, `Atomics.NOTEQUAL` have been removed. The `Atomics.wait()` method now returns the strings "ok", "timed-out" and "not-equal" (bug 1260835).
-- The count parameter of the `Atomics.wake()` method has been changed: it now defaults to `+Infinity`, not `0` (bug 1253350).
+- The methods `Atomics.futexWakeOrRequeue()` and `Atomics.fence()` are now removed entirely
+  (bug 1259544 and bug 1225028).
+- The methods `Atomics.wait()` and `Atomics.wake()` were named `Atomics.futexWait()`
+  and `Atomics.futexWake()` (bug 1260910). Note: The old names have been removed in version 49
+  and later (bug 1262062). Atomics.wake() has then been renamed to `Atomics.notify()` in version 63.
+- The properties `Atomics.OK`, `Atomics.TIMEDOUT`, `Atomics.NOTEQUAL` have been removed.
+  The `Atomics.wait()` method now returns the strings "ok", "timed-out" and "not-equal" (bug 1260835).
+- The count parameter of the `Atomics.wake()` method has been changed: it now defaults to `+Infinity`,
+  not `0` (bug 1253350).

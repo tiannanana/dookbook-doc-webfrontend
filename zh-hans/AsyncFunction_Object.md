@@ -3,7 +3,8 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript AsyncFunction Object
 
-`AsyncFunction` 构造函数用来创建新的 [异步函数](/zh-hans/webfrontend/async_function) 对象，JavaScript 中每个异步函数都是  `AsyncFunction` 的对象。
+`AsyncFunction` 构造函数用来创建新的 [异步函数](/zh-hans/webfrontend/async_function) 对象，
+JavaScript 中每个异步函数都是  `AsyncFunction` 的对象。
 
 注意，`AsyncFunction` 并不是一个全局对象，需要通过下面的方法来获取：
 
@@ -26,11 +27,13 @@ new AsyncFunction([arg1[, arg2[, ...argN]],] functionBody)
 
 ## 描述
 
-执行 `AsyncFunction` 构造函数的时候，会创建一个 [异步函数](/zh-hans/webfrontend/async_function)  对象。但是这种方式不如先用 异步函数表达式 定义一个[异步函数](/zh-hans/webfrontend/async_function) ，然后再调用其来创建 异步函数 对象来的高效，因为第二种方式中异步函数是与其他代码一起被解释器解析的，而第一种方式的函数体是单独解析的。
+执行 `AsyncFunction` 构造函数的时候，会创建一个 [异步函数](/zh-hans/webfrontend/async_function)  对象。
+但是这种方式不如先用 异步函数表达式 定义一个[异步函数](/zh-hans/webfrontend/async_function) ，然后再调用其来创建 异步函数 对象来的高效，因为第二种方式中异步函数是与其他代码一起被解释器解析的，而第一种方式的函数体是单独解析的。
 
 传递给 `AsyncFunction` 构造函数的所有参数，都会成为新函数中的变量，变量的名称和定义顺序与各参数相同。
 
-!!!warn 注意：使用 `AsyncFunction` 构造函数创建的 [异步函数](/zh-hans/webfrontend/async_function)  并不会在当前上下文中创建闭包，其作用域始终是全局的。因此运行的时候只能访问它们自己的本地变量和全局变量，但不能访问构造函数被调用的那个作用域中的变量。这是它与 [eval](/zh-hans/webfrontend/eval) 不同的地方。
+!!!warn 注意：使用 `AsyncFunction` 构造函数创建的 [异步函数](/zh-hans/webfrontend/async_function)  并不会在当前上下文中创建闭包，
+其作用域始终是全局的。因此运行的时候只能访问它们自己的本地变量和全局变量，但不能访问构造函数被调用的那个作用域中的变量。这是它与 [eval](/zh-hans/webfrontend/eval) 不同的地方。
 
 调用 `AsyncFunction` 构造函数时可以省略 [new](/zh-hans/webfrontend/new_operator)，其效果是一样的。
 
@@ -52,7 +55,8 @@ new AsyncFunction([arg1[, arg2[, ...argN]],] functionBody)
 
 ## AsyncFunction 实例
 
-`AsyncFunction` 实例继承了 [AsyncFunction.prototype](/zh-hans/webfrontend/AsyncFunction.prototype) 的方法和属性。和所有构造函数一样，修改 `AsyncFunction` 构造函数的原型对象会同时对所有 `AsyncFunction` 实例上生效。
+`AsyncFunction` 实例继承了 [AsyncFunction.prototype](/zh-hans/webfrontend/AsyncFunction.prototype) 的方法和属性。
+和所有构造函数一样，修改 `AsyncFunction` 构造函数的原型对象会同时对所有 `AsyncFunction` 实例上生效。
 
 ## 示例
 

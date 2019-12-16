@@ -3,7 +3,9 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript ArrayBuffer Object
 
-`ArrayBuffer` 对象用来表示通用的、固定长度的原始二进制数据缓冲区。`ArrayBuffer` 不能直接操作，而是要通过[TypedArray](/zh-hans/webfrontend/TypedArray_Object)或 [DataView](/zh-hans/webfrontend/DataView_Object) 对象来操作，它们会将缓冲区中的数据表示为特定的格式，并通过这些格式来读写缓冲区的内容。
+`ArrayBuffer` 对象用来表示通用的、固定长度的原始二进制数据缓冲区。
+`ArrayBuffer` 不能直接操作，而是要通过[TypedArray](/zh-hans/webfrontend/TypedArray_Object)或
+[DataView](/zh-hans/webfrontend/DataView_Object) 对象来操作，它们会将缓冲区中的数据表示为特定的格式，并通过这些格式来读写缓冲区的内容。
 
 ```JavaScript
 // create an ArrayBuffer with a size in bytes
@@ -31,7 +33,8 @@ new ArrayBuffer(length)
 
 ### 异常
 
-如果 `length` 大于 [Number.MAX_SAFE_INTEGER (>= 2 ** 53)](/zh-hans/webfrontend/Number.MAX_SAFE_INTEGER)或为负数，则抛出一个  [RangeError](/zh-hans/webfrontend/RangeError_Object)  异常。
+如果 `length` 大于 [Number.MAX_SAFE_INTEGER (>= 2 ** 53)](/zh-hans/webfrontend/Number.MAX_SAFE_INTEGER)或
+为负数，则抛出一个  [RangeError](/zh-hans/webfrontend/RangeError_Object)  异常。
 
 ## 描述
 
@@ -52,11 +55,14 @@ new ArrayBuffer(length)
 
 ## 方法
 
-**[ArrayBuffer.isView(arg)](/zh-hans/webfrontend/ArrayBuffer.isView)**: 如果参数是 `ArrayBuffer` 的视图实例则返回 `true`，例如 类型数组对象 或 `DataView` 对象；否则返回 `false`。
+**[ArrayBuffer.isView(arg)](/zh-hans/webfrontend/ArrayBuffer.isView)**: 如果参数是 `ArrayBuffer` 的视图实例则返回
+ `true`，例如 类型数组对象 或 `DataView` 对象；否则返回 `false`。
 
-**[ArrayBuffer.transfer(oldBuffer [, newByteLength])](/zh-hans/webfrontend/ArrayBuffer.transfer)**: 返回一个新的 `ArrayBuffer` 对象，其内容取自 `oldBuffer` 中的数据，并且根据 `newByteLength` 的大小对数据进行截取或补 `0`。*(这是一个实验性的API,请尽量不要在生产环境中使用它)*
+**[ArrayBuffer.transfer(oldBuffer [, newByteLength])](/zh-hans/webfrontend/ArrayBuffer.transfer)**:
+返回一个新的 `ArrayBuffer` 对象，其内容取自 `oldBuffer` 中的数据，并且根据 `newByteLength` 的大小对数据进行截取或补 `0`。*(这是一个实验性的API,请尽量不要在生产环境中使用它)*
 
-**[ArrayBuffer.slice()](/zh-hans/webfrontend/ArrayBuffer.prototype.slice)**:  和 `ArrayBuffer.prototype.slice()` 功能相同。*(这个API尚未标准化)*
+**[ArrayBuffer.slice()](/zh-hans/webfrontend/ArrayBuffer.prototype.slice)**:
+ 和 `ArrayBuffer.prototype.slice()` 功能相同。*(这个API尚未标准化)*
 
 ## ArrayBuffer 实例
 
@@ -86,7 +92,9 @@ var view   = new Int32Array(buffer);
 
 ## 兼容性提醒
 
-从 ECMAScript 2015 开始，`ArrayBuffer` 对象需要用 [new](/zh-hans/webfrontend/new_operator) 运算符创建。如果调用构造函数时没有使用 [new](/zh-hans/webfrontend/new_operator)，将会抛出 [TypeError](/zh-hans/webfrontend/TypeError_Object)  异常。
+从 ECMAScript 2015 开始，`ArrayBuffer` 对象需要用 [new](/zh-hans/webfrontend/new_operator) 运算符创建。
+如果调用构造函数时没有使用 [new](/zh-hans/webfrontend/new_operator)，
+将会抛出 [TypeError](/zh-hans/webfrontend/TypeError_Object) 异常。
 
 ```JavaScript
 var dv = ArrayBuffer(10);

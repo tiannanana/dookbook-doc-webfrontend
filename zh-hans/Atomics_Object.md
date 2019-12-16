@@ -5,7 +5,8 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 `Atomics` 对象提供了一组静态方法用来对 [SharedArrayBuffer](/zh-hans/webfrontend/SharedArrayBuffer_Object) 对象进行原子操作。
 
-这些原子操作属于 Atomics 模块。与一般的全局对象不同，Atomics 不是构造函数，因此不能使用 [new](/zh-hans/webfrontend/new_operator) 操作符调用，也不能将其当作函数直接调用。Atomics 的所有属性和方法都是静态的（与 [Math](/zh-hans/webfrontend/Math_Object) 对象一样）。
+这些原子操作属于 Atomics 模块。与一般的全局对象不同，Atomics 不是构造函数，因此不能使用 [new](/zh-hans/webfrontend/new_operator) 操作符调用，
+也不能将其当作函数直接调用。Atomics 的所有属性和方法都是静态的（与 [Math](/zh-hans/webfrontend/Math_Object) 对象一样）。
 
 ## 属性
 
@@ -33,7 +34,8 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ### 等待和唤醒
 
-[wait()](/zh-hans/webfrontend/Atomics.wait) 和 [notify()](/zh-hans/webfrontend/Atomics.notify) 方法采用的是 Linux 上的 futexes 模型（fast user-space mutex，快速用户空间互斥量），可以让进程一直等待直到某个特定的条件为真，主要用于实现阻塞。
+[wait()](/zh-hans/webfrontend/Atomics.wait) 和 [notify()](/zh-hans/webfrontend/Atomics.notify) 方法采用的是
+ Linux 上的 futexes 模型（fast user-space mutex，快速用户空间互斥量），可以让进程一直等待直到某个特定的条件为真，主要用于实现阻塞。
 
 | 方法 | 说明 |
 | :-- | :-- |
@@ -46,6 +48,8 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 直到 Firefox 48，最新的 API 名称和语意都还没有实现。FirFox 46 到 FireFox 48 之间主要有以下变化:
 
 - 移除了方法 `Atomics.futexWakeOrRequeue()` 和 `Atomics.fence()` （bug(1259544)、bug(1225028)）。
-- `Atomics.wait()` 和 `Atomics.wake()` 方法名称已改为 `Atomics.futexWait()` 和 `Atomics.futexWake()`（bug 1260910）。注意：之前的名称在 49 版本之后已被移除（bug 1262062）。在版本63中, `Atomics.wake()`被重命名为`Atomics.notify()`。
-- 移除了属性 `Atomics.OK`、 `Atomics.TIMEDOUT`、 `Atomics.NOTEQUA`L。`Atomics.wait()` 方法现在返回字符串 "ok"、"timed-out" 和 "not-equal" （bug 1260835）。
+- `Atomics.wait()` 和 `Atomics.wake()` 方法名称已改为 `Atomics.futexWait()` 和 `Atomics.futexWake()`
+- （bug 1260910）。注意：之前的名称在 49 版本之后已被移除（bug 1262062）。在版本63中, `Atomics.wake()`被重命名为`Atomics.notify()`。
+- 移除了属性 `Atomics.OK`、 `Atomics.TIMEDOUT`、 `Atomics.NOTEQUA`L。`Atomics.wait()` 方法现在返回字符串 "ok"、
+- "timed-out" 和 "not-equal" （bug 1260835）。
 - `Atomics.wake()` 方法的 count 参数的默认值从 `0` 变为 `+Infinity`（bug 1253350）。
