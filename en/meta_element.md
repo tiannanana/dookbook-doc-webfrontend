@@ -6,7 +6,7 @@ The HTML `<meta>` element represents **metadata** that cannot be represented by 
 elements, like [`<base>`](/en/webfrontend/<base>), [`<link>`](/en/webfrontend/<link>),
 [`<script>`](/en/webfrontend/<script>), [`<style>`](/en/webfrontend/<style>) or [`<title>`](/en/webfrontend/<title>).
 
-## Meta
+## Technical Summary
 
 |  |  |
 | :-- | :-- |
