@@ -5,7 +5,7 @@ TOPICS: <h1>
         <h5>
         <h6>
 
-# `<h1>`~`<h6>`
+# HTML Heading Element: `<h1>`~`<h6>`
 
 The **HTML `<h1>`–`<h6>` elements** represent six levels of section headings. `<h1>` is the highest
 section level and `<h6>` is the lowest.
