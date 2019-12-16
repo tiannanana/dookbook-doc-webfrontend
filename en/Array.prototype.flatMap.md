@@ -5,12 +5,12 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 The `flatMap()` method first maps each element using a mapping function, then flattens the result
 into a new array. It is identical to a [`map()`](/en/webfrontend/Array.prototype.map) followed by a
-[`flat()`](/en/webfrontend/Array.prototype.flat) of depth 1, but `flatMap()` is often
+[`flat()`](/en/webfrontend/Array.prototype.flat) of depth `1`, but `flatMap()` is often
 quite useful, as merging both into one method is slightly more efficient.
 
 ## Syntax
 
-```html
+```javascript
 var new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
     // return element for new_array
 }[, thisArg])
@@ -22,14 +22,14 @@ var new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
 | `thisArg` | Value to use as this when executing callback. |
 
 **Return value**：A new array with each element being the result of the callback function and
-flattened to a depth of 1.
+flattened to a depth of `1`.
 
 ## Description
 
 See [`Array.prototype.map()`](/en/webfrontend/Array.prototype.map) for a detailed description of
 the callback function. The `flatMap` method is identical to a
 [`map`](/en/webfrontend/Array.prototype.map) followed by a call to
-[`flat`](/en/webfrontend/Array.prototype.flat) of depth 1.
+[`flat`](/en/webfrontend/Array.prototype.flat) of depth `1`.
 
 ## Examples
 
