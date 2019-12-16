@@ -30,7 +30,6 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 | **[`name`](/zh-hans/webfrontend/<meta>_name_attribute)** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)之一，则不应设置此属性。 |
 | **`content`** | 此属性包含[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`name`](/zh-hans/webfrontend/<meta>_name_attribute)属性的值，具体取决于所使用的属性。|
 
-- `theme-color`，指示用户代理用来自定义页面或周围用户界面显示的建议颜色。`content`属性包含有效的CSS`color`.
 - `color-scheme`: 指定与文档兼容的一种或多种配色方案。 浏览器将与用户的浏览器或设备设置一起使用此信息，以确定从背景和前景到窗体控件和滚动条，什么颜色用于所有内容。 `<meta name="color-scheme">`的主要用途是指示与浅色和深色模式的兼容性以及优先顺序.
 
 `color-scheme`的`content`属性的值可以是以下之一：

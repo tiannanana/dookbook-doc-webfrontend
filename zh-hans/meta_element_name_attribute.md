@@ -131,6 +131,10 @@ TOPICS: <meta> name attribute
 - [MDN了解WCAG，准则1.4解释](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
 - [了解成功标准1.4.4 | W3C了解WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
 
+## `<meta name="theme-color">`
+
+`theme-color`，指示用户代理（浏览器）用来自定义页面或用户界面周边的**建议颜色**。`content`属性包含有效的CSS`color`。
+
 ## `<meta name="scheme">`
 
 !!! error "已过时废弃"

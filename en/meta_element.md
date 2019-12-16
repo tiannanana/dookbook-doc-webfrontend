@@ -34,8 +34,6 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 | **[`name`](/en/webfrontend/<meta>_name_attribute)** | This attribute defines the **name of a piece of document-level metadata**. It should not be set if one of the attributes `itemprop`, [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or [`charset`](/en/webfrontend/<meta>_charset_attribute) is also set.
 | **`content`** | This attribute contains the value for the [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or [`name`](/en/webfrontend/<meta>_name_attribute) attribute, depending on which is used.
 
-- `theme-color` which indicates a suggested color that user agents should use to customize the display
-of the page or of the surrounding user interface. The content attribute contains a valid CSS `<color>`.
 - `color-scheme`: Specifies one or more color schemes with which the document is compatible.
 The browser will use this information in tandem with the user's browser or device settings to
 determine what colors to use for everything from background and foregrounds to form controls and

@@ -148,6 +148,11 @@ experiencing low vision conditions from being able to read and understand page c
 - [MDN Understanding WCAG, Guideline 1.4 explanations](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable#Guideline_1.4_Make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
 - [Understanding Success Criterion 1.4.4 | W3C Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
 
+## `<meta name="theme-color">`
+
+`theme-color` indicates a **suggested color** that user agents should use to customize the display
+of the page or of the surrounding [user interface]. The `content` attribute contains a valid CSS `color`.
+
 ## `<meta name="scheme">`
 
 !!! error "Warning: it is obsolete"
