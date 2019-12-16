@@ -8,7 +8,7 @@ for each index in the array.
 
 ## Syntax
 
-```html
+```javascript
 arr.entries()
 ```
 

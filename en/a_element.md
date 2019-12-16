@@ -2,8 +2,19 @@ TOPICS: <a>
 
 # HTML Anchor Element: `<a>`
 
-The **HTML `<a>` element** (or anchor element), along with it's `href` attribute, creates a
+The **HTML `<a>` element** (or **anchor element**), along with it's `href` attribute, creates a
 hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
+
+## Technical Summary
+
+|  |  |
+| :-- | :-- |
+| **Content categories** | Flow content, phrasing content, interactive content, palpable content. |
+| **Permitted content** | Transparent, containing either flow content (excluding interactive content) or phrasing content.
+| **Tag omission** | None, both the starting and ending tag are mandatory. |
+| **Permitted parents** | Any element that accepts phrasing content, or any element that accepts flow content, but always excluding `<a>` elements (according to the logical principle of symmetry, if `<a>` tag, as a parent, can not have interactive content, then the same `<a>` content can not have `<a>` tag as its parent).|
+| **Permitted ARIA roles** | [`button`](https://w3c.github.io/aria/#button), [`checkbox`](https://w3c.github.io/aria/#checkbox), [`menuitem`](https://w3c.github.io/aria/#menuitem), [`menuitemcheckbox`](https://w3c.github.io/aria/#menuitemcheckbox), [`menuitemradio`](https://w3c.github.io/aria/#menuitemradio), [`option`](https://w3c.github.io/aria/#option), [`radio`](https://w3c.github.io/aria/#radio), [`switch`](https://w3c.github.io/aria/#switch), [`tab`](https://w3c.github.io/aria/#tab), [`treeitem`](https://w3c.github.io/aria/#treeitem) |
+| **DOM interface** | `HTMLAnchorElement` |
 
 ## Attributes
 
@@ -20,17 +31,6 @@ This element's attributes include the [global attributes](/en/webfrontend/HTML_G
 | `target` | Specifies where to display the linked URL. It is a name of, or keyword for, a browsing context: a tab, window, or [`<iframe>`](/en/webfrontend/<iframe>). The following keywords have special meanings:<br>`_self`: Load the URL into the same browsing context as the current one. This is the default behavior.<br>`_blank`:  Load the URL into a new browsing context. This is usually a tab, but users can configure browsers to use new windows instead.<br>`_parent`: Load the URL into the parent browsing context of the current one. If there is no parent, this behaves the same way as `_self`.<br>`_top`: Load the URL into the top-level browsing context (that is, the "highest" browsing context that is an ancestor of the current one, and has no parent). If there is no parent, this behaves the same way as `_self`.<br> **Note:**<br>When using `target`, consider adding `rel="noreferrer"` to avoid exploitation of the<br>window.opener API. See Security concerns section<br>**Note:**<br>Linking to another page using `target="_blank"` will run the new page on the same process as<br>your page. If the new page is executing expensive JS, your page's performance may suffer.To avoid this use `rel="noopener"`.
 | `type` | Specifies the media type in the form of a MIME type for the linked URL. It is purely advisory, with no built-in functionality. |
 
-## Properties
-
-|  |  |
-| :-- | :-- |
-| **Content categories** | Flow content, phrasing content, interactive content, palpable content. |
-| **Permitted content** | Transparent, containing either flow content (excluding interactive content) or phrasing content.
-| **Tag omission** | None, both the starting and ending tag are mandatory. |
-| **Permitted parents** | Any element that accepts phrasing content, or any element that accepts flow content, but always excluding `<a>` elements (according to the logical principle of symmetry, if `<a>` tag, as a parent, can not have interactive content, then the same `<a>` content can not have `<a>` tag as its parent).|
-| **Permitted ARIA roles** | [`button`](https://w3c.github.io/aria/#button), [`checkbox`](https://w3c.github.io/aria/#checkbox), [`menuitem`](https://w3c.github.io/aria/#menuitem), [`menuitemcheckbox`](https://w3c.github.io/aria/#menuitemcheckbox), [`menuitemradio`](https://w3c.github.io/aria/#menuitemradio), [`option`](https://w3c.github.io/aria/#option), [`radio`](https://w3c.github.io/aria/#radio), [`switch`](https://w3c.github.io/aria/#switch), [`tab`](https://w3c.github.io/aria/#tab), [`treeitem`](https://w3c.github.io/aria/#treeitem) |
-| **DOM interface** | `HTMLAnchorElement` |
-
 ## Examples
 
 ### Linking to an external location
@@ -45,6 +45,14 @@ This element's attributes include the [global attributes](/en/webfrontend/HTML_G
 ```html
 <!-- links to element on this page with id="attr-href" -->
 <a href="#attr-href">Description of Same-Page Links</a>
+```
+
+### Creating an image link
+
+```html
+<a href="https://dookbook.info">
+  <img src="https://dookbook.info/static/img/logo-tail.svg" alt="Dookbook logo" />
+</a>
 ```
 
 ### Creating an email link
@@ -68,6 +76,12 @@ Offering phone links is helpful for users viewing web documents and laptops conn
 ```
 
 For additional details about the `tel` URL scheme, see [RFC 3966](https://tools.ietf.org/html/rfc3966).
+
+### Download Link
+
+```html
+<a href="<download-url>" download="<default-filename>" title="Hints">Download Text</a>
+```
 
 ### Using the `download` attribute to save a `<canvas>` as PNG
 

@@ -7,7 +7,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 ## 语法
 
-```html
+```javascript
 var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
 ```
 
@@ -41,7 +41,7 @@ var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
 
 ### 筛选排除所有较小的值
 
-下例使用 `filter` 创建了一个新数组，该数组的元素由原数组中值大于 10 的元素组成。
+下例使用 `filter` 创建了一个新数组，该数组的元素由原数组中值大于 `10` 的元素组成。
 
 ```javascript
 function isBigEnough(element) {

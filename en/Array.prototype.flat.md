@@ -8,13 +8,13 @@ up to the specified depth.
 
 ## Syntax
 
-```html
+```javascript
 var newArray = arr.flat([depth])
 ```
 
 | parameter | Description |
 | :-- | :-- |
-| `depth` | The depth level specifying how deep a nested array structure should be flattened. Defaults to 1. |
+| `depth` | The depth level specifying how deep a nested array structure should be flattened. Defaults to `1`. |
 
 **Return value**：A new array with the sub-array elements concatenated into it.
 
