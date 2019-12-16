@@ -130,12 +130,16 @@ TOPICS: <link>
 ```html
 <!-- 带高分辨率Retina显示屏的第三代iPad: -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon144.png">
+
 <!-- 带高分辨率Retina显示屏的iPhone: -->
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon114.png">
+
 <!-- 第一代、第二代 iPad: -->
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon72.png">
+
 <!-- 非Retina屏的iPhone, iPod Touch, 和Android 2.1+设备: -->
 <link rel="apple-touch-icon-precomposed" href="favicon57.png">
+
 <!-- 基础favicon -->
 <link rel="icon" href="favicon32.png">
 <link rel="shortcut icon" href="favicon32.png">
