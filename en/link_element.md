@@ -20,19 +20,6 @@ and **apps** on mobile devices) among other things.
 
 ## Usage Note
 
-To link an external stylesheet, you'd include a `<link>` element inside your [`<head>`](/en/webfrontend/<head>)
-like this:
-
-```html
-<link href="main.css" rel="stylesheet">
-```
-
-This simple example provides the path to the `stylesheet` inside an `href` attribute, and a `rel`
-attribute with a value of `stylesheet`. The `rel` stands for "relationship", and is probably
-one of the key features of the `<link>` element — the value denotes how the item being linked to
-is related to the containing document. As you'll see from our Link types reference,
-there are many different kinds of relationship.
-
 There are a number of other common types you'll come across. For example, a link to the site's favicon:
 
 ```html
@@ -96,16 +83,16 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 
 | Attribute | Description |
 | :-- | :-- |
+| **`href`** | This attribute specifies **the URL of the linked resource**. A [[URL]] can be *absolute* or *relative*.
+| **`rel`** | This attribute names a **relationship** of the linked document to the current document. The `rel` stands for "*relationship*", and must be a *space-separated* list of the link types values.
 | `as` | This attribute is only used when rel="preload" or rel="prefetch" has been set on the `<link>` element. It specifies the type of content being loaded by the `<link>`, which is necessary for content prioritization, request matching, application of correct content security policy, and setting of correct Accept request header.
 | `crossorigin` | This enumerated attribute indicates whether CORS must be used when fetching the resource. CORS-enabled images can be reused in the [`<canvas>`](/en/webfrontend/<canvas>) element without being tainted. The allowed values are:<br>`anonymous`<br>A cross-origin request (i.e. with an `Origin` HTTP header) is performed, but no credential is sent (i.e. no cookie, X.509 certificate, or HTTP Basic authentication). If the server does not give credentials to the origin site (by not setting the `Access-Control-Allow-Origin` HTTP header) the image will be tainted and its usage restricted.<br>`use-credentials`<br>A cross-origin request (i.e. with an `Origin` HTTP header) is performed along with a credential sent (i.e. a cookie, certificate, and/or HTTP Basic authentication is performed). If the server does not give credentials to the origin site (through `Access-Control-Allow-Credentials` HTTP header), the resource will be tainted and its usage restricted.<br><br>If the attribute is not present, the resource is fetched without a CORS request (i.e. without sending the Origin HTTP header), preventing its non-tainted usage. If invalid, it is handled as if the enumerated keyword anonymous was used. See CORS settings attributes for additional information.
 | `disabled` |For `rel="stylesheet"` only, the `disabled` Boolean attribute indicates whether or not the described stylesheet should be loaded and applied to the document. If `disabled` is specified in the HTML when it is loaded, the stylesheet will not be loaded during page load. Instead, the stylesheet will be loaded on-demand, if and when the `disabled` attribute is changed to `false` or removed.<br>Once the stylesheet has been loaded, however, changes made to the value of the `disabled` property no longer have any relationship to the value of the `StyleSheet.disabled` property. Changing the value of this property instead simply enables and disables the stylesheet form being applied to the document.<br>This differs from `StyleSheet'`s `disabled` property; changing it to `true` removes the stylesheet from the document's `document.styleSheets` list, and doesn't automatically reload the stylesheet when it's toggled back to `false`.
-| `href` | This attribute specifies the URL of the linked resource. A URL can be absolute or relative.
 | `hreflang` | This attribute indicates the language of the linked resource. It is purely advisory. Allowed values are determined by BCP47. Use this attribute only if the href attribute is present.
 | `importance` | Indicates the relative importance of the resource. Priority hints are delegated using the values:<br>`auto`: Indicates no preference. The browser may use its own heuristics to decide the priority of the resource.<br>`high`: Indicates to the browser that the resource is of high priority.<br>`low`: Indicates to the browser that the resource is of low priority.<br>**Note:** The `importance` attribute may only be used for the `<link>` element if `rel="preload"` or `rel="prefetch"` is present.
 | `integrity` | Contains inline metadata — a base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch. The browser can use this to verify that the fetched resource has been delivered free of unexpected manipulation. See Subresource Integrity.
 | `media` | This attribute specifies the media that the linked resource applies to. Its value must be a media type / media query. This attribute is mainly useful when linking to external stylesheets — it allows the user agent to pick the best adapted one for the device it runs on.<br>In HTML 4, this can only be a simple white-space-separated list of media description literals,i.e., media types and groups, where defined and allowed as values for this attribute, such as print, screen, aural, braille. HTML5 extended this to any kind of media queries, which are a superset of the allowed values of HTML 4.<br>Browsers not supporting CSS3 Media Queries won't necessarily recognize the adequate link; do not forget to set fallback links, the restricted set of media queries defined in HTML 4.
 | `referrerpolicy` | A string indicating which referrer to use when fetching the resource:<br>`no-referrer` means that the `Referer` header will not be sent.<br>`no-referrer-when-downgrade` means that no `Referer` header will be sent when navigating to an origin without TLS (HTTPS). This is a user agent’s default behavior, if no policy is otherwise specified.<br>`origin` means that the referrer will be the origin of the page, which is roughly the scheme, the host, and the port.<br>`origin-when-cross-origin` means that navigating to other origins will be limited to the scheme, the host, and the port, while navigating on the same origin will include the referrer's path.<br>`unsafe-url` means that the referrer will include the origin and the path (but not the fragment, password, or username). This case is unsafe because it can leak origins and paths from TLS-protected resources to insecure origins.
-| `rel` | This attribute names a relationship of the linked document to the current document. The attribute must be a space-separated list of the link types values.
 | `sizes` | This attribute defines the sizes of the icons for visual media contained in the resource. It must be present only if the `rel` contains a value of icon or a non-standard type such as Apple's `apple-touch-icon`. It may have the following values:<br>`any`, meaning that the icon can be scaled to any size as it is in a vector format, like `image/svg+xml`.<br>`a` white-space separated list of sizes, each in the format `<width in pixels>x<height in pixels>` or `<width in pixels>X<height in pixels>`. Each of these sizes must be contained in the resource.<br>**Note:** Most icon formats are only able to store one single icon; therefore most of the time the sizes contains only one entry. MS's ICO format does, as well as Apple's ICNS. ICO is more ubiquitous; you should definitely use it.
 | `title` | The title attribute has special semantics on the `<link>` element. When used on a `<link rel="stylesheet">` it defines a preferred or an alternate stylesheet. Incorrectly using it may cause the stylesheet to be ignored.
 | `type` | This attribute is used to define the type of the content linked to. The value of the attribute should be a *[[MIME]] type* such as `text/html`, `text/css`, and so on. The common use of this attribute is to define the type of stylesheet being referenced (such as `text/css`), but given that CSS is the only stylesheet language used on the web, not only is it possible to omit the `type` attribute, but is actually now recommended practice. It is also used on `rel="preload"` link types, to make sure the browser only downloads file types that it supports.
@@ -127,11 +114,17 @@ considerations to worry about.
 
 ### Including a stylesheet
 
-To include a stylesheet in a page, use the following syntax:
+To link an external stylesheet, you'd include a `<link>` element inside your [`<head>`](/en/webfrontend/<head>)
+to include a stylesheet in a page, and use the following syntax:
 
 ```html
-<link href="style.css" rel="stylesheet">
+<head>
+  <link href="style.css" rel="stylesheet">
+</head>
 ```
+
+This simple example provides the path to the `stylesheet` inside an `href` attribute, and a `rel`
+attribute with a value of `stylesheet`.
 
 ### Providing alternative stylesheets
 
