@@ -7,6 +7,17 @@ document and an **external resource**. This element is most commonly used to lin
 but is also used to establish site icons (both "**favicon**" style icons and icons for the **home screen**
 and **apps** on mobile devices) among other things.
 
+## Technical Summary
+
+|  |  |
+| :-- | :-- |
+| **Content categories** | Metadata content. If `itemprop` is present: flow content and phrasing content. |
+| **Permitted content** | None, it is an empty element. |
+| **Tag omission** | As it is a void element, the start tag must be present and the end tag must not be present |
+| **Permitted parents** | Any element that accepts metadata elements. If `itemprop` is present: any element that accepts phrasing content. |
+| **Permitted ARIA roles** | None |
+| **DOM interface** | `HTMLLinkElement` |
+
 ## Usage Note
 
 To link an external stylesheet, you'd include a `<link>` element inside your [`<head>`](/en/webfrontend/<head>)
@@ -194,14 +205,3 @@ myStylesheet.onerror = function() {
 `Preload examples`
 
 You can find a number of `<link rel="preload">` examples in Preloading content with `rel="preload"`.
-
-## Technical Summary
-
-|  |  |
-| :-- | :-- |
-| **Content categories** | Metadata content. If `itemprop` is present: flow content and phrasing content. |
-| **Permitted content** | None, it is an empty element. |
-| **Tag omission** | As it is a void element, the start tag must be present and the end tag must not be present |
-| **Permitted parents** | Any element that accepts metadata elements. If `itemprop` is present: any element that accepts phrasing content. |
-| **Permitted ARIA roles** | None |
-| **DOM interface** | `HTMLLinkElement` |
