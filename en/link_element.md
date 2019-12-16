@@ -7,6 +7,8 @@ document and an **external resource**. This element is most commonly used to lin
 but is also used to establish site icons (both "**favicon**" style icons and icons for the **home screen**
 and **apps** on mobile devices) among other things.
 
+## Usage Note
+
 To link an external stylesheet, you'd include a `<link>` element inside your [`<head>`](/en/webfrontend/<head>)
 like this:
 
@@ -56,26 +58,26 @@ Take this example:
       type="font/woff2" crossorigin="anonymous">
 ```
 
-A `rel` value of `preload` indicates that the browser should preload this resource (see
-Preloading content with rel="preload" for more details), with the `as` attribute indicating
-the specific class of content being fetched. The `crossorigin` attribute indicates whether the
+A `rel` value of `preload` indicates that the browser should preload this resource, with the `as`
+attribute indicating the specific class of content being fetched.
+The `crossorigin` attribute indicates whether the
 resource should be fetched with a CORS request.
 
 Other Usage Notes:
 
 - A `<link>` element can occur either in the [`<head>`](/en/webfrontend/<head>) or
-[`<body>`](/en/webfrontend/<body>) element, depending on whether it has a link type that is body-ok.
-For example, the stylesheet link type is body-ok, and therefore `<link rel="stylesheet">` is
+[`<body>`](/en/webfrontend/<body>) element, depending on whether it has a link type that is `body-ok`.
+For example, the stylesheet link type is `body-ok`, and therefore `<link rel="stylesheet">` is
 permitted in the body. However, this isn't a good practice to follow; it makes more sense to separate
 your `<link>` elements from your body content, putting them in the [`<head>`](/en/webfrontend/<head>).
 - When using `<link>` to establish a favicon for a site, and your site uses a Content Security
 Policy (CSP) to enhance its security, the policy applies to the favicon. If you encounter problems
-with the favicon not loading, verify that the Content-Security-Policy header's img-src directive is
-not preventing access to it.
+with the favicon not loading, verify that the `Content-Security-Policy` header's `img-src` directive
+is not preventing access to it.
 - The HTML and XHTML specifications define event handlers for the `<link>` element, but
 it is unclear how they would be used.
 - Under XHTML 1.0, empty elements such as `<link>` require a trailing slash: `<link/>`.
-- WebTV supports the use of the value next for rel to preload the next page in a document series.
+- WebTV supports the use of the value `next` for `rel` to preload the next page in a document series.
 
 ## Attributes
 
@@ -95,13 +97,13 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 | `rel` | This attribute names a relationship of the linked document to the current document. The attribute must be a space-separated list of the link types values.
 | `sizes` | This attribute defines the sizes of the icons for visual media contained in the resource. It must be present only if the `rel` contains a value of icon or a non-standard type such as Apple's `apple-touch-icon`. It may have the following values:<br>`any`, meaning that the icon can be scaled to any size as it is in a vector format, like `image/svg+xml`.<br>`a` white-space separated list of sizes, each in the format `<width in pixels>x<height in pixels>` or `<width in pixels>X<height in pixels>`. Each of these sizes must be contained in the resource.<br>**Note:** Most icon formats are only able to store one single icon; therefore most of the time the sizes contains only one entry. MS's ICO format does, as well as Apple's ICNS. ICO is more ubiquitous; you should definitely use it.
 | `title` | The title attribute has special semantics on the `<link>` element. When used on a `<link rel="stylesheet">` it defines a preferred or an alternate stylesheet. Incorrectly using it may cause the stylesheet to be ignored.
-| `type` | This attribute is used to define the type of the content linked to. The value of the attribute should be a MIME type such as `text/html`, `text/css`, and so on. The common use of this attribute is to define the type of stylesheet being referenced (such as `text/css`), but given that CSS is the only stylesheet language used on the web, not only is it possible to omit the `type` attribute, but is actually now recommended practice. It is also used on `rel="preload"` link types, to make sure the browser only downloads file types that it supports.
+| `type` | This attribute is used to define the type of the content linked to. The value of the attribute should be a *[[MIME]] type* such as `text/html`, `text/css`, and so on. The common use of this attribute is to define the type of stylesheet being referenced (such as `text/css`), but given that CSS is the only stylesheet language used on the web, not only is it possible to omit the `type` attribute, but is actually now recommended practice. It is also used on `rel="preload"` link types, to make sure the browser only downloads file types that it supports.
 
 ### Non-standard attributes
 
 | Attribute | Description |
 | :-- | :-- |
-| `methods` | The value of this attribute provides information about the functions that might be performed on an object. The values generally are given by the HTTP protocol when it is used, but it might (for similar reasons as for the title attribute) be useful to include advisory information in advance in the link. For example, the browser might choose a different rendering of a link as a function of the methods specified; something that is searchable might get a different icon, or an outside link might render with an indication of leaving the current site. This attribute is not well understood nor supported, even by the defining browser, Internet Explorer 4. |
+| `methods` | The value of this attribute provides information about the functions that might be performed on an object. The values generally are given by the HTTP protocol when it is used, but it might (for similar reasons as for the `title` attribute) be useful to include advisory information in advance in the link. For example, the browser might choose a different rendering of a link as a function of the methods specified; something that is searchable might get a different icon, or an outside link might render with an indication of leaving the current site. This attribute is not well understood nor supported, even by the defining browser, Internet Explorer 4. |
 | `prefetch` | This attribute identifies a resource that might be required by the next navigation and that the user agent should retrieve it. This allows the user agent to respond faster when the resource is requested in the future. |
 | `target` | Defines the frame or window name that has the defined linking relationship or that will show the rendering of any linked resource. |
 
