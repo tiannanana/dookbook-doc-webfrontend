@@ -87,11 +87,11 @@ TOPICS: <meta> name attribute
 
 | 值 | 描述 | 使用者 |
 | :-- | :-- | :-- |
-| `index` | 允许机械手索引页面（默认）. | 所有 |
-| `noindex` | 要求机械手不索引页面. | 所有 |
-| `follow` | 允许漫游器跟踪页面上的链接（默认）. | 所有 |
-| `nofollow` | 要求漫游器不遵循页面上的链接. | 所有 |
-| `none` | 相当于`noindex` + `nofollow` | Google |
+| `index` | 允许搜索引擎爬虫索引页面（默认）。| 所有 |
+| `noindex` | 要求搜索引擎爬虫不索引页面。 | 所有 |
+| `follow` | 允许搜索引擎爬虫跟踪页面上的链接（默认）。 | 所有 |
+| `nofollow` | 要求搜索引擎爬虫不遵循页面上的链接。 | 所有 |
+| `none` | 相当于`noindex, nofollow` | Google |
 | `noodp` | 禁止将Open Directory Project描述（如果有）用作搜索引擎结果中的页面描述.| Google, Yahoo, Bing |
 | `noarchive` | 要求搜索引擎不要缓存页面内容. | Google, Yahoo, Bing|
 | `nosnippet` | 防止在搜索引擎结果中显示页面的任何描述. | Google, Bing|

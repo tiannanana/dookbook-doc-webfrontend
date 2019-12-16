@@ -102,12 +102,12 @@ should use with the page. It is a *comma-separated* list of the values.
 | `noindex` | Requests the robot to not index the page. | All |
 | `follow` | Allows the robot to follow the links on the page (default). | All |
 | `nofollow` | Requests the robot to not follow the links on the page. | All |
-| `none` | Equivalent to noindex, nofollow | Google |
+| `none` | Equivalent to `noindex, nofollow` | Google |
 | `noodp` | Prevents using the Open Directory Project description, if any, as the page description in search engine results.| Google, Yahoo, Bing |
 | `noarchive` | Requests the search engine not to cache the page content. | Google, Yahoo, Bing|
 | `nosnippet` | Prevents displaying any description of the page in search engine results. | Google, Bing|
 | `noimageindex` | Requests this page not to appear as the referring page of an indexed image.| Google|
-| `nocache` | Synonym of noarchive. | Bing |
+| `nocache` | Synonym of `noarchive`. | Bing |
 
 !!! info "Note"
     - Only cooperative robots follow these rules. Do not expect to prevent e-mail harvesters with them.
