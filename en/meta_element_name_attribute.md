@@ -139,7 +139,13 @@ This attribute gives hints about the **size of the initial size of the viewport*
 | `maximum-scale` | A *positive number* between `0.0` and `10.0` | Defines the maximum amount to zoom in. It must be greater or equal to the minimum-scale or the behaviour is undefined. Browser settings can ignore this rule and **iOS10+** ignores it by default.
 | `minimum-scale` | A *positive number* between `0.0` and `10.0` | Defines the minimum zoom level. It must be smaller or equal to the maximum-scale or the behaviour is undefined. Browser settings can ignore this rule and **iOS10+** ignores it by default.
 | `user-scalable` | `yes` or `no` | If set to no, the user is not able to zoom in the webpage. The default is yes. Browser settings can ignore this rule, and **iOS10+** ignores it by default.
-  
+
+For example,
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
 ### Accessibility Concerns of Viewport Scaling
 
 Disabling zooming capabilities by setting `user-scalable` to a value of `no` prevents people
