@@ -135,6 +135,35 @@ TOPICS: <meta> name attribute
 
 `theme-color`，指示用户代理（浏览器）用来自定义页面或用户界面周边的**建议颜色**。`content`属性包含有效的CSS`color`。
 
+## `<meta name="color-scheme">`
+
+`color-scheme`，指定与文档兼容的一种或多种配色方案。浏览器将与用户的浏览器或设备设置一起使用此信息，以确定从背景和前景到窗体控件和滚动条，什么颜色用于所有内容。
+
+`<meta name="color-scheme">`的主要用途是指示与*浅色* (*`light`*)和*深色* (*`dark`*)模式的兼容性以及优先顺序。
+
+`color-scheme`的`content`属性的值可以是以下之一：
+
+### `normal` 正常
+
+该文档应仅使用*默认*的调色板进行渲染。
+
+### `light` | `dark` 浅色或暗黑
+
+文档支持的一种或多种配色方案。多次指定相同的配色方案与仅指定一次的效果相同。指示多种配色方案表示文档首选第一种方案，但如果用户喜欢第二种指定方案，则可以接受。
+
+### `only light` 只限浅色
+
+表示文档**仅支持浅色模式 (light mode)**，即浅色背景和深色前景色。根据规范，`only dark`是无效的，因为在与文档不真正兼容时强迫文档以深色模式呈现可能导致无法读取的内容；
+如果未进行其他配置，则所有主要浏览器均默认为*浅色模式 (light mode)*。
+
+例如，要表明文档更喜欢*暗黑模式* (*dark mode*)，但在功能上也确实以*浅色模式* (*light mode*)呈现：
+
+```html
+<meta name="color-scheme" content="dark light">
+```
+
+这在文档级别上的工作方式与CSS`color-scheme`属性允许单个元素指定其首选和可接受的配色方案的方式相同。 您的样式可以使用`prefers-color-scheme` CSS媒体功能来适应当前的配色方案。
+
 ## `<meta name="scheme">`
 
 !!! error "已过时废弃"

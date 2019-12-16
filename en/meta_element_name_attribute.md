@@ -94,7 +94,7 @@ be used.
 - `robots` which defines the behaviour that **cooperative crawlers**, or "*robots*",
 should use with the page. It is a *comma-separated* list of the values.
 
-### Values for the content of `<meta name="robots">`
+### Values for the `content` attribute of `<meta name="robots">`
 
 | Value | Description | Used by |
 | :-- | :-- | :-- |
@@ -129,7 +129,7 @@ This attribute gives hints about the **size of the initial size of the viewport*
     Though unstandardized, this declaration is respected by most mobile browsers due to de-facto dominance.
     The default values may vary between devices and browsers.
 
-### Values for the content of `<meta name="viewport">`
+### Values for the `content` attribute of `<meta name="viewport">`
 
 | Value | Possible sub-values | Description |
 | :-- | :-- | :-- |
@@ -152,6 +152,48 @@ experiencing low vision conditions from being able to read and understand page c
 
 `theme-color` indicates a **suggested color** that user agents should use to customize the display
 of the page or of the surrounding [user interface]. The `content` attribute contains a valid CSS `color`.
+
+## `<meta name="color-scheme">`
+
+`color-scheme` specifies one or more **color schemes** with which the document is compatible.
+
+The browser will use this information in tandem with the user's browser or device settings to
+determine what colors to use for everything from background and foregrounds to form controls and
+scrollbars.
+
+The primary use for `<meta name="color-scheme">` is to indicate compatibility with—and
+order of preference for — *light* and *dark* color modes.
+
+The value of the `content` property for `color-scheme` may be one of the following:
+
+### `normal`
+
+The document is unaware of color schemes and should simply be rendered using the **default** color palette.
+
+### `light` | `dark`
+
+One or more color schemes supported by the document. Specifying the same color scheme more than once
+has the same effect as specifying it only once. Indicating multiple color schemes indicates that the
+first scheme is preferred by the document, but that the second specified
+scheme is acceptable if the user prefers it.
+
+### `only light`
+
+Indicates that the document only supports *light* mode, with a light background and dark foreground
+colors. By specification, `only dark` is not valid, because forcing a document to render in dark mode
+when it isn't truly compatible with it can result in unreadable content; all major browsers default
+to light mode if not otherwise configured.
+
+For example, to indicate that a document prefers dark mode but does render
+functionally in light mode as well:
+
+```html
+<meta name="color-scheme" content="dark light">
+```
+
+This works at the document level in the same way that the CSS `color-scheme` property lets
+individual elements specify their preferred and accepted color schemes. Your styles can adapt to the
+current color scheme using the `prefers-color-scheme` CSS media feature.
 
 ## `<meta name="scheme">`
 
