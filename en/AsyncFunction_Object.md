@@ -34,8 +34,9 @@ and calling it within your code, because such functions are parsed with the rest
 All arguments passed to the function are treated as the names of the identifiers of the parameters
 in the function to be created, in the order in which they are passed.
 
-!!!warn Note: async functions created with the AsyncFunction constructor do not create closures to
-their creation contexts; they are always created in the global scope.
+!!! warn ""
+    Note: async functions created with the AsyncFunction constructor do not create closures to
+    their creation contexts; they are always created in the global scope.
 
 When running them, they will only be able to access their own local variables and global ones,
 not the ones from the scope in which the AsyncFunction constructor was called.
@@ -47,9 +48,9 @@ Invoking the AsyncFunction constructor as a function (without using the
 
 ## Properties
 
-| Parameters | Description |
+| Properties | Description |
 | :-- | :-- |
-|**`AsyncFunction.length`**|  The AsyncFunction constructor's length property (whose value is 1).|
+|**`AsyncFunction.length`**|  The AsyncFunction constructor's length property (whose value is `1`).|
 |**[AsyncFunction.prototype](/en/webfrontend/AsyncFunction.prototype)**| Allows the addition of properties to all async function objects.|
 
 ## AsyncFunction prototype object
