@@ -61,7 +61,7 @@ function printEntries(arr) {
 // === printed ===
 ```
 
-但是，`length` 属性不一定表示数组中定义值的个数。了解更多：[长度与数值下标属性之间的关系](/zh-hans/webfrontend/Array_Object)。
+但是，`length` 属性不一定表示数组中定义值的个数。了解更多：[长度与数值下标属性之间的关系](/zh-hans/webfrontend/Array)。
 
 `Array.length` 属性的属性特性：
 
