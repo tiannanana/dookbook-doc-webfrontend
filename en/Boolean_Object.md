@@ -1,7 +1,7 @@
-TOPICS: Boolean Object
+TOPICS: Boolean
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Boolean Object`
+## `Boolean`
 
 The **`Boolean`** object is an object wrapper for a `boolean` value.
 
@@ -72,6 +72,31 @@ Do not use a Boolean object in place of a Boolean primitive.
     When the non-standard property `document.all` is used as an argument for this constructor,
     the result is a `Boolean` object with the value `false`. This property is legacy and non-standard
     and should not be used.
+
+## `Boolean.prototype`
+
+The `Boolean.prototype` property represents the prototype for the `Boolean`
+constructor.
+
+Property attributes of **`Boolean.prototype`**
+
+|  |  |
+| :--- | :--- |
+| `Writable` | `no` |
+| `Enumerable` | `no` |
+| `Configurable` | `no` |
+
+Syntax
+
+```javascript
+Boolean.prototype.name=value
+```
+
+Description
+
+`Boolean` instances inherit from `Boolean`. You can use
+the constructor's prototype object to add properties or methods to all
+`Boolean` instances.
 
 ## Examples
 
