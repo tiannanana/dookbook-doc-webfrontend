@@ -124,6 +124,12 @@ TOPICS: <meta> name attribute
 | `minimum-scale` | 介于`0.0`和`10.0`之间的正数 | 定义最小缩放级别。 它必须小于或等于最大比例，否则行为是不确定的。 浏览器设置可以忽略此规则，而**iOS10+** 默认会忽略它. |
 | `user-scalable` | `yes`或`no` | 如果设置为`no`，则用户将无法放大网页。 默认值为`yes`。 浏览器设置可以忽略此规则，默认情况下，**iOS10+** 会将其忽略.
 
+例如：
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
 ### 视口缩放的访问性问题
 
 通过将`user-scalable`设置为`no`来禁用缩放功能，这会阻止视力不好的人阅读和理解页面内容。
