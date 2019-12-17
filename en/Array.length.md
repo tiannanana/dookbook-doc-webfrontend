@@ -48,7 +48,7 @@ arr.forEach(element => console.log(element));
 ```
 
 As you can see, the length property does not necessarily indicate the number of defined values in
-the array. See also [Relationship between length and numerical properties](/en/webfrontend/Array_Object).
+the array. See also [Relationship between length and numerical properties](/en/webfrontend/Array).
 
 Property attributes of `Array.length`
 

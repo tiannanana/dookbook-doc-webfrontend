@@ -27,7 +27,7 @@ Array.from(arrayLike[, mapFn[, thisArg]])
 - array-like objects (objects with a length property and indexed elements) or
 - iterable objects (objects where you can get its elements, such as Map and Set).
 
-`Array.from()` has an optional parameter mapFn, which allows you to execute a [`map`](/en/webfrontend/Array.prototype.map)
+`Array.from()` has an optional parameter mapFn, which allows you to execute a [`map`](/en/webfrontend/Array.map)
 function on each element of the array (or subclass object) that is being created. More clearly,
 `Array.from(obj, mapFn, thisArg)` has the same result as `Array.from(obj).map(mapFn, thisArg)`,
 except that it does not create an intermediate array. This is especially important for certain
@@ -126,7 +126,7 @@ present in other implementations of the standard. You can work around this by in
 following code at the beginning of your scripts, allowing use of `Array.from()` in implementations
 that don't natively support it. This algorithm is exactly the one specified in ECMA-262,
 6th edition, assuming [`Object`](/en/webfrontend/Object) and [`TypeError`](/en/webfrontend/TypeError)
-have their original values and that `callback.call` evaluates to the original value of [`Function.prototype.call`](/en/webfrontend/Function.prototype.call).
+have their original values and that `callback.call` evaluates to the original value of [`Function.call`](/en/webfrontend/Function.call).
 In addition, since true iterables can not be polyfilled, this implementation does not support
 generic iterables as defined in the 6th edition of ECMA-262.
 
@@ -134,7 +134,7 @@ generic iterables as defined in the 6th edition of ECMA-262.
 // Production steps of ECMA-262, Edition 6, 22.1.2.1
 if (!Array.from) {
   Array.from = (function () {
-    var toStr = Object.prototype.toString;
+    var toStr = Object.toString;
     var isCallable = function (fn) {
       return typeof fn === 'function' || toStr.call(fn) === '[object Function]';
     };
