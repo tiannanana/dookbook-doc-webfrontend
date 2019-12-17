@@ -5,7 +5,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 `BigInt` is a built-in object that provides a way to represent whole numbers larger than `253 - 1`,
 which is the largest number JavaScript can reliably represent with the
-[Number](/en/webfrontend/Number_Object) primitive. `BigInt` can be used for arbitrarily large integers.
+[Number](/en/webfrontend/Number) primitive. `BigInt` can be used for arbitrarily large integers.
 
 ## Description
 
@@ -28,12 +28,12 @@ const hugeBin = BigInt("0b11111111111111111111111111111111111111111111111111111"
 // ↪ 9007199254740991n
 ```
 
-`BigInt` is similar to [Number](/en/webfrontend/Number_Object) in some ways,
+`BigInt` is similar to [Number](/en/webfrontend/Number) in some ways,
 but also differs in a few key matters — it cannot be used with methods in the built-in
-[Math](/en/webfrontend/Math_Object) object and cannot be mixed with instances of
-[Number](/en/webfrontend/Number_Object) in operations; they must be coerced to the same type.
+[Math](/en/webfrontend/Math) object and cannot be mixed with instances of
+[Number](/en/webfrontend/Number) in operations; they must be coerced to the same type.
 Be careful coercing values back and forth, however,
-as the precision of a `BigInt` may be lost when it is coerced to a [Number](/en/webfrontend/Number_Object).
+as the precision of a `BigInt` may be lost when it is coerced to a [Number](/en/webfrontend/Number).
 
 ### Type information
 
@@ -99,7 +99,7 @@ const rounded = 5n / 2n;
 
 ### Comparisons
 
-A `BigInt` is not strictly equal to a [Number](/en/webfrontend/Number_Object), but it is loosely so:
+A `BigInt` is not strictly equal to a [Number](/en/webfrontend/Number), but it is loosely so:
 
 ```JavaScript
 0n === 0
@@ -109,7 +109,7 @@ A `BigInt` is not strictly equal to a [Number](/en/webfrontend/Number_Object), b
 // ↪ true
 ```
 
-A [Number](/en/webfrontend/Number_Object) and a `BigInt` may be compared as usual:
+A [Number](/en/webfrontend/Number) and a `BigInt` may be compared as usual:
 
 ```JavaScript
 1n < 2
@@ -151,8 +151,8 @@ o === o // true
 
 ### Conditionals
 
-A `BigInt` behaves like a [Number](/en/webfrontend/Number_Object) in cases where it is converted to
-a [Boolean](/en/webfrontend/Boolean_Object): via the [Boolean](/en/webfrontend/Boolean_Object) function;
+A `BigInt` behaves like a [Number](/en/webfrontend/Number) in cases where it is converted to
+a [Boolean](/en/webfrontend/Boolean): via the [Boolean](/en/webfrontend/Boolean) function;
 when used with [logical operators](/en/webfrontend/Logical_Operator) `||`, `&&`, and `!`;
 or within a conditional test like an [if statement](/en/webfrontend/if_else_statement).
 
@@ -194,23 +194,23 @@ Boolean(12n)
 
 | methods | description |
 | :-- | :--|
-|**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between -2^width-1^ and 2^width-1^-1.|
-|**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between 0 and 2^width^-1.|
+|**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between `-2^width-1^` and `2^width-1^-1`.|
+|**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and `2^width^-1`.|
 
 ## Instance methods
 
 | methods | description |
 | :-- | :-- |
-|**`BigInt.prototype.toLocaleString()`**|Returns a string with a language-sensitive representation of this number. Overrides the [Object.prototype.toLocaleString()](/en/webfrontend/Object.prototype.toLocaleString) method.|
-|**`BigInt.prototype.toString()`**|Returns a string representing the specified object in the specified radix (base). Overrides the [Object.prototype.toString()](/en/webfrontend/Object.prototype.toString) method.|
-|**`BigInt.prototype.valueOf()`**| Returns the primitive value of the specified object. Overrides the [Object.prototype.valueOf()](/en/webfrontend/Object.prototype.valueOf) method.|
+|**`BigInt.prototype.toLocaleString()`**|Returns a string with a language-sensitive representation of this number. Overrides the [`Object.prototype.toLocaleString()`](/en/webfrontend/Object.prototype.toLocaleString) method.|
+|**`BigInt.prototype.toString()`**|Returns a string representing the specified object in the specified radix (base). Overrides the [`Object.prototype.toString()`](/en/webfrontend/Object.prototype.toString) method.|
+|**`BigInt.prototype.valueOf()`**| Returns the primitive value of the specified object. Overrides the [`Object.prototype.valueOf()`](/en/webfrontend/Object.prototype.valueOf) method.|
 
 ## Usage recommendations
 
 ### Coercion
 
-Because coercing between [Number](/en/webfrontend/Number_Object) and `BigInt` can lead to loss of precision,
-it is recommended to only use `BigInt` when values greater than 2^53^ are reasonably expected
+Because coercing between [Number](/en/webfrontend/Number) and `BigInt` can lead to loss of precision,
+it is recommended to only use `BigInt` when values greater than `2^53^` are reasonably expected
 and not to coerce between the two types.
 
 ### Cryptography
@@ -220,7 +220,7 @@ The operations supported on `BigInts` are not constant time.
 
 ### Use within JSON
 
-Using [JSON.stringify()](/en/webfrontend/JSON.stringify) with any `BigInt` value will raise a `TypeError`
+Using [`JSON.stringify()`](/en/webfrontend/JSON.stringify) with any `BigInt` value will raise a `TypeError`
 as `BigInt` values aren't serialized in [JSON]((/en/webfrontend/JSON)) by default.
 However, you can implement your own `toJSON` method if needed:
 
@@ -228,7 +228,7 @@ However, you can implement your own `toJSON` method if needed:
 BigInt.prototype.toJSON = function() { return this.toString(); }
 ```
 
-Instead of throwing, `JSON.stringify`now produces a string like this:
+Instead of throwing, `JSON.stringify` now produces a string like this:
 
 ```JavaScript
 JSON.stringify(BigInt(1));

@@ -141,13 +141,13 @@ new Array(arrayLength)
 | Parameters | Description |
 | :-- | :-- |
 |**`elementN`**| A JavaScript array is initialized with the given elements, except in the case where a single argument is passed to the Array constructor and that argument is a number (see the `arrayLength` parameter below). Note that this special case only applies to JavaScript arrays created with the Array constructor, not array literals created with the bracket syntax.|
-|**`arrayLength`**| If the only argument passed to the Array constructor is an integer between 0 and 232-1 (inclusive), this returns a new JavaScript array with its `length` property set to that number (Note: this implies an array of `arrayLength` empty slots, not slots with actual `undefined` values). If the argument is any other number, a `RangeError` exception is thrown.|
+|**`arrayLength`**| If the only argument passed to the Array constructor is an integer between `0` and `232-1` (inclusive), this returns a new JavaScript array with its `length` property set to that number (Note: this implies an array of `arrayLength` empty slots, not slots with actual `undefined` values). If the argument is any other number, a `RangeError` exception is thrown.|
 
 ### Accessing array elements
 
-JavaScript arrays are zero-indexed: the first element of an array is at index 0,
+JavaScript arrays are zero-indexed: the first element of an array is at index `0`,
 and the last element is at the index equal to the value ofthe array's [length](/en/webfrontend/Array.length)
- property minus 1. Using an invalid index number returns `undefined`.
+ property minus `1`. Using an invalid index number returns `undefined`.
 
 ```JavaScript
 var arr = ['this is the first element', 'this is the second element', 'this is the last element'];
@@ -178,11 +178,11 @@ renderer.3d.setTexture(model, 'character.png');     // a syntax error
 renderer['3d'].setTexture(model, 'character.png');  // works properly
 ```
 
-Note that in the 3d example, '3d' had to be quoted.
+Note that in the 3d example, `'3d'` had to be quoted.
 It's possible to quote the JavaScript array indexes as well (e.g., `years['2']` instead of `years[2]`),
 although it's not necessary. The `2` in `years[2]` is coerced into a string by the JavaScript engine
 through an implicit `toString` conversion. It is, for this reason, that `'2'` and `'02'`
-would refer to two different slots on the years object and the following example could be `true`:
+would refer to two different slots on the `years` object and the following example could be `true`:
 
 ```JavaScript
 console.log(years['2'] != years['02']);
@@ -281,15 +281,15 @@ The properties and elements returned from this match are as follows:
 | :-- | :-- |
 |**`Array.length`**| The `Array` constructor's [length](/en/webfrontend/Array.length) property whose value is `1`.|
 |**[`get Array[@@species]`](/en/webfrontend/get_Array[@@species])**|The constructor function that is used to create derived objects.|
-|**[Array.prototype](/en/webfrontend/Array.prototype)**| Array prototype object can add attributes to all array objects.|
+|**[`Array.prototype`](/en/webfrontend/Array.prototype)**| Array prototype object can add attributes to all array objects.|
 
 ## Static methods
 
 | Static | Description |
 | :-- | :-- |
-|**[Array.from()](/en/webfrontend/Array.from)**| Creates a new Array instance from an array-like or iterable object.|
-|**[Array.isArray()](/en/webfrontend/Array.isArray)**| Returns `true` if a variable is an array, if not false.|
-|**[Array.of()](/en/webfrontend/Array.of)**| Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.|
+|**[`Array.from()`](/en/webfrontend/Array.from)**| Creates a new Array instance from an array-like or iterable object.|
+|**[`Array.isArray()`](/en/webfrontend/Array.isArray)**| Returns `true` if a variable is an array, if not false.|
+|**[`Array.of()`](/en/webfrontend/Array.of)**| Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.|
 
 ## Array instances
 
@@ -302,7 +302,7 @@ This is used for polyfilling, for example.
 However, adding non-standard methods to the array object can cause issues later,
 either with your own code, or when adding features to JavaScript.
 
-Little known fact: Array.prototype itself is an Array:
+Little known fact: `Array.prototype` itself is an Array:
 
 ```JavaScript
 Array.isArray(Array.prototype); // true
@@ -313,7 +313,7 @@ Array.isArray(Array.prototype); // true
 | properties | Description |
 | :-- | :-- |
 |**`Array.prototype.constructor`**| Specifies the function that creates an object's prototype.|
-|**[Array.prototype.length](/en/webfrontend/Array.prototype.length)**| Reflects the number of elements in an array.|
+|**[`Array.prototype.length`](/en/webfrontend/Array.prototype.length)**| Reflects the number of elements in an array.|
 |**`Array.prototype[@@unscopables]`**| A symbol containing property names to exclude from a with binding scope.|
 
 ### Instance methods
@@ -322,30 +322,30 @@ Array.isArray(Array.prototype); // true
 
 | methods | Description |
 | :-- | :-- |
-|**[Array.prototype.copyWithin()](/en/webfrontend/Array.prototype.copyWithin)**| Copies a sequence of array elements within the array.|
-|**[Array.prototype.fill()](/en/webfrontend/Array.prototype.fill)**| Fills all the elements of an array from a start index to an end index with a static value.|
-|**[Array.prototype.pop()](/en/webfrontend/Array.prototype.pop)**| Removes the last element from an array and returns that element.|
-|**[Array.prototype.push()](/en/webfrontend/Array.prototype.push)**| Adds one or more elements to the end of an array and returns the new length of the array.|
-|**[Array.prototype.reverse()](/en/webfrontend/Array.prototype.reverse)**| Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.|
-|**[Array.prototype.shift()](/en/webfrontend/Array.prototype.shift)**| Removes the first element from an array and returns that element.|
-|**[Array.prototype.sort()](/en/webfrontend/Array.prototype.sort)**| Sorts the elements of an array in place and returns the array.|
-|**[Array.prototype.splice()](/en/webfrontend/Array.prototype.splice)**| Adds and/or removes elements from an array.|
-|**[Array.prototype.unshift()](/en/webfrontend/Array.prototype.unshift)**| Adds one or more elements to the front of an array and returns the new length of the array.|
+|**[`Array.prototype.copyWithin()`](/en/webfrontend/Array.prototype.copyWithin)**| Copies a sequence of array elements within the array.|
+|**[`Array.prototype.fill()`](/en/webfrontend/Array.prototype.fill)**| Fills all the elements of an array from a start index to an end index with a static value.|
+|**[`Array.prototype.pop()`](/en/webfrontend/Array.prototype.pop)**| Removes the last element from an array and returns that element.|
+|**[`Array.prototype.push()`](/en/webfrontend/Array.prototype.push)**| Adds one or more elements to the end of an array and returns the new length of the array.|
+|**[`Array.prototype.reverse()`](/en/webfrontend/Array.prototype.reverse)**| Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.|
+|**[`Array.prototype.shift()`](/en/webfrontend/Array.prototype.shift)**| Removes the first element from an array and returns that element.|
+|**[`Array.prototype.sort()`](/en/webfrontend/Array.prototype.sort)**| Sorts the elements of an array in place and returns the array.|
+|**[`Array.prototype.splice()`](/en/webfrontend/Array.prototype.splice)**| Adds and/or removes elements from an array.|
+|**[`Array.prototype.unshift()`](/en/webfrontend/Array.prototype.unshift)**| Adds one or more elements to the front of an array and returns the new length of the array.|
 
 **(2) Accessor methods**,
 These methods do not modify the array and return some representation of the array.
 
 | methods | Description |
 | :-- | :-- |
-|**[Array.prototype.concat()](/en/webfrontend/Array.prototype.concat)**| Returns a new array that is this array joined with other array(s) and/or value(s).|
-|**[Array.prototype.includes()](/en/webfrontend/Array.prototype.includes)**|Determines whether an array contains a certain element, returning true or false as appropriate.*(This is an experimental API that should not be used in production code)*|
-|**[Array.prototype.indexOf()](/en/webfrontend/Array.prototype.indexOf)**|Returns the first (least) index of an element within the array equal to the specified value, or `-1` if none is found.|
-|**[Array.prototype.join()](/en/webfrontend/Array.prototype.join)**| Joins all elements of an array into a string.|
-|**[Array.prototype.lastIndexOf()](/en/webfrontend/Array.prototype.lastIndexOf)**| Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.|
-|**[Array.prototype.slice()](/en/webfrontend/Array.prototype.slice)**| Extracts a section of an array and returns a new array.|
-|**[Array.prototype.toSource()](/en/webfrontend/Array.prototype.toSource)**| Returns an array literal representing the specified array; you can use this value to create a new array. Overrides the [Object.prototype.toSource()](/en/webfrontend/Object.prototype.toSource) method.*(This API has not been standardized)*|
-|**[Array.prototype.toString()](/en/webfrontend/Array.prototype.toString)**| Returns a string representing the array and its elements. Overrides the [Object.prototype.toString()](/en/webfrontend/Object.prototype.toString) method.|
-|**[Array.prototype.toLocaleString()](/en/webfrontend/Array.prototype.toLocaleString)**| Returns a localized string representing the array and its elements. Overrides the [Object.prototype.toLocaleString()](/en/webfrontend/Object.prototype.toLocaleString) method.|
+|**[`Array.prototype.concat()`](/en/webfrontend/Array.prototype.concat)**| Returns a new array that is this array joined with other array(s) and/or value(s).|
+|**[`Array.prototype.includes()`](/en/webfrontend/Array.prototype.includes)**|Determines whether an array contains a certain element, returning true or false as appropriate.*(This is an experimental API that should not be used in production code)*|
+|**[`Array.prototype.indexOf()`](/en/webfrontend/Array.prototype.indexOf)**|Returns the first (least) index of an element within the array equal to the specified value, or `-1` if none is found.|
+|**[`Array.prototype.join()`](/en/webfrontend/Array.prototype.join)**| Joins all elements of an array into a string.|
+|**[`Array.prototype.lastIndexOf()`](/en/webfrontend/Array.prototype.lastIndexOf)**| Returns the last (greatest) index of an element within the array equal to the specified value, or `-1` if none is found.|
+|**[`Array.prototype.slice()`](/en/webfrontend/Array.prototype.slice)**| Extracts a section of an array and returns a new array.|
+|**[`Array.prototype.toSource()`](/en/webfrontend/Array.prototype.toSource)**| Returns an array literal representing the specified array; you can use this value to create a new array. Overrides the [`Object.prototype.toSource()`](/en/webfrontend/Object.prototype.toSource) method.*(This API has not been standardized)*|
+|**[`Array.prototype.toString()`](/en/webfrontend/Array.prototype.toString)**| Returns a string representing the array and its elements. Overrides the [`Object.prototype.toString()`](/en/webfrontend/Object.prototype.toString) method.|
+|**[`Array.prototype.toLocaleString()`](/en/webfrontend/Array.prototype.toLocaleString)**| Returns a localized string representing the array and its elements. Overrides the [`Object.prototype.toLocaleString()`](/en/webfrontend/Object.prototype.toLocaleString) method.|
 
 **(3) Iteration methods**,
 Several methods take as arguments functions to be called back while processing the array.
@@ -359,18 +359,18 @@ Several methods take as arguments functions to be called back while processing t
 
 | methods | Description |
 | :-- | :-- |
-|**[Array.prototype.forEach()](/en/webfrontend/Array.prototype.forEach)**|Calls a function for each element in the array.|
-|**[Array.prototype.entries()](/en/webfrontend/Array.prototype.entries)**|Returns a new Array Iterator object that contains the key/value pairs for each index in the array.|
-|**[Array.prototype.every()](/en/webfrontend/Array.prototype.every)**| Returns `true` if every element in this array satisfies the provided testing function.|
-|**[Array.prototype.filter()](/en/webfrontend/Array.prototype.filter)**| Creates a new array with all of the elements of this array for which the provided filtering function returns `true`.|
-|**[Array.prototype.find()](/en/webfrontend/Array.prototype.find)**| Returns the found value in the array, if an element in the array satisfies the provided testing function or `undefined` if not found.|
-|**[Array.prototype.findIndex()](/en/webfrontend/Array.prototype.findIndex)**|Returns the found index in the array, if an element in the array satisfies the provided testing function or `-1` if not found.|
-|**[Array.prototype.keys()](/en/webfrontend/Array.prototype.keys)**| Returns a new Array Iterator that contains the keys for each index in the array.|
-|**[Array.prototype.map()](/en/webfrontend/Array.prototype.map)**| Creates a new array with the results of calling a provided function on every element in this array.|
-|**[Array.prototype.reduce()](/en/webfrontend/Array.prototype.reduce)**| Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.|
-|**[Array.prototype.reduceRight()](/en/webfrontend/Array.prototype.reduceRight)**| Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.|
-|**[Array.prototype.some()](/en/webfrontend/Array.prototype.some)**| Returns true if at least one element in this array satisfies the provided testing function.|
-|**[Array.prototype.values()](/en/webfrontend/Array.prototype.values)**| Returns a new Array Iterator object that contains the values for each index in the array.|
+|**[`Array.prototype.forEach()`](/en/webfrontend/Array.prototype.forEach)**|Calls a function for each element in the array.|
+|**[`Array.prototype.entries()`](/en/webfrontend/Array.prototype.entries)**|Returns a new Array Iterator object that contains the key/value pairs for each index in the array.|
+|**[`Array.prototype.every()`](/en/webfrontend/Array.prototype.every)**| Returns `true` if every element in this array satisfies the provided testing function.|
+|**[`Array.prototype.filter()`](/en/webfrontend/Array.prototype.filter)**| Creates a new array with all of the elements of this array for which the provided filtering function returns `true`.|
+|**[`Array.prototype.find()`](/en/webfrontend/Array.prototype.find)**| Returns the found value in the array, if an element in the array satisfies the provided testing function or `undefined` if not found.|
+|**[`Array.prototype.findIndex()`](/en/webfrontend/Array.prototype.findIndex)**|Returns the found index in the array, if an element in the array satisfies the provided testing function or `-1` if not found.|
+|**[`Array.prototype.keys()`](/en/webfrontend/Array.prototype.keys)**| Returns a new Array Iterator that contains the keys for each index in the array.|
+|**[`Array.prototype.map()`](/en/webfrontend/Array.prototype.map)**| Creates a new array with the results of calling a provided function on every element in this array.|
+|**[`Array.prototype.reduce()`](/en/webfrontend/Array.prototype.reduce)**| Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.|
+|**[`Array.prototype.reduceRight()`](/en/webfrontend/Array.prototype.reduceRight)**| Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.|
+|**[`Array.prototype.some()`](/en/webfrontend/Array.prototype.some)**| Returns true if at least one element in this array satisfies the provided testing function.|
+|**[`Array.prototype.values()`](/en/webfrontend/Array.prototype.values)**| Returns a new Array Iterator object that contains the values for each index in the array.|
 |**[`Array.prototype[@@iterator]()`](/en/webfrontend/Array.prototype[@@iterator])**| Returns a new Array Iterator object that contains the values for each index in the array.|
 
 ## Examples
