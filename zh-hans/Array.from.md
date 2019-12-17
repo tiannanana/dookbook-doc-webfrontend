@@ -129,7 +129,7 @@ console.log(combine(m,n));                     // [1, 2, 3]
 
 ECMA-262 第六版标准中添加了 `Array.from` 。有些实现中可能尚未包括在其中。你可以通过在脚本前添加如下内容作为替代方法，以使用未原生支持的 `Array.from` 方法。
 该算法按照 ECMA-262 第六版中的规范实现，并假定 [`Object`](/zh-hans/webfrontend/Object) 和 [`TypeError`](/zh-hans/webfrontend/TypeError)
-有其本身的值，`callback.call` 对应 [`Function.prototype.call`](/zh-hans/webfrontend/Function.prototype.call)。
+有其本身的值，`callback.call` 对应 [`Function.call`](/zh-hans/webfrontend/Function.call)。
 此外，鉴于无法使用 Polyfill 实现真正的的迭代器，该实现不支持规范中定义的泛型可迭代元素。
 
 ```javascript
