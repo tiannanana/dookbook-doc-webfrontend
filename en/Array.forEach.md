@@ -1,7 +1,7 @@
 TOPICS: Array.forEach
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.forEach()`
+# `Array.forEach()`
 
 The `forEach()` method executes a provided function once for each array element.
 

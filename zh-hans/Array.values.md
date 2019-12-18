@@ -1,7 +1,7 @@
 TOPICS: Array.values
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.values()`
+# `Array.values()`
 
 `values()` 方法返回一个新的 **`Array Iterator`** 对象，该对象包含数组每个索引的值
 

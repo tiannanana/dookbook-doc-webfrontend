@@ -1,7 +1,7 @@
 TOPICS: Array.flat
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.flat()`
+# `Array.flat()`
 
 The `flat()` method creates a new array with all sub-array elements concatenated into it recursively
 up to the specified depth.

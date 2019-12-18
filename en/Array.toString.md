@@ -1,7 +1,7 @@
 TOPICS: Array.toString
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.toString()`
+# `Array.toString()`
 
 The `toString()` method returns a string representing the specified array and its elements.
 

@@ -1,7 +1,7 @@
 TOPICS: Boolean.toString
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Boolean.toString()`
+# `Boolean.toString()`
 
 The `toString()` method returns a string representing the specified [`Boolean`](/en/webfrontend/Boolean)
 object.

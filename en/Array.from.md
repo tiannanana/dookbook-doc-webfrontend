@@ -1,7 +1,7 @@
 TOPICS: Array.from
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.from()`
+# `Array.from()`
 
 The `Array.from()` method creates a new, shallow-copied `Array` instance from an array-like or
 iterable object.

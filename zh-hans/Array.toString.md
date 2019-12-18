@@ -1,7 +1,7 @@
 TOPICS: Array.toString
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.toString()`
+# `Array.toString()`
 
 `toString()` 返回一个字符串，表示指定的数组及其元素。
 

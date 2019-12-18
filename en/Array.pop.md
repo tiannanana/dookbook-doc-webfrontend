@@ -1,7 +1,7 @@
 TOPICS: Array.pop
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.pop()`
+# `Array.pop()`
 
 The `pop()` method removes the last element from an array and returns that element. This method
 changes the length of the array.

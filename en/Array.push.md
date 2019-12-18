@@ -1,7 +1,7 @@
 TOPICS: Array.push
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.push()`
+# `Array.push()`
 
 The `push()` method adds one or more elements to the end of an array and returns the new length of
 the array.

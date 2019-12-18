@@ -1,7 +1,7 @@
 TOPICS: Array.some
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.some()`
+# `Array.some()`
 
 The `some()` method tests whether at least one element in the array passes the test implemented by
 the provided function. It returns a Boolean value.

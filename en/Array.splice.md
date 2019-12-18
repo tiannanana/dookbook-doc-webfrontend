@@ -1,7 +1,7 @@
 TOPICS: Array.splice
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.splice()`
+# `Array.splice()`
 
 The `splice()` method changes the contents of an array by removing or replacing existing
 elements and/or adding new elements in place.

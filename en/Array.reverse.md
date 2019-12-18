@@ -1,7 +1,7 @@
 TOPICS: Array.reverse
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.reverse()`
+# `Array.reverse()`
 
 The `reverse()` method reverses an array in place. The first array element becomes the last, and the
 last array element becomes the first.
