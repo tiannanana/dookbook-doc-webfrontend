@@ -44,7 +44,7 @@ var myVar4 = a.join('');    // myVar4的值变为"WindRainFire"
 
 ```javascript
 function f(a, b, c) {
-  var s = Array.join.call(arguments);
+  var s = Array.prototype.join.call(arguments);
   console.log(s); // '1,a,true'
 }
 f(1, 'a', true);

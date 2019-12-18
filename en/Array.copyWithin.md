@@ -67,8 +67,8 @@ i32a.copyWithin(0, 2);
 ## Polyfill
 
 ```javascript
-if (!Array.copyWithin) {
-  Array.copyWithin = function(target, start/*, end*/) {
+if (!Array.prototype.copyWithin) {
+  Array.prototype.copyWithin = function(target, start/*, end*/) {
     // Steps 1-2.
     if (this == null) {
       throw new TypeError('this is null or not defined');
