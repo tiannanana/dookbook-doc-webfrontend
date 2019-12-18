@@ -1,7 +1,7 @@
 TOPICS: Boolean
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Boolean`
+# `Boolean`
 
 The **`Boolean`** object is an object wrapper for a `boolean` value.
 

@@ -1,7 +1,7 @@
 TOPICS: Array.keys
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.keys()`
+# `Array.keys()`
 
 `keys()` 方法返回一个包含数组中每个索引键的 **`Array Iterator`** 对象。
 

@@ -1,7 +1,7 @@
 TOPICS: Array.pop
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.pop()`
+# `Array.pop()`
 
 `pop()`方法从数组中删除最后一个元素，并返回该元素的值。此方法更改数组的长度。
 

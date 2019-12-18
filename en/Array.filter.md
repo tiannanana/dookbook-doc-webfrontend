@@ -1,7 +1,7 @@
 TOPICS: Array.filter
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.filter()`
+# `Array.filter()`
 
 The `filter()` method creates a new array with all elements that pass the test implemented by the
 provided function.

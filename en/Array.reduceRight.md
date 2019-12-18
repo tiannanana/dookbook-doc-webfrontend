@@ -1,7 +1,7 @@
 TOPICS: Array.reduceRight
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.reduceRight()`
+# `Array.reduceRight()`
 
 The `reduceRight()` method applies a function against an accumulator and each value of the array
 (from right-to-left) to reduce it to a single value.

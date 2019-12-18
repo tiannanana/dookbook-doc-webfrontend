@@ -1,7 +1,7 @@
 TOPICS: Array.values
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.values()`
+# `Array.values()`
 
 The `values()` method returns a new `Array Iterator` object that contains the values `for` each
 index in the array.

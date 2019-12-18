@@ -1,7 +1,7 @@
 TOPICS: Array.shift
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.shift()`
+# `Array.shift()`
 
 The `shift()` method removes the **first** element from an array and returns that removed element.
 This method changes the length of the array.

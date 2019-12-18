@@ -1,7 +1,7 @@
 TOPICS: Array.flatMap
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.flatMap()`
+# `Array.flatMap()`
 
 The `flatMap()` method first maps each element using a mapping function, then flattens the result
 into a new array. It is identical to a [`map()`](/en/webfrontend/Array.map) followed by a

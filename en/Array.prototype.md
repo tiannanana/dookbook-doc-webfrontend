@@ -1,7 +1,7 @@
 TOPICS: Array.prototype
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.prototype`
+# `Array.prototype`
 
 The `@@unscopable` symbol property contains property names that were not included in the ECMAScript
 standard prior to the ES2015 version. These properties are excluded from `with` statement bindings.

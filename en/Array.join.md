@@ -1,7 +1,7 @@
 TOPICS: Array.join
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.join()`
+# `Array.join()`
 
 The `join()` method creates and returns a new string by concatenating all of the elements in an
 array (or an array-like object), separated by commas or a specified separator string. If

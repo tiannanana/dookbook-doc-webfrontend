@@ -1,7 +1,7 @@
 TOPICS: Array.filter
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.filter()`
+# `Array.filter()`
 
 `filter()` 方法创建一个新数组, 其包含通过所提供函数实现的测试的所有元素。
 

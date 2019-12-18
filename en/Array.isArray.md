@@ -1,7 +1,7 @@
 TOPICS: Array.isArray
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.isArray()`
+# `Array.isArray()`
 
 The `Array.isArray()` method determines whether the passed value is an Array.
 

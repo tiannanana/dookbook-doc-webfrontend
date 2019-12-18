@@ -1,7 +1,7 @@
 TOPICS: Array.length
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## Array.length`
+# `Array.length`
 
 The `length` property of an object which is an instance of type `Array` sets or returns the number of
 elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater

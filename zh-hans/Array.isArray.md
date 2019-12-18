@@ -1,7 +1,7 @@
 TOPICS: Array.isArray
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.isArray()`
+# `Array.isArray()`
 
 `Array.isArray()` 用于确定传递的值是否是一个 [`Array`](/zh-hans/webfrontend/Array)。
 

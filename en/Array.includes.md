@@ -1,7 +1,7 @@
 TOPICS: Array.includes
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.includes()`
+# `Array.includes()`
 
 The `includes()` method determines whether an array `includes` a certain value among its entries,
 returning true or false as appropriate.

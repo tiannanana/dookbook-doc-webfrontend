@@ -1,7 +1,7 @@
 TOPICS: Array.sort
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.sort()`
+# `Array.sort()`
 
 The `sort()` method sorts the elements of an array in place and returns the sorted array.
 The default sort order is ascending, built upon converting the elements into strings,

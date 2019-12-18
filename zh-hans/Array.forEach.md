@@ -1,7 +1,7 @@
 TOPICS: Array.forEach
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.forEach()`
+# `Array.forEach()`
 
 `forEach()` 方法对数组的每个元素执行一次提供的函数。
 

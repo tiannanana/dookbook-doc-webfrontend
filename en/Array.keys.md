@@ -1,7 +1,7 @@
 TOPICS: Array.keys
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.keys()`
+# `Array.keys()`
 
 The `keys()` method returns a new Array Iterator object that contains the `keys` for each index in
 the array.

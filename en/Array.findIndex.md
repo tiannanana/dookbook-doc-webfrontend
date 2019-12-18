@@ -1,7 +1,7 @@
 TOPICS: Array.findIndex
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.findIndex()`
+# `Array.findIndex()`
 
 The `findIndex()` method returns the index of the first element in the array that satisfies the
 provided testing function. Otherwise, it returns `-1`, indicating that no element passed the test.

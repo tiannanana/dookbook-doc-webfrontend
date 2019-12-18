@@ -1,7 +1,7 @@
 TOPICS: Array.sort
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.sort()`
+# `Array.sort()`
 
 `sort()` 方法用原地算法对数组的元素进行排序，并返回数组。默认排序顺序是在将元素转换为字符串，然后比较它们的UTF-16代码单元值序列时构建的
 

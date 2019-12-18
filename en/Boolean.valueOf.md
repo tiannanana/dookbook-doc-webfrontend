@@ -1,7 +1,7 @@
 TOPICS: Boolean.valueOf
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Boolean.valueOf()`
+# `Boolean.valueOf()`
 
 The `valueOf()` method returns the primitive value of a [`Boolean`](/en/webfrontend/Boolean) object.
 

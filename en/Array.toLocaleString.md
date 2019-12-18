@@ -1,7 +1,7 @@
 TOPICS: Array.toLocaleString
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.toLocaleString()`
+# `Array.toLocaleString()`
 
 The `toLocaleString()` method returns a string representing the elements of the array. The elements
 are converted to Strings using their `toLocaleString` methods and these Strings are separated

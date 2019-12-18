@@ -1,7 +1,7 @@
 TOPICS: Array.flatMap
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.flatMap()`
+# `Array.flatMap()`
 
 `flatMap()` 方法首先使用映射函数映射每个元素，然后将结果压缩成一个新数组。它与 [`map`](/zh-hans/webfrontend/Array.map)
 连着深度值为1的 [`flat`](/zh-hans/webfrontend/Array.flat) 几乎相同，但 `flatMap` 通常在合并成一种方法的效率稍微高一些。
