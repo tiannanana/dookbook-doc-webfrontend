@@ -1,9 +1,9 @@
 TOPICS: Array.isArray
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.isArray()`
+# `Array.isArray()`
 
-`Array.isArray()` 用于确定传递的值是否是一个 [`Array`](/zh-hans/webfrontend/Array_Object)。
+`Array.isArray()` 用于确定传递的值是否是一个 [`Array`](/zh-hans/webfrontend/Array)。
 
 ```javascript
 Array.isArray([1, 2, 3]);  
@@ -30,7 +30,7 @@ Array.isArray(obj)
 
 ## 描述
 
-如果对象是 [`Array`](/zh-hans/webfrontend/Array_Object) ，则返回`true`，否则为`false`。
+如果对象是 [`Array`](/zh-hans/webfrontend/Array) ，则返回`true`，否则为`false`。
 
 有关更多详细信息，请参阅文章[严格判定JavaScript对象是否为数组](http://web.mit.edu/jwalden/www/isArray.html)。
 
