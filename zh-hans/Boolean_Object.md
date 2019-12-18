@@ -1,7 +1,7 @@
-TOPICS: Boolean Object
+TOPICS: Boolean
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# Boolean Object
+# `Boolean`
 
 `Boolean`对象是一个布尔值的对象包装器。
 
@@ -63,6 +63,28 @@ var s = new Boolean(myString);      // true
 ```
 
 最后，不要在应该使用基本类型布尔值的地方使用 `Boolean` 对象。
+
+## `Boolean.prototype`
+
+`Boolean` 属性表示`Boolean`构造函数的原型。
+
+**`Boolean.prototype`** 属性的属性特性：
+
+|  |  |
+| :--- | :--- |
+| `writable` | `false` |
+| `enumerable` | `alse` |
+| `configurable` | `false` |
+
+语法
+
+```javascript
+Boolean.prototype.name=value
+```
+
+描述
+
+`Boolean`实例继承自`Boolean.prototype`。你可以使用构造函数的原型对象向所有`Boolean`实例添加属性或方法。
 
 ## 示例
 
