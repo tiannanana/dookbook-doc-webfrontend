@@ -9,7 +9,7 @@ languages, such as WebGL's GLSL shader programming language.
 |  |  |
 | :-- | :-- |
 | **Content categories** | Metadata content, Flow content, Phrasing content.|
-| **Permitted content** | Dynamic script such as text/javascript.|
+| **Permitted content** | Dynamic script such as `text/javascript`.|
 | **Tag omission** | None, both the starting and ending tag are mandatory.|
 | **Permitted parents** | Any element that accepts metadata content, or any element that accepts phrasing content.|
 | **Permitted ARIA** | roles None |

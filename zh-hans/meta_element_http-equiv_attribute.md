@@ -1,8 +1,9 @@
-TOPICS: <meta> http-equiv attribute
+TOPICS: <meta> http-equiv attribute  <!-- markdownlint-disable proper-names -->
+<!-- markdownlint-enable proper-names -->
 
 # `<meta>`元素的`http-equiv`属性
 
-定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。
+定义一个**编译指示**。该属性被命名为"*`http-equiv`(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。
 
 ## `content-language`
 

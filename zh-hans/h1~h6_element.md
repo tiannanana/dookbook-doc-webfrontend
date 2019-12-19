@@ -150,5 +150,5 @@ TOPICS: <h1>
 在此示例中，屏幕阅读技术将宣布有两个[`<nav>`](/zh-hans/webfrontend/<nav>)部分，一个称为“*主导航*”，另一个称为“*页脚导航*”。
 如果未提供标签，则使用屏幕阅读软件的人员可能必须调查每个导航元素的内容以确定其目的。
 
-- [使用aria-labelledby属性](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
+- [使用`aria-labelledby`属性](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
 - [标签区域•页面结构•W3C WAI Web可访问性教程](https://www.w3.org/WAI/tutorials/page-structure/labels/#using-aria-labelledby)

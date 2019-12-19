@@ -1,8 +1,9 @@
-TOPICS: <meta> http-equiv attribute
+TOPICS: <meta> http-equiv attribute  <!-- markdownlint-disable proper-names -->
+<!-- markdownlint-enable proper-names -->
 
 # `http-equiv` Attribute of `<meta>` Element
 
-Define a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed
+Define a **pragma directive**. The attribute is named *"`http-equiv`(alent)"* because all the allowed
 values are names of particular **HTTP headers**.
 
 ## `content-language`

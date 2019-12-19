@@ -72,7 +72,7 @@ For example,
 | :-- | :-- |
 | `no-referrer` | Do not send a HTTP `Referrer` header. |
 | `origin` | Send the origin of the document. |
-| `no-referrer-when-downgrade` | Send the `origin` as a `referrer` to URLs as secure as the current page, (https→https), but does not send a `referrer` to less secure URLs (https→http). This is the *default* behaviour.
+| `no-referrer-when-downgrade` | Send the `origin` as a `referrer` to URLs as secure as the current page, (HTTPS→HTTPS), but does not send a `referrer` to less secure URLs (HTTPS→HTTP). This is the *default* behaviour.
 | `origin-when-cross-origin` | Send the full URL (stripped of parameters) for same-origin requests, but only send the origin for other cases. |
 | `same-origin` | A referrer will be sent for same-site origins, but cross-origin requests will contain no referrer information. |
 | `strict-origin` | Only send the origin of the document as the referrer to a-priori as-much-secure destination (HTTPS->HTTPS), but don't send it to a less secure destination (HTTPS->HTTP). |

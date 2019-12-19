@@ -66,12 +66,12 @@ TOPICS: <meta> name attribute
 | :-- | :-- |
 | `no-referrer` | 不发送HTTP `Referer`头部. |
 | `origin` | 发送文件来源. |
-| `no-referrer-when-downgrade` | 将来源作为引荐来源发送到与当前页面一样安全的URL（https→https），但不将引荐来源发送给安全程度较低的URL（https→http）。 这是*默认*行为.|
+| `no-referrer-when-downgrade` | 将来源作为引荐来源发送到与当前页面一样安全的URL（HTTPS->HTTPS），但不将引荐来源发送给安全程度较低的URL（HTTPS->HTTP）。 这是*默认*行为.|
 | `origin-when-cross-origin` | 发送相同来源请求的完整URL（带参数的），但仅发送其他情况下的来源. |
 | `same-origin` | 将发送针对相同站点来源的引荐来源网址，但跨域请求将不包含引荐来源网址信息. |
-| `strict-origin` | 仅将文档的原始来源作为引荐来源发送到优先级较高的目标（HTTPS-> HTTPS），而不将其发送到安全性较低的目标（HTTPS-> HTTP）. |
-| `strict-origin-when-cross-origin` | 在执行相同来源的请求时发送完整的URL，仅将文档的原点发送到先验的非常安全的目标（HTTPS-> HTTPS），不发送标头到次安全的目标（HTTPS-> HTTP ）. |
-| `unsafe-URL` | 发送同源或跨域请求的完整URL（带参数的URL）. |
+| `strict-origin` | 仅将文档的原始来源作为引荐来源发送到优先级较高的目标（HTTPS->HTTPS），而不将其发送到安全性较低的目标（HTTPS->HTTP）. |
+| `strict-origin-when-cross-origin` | 在执行相同来源的请求时发送完整的URL，仅将文档的原点发送到先验的非常安全的目标（HTTPS->HTTPS），不发送标头到次安全的目标（HTTPS->HTTP）. |
+| `unsafe-URL` | 发送同源或跨域请求的完整URL（带参数的URL）。|
 
 ## `<meta name="robots">`
 

@@ -15,7 +15,7 @@ within the specified vocabulary. The vocabulary defines whether several items wi
 identifier can coexist and, if so, how items with the same identifier are handled.
 
 !!! warn "Don't try this at home"
-    **Note**: The Whatwg.org definition specifies that an `itemid` must be a URL. However, the following
+    **Note**: The WHATWG definition specifies that an `itemid` must be a URL. However, the following
     example correctly illustrates that a URN may also be used. This inconsistency may reflect the
     incomplete nature of the Microdata specification.
 
