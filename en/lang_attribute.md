@@ -33,7 +33,7 @@ language tag is not valid according to BCP47, it is set to invalid.
     in the Cyrillic alphabet, as spoken in Belarus.
     To find the correct subtag codes for a language, try [the Language Subtag Lookup](https://r12a.github.io/app-subtags/)
 
-Even if the **lang** attribute is set, it may not be taken into account, as the __xml:lang__
+Even if the **lang** attribute is set, it may not be taken into account, as the __`xml:lang`__
 attribute has priority.
 
 For the CSS pseudo-class [`:lang`](/en/webfrontend/:lang), two

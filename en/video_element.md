@@ -205,7 +205,7 @@ gray box containing an X (if JavaScript is enabled).
 
 If you use Apache Web Server to serve Ogg Theora videos, you can fix this problem by adding the
 video file type extensions to "video/ogg" MIME type. The most common video file type extensions are
-".ogm", ".ogv", or ".ogg". To do this, edit the "mime.types" file in "/etc/apache" or use the
+".ogm", ".ogv", or ".ogg". To do this, edit the "`mime.types`" file in `/etc/apache` or use the
 `"AddType"` configuration directive in `httpd.conf`.
 
 ```html
@@ -216,7 +216,7 @@ AddType video/ogg .ogg
 
 If you serve your videos as WebM, you can fix this problem for the Apache Web Server by adding the
 extension used by your video files (".webm" is the most common one) to the MIME type "video/webm"
-via the "mime.types" file in "/etc/apache" or via the "AddType" configuration directive in `httpd.conf`.
+via the "`mime.types`" file in "`/etc/apache`" or via the "AddType" configuration directive in `httpd.conf`.
 
 ```html
 AddType video/webm .webm

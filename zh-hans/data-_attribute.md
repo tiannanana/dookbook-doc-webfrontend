@@ -5,7 +5,7 @@ TOPICS: data- attribute
 **`data-*`** [全局属性](/zh-hans/webfrontend/HTML_Global_Attributes) 是一类被称为
 **自定义数据属性**的属性，它赋予我们在所有 HTML 元素上嵌入自定义数据属性的能力，并可以通过脚本(一般指JavaScript) 与 HTML 之间进行专有数据的交换。
 
-所有这些自定义数据属性都可以通过所属元素的 `HTMLElement` 接口来访问。  `HTMLElement.dataset` 属性可以访问它们。 `*` 可以使用遵循 [xml名称生产规则](http://www.w3.org/TR/REC-xml/#NT-Name)
+所有这些自定义数据属性都可以通过所属元素的`HTMLElement`接口来访问。`HTMLElement.dataset` 属性可以访问它们。`*`可以使用遵循 [`xml`名称生产规则](http://www.w3.org/TR/REC-xml/#NT-Name)
 的任何名称来被替换，并具有以下限制：
 
 - 该名称不能以`xml`开头，无论这些字母是大写还是小写；

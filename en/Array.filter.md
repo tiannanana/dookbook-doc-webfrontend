@@ -64,7 +64,7 @@ var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 
 ### Filtering invalid entries from JSON
 
-The following example uses `filter()` to create a filtered json of all elements with non-zero,
+The following example uses `filter()` to create a filtered JSON of all elements with non-zero,
 numeric `id`.
 
 ```javascript
