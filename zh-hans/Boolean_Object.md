@@ -1,7 +1,7 @@
 TOPICS: Boolean
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# `Boolean`
+# JavaScript 布尔对象：`Boolean`
 
 `Boolean`对象是一个布尔值的对象包装器。
 
