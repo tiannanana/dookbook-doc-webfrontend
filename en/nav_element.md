@@ -25,7 +25,7 @@ This element only includes the [global attributes](/en/webfrontend/HTML_Global_A
 for major block of navigation links; typically the [`<footer>`](/en/webfrontend/<footer>) element
 often has a list of links that don't need to be in a `<nav>` element.
 - A document may have several `<nav>` elements, for example, one for site navigation and one for
-intra-page navigation. aria-labelledby can be used in such case to promote accessibility, see example.
+intra-page navigation. `aria-labelledby` can be used in such case to promote accessibility, see example.
 - [[User agent]]s, such as screen readers targeting disabled users, can use this element to determine
 whether to omit the initial rendering of navigation-only content.
 

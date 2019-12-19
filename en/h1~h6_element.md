@@ -164,5 +164,5 @@ In this example, screen reading technology would announce that there are two
 "*Footer navigation*". If labels were not provided, the person using screen reading software may have
 to investigate each nav element's contents to determine their purpose.
 
-- [Using the aria-labelledby attribute](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
+- [Using the `aria-labelledby` attribute](https://wiki.developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
 - [Labeling Regions • Page Structure • W3C WAI Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/page-structure/labels/#using-aria-labelledby)

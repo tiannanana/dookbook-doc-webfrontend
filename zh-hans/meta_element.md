@@ -26,7 +26,7 @@ HTML的`<meta>`元素表示**元数据**，而其他HTML的与元相关的元素
 | 属性 | 描述 |
 | :-- | :-- |
 | **[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)** | 此属性声明页面的 **[字符编码](/zh-hans/glossary/Character_Set)**。|
-| **[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)** | 定义一个**编译指示**。该属性被命名为"*http-equiv(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。 |
+| **[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)** | 定义一个**编译指示**。该属性被命名为"*`http-equiv`(alent)*"，因为所有允许的值都是特定**HTTP头部**的名称。 |
 | **[`name`](/zh-hans/webfrontend/<meta>_name_attribute)** | 该属性定义了一段文档级**元数据的名称**。如果还设置了属性`itemprop`，[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`charset`](/zh-hans/webfrontend/<meta>_charset_attribute)之一，则不应设置此属性。 |
 | **`content`** | 此属性包含[`http-equiv`](/zh-hans/webfrontend/<meta>_http-equiv_attribute)或[`name`](/zh-hans/webfrontend/<meta>_name_attribute)属性的值，具体取决于所使用的属性。|
 

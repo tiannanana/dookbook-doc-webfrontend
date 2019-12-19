@@ -10,7 +10,7 @@ element can be focused, and where it participates in sequential keyboard navigat
 It accepts an integer as a value, with different results depending on the integer's value:
 
 - A negative value (usually `tabindex="-1"`) means that the element is not reachable via sequential
-keyboard navigation, but could be focused with Javascript or visually. It's mostly useful to create
+keyboard navigation, but could be focused with JavaScript or visually. It's mostly useful to create
 accessible widgets with JavaScript. You can observe the Tabindex Accessibility example below to
 clear confusion.
 

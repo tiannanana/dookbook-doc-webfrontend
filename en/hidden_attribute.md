@@ -18,7 +18,7 @@ can still submit. Elements and scripts may, however, refer to elements that are 
 For example, it would be incorrect to use the href attribute to link to a section marked with the
 hidden attribute. If the content is not applicable or relevant, then there is no reason to link to it.
 
-It would be fine, however, to use the ARIA aria-describedby attribute to refer to descriptions that
+It would be fine, however, to use the ARIA `aria-describedby` attribute to refer to descriptions that
 are themselves hidden. While hiding the descriptions implies that they are not useful on their own,
 they could be written in such a way that they are useful in the specific context of being referenced
 from the element that they describe.

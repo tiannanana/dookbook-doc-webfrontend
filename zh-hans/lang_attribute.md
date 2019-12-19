@@ -20,7 +20,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
      如果两者都存在，则脚本子标签位于区域子标签之前 ––ru-Cyrl-BY是俄语，用白俄罗斯语中的西里尔字母书写。
      要查找语言的正确子标签代码，请参阅[语言子标签查找](https://r12a.github.io/app-subtags/)。
 
-即使设置了 **`lang`** 属性，也可能无效，因为 __xml:lang__ 属性更加优先。
+即使设置了 **`lang`** 属性，也可能无效，因为 **`xml:lang`**属性更加优先。
 
 对于CSS伪类[`:lang`](/zh-hans/webfrontend/:lang)，如果它们的名称不同，则两个无效的语言名称是不同的。比如`:lang(es)`匹配`lang =“es-ES”`
 和`lang =“es-419”`，而`:lang(xyzzy)`与`lang =“xyzzy-Zorp！”`不匹配。

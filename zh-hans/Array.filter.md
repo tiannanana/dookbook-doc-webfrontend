@@ -51,9 +51,9 @@ var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 // filtered is [12, 130, 44]
 ```
 
-### 过滤 JSON 中的无效条目
+### 过滤JSON中的无效条目
 
-以下示例使用 "`filter()`" 创建具有非零 `id` 的元素的 json。
+以下示例使用`filter()`创建具有非零`id`的元素的JSON。
 
 ```javascript
 var arr = [

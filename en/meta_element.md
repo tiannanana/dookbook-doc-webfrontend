@@ -30,7 +30,7 @@ This element includes the [global attributes](/en/webfrontend/HTML_Global_Attrib
 | Attribute | Description |
 | :-- | :-- |
 | **[`charset`](/en/webfrontend/<meta>_charset_attribute)** | This attribute declares the page's **[[character encoding]]**. |
-| **[`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute)** | Defines a **pragma directive**. The attribute is named *"http-equiv(alent)"* because all the allowed values are names of particular **HTTP headers**.
+| **[`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute)** | Defines a **HTTP pragma directive**. The attribute is named *"`http-equiv`(alent)"* because all the allowed values are names of particular **HTTP headers**.
 | **[`name`](/en/webfrontend/<meta>_name_attribute)** | This attribute defines the **name of a piece of document-level metadata**. It should not be set if one of the attributes `itemprop`, [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or [`charset`](/en/webfrontend/<meta>_charset_attribute) is also set.
 | **`content`** | This attribute contains the value for the [`http-equiv`](/en/webfrontend/<meta>_http-equiv_attribute) or [`name`](/en/webfrontend/<meta>_name_attribute) attribute, depending on which is used.
 
