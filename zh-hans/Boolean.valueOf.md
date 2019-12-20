@@ -1,9 +1,8 @@
 TOPICS: Boolean.valueOf
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Boolean.valueOf()`
 
-`valueOf()` 方法返回一个[`Boolean`](/zh-hans/webfrontend/Boolean)对象的原始值。
+`valueOf()` 方法返回一个[`Boolean`对象](/zh-hans/webfrontend/Boolean)的原始值。
 
 ## 语法
 
@@ -17,13 +16,11 @@ bool.valueOf()
 
 ## 描述
 
-[`Boolean`](/zh-hans/webfrontend/Boolean)的 `valueOf` 方法返回一个[`Boolean`](/zh-hans/webfrontend/Boolean)对象或[`Boolean`](/zh-hans/webfrontend/Boolean)字面量的原始值作为布尔数据类型。
+[`Boolean`](/zh-hans/webfrontend/Boolean)的`valueOf()`方法返回一个[`Boolean`对象](/zh-hans/webfrontend/Boolean)或[`Boolean`](/zh-hans/webfrontend/Boolean)字面量的原始值作为[布尔数据类型](/zh-hans/glossary/Boolean)。
 
-该方法通常在 JavaScript 内部调用，而不是在代码中显式调用。
+该方法通常在JavaScript内部调用，而不是在代码中显式调用。
 
 ## 示例
-
-### 使用`valueOf`
 
 ```javascript
 x = new Boolean();

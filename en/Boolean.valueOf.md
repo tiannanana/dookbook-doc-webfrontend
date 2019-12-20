@@ -1,9 +1,8 @@
 TOPICS: Boolean.valueOf
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Boolean.valueOf()`
 
-The `valueOf()` method returns the primitive value of a [`Boolean`](/en/webfrontend/Boolean) object.
+The `valueOf()` method returns the primitive value of a [`Boolean` object](/en/webfrontend/Boolean).
 
 ## Syntax
 
@@ -18,14 +17,12 @@ bool.valueOf()
 ## Description
 
 The `valueOf` method of [`Boolean`](/en/webfrontend/Boolean) returns the primitive value of a
-[`Boolean`](/en/webfrontend/Boolean) object or literal
-[`Boolean`](/en/webfrontend/Boolean) as a [`Boolean`](/en/webfrontend/Boolean) data type.
+[`Boolean` object](/en/webfrontend/Boolean) or literal
+[`Boolean`](/en/webfrontend/Boolean) as a [`Boolean` data type](/en/glossary/Boolean).
 
 This method is usually called internally by JavaScript and not explicitly in code.
 
 ## Examples
-
-### Using `valueOf`
 
 ```javascript
 x = new Boolean();
