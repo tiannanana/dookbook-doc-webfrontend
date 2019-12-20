@@ -1,7 +1,7 @@
 TOPICS: Array.of
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-## `Array.of()`
+# `Array.of()`
 
 The `Array.of()` method creates a new `Array` instance from a variable number of arguments,
 regardless of number or type of the arguments.

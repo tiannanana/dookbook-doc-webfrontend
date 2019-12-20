@@ -1,13 +1,15 @@
 TOPICS: <p>
 
-# `<p>`
+# HTML Paragraph Element: `<p>`
 
-The **HTML `<p>` element** represents a paragraph. Paragraphs are usually represented in visual
+The **HTML `<p>` element** represents a **paragraph**. Paragraphs are usually represented in visual
 media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
 but HTML paragraphs can be any structural grouping of related content, such as images or form fields.
 
-Paragraphs are block-level elements, and notably will automatically close if another
+Paragraphs are *block-level* elements, and notably will automatically close if another
 block-level element is parsed before the closing `</p>` tag. See “**Tag omission**” below.
+
+## Technical Summary
 
 |  |  |
 | :-- | :-- |
@@ -22,8 +24,8 @@ block-level element is parsed before the closing `</p>` tag. See “**Tag omissi
 
 This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
-!!! warn "Don't try this at home"
-    Note: The `align` attribute on `<p>` TOPICS is obsolete and shouldn't be used.
+!!! warn "Note"
+    The `align` attribute on `<p>` is obsolete and shouldn't be used.
 
 ## Example
 
@@ -36,59 +38,6 @@ This element only includes the [global attributes](/en/webfrontend/HTML_Global_A
   This is the second paragraph.
   This is the second paragraph.
   This is the second paragraph.</p>
-```
-
-## Styling paragraphs
-
-By default, browsers separate paragraphs with a single blank line. Alternate separation methods,
-such as first-line indentation, can be achieved with CSS:
-
-```html
-<p>Separating paragraphs with blank lines is easiest
-for readers to scan, but they can also be separated
-by indenting their first lines. This is often used
-to take up less space, such as to save paper in print.</p>
-
-<p>Writing that is intended to be edited, such as school
-papers and rough drafts, uses both blank lines and
-indentation for separation. In finished works, combining
-both is considered redundant and amateurish.</p>
-
-<p>In very old writing, paragraphs were separated with a
-special character: ¶, the <i>pilcrow</i>. Nowadays, this
-is considered claustrophobic and hard to read.</p>
-
-<p>How hard to read? See for yourself:
-  <button data-toggle-text="Oh no! Switch back!">Use pilcrow for paragraphs</button>
-</p>
-```
-
-```css
-p {
-  margin: 0;
-  text-indent: 3ch;
-}
-
-p.pilcrow {
-  text-indent: 0;
-  display: inline;
-}
-
-p.pilcrow + p.pilcrow::before {
-  content: " ¶ ";
-}
-```
-
-```javascript
-document.querySelector('button').addEventListener('click', function (event) {
-  document.querySelectorAll('p').forEach(function (paragraph) {
-    paragraph.classList.toggle('pilcrow');
-  });
-  var newButtonText = event.target.dataset.toggleText;
-  var oldText = event.target.innerText;
-  event.target.innerText = newButtonText;
-  event.target.dataset.toggleText = oldText;
-});
 ```
 
 ## Accessibility Concerns
@@ -106,6 +55,6 @@ If extra space is desired, use CSS properties like `margin` to create the effect
 
 ```css
 p {
-  margin-bottom: 2em;/* increase white space after a paragraph */
+  margin-bottom: 2em; /* increase white space after a paragraph */
 }
 ```

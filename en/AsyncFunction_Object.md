@@ -3,7 +3,8 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript AsyncFunction Object
 
-The `AsyncFunction` constructor creates a new async function object. In JavaScript, every [asynchronous function](/en/webfrontend/async_function) is actually an `AsyncFunction` object.
+The `AsyncFunction` constructor creates a new async function object. In JavaScript,
+every [asynchronous function](/en/webfrontend/async_function) is actually an `AsyncFunction` object.
 
 Note that `AsyncFunction` is not a global object. It can be obtained with the following code:
 
@@ -26,23 +27,30 @@ new AsyncFunction([arg1[, arg2[, ...argN]],] functionBody)
 
 ## Description
 
-async function objects created with the `AsyncFunction` constructor are parsed when the function is created. This is less efficient than declaring an async function with an async function expression and calling it within your code, because such functions are parsed with the rest of the code.
+async function objects created with the `AsyncFunction` constructor are parsed when the function is created.
+This is less efficient than declaring an async function with an async function expression
+and calling it within your code, because such functions are parsed with the rest of the code.
 
-All arguments passed to the function are treated as the names of the identifiers of the parameters in the function to be created, in the order in which they are passed.
+All arguments passed to the function are treated as the names of the identifiers of the parameters
+in the function to be created, in the order in which they are passed.
 
-!!!warn Note: async functions created with the AsyncFunction constructor do not create closures to their creation contexts; they are always created in the global scope.
+!!! warn ""
+    Note: async functions created with the AsyncFunction constructor do not create closures to
+    their creation contexts; they are always created in the global scope.
 
-When running them, they will only be able to access their own local variables and global ones, not the ones from the scope in which the AsyncFunction constructor was called.
+When running them, they will only be able to access their own local variables and global ones,
+not the ones from the scope in which the AsyncFunction constructor was called.
 
 This is different from using eval with code for an async function expression.
 
-Invoking the AsyncFunction constructor as a function (without using the [new operator](/en/webfrontend/new_operator)) has the same effect as invoking it as a constructor.
+Invoking the AsyncFunction constructor as a function (without using the
+[new operator](/en/webfrontend/new_operator)) has the same effect as invoking it as a constructor.
 
 ## Properties
 
-| Parameters | Description |
+| Properties | Description |
 | :-- | :-- |
-|**`AsyncFunction.length`**|  The AsyncFunction constructor's length property (whose value is 1).|
+|**`AsyncFunction.length`**|  The AsyncFunction constructor's length property (whose value is `1`).|
 |**[AsyncFunction.prototype](/en/webfrontend/AsyncFunction.prototype)**| Allows the addition of properties to all async function objects.|
 
 ## AsyncFunction prototype object
@@ -58,7 +66,8 @@ Invoking the AsyncFunction constructor as a function (without using the [new ope
 
 `AsyncFunction` instances inherit methods and properties from [AsyncFunction.prototype](/en/webfrontend/AsyncFunction.prototype).
 
-As with all constructors, you can change the constructor's prototype object to make changes to all `AsyncFunction` instances.
+As with all constructors,
+you can change the constructor's prototype object to make changes to all `AsyncFunction` instances.
 
 ## Examples
 
