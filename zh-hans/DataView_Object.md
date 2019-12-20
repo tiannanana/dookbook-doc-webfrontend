@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript DataView Object
 
-`DataView` 视图是一个可以从 二进制 [ArrayBuffer](/zh-hans/webfrontend/ArrayBuffer) 对象中读写多种数值类型的底层接口，
+`DataView` 视图是一个可以从 二进制 [`ArrayBuffer`](/zh-hans/webfrontend/ArrayBuffer) 对象中读写多种数值类型的底层接口，
 使用它时，不用考虑不同平台的 [[字节序]] 问题。
 
 ```JavaScript
@@ -29,7 +29,7 @@ new DataView(buffer [, byteOffset [, byteLength]])
 
 | 参数 | 说明 |
 | :-- | :-- |
-|**`buffer`**|一个 已经存在的 [ArrayBuffer](/zh-hans/webfrontend/ArrayBuffer) 或 [SharedArrayBuffer](/zh-hans/webfrontend/SharedArrayBuffer)  对象，`DataView` 对象的数据源。|
+|**`buffer`**|一个 已经存在的 [`ArrayBuffer`](/zh-hans/webfrontend/ArrayBuffer) 或 [`SharedArrayBuffer`](/zh-hans/webfrontend/SharedArrayBuffer)  对象，`DataView` 对象的数据源。|
 |**`byteOffset`** (*可选*)|此 `DataView` 对象的第一个字节在 `buffer` 中的字节偏移。如果未指定，则默认从第一个字节开始。|
 |**`byteLength`** (*可选*)|此 `DataView` 对象的字节长度。如果未指定，这个视图的长度将匹配`buffer`的长度。|
 
@@ -64,7 +64,7 @@ console.log(littleEndian); // true or false
 ### 64 位整数值
 
 因为 JavaScript 目前不包含对 64 位整数值支持的标准，所以 `DataView` 不提供原生的 64 位操作。作为变通，您可以实现自己的 `getUint64()` 函数，以获得精度高达
-[Number.MAX_SAFE_INTEGER](/zh-hans/webfrontend/Number.MAX_SAFE_INTEGER) 的值，可以满足某些特定情况的需求。
+[`Number.MAX_SAFE_INTEGER`](/zh-hans/webfrontend/Number.MAX_SAFE_INTEGER) 的值，可以满足某些特定情况的需求。
 
 ```JavaScript
 function getUint64(dataview, byteOffset, littleEndian) {
@@ -82,8 +82,8 @@ function getUint64(dataview, byteOffset, littleEndian) {
 }
 ```
 
-或者，如果需要填满 64 位，可以创建一个 [BigInt](/zh-hans/webfrontend/BigInt) 。
-此外，尽管原生 BigInt 要比用户端的库中模拟的 BigInt 快得多，但在 JavaScript 中，BigInt 总是比 32 位整数慢得多，这是因为 BigInt 的大小是可变的。
+或者，如果需要填满 64 位，可以创建一个 [`BigInt`](/zh-hans/webfrontend/BigInt) 。
+此外，尽管原生 `BigInt` 要比用户端的库中模拟的 `BigInt` 快得多，但在 JavaScript 中，BigInt 总是比 32 位整数慢得多，这是因为 `BigInt` 的大小是可变的。
 
 ```JavaScript
 const BigInt = window.BigInt, bigThirtyTwo = BigInt(32), bigZero = BigInt(0);
@@ -99,14 +99,14 @@ function getUint64BigInt(dataview, byteOffset, littleEndian) {
 
 ## 属性
 
-所有 `DataView` 实例都继承自 [DataView.prototype](/zh-hans/webfrontend/DataView.prototype)，并且允许向 `DataView` 对象中添加额外属性。
+所有 `DataView` 实例都继承自 [`DataView.prototype`](/zh-hans/webfrontend/DataView.prototype)，并且允许向 `DataView` 对象中添加额外属性。
 
 | 属性| 说明 |
 | :-- | :-- |
 |**DataView.prototype.constructor**|指定用来生成原型的构造函数.初始化值是标准内置`DataView`构造器。|
-|**[DataView.prototype.buffer](/zh-hans/webfrontend/DataView.prototype.buffer)** *(只读)*|被视图引入的 [ArrayBuffer](zh-hansn/webfrontend/ArrayBuffer)，创建实例的时候已固化因此是只读的。|
-|**[DataView.prototype.byteLength](/zh-hans/webfrontend/DataView.prototype.byteLength)** *(只读)*|从 [ArrayBuffer](zh-hansn/webfrontend/ArrayBuffer) 中读取的字节长度，创建实例的时候已固化因此是只读的。|
-|**[DataView.prototype.byteOffset](/zh-hans/webfrontend/DataView.prototype.byteOffset)** *(只读)*|从 [ArrayBuffer](zh-hansn/webfrontend/ArrayBuffer) 读取时的偏移字节长度，创建实例的时候已固化因此是只读的。|
+|**[`DataView.prototype.buffer`](/zh-hans/webfrontend/DataView.prototype.buffer)** *(只读)*|被视图引入的 [`ArrayBuffer`](zh-hansn/webfrontend/ArrayBuffer)，创建实例的时候已固化因此是只读的。|
+|**[`DataView.prototype.byteLength`](/zh-hans/webfrontend/DataView.prototype.byteLength)** *(只读)*|从 [`ArrayBuffer`](zh-hansn/webfrontend/ArrayBuffer) 中读取的字节长度，创建实例的时候已固化因此是只读的。|
+|**[`DataView.prototype.byteOffset`](/zh-hans/webfrontend/DataView.prototype.byteOffset)** *(只读)*|从 [`ArrayBuffer`](zh-hansn/webfrontend/ArrayBuffer) 读取时的偏移字节长度，创建实例的时候已固化因此是只读的。|
 
 ## 方法
 

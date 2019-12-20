@@ -4,7 +4,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 # JavaScript BigUint64Array Obejct
 
 `BigUint64Array`类型数组表示一个平台字节顺序的64位有符号整型数组。
-如果需要控制字符顺序，请使用[DataView](/zh-hans/webfrontend/DataView)替代。内容初始化为`0n`。
+如果需要控制字符顺序，请使用[`DataView`](/zh-hans/webfrontend/DataView)替代。内容初始化为`0n`。
 创建之后可以使用对象中的方法或使用标准数组索引语法(括号表示法)来获取数组中的元素。
 
 ## 语法
@@ -17,16 +17,16 @@ new BigUint64Array(object);
 new BigUint64Array(buffer [, byteOffset [, length]]);
 ```
 
-有关构造函数语法和参数的更多信息，请查看[TypedArray](/zh-hans/webfrontend/TypedArray)。
+有关构造函数语法和参数的更多信息，请查看[`TypedArray`](/zh-hans/webfrontend/TypedArray)。
 
 ## 属性
 
 | 属性| 说明 |
 | :-- | :-- |
-|**[BigUint64Array.BYTES_PER_ELEMENT](/zh-hans/webfrontend/TypedArray.BYTES_PER_ELEMENT)** | 返回元素大小的数值， 如果是`BigUint64Array`， 则数值为`8`。|
-|**BigUint64Array.length**|固定的长度属性，值为`3`。有关实际长度（元素数量），请参见[BigUint64Array.prototype.length](/zh-hans/webfrontend/BigUint64Array.prototype.length)|
-|**[BigUint64Array.name](/zh-hans/webfrontend/BigUint64Array.name)**|返回构造函数名称的字符串。 如果是`BigUint64Array`类型，则为`"BigUint64Array"`。|
-|**[BigUint64Array.prototype](/zh-hans/webfrontend/BigUint64Array.prototype)**|[TypedArray](/zh-hans/webfrontend/TypedArray)对象的原型。|
+|**[`BigUint64Array.BYTES_PER_ELEMENT`](/zh-hans/webfrontend/TypedArray.BYTES_PER_ELEMENT)** | 返回元素大小的数值， 如果是`BigUint64Array`， 则数值为`8`。|
+|**BigUint64Array.length**|固定的长度属性，值为`3`。有关实际长度（元素数量），请参见[`BigUint64Array.prototype.length`](/zh-hans/webfrontend/BigUint64Array.prototype.length)|
+|**[`BigUint64Array.name`](/zh-hans/webfrontend/BigUint64Array.name)**|返回构造函数名称的字符串。 如果是`BigUint64Array`类型，则为`"BigUint64Array"`。|
+|**[`BigUint64Array.prototype`](/zh-hans/webfrontend/BigUint64Array.prototype)**|[`TypedArray`](/zh-hans/webfrontend/TypedArray)对象的原型。|
 
 ## 方法
 
@@ -37,17 +37,17 @@ new BigUint64Array(buffer [, byteOffset [, length]]);
 
 ## BigUint64Array原型
 
-所有的`BigUint64Array`对象均继承自[TypedArray.prototype](/zh-hans/webfrontend/TypedArray.prototype)。
+所有的`BigUint64Array`对象均继承自[`TypedArray.prototype`](/zh-hans/webfrontend/TypedArray.prototype)。
 
 ### 原型属性
 
 | 属性| 说明 |
 | :-- | :-- |
 |**`BigUint64Array.prototype.constructor`**|返回创建实例原型的函数。 默认情况下，返回`BigUint64Array`构造函数。|
-|**[BigUint64Array.prototype.buffer](/zh-hans/webfrontend/TypedArray.prototype.buffer)** (*只读*)|返回`BigUint64Array`引用的[ArrayBuffer](/zh-hans/webfrontend/ArrayBuffer)。这是在构建时固定的，因此是只读的。|
-|**[BigUint64Array.prototype.byteLength](/zh-hans/webfrontend/TypedArray.prototype.byteLength)** (*只读*)|返回`BigUint64Array`从其[ArrayBuffer](/zh-hans/webfrontend/ArrayBuffer)开始的长度（以字节为单位）。 这是在构建时固定的，因此是只读的。|
-|**[BigUint64Array.prototype.byteOffset](/zh-hans/webfrontend/TypedArray.prototype.byteOffset)** (*只读*)|返回`BigUint64Array`从其[ArrayBuffer](/zh-hans/webfrontend/ArrayBuffer)开始处的偏移量（以字节为单位）。这是在构建时固定的，因此是只读的。|
-|**[BigUint64Array.prototype.length](/zh-hans/webfrontend/TypedArray.prototype.length)** (*只读*)|返回保存在`BigUint64Array`中的元素数量。这是在构建时固定的，因此是只读的。|
+|**[`BigUint64Array.prototype.buffer`](/zh-hans/webfrontend/TypedArray.prototype.buffer)** (*只读*)|返回`BigUint64Array`引用的[`ArrayBuffer`](/zh-hans/webfrontend/ArrayBuffer)。这是在构建时固定的，因此是只读的。|
+|**[`BigUint64Array.prototype.byteLength`](/zh-hans/webfrontend/TypedArray.prototype.byteLength)** (*只读*)|返回`BigUint64Array`从其[`ArrayBuffer`](/zh-hans/webfrontend/ArrayBuffer)开始的长度（以字节为单位）。 这是在构建时固定的，因此是只读的。|
+|**[`BigUint64Array.prototype.byteOffset`](/zh-hans/webfrontend/TypedArray.prototype.byteOffset)** (*只读*)|返回`BigUint64Array`从其[`ArrayBuffer`](/zh-hans/webfrontend/ArrayBuffer)开始处的偏移量（以字节为单位）。这是在构建时固定的，因此是只读的。|
+|**[`BigUint64Array.prototype.length`](/zh-hans/webfrontend/TypedArray.prototype.length)** (*只读*)|返回保存在`BigUint64Array`中的元素数量。这是在构建时固定的，因此是只读的。|
 
 ### 原型方法
 

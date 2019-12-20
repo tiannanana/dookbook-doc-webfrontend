@@ -4,7 +4,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 # JavaScript BigUint64Array Obejct
 
 The `BigUint64Array` typed array represents an array of 64-bit unsigned integers in the platform byte
-order. If control over byte order is needed, use [DataView](/en/webfrontend/DataView) instead.
+order. If control over byte order is needed, use [`DataView`](/en/webfrontend/DataView) instead.
 The contents are initialized to `0n`.
 Once established, you can reference elements in the array using the object's methods,
 or by using standard array index syntax (that is, using bracket notation).
@@ -19,16 +19,16 @@ new BigUint64Array(object);
 new BigUint64Array(buffer [, byteOffset [, length]]);
 ```
 
-For more information about the constructor syntax and parameters, see [TypedArray](/en/webfrontend/TypedArray).
+For more information about the constructor syntax and parameters, see [`TypedArray`](/en/webfrontend/TypedArray).
 
 ## Properties
 
 | Properties| Description |
 | :-- | :-- |
-|**[BigUint64Array.BYTES_PER_ELEMENT](/en/webfrontend/TypedArray.BYTES_PER_ELEMENT)** | Returns a number value of the element size. `8` in the case of a `BigUint64Array`.|
-|**BigUint64Array.length**|Static length property whose value is `3`. For the actual length (number of elements), see [BigUint64Array.prototype.length](/en/webfrontend/BigUint64Array.prototype.length).|
-|**[BigUint64Array.name](/en/webfrontend/BigUint64Array.name)**|Returns the string value of the constructor name. In the case of the BigUint64Array type, this is `"BigUint64Array"`.|
-|**[BigUint64Array.prototype](/en/webfrontend/BigUint64Array.prototype)**|Prototype for the TypedArray objects.|
+|**[`BigUint64Array.BYTES_PER_ELEMENT`](/en/webfrontend/TypedArray.BYTES_PER_ELEMENT)** | Returns a number value of the element size. `8` in the case of a `BigUint64Array`.|
+|**`BigUint64Array.length`**|Static length property whose value is `3`. For the actual length (number of elements), see [`BigUint64Array.prototype.length`](/en/webfrontend/BigUint64Array.prototype.length).|
+|**[`BigUint64Array.name`](/en/webfrontend/BigUint64Array.name)**|Returns the string value of the constructor name. In the case of the BigUint64Array type, this is `"BigUint64Array"`.|
+|**[`BigUint64Array.prototype`](/en/webfrontend/BigUint64Array.prototype)**|Prototype for the TypedArray objects.|
 
 ## Methods
 
@@ -39,17 +39,17 @@ For more information about the constructor syntax and parameters, see [TypedArra
 
 ## BigUint64Array prototype
 
-All `BigUint64Array` objects inherit from [TypedArray.prototype](/en/webfrontend/TypedArray.prototype).
+All `BigUint64Array` objects inherit from [`TypedArray.prototype`](/en/webfrontend/TypedArray.prototype).
 
 ### prototype Properties
 
 | Properties| Description |
 | :-- | :-- |
 |**`BigUint64Array.prototype.constructor`**|Returns the function that created an instance's prototype. This is the `BigUint64Array` constructor by default.|
-|**[BigUint64Array.prototype.buffer](/en/webfrontend/TypedArray.prototype.buffer)** (*Read only*)|Returns the [ArrayBuffer](/en/webfrontend/ArrayBuffer) referenced by the `BigUint64Array`.This is fixed at construction time and thus read only.|
-|**[BigUint64Array.prototype.byteLength](/en/webfrontend/TypedArray.prototype.byteLength)** (*Read only*)|Returns the length (in bytes) of the `BigUint64Array` from the start of its [ArrayBuffer](/en/webfrontend/ArrayBuffer). This is fixed at construction time and thus read only.|
-|**[BigUint64Array.prototype.byteOffset](/en/webfrontend/TypedArray.prototype.byteOffset)** (*Read only*)|Returns the offset (in bytes) of the `BigUint64Array` from the start of its [ArrayBuffer](/en/webfrontend/ArrayBuffer). This is fixed at construction time and thus read only.|
-|**[BigUint64Array.prototype.length](/en/webfrontend/TypedArray.prototype.length)** (*Read only*)|Returns the number of elements hold in the `BigUint64Array`. This is fixed at construction time and thus read only.|
+|**[`BigUint64Array.prototype.buffer`](/en/webfrontend/TypedArray.prototype.buffer)** (*Read only*)|Returns the [`ArrayBuffer`](/en/webfrontend/ArrayBuffer) referenced by the `BigUint64Array`.This is fixed at construction time and thus read only.|
+|**[`BigUint64Array.prototype.byteLength`](/en/webfrontend/TypedArray.prototype.byteLength)** (*Read only*)|Returns the length (in bytes) of the `BigUint64Array` from the start of its [`ArrayBuffer`](/en/webfrontend/ArrayBuffer). This is fixed at construction time and thus read only.|
+|**[`BigUint64Array.prototype.byteOffset`](/en/webfrontend/TypedArray.prototype.byteOffset)** (*Read only*)|Returns the offset (in bytes) of the `BigUint64Array` from the start of its [`ArrayBuffer`](/en/webfrontend/ArrayBuffer). This is fixed at construction time and thus read only.|
+|**[`BigUint64Array.prototype.length`](/en/webfrontend/TypedArray.prototype.length)** (*Read only*)|Returns the number of elements hold in the `BigUint64Array`. This is fixed at construction time and thus read only.|
 
 ### prototype Methods
 

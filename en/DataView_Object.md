@@ -4,7 +4,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 # JavaScript DataView Object
 
 The `DataView` view provides a low-level interface for reading and writing multiple number types in
-a binary [ArrayBuffer](/en/webfrontend/ArrayBuffer), without having to care about the platform's [[endianness]].
+a binary [`ArrayBuffer`](/en/webfrontend/ArrayBuffer), without having to care about the platform's [[endianness]].
 
 ```JavaScript
 // create an ArrayBuffer with a size in bytes
@@ -29,7 +29,7 @@ new DataView(buffer [, byteOffset [, byteLength]])
 
 | Parameters | Description |
 | :-- | :-- |
-|**`buffer`**|An existing [ArrayBuffer](/en/webfrontend/ArrayBuffer) or [SharedArrayBuffer](/en/webfrontend/SharedArrayBuffer) to use as the storage backing the new `DataView` object.|
+|**`buffer`**|An existing [`ArrayBuffer`](/en/webfrontend/ArrayBuffer) or [`SharedArrayBuffer`](/en/webfrontend/SharedArrayBuffer) to use as the storage backing the new `DataView` object.|
 |**`byteOffset`** (*Optional*)|The offset, in bytes, to the first byte in the above buffer for the new view to reference. If unspecified, the buffer view starts with the first byte.|
 |**`byteLength`** (*Optional*)|The number of elements in the byte array. If unspecified, the view's length will match the buffer's length.|
 
@@ -72,7 +72,7 @@ console.log(littleEndian); // true or false
 Because JavaScript does not currently include standard support for 64-bit integer values,
 DataView does not offer native 64-bit operations. As a workaround,
 you could implement your own `getUint64()` function to obtain a value with precision up to
-[Number.MAX_SAFE_INTEGER](/en/webfrontend/Number.MAX_SAFE_INTEGER),
+[`Number.MAX_SAFE_INTEGER`](/en/webfrontend/Number.MAX_SAFE_INTEGER),
 which could suffice for certain cases.
 
 ```JavaScript
@@ -91,7 +91,7 @@ function getUint64(dataview, byteOffset, littleEndian) {
 }
 ```
 
-Alternatively, if you need full 64-bit range, you can create a [BigInt](/en/webfrontend/BigInt). Further,
+Alternatively, if you need full 64-bit range, you can create a [`BigInt`](/en/webfrontend/BigInt). Further,
 although native BigInts are much faster than user-land library equivalents,
 BigInts will always be much slower than 32-bit integers in JavaScript due to
 the nature of their variable size.
@@ -110,15 +110,15 @@ function getUint64BigInt(dataview, byteOffset, littleEndian) {
 
 ## Properties
 
-All `DataView` instances inherit from [DataView.prototype](/en/webfrontend/DataView.prototype) and
+All `DataView` instances inherit from [`DataView.prototype`](/en/webfrontend/DataView.prototype) and
 allows the addition of properties to all DataView objects.
 
 | Properties| Description |
 | :-- | :-- |
-|**DataView.prototype.constructor**|Specifies the function that creates an object's prototype. The initial value is the standard built-in DataView constructor.|
-|**[DataView.prototype.buffer](/en/webfrontend/DataView.prototype.buffer)** *(Read only)*|The [ArrayBuffer](/en/webfrontend/ArrayBuffer) referenced by this view. Fixed at construction time and thus read only.|
-|**[DataView.prototype.byteLength](/en/webfrontend/DataView.prototype.byteLength)** *(Read only)*|The length (in bytes) of this view from the start of its [ArrayBuffer](/en/webfrontend/ArrayBuffer). Fixed at construction time and thus read only.|
-|**[DataView.prototype.byteOffset](/en/webfrontend/DataView.prototype.byteOffset)** *(Read only)*|The offset (in bytes) of this view from the start of its [ArrayBuffer](/en/webfrontend/ArrayBuffer). Fixed at construction time and thus read only.|
+|**`DataView.prototype.constructor`**|Specifies the function that creates an object's prototype. The initial value is the standard built-in DataView constructor.|
+|**[`DataView.prototype.buffer`](/en/webfrontend/DataView.prototype.buffer)** *(Read only)*|The [`ArrayBuffer`](/en/webfrontend/ArrayBuffer) referenced by this view. Fixed at construction time and thus read only.|
+|**[`DataView.prototype.byteLength`](/en/webfrontend/DataView.prototype.byteLength)** *(Read only)*|The length (in bytes) of this view from the start of its [`ArrayBuffer`](/en/webfrontend/ArrayBuffer). Fixed at construction time and thus read only.|
+|**[`DataView.prototype.byteOffset`](/en/webfrontend/DataView.prototype.byteOffset)** *(Read only)*|The offset (in bytes) of this view from the start of its [`ArrayBuffer`](/en/webfrontend/ArrayBuffer). Fixed at construction time and thus read only.|
 
 ## Methods
 
