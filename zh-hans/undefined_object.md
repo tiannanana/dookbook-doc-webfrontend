@@ -34,7 +34,7 @@ if (x === undefined) {
 
 ## `typeof`操作符和`undefined`
 
-或者，可以使用[`typeof`](/zh-hans/webfrontend/typeof)：
+或者，可以使用`typeof`：
 
 ```javascript
 // x之前未定义

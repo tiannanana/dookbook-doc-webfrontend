@@ -41,7 +41,7 @@ else {
 
 ## `typeof` operator and `undefined`
 
-Alternatively, [`typeof`](/en/webfrontend/typeof) can be used:
+Alternatively, `typeof` can be used:
 
 ```javascript
 // x has not been declared before
