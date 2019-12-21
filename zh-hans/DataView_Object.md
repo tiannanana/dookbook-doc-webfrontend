@@ -99,7 +99,8 @@ function getUint64BigInt(dataview, byteOffset, littleEndian) {
 
 ## 属性
 
-所有 `DataView` 实例都继承自 [`DataView.prototype`](/zh-hans/webfrontend/DataView.prototype)，并且允许向 `DataView` 对象中添加额外属性。
+所有 `DataView` 实例都继承自 [`DataView.prototype`](/zh-hans/webfrontend/DataView.prototype)，
+并且允许向 `DataView` 对象中添加额外属性。
 
 | 属性| 说明 |
 | :-- | :-- |
