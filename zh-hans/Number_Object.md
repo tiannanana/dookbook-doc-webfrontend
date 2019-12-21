@@ -46,7 +46,7 @@ b instanceof Number; // is false
 
 `Number.MAX_SAFE_INTEGER` **常量**表示在 JavaScript 中最大的安全整数（maxinum safe integer)（`2^53^ - 1`）。
 
-`MAX_SAFE_INTEGER` 是一个值为 `9007199254740991`的常量。因为Javascript的数字存储使用了IEEE 754中规定的双精度浮点数数据类型，而这一数据类型能够安
+`MAX_SAFE_INTEGER` 是一个值为 `9007199254740991`的常量。因为JavaScript的数字存储使用了IEEE 754中规定的双精度浮点数数据类型，而这一数据类型能够安
 全存储 `-(2^53^ - 1)` 到 `2^53^ - 1` 之间的数值（包含边界值）。
 
 这里安全存储的意思是指能够准确区分两个不相同的值，例如 `Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2` 将得到 `true`的结果，而这在数学上是错误的，参考[`Number.isSafeInteger()`](/zh-hans/webfrontend/Number.isSafeInteger)获取更多信息.

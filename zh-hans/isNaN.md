@@ -87,7 +87,7 @@ isNaN("blabla")   // true: "blabla"不能转换成数值
 `isNaN(x)`, `isNaN(x - 0)`,`isNaN(Number(x))`, `Number.isNaN(x - 0)`,和`Number.isNaN(Number(x))`
 的返回值都是一样的 并且在JavaScript中`isNaN(x)`是这些表达式中最短的表达。
 
-举个例子，可以利用这个特殊行为来检测函数的参数是可运算的（可以像`number`一样进行加减乘除等运算）。如果不可运算，则可赋予这个参数一个默认的值或其他合适的内容。这样，就可以得到一个隐式转换参数值的函数，而这得益于Javascript的全功能性。
+举个例子，可以利用这个特殊行为来检测函数的参数是可运算的（可以像`number`一样进行加减乘除等运算）。如果不可运算，则可赋予这个参数一个默认的值或其他合适的内容。这样，就可以得到一个隐式转换参数值的函数，而这得益于JavaScript的全功能性。
 
 ```javascript
 function increment(x) {
