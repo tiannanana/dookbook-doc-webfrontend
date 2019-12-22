@@ -1,9 +1,4 @@
 TOPICS: Boolean
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Gacel Perfinian; gacelperfinian@mozilla.net; mdn:gacelperfinian
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # JavaScript `Boolean` Object
 
@@ -115,7 +110,7 @@ var bEmptyString = new Boolean('');
 var bFalse = new Boolean(false);
 ```
 
-### Creating Boolean objects with an initial value of true
+### Creating Boolean objects with an initial value of `true`
 
 ```javascript
 var bTrue = new Boolean(true);
