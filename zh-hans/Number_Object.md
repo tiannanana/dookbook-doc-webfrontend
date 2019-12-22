@@ -1,13 +1,12 @@
 TOPICS: Number
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript 数值对象：`Boolean`
+# JavaScript 数值对象：`Number`
 
-JavaScript 的 **`Number`** 对象是经过封装的能让你处理数字值的对象。`Number` 对象由 `Number()` 构造器创建。
+JavaScript的 **`Number`** 对象是经过封装的能让你处理数字值的对象。`Number` 对象由 `Number()` 构造器创建。
 
-JavaScript的`Number`类型为双精度IEEE 754 64位浮点类型。
+JavaScript的`Number`类型为**[64位双精度浮点类型 (IEEE 754)](http://en.wikipedia.org/wiki/Double_precision_floating-point_format)**。
 
-最近出了stage3 [`BigInt`](/zh-hans/webfrontend/BigInt) 任意精度数字类型，已经进入stage3规范
+最新的JavaScript开始支持[`BigInt`](/zh-hans/webfrontend/BigInt) 任意精度整数类型。
 
 ## 语法
 
@@ -132,7 +131,7 @@ double-precision floating-point format numbers 作为规定。在这个规定中
 - `POSITIVE_INFINITY` 除以 `NEGATIVE_INFINITY` 或 `POSITIVE_INFINITY` 为 `NaN`。
 - 任何数除以 `POSITIVE_INFINITY` 为 `0`。
 
-您可以使用`Number.POSITIVE_INFINITY`属性指示成功时返回有限数量的错误情况。 但是请注意，在这种情况下[`isFinite`](/zh-hans/webfrontend/Number.isFinite)更合适。
+您可以使用`Number.POSITIVE_INFINITY`属性指示成功时返回有限数量的错误情况。 但是请注意，在这种情况下[`Number.isFinite()`](/zh-hans/webfrontend/Number.isFinite)更合适。
 
 ### `Number.prototype`
 
