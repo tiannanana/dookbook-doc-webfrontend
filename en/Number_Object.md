@@ -1,15 +1,14 @@
 TOPICS: Number
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript Number Object
+# JavaScript Numerical Object: `Number`
 
 The **`Number`** JavaScript object is a wrapper object allowing you to work with numerical values.
 A `Number` object is created using the **`Number()`** **constructor**. A primitive type object
 **number** is created using the **`Number()` function**.
 
-The JavaScript `Number` type is double-precision 64-bit binary format IEEE 754 value. In more recent
-implementations, JavaScript also supports integers with arbitrary precision using the
-[`BigInt`](/en/webfrontend/BigInt) type.
+The JavaScript `Number` type is **[double-precision 64-bit floating point format (IEEE 754)](http://en.wikipedia.org/wiki/Double_precision_floating-point_format)**
+value. In more recent implementations, JavaScript also supports integers with arbitrary precision
+using the [`BigInt`](/en/webfrontend/BigInt) type.
 
 ## Syntax
 
@@ -126,7 +125,7 @@ This value behaves slightly differently than mathematical `infinity`:
 - `NEGATIVE_INFINITY`, divided by either `NEGATIVE_INFINITY` or `POSITIVE_INFINITY`, is `NaN`.
 
 You might use the `Number.NEGATIVE_INFINITY` property to indicate an error condition that returns a
-finite number in case of success. Note, however, that [`isFinite`](/en/webfrontend/Number.isFinite)
+finite number in case of success. Note, however, that [`Number.isFinite()`](/en/webfrontend/Number.isFinite)
 would be more appropriate in such a case.
 
 Because `NEGATIVE_INFINITY` is a static property of `Number`, you always use it as
