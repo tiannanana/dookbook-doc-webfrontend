@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript Global Property: `NaN`
 
-The global **`NaN`** property is a value representing Not-A-Number.
+The global **`NaN`** property is a value representing **Not-A-Number**.
 
 ## Syntax
 
@@ -13,7 +13,7 @@ NaN
 
 ## Description
 
-`NaN` is a property of the global object.
+`NaN` is a property of the *global object*.
 
 The initial value of `NaN` is Not-A-Number — the same as the value of `Number.NaN`.
 In modern browsers, `NaN` is a non-configurable, non-writable property. Even when this is not
