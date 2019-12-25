@@ -1,5 +1,4 @@
 TOPICS: NaN
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript Global Property: `NaN`
 
@@ -15,7 +14,7 @@ NaN
 
 `NaN` is a property of the *global object*.
 
-The initial value of `NaN` is Not-A-Number — the same as the value of `Number.NaN`.
+The initial value of `NaN` is *Not-A-Number* — the same as the value of `Number.NaN`.
 In modern browsers, `NaN` is a non-configurable, non-writable property. Even when this is not
 the case, avoid overriding it.
 
