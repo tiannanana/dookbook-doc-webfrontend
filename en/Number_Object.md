@@ -46,14 +46,14 @@ The `EPSILON` property has a value of approximately `2.2204460492503130808472633
 ### `Number.MAX_SAFE_INTEGER`
 
 The **`Number.MAX_SAFE_INTEGER`** constant represents the maximum safe integer in JavaScript
-(\\(2^53 - 1\\)).
+(\\(2^{53} - 1\\)).
 
 For larger integers, consider using [`BigInt`](/en/webfrontend/BigInt).
 
 The `MAX_SAFE_INTEGER` constant has a value of `9007199254740991` (`9,007,199,254,740,991` or `~9`
 quadrillion). The reasoning behind that number is that JavaScript uses double-precision
 floating-point format numbers as specified in IEEE 754 and can only safely represent
-numbers between \\(-(2^53 - 1)\\) and \\(2^53 - 1\\).
+numbers between \\(-(2^{53} - 1)\\) and \\(2^{53} - 1\\).
 
 Safe in this context refers to the ability to represent integers exactly and to correctly compare
 them. For example, `Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2` will evaluate
@@ -70,7 +70,7 @@ Because `MAX_SAFE_INTEGER` is a static property of `Number`, you always use it a
 
 The **`Number.MAX_VALUE`** property represents the maximum numeric value representable in JavaScript.
 
-The `MAX_VALUE` property has a value of approximately `1.79E+308`, or 2^1024^. Values larger than
+The `MAX_VALUE` property has a value of approximately `1.79E+308`, or \\(2^{1024}\\). Values larger than
 `MAX_VALUE` are represented as `Infinity`.
 
 Because `MAX_VALUE` is a static property of `Number`, you always use it as `Number.MAX_VALUE`, rather
@@ -79,14 +79,14 @@ than as a property of a `Number` object you created.
 ### `Number.MIN_SAFE_INTEGER`
 
 The **`Number.MIN_SAFE_INTEGER`** constant represents the minimum safe integer in JavaScript
-(\\(-(2^53 - 1)\\)).
+(\\(-(2^{53} - 1)\\)).
 
 To represent integers smaller than this, consider using [`BigInt`](/en/webfrontend/BigInt).
 
-The `MIN_SAFE_INTEGER` constant has a value of `-9007199254740991` (-9,007,199,254,740,991 or about
--9 quadrillion). The reasoning behind that number is that JavaScript uses double-precision
+The `MIN_SAFE_INTEGER` constant has a value of `-9007199254740991` (`-9,007,199,254,740,991` or about
+`-9` quadrillion). The reasoning behind that number is that JavaScript uses double-precision
 floating-point format numbers as specified in IEEE 754 and can only safely represent numbers between
-`-(2^53^ - 1)` and `2^53^ - 1`.  See [`Number.isSafeInteger()`](/en/webfrontend/Number.isSafeInteger)
+\\(-(2^{53} - 1)\\) and \\(2^{53} - 1\\).  See [`Number.isSafeInteger()`](/en/webfrontend/Number.isSafeInteger)
 for more information.
 
 Because `MIN_SAFE_INTEGER` is a static property of `Number`, you always use it as

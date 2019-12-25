@@ -39,14 +39,14 @@ b instanceof Number; // is false
 
 你不必创建一个 `Number` 对象来访问这个静态属性（直接使用 `Number.EPSILON`）。
 
-`EPSILON` 属性的值接近于 `2.2204460492503130808472633361816E-16`，或者 `2-^52^`。
+`EPSILON` 属性的值接近于 `2.2204460492503130808472633361816E-16`，或者 \\(2-^{52}\\)。
 
 ### `Number.MAX_SAFE_INTEGER`
 
-`Number.MAX_SAFE_INTEGER` **常量**表示在 JavaScript 中最大的安全整数（maxinum safe integer)（`2^53^ - 1`）。
+`Number.MAX_SAFE_INTEGER` **常量**表示在 JavaScript 中最大的安全整数（maximum safe integer)（\\(2^{53} - 1\\)）。
 
-`MAX_SAFE_INTEGER` 是一个值为 `9007199254740991`的常量。因为JavaScript的数字存储使用了IEEE 754中规定的双精度浮点数数据类型，而这一数据类型能够安
-全存储 `-(2^53^ - 1)` 到 `2^53^ - 1` 之间的数值（包含边界值）。
+`MAX_SAFE_INTEGER` 是一个值为`9007199254740991`的常量。因为JavaScript的数字存储使用了IEEE 754中规定的双精度浮点数数据类型，而这一数据类型能够安
+全存储\((-(2^{53} - 1)\\)到\((2^{53} - 1\\)之间的数值（包含边界值）。
 
 这里安全存储的意思是指能够准确区分两个不相同的值，例如 `Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2` 将得到 `true`的结果，而这在数学上是错误的，参考[`Number.isSafeInteger()`](/zh-hans/webfrontend/Number.isSafeInteger)获取更多信息.
 
@@ -63,10 +63,11 @@ b instanceof Number; // is false
 
 ### `Number.MIN_SAFE_INTEGER`
 
-`Number.MIN_SAFE_INTEGER` 代表在 JavaScript中最小的安全的`integer`型数字 (`-(2^53^ - 1)`).
+`Number.MIN_SAFE_INTEGER` 代表在 JavaScript中最小的安全的`integer`型数字 (\((-(2^{53} - 1)\\)).
 
 `MIN_SAFE_INTEGER` 的值是`-9007199254740991`. 形成这个数字的原因是 JavaScript 在 IEEE 754中使用
-double-precision floating-point format numbers 作为规定。在这个规定中能安全的表示数字的范围在`-(2^53^ - 1)`到 `2^53^ - 1`之间.
+double-precision floating-point format numbers 作为规定。在这个规定中能安全的表示数字的范围在
+\((-(2^{53} - 1)\\)到\\(2^{53} - 1\\)之间。
 
 由于`MIN_SAFE_INTEGER` 是`Number`的一个静态属性,你可以直接使用`Number.MIN_SAFE_INTEGER`,
 而不是自己去创建一个`Number`的属性。
@@ -77,7 +78,7 @@ double-precision floating-point format numbers 作为规定。在这个规定中
 
 `MIN_VALUE` 属性是 JavaScript 里最接近 `0` 的正值，而不是最小的负值。
 
-`MIN_VALUE` 的值约为 `5e-324`。小于 `MIN_VALUE` ("`underflow values`") 的值将会转换为 `0`。
+`MIN_VALUE` 的值约为`5e-324`。小于 `MIN_VALUE` ("`underflow values`") 的值将会转换为 `0`。
 
 因为 `MIN_VALUE` 是 `Number` 的一个静态属性，因此应该直接使用： `Number.MIN_VALUE`，
 而不是作为一个创建的 `Number` 实例的属性。
@@ -88,7 +89,7 @@ double-precision floating-point format numbers 作为规定。在这个规定中
 
 不必创建一个`Number`实例来访问该属性，使用`Number.NaN`来访问该静态属性。
 
-`EPSILON`属性的值接近于 `2.2204460492503130808472633361816E-16`，或者\\(2-^52\\)。
+`EPSILON`属性的值接近于 `2.2204460492503130808472633361816E-16`，或者\\(2-^{52}\\)。
 
 ### `Number.NEGATIVE_INFINITY`
 
@@ -155,7 +156,7 @@ var notANum = Number.NaN;
 
 ### 整数类型的范围
 
-JavaScript 能够准确表示的整数范围在\\(-2^53\\)到\\(2^53\\)之间（不含两个端点），超过这个范围，无法精确表示这个整数。 (详情请参阅 ECMAScript standard,
+JavaScript 能够准确表示的整数范围在\\(-2^{53}\\)到\\(2^{53}\\)之间（不含两个端点），超过这个范围，无法精确表示这个整数。 (详情请参阅 ECMAScript standard,
 chapter [6.1.6 The Number Type](https://www.ecma-international.org/ecma-262/#sec-ecmascript-language-types-number-type)):
 
 ```javascript
