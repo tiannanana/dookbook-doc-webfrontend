@@ -26,7 +26,7 @@ b instanceof Number; // is false
 
 `Number` 对象主要用于：
 
-- 如果参数无法被转换为数字，则返回 `NaN`。
+- 如果参数无法被转换为数字，则返回[`NaN`](/zh-hans/webfrontend/NaN)。
 - 在非构造器上下文中 (如：没有 [`new`](/zh-hans/webfrontend/new) 操作符)，`Number` 能被用来执行类型转换。
 
 `Number.prototype` 属性表示 `Number` 构造函数的原型。
@@ -84,11 +84,11 @@ double-precision floating-point format numbers 作为规定。在这个规定中
 
 ### `Number.NaN`
 
-`Number.NaN` 表示“非数字”（Not-A-Number）。和 `NaN` 相同。
+`Number.NaN` 表示“非数字”（Not-A-Number），和[`NaN`](/zh-hans/webfrontend/NaN) 相同。
 
-不必创建一个 `Number` 实例来访问该属性，使用 `Number.NaN` 来访问该静态属性。
+不必创建一个`Number`实例来访问该属性，使用`Number.NaN`来访问该静态属性。
 
-`EPSILON` 属性的值接近于 `2.2204460492503130808472633361816E-16`，或者 `2-52`。
+`EPSILON`属性的值接近于 `2.2204460492503130808472633361816E-16`，或者\\(2-^52\\)。
 
 ### `Number.NEGATIVE_INFINITY`
 
@@ -155,7 +155,7 @@ var notANum = Number.NaN;
 
 ### 整数类型的范围
 
-JavaScript 能够准确表示的整数范围在`-2^53`到`2^53`之间（不含两个端点），超过这个范围，无法精确表示这个整数。 (详情请参阅 ECMAScript standard,
+JavaScript 能够准确表示的整数范围在\\(-2^53\\)到\\(2^53\\)之间（不含两个端点），超过这个范围，无法精确表示这个整数。 (详情请参阅 ECMAScript standard,
 chapter [6.1.6 The Number Type](https://www.ecma-international.org/ecma-262/#sec-ecmascript-language-types-number-type)):
 
 ```javascript

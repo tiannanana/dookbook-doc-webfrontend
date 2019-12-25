@@ -28,7 +28,7 @@ b instanceof Number // is false
 
 The primary uses of the `Number` object are:
 
-- If the argument cannot be converted into a number, it returns `NaN`.
+- If the argument cannot be converted into a number, it returns [`NaN`](/en/webfrontend/NaN).
 - In a non-constructor context (i.e., without the [`new`](/en/webfrontend/new) operator),
 Number can be used to perform a type conversion.
 
@@ -41,19 +41,19 @@ The **`Number.EPSILON`** property represents the difference between `1` and the 
 
 You do not have to create a `Number` object to access this static property (use `Number.EPSILON`).
 
-The `EPSILON` property has a value of approximately `2.2204460492503130808472633361816E-16`, or `2-^52^`.
+The `EPSILON` property has a value of approximately `2.2204460492503130808472633361816E-16`, or \\(2^{-52}\\).
 
 ### `Number.MAX_SAFE_INTEGER`
 
 The **`Number.MAX_SAFE_INTEGER`** constant represents the maximum safe integer in JavaScript
-(`2^53^ - 1`).
+(\\(2^53 - 1\\)).
 
 For larger integers, consider using [`BigInt`](/en/webfrontend/BigInt).
 
-The `MAX_SAFE_INTEGER` constant has a value of `9007199254740991` (9,007,199,254,740,991 or ~9
+The `MAX_SAFE_INTEGER` constant has a value of `9007199254740991` (`9,007,199,254,740,991` or `~9`
 quadrillion). The reasoning behind that number is that JavaScript uses double-precision
 floating-point format numbers as specified in IEEE 754 and can only safely represent
-numbers between `-(2^53^ - 1)` and `2^53^ - 1`.
+numbers between \\(-(2^53 - 1)\\) and \\(2^53 - 1\\).
 
 Safe in this context refers to the ability to represent integers exactly and to correctly compare
 them. For example, `Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2` will evaluate
@@ -79,7 +79,7 @@ than as a property of a `Number` object you created.
 ### `Number.MIN_SAFE_INTEGER`
 
 The **`Number.MIN_SAFE_INTEGER`** constant represents the minimum safe integer in JavaScript
-(`-(2^53^ - 1)`).
+(\\(-(2^53 - 1)\\)).
 
 To represent integers smaller than this, consider using [`BigInt`](/en/webfrontend/BigInt).
 
@@ -133,7 +133,7 @@ Because `NEGATIVE_INFINITY` is a static property of `Number`, you always use it 
 
 ### `Number.NaN`
 
-The **`Number.NaN`** property represents Not-A-Number. Equivalent of `NaN`.
+The **`Number.NaN`** property represents Not-A-Number. Equivalent of [`NaN`](/en/webfrontend/NaN).
 
 You do not have to create a `Number` object to access this static property (use `Number.NaN`).
 
