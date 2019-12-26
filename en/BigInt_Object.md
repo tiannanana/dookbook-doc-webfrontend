@@ -1,5 +1,4 @@
 TOPICS: BigInt
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript BigInt Object
 
@@ -87,7 +86,8 @@ The `/` operator also works as expected with whole numbers. However,
 since these are `BigInts` and not `BigDecimals`, this operation will round towards `0`,
  which is to say, it will not return any fractional digits.
 
-!!!warn An operation with a fractional result will be truncated when used with a `BigInt`.
+!!! warn ""
+    An operation with a fractional result will be truncated when used with a `BigInt`.
 
 ```JavaScript
 const expected = 4n / 2n;
@@ -194,23 +194,23 @@ Boolean(12n)
 
 | methods | description |
 | :-- | :--|
-|**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between `-2^width-1^` and `2^width-1^-1`.|
-|**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and `2^width^-1`.|
+|**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between \\(-2^{width-1}\\) and \\(2^{width-1}-1\\). |
+|**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and \\(2^{width}-1\\).|
 
 ## Instance methods
 
 | methods | description |
 | :-- | :-- |
-|**`BigInt.prototype.toLocaleString()`**|Returns a string with a language-sensitive representation of this number. Overrides the [`Object.prototype.toLocaleString()`](/en/webfrontend/Object.prototype.toLocaleString) method.|
-|**`BigInt.prototype.toString()`**|Returns a string representing the specified object in the specified radix (base). Overrides the [`Object.prototype.toString()`](/en/webfrontend/Object.prototype.toString) method.|
-|**`BigInt.prototype.valueOf()`**| Returns the primitive value of the specified object. Overrides the [`Object.prototype.valueOf()`](/en/webfrontend/Object.prototype.valueOf) method.|
+|**`BigInt.toLocaleString()`**|Returns a string with a language-sensitive representation of this number. Overrides the [`Object.toLocaleString()`](/en/webfrontend/Object.toLocaleString) method.|
+|**`BigInt.toString()`**|Returns a string representing the specified object in the specified radix (base). Overrides the [`Object.toString()`](/en/webfrontend/Object.toString) method.|
+|**`BigInt.valueOf()`**| Returns the primitive value of the specified object. Overrides the [`Object.valueOf()`](/en/webfrontend/Object.valueOf) method.|
 
 ## Usage recommendations
 
 ### Coercion
 
 Because coercing between [Number](/en/webfrontend/Number) and `BigInt` can lead to loss of precision,
-it is recommended to only use `BigInt` when values greater than `2^53^` are reasonably expected
+it is recommended to only use `BigInt` when values greater than \((2^{53}\\) are reasonably expected
 and not to coerce between the two types.
 
 ### Cryptography
@@ -220,8 +220,8 @@ The operations supported on `BigInts` are not constant time.
 
 ### Use within JSON
 
-Using [`JSON.stringify()`](/en/webfrontend/JSON.stringify) with any `BigInt` value will raise a `TypeError`
-as `BigInt` values aren't serialized in [JSON]((/en/webfrontend/JSON)) by default.
+Using [`JSON.stringify()`](/en/glossary/JSON) with any `BigInt` value will raise a `TypeError`
+as `BigInt` values aren't serialized in [[JSON]] by default.
 However, you can implement your own `toJSON` method if needed:
 
 ```JavaScript
