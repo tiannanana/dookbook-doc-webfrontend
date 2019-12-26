@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript Float64Array Object
 
-`Float64Array` 类型数组代表的是平台字节顺序为32位的浮点数型数组(对应于 C 浮点数据类型) 。
+`Float64Array` 类型数组代表的是平台字节顺序为64位的浮点数型数组(对应于 C 浮点数据类型) 。
 如果需要控制字节顺序， 使用 [`DataView`](/zh-hans/webfrontend/DataView) 替代。其内容初始化为`0`。
 一旦建立起来，你可以使用这个对象的方法对其元素进行操作，或者使用标准数组索引语法 (使用方括号)。
 
