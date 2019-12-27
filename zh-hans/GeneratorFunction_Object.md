@@ -1,7 +1,7 @@
 TOPICS: GeneratorFunction
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript GeneratorFunction Object
+# JavaScript `GeneratorFunction` Object
 
 `GeneratorFunction`构造器生成新的生成器函数 对象。在JavaScript中，[生成器函数](/zh-hans/webfrontend/function*)实际上都是`GeneratorFunction`的实例对象。
 
@@ -31,8 +31,8 @@ new GeneratorFunction ([arg1[, arg2[, ...argN]],] functionBody)
 
 传递给函数的所有参数按照它们被传递的顺序被视为要创建的函数中参数的标识符的名称。
 
-!!! warn ""
-提示：使用`GeneratorFunction`构造函数创建的[生成器函数](/zh-hans/webfrontend/function*)不会为其创建上下文创建闭包；它们始终在全局范围内创建。当运行它们时，它们只能访问自己的本地变量和全局变量，而不是从`GeneratorFunction`构造函数调用的范围的变量。这与使用[`eval`](/zh-hans/webfrontend/eval)与生成函数表达式的代码不同。
+!!! warn "提示"
+    使用`GeneratorFunction`构造函数创建的[生成器函数](/zh-hans/webfrontend/function*)不会为其创建上下文创建闭包；它们始终在全局范围内创建。当运行它们时，它们只能访问自己的本地变量和全局变量，而不是从`GeneratorFunction`构造函数调用的范围的变量。这与使用[`eval`](/zh-hans/webfrontend/eval)与生成函数表达式的代码不同。
 
 将`GeneratorFunction`构造函数调用为函数（不使用[`new`](/zh-hans/webfrontend/new)运算符）与将其作为构造函数调用的效果相同。
 
@@ -41,7 +41,7 @@ new GeneratorFunction ([arg1[, arg2[, ...argN]],] functionBody)
 | 属性 | 说明 |
 | :-- | :-- |
 |**`GeneratorFunction.length`**|`GeneratorFunction`构造函数的 `length` 属性值为 `1`。|
-|**[`GeneratorFunction.prototype`](/zh-hans/webfrontend/GeneratorFunction.prototype)**|允许向所有生成器函数对象添加属性。|
+|**`GeneratorFunction.prototype`**|允许向所有生成器函数对象添加属性。|
 
 ## GeneratorFunction 原型对象
 
@@ -54,7 +54,7 @@ new GeneratorFunction ([arg1[, arg2[, ...argN]],] functionBody)
 
 ## GeneratorFunction 实例
 
-`GeneratorFunction`实例从[`GeneratorFunction.prototype`](/zh-hans/webfrontend/GeneratorFunction.prototype)继承方法和属性。
+`GeneratorFunction`实例从`GeneratorFunction.prototype`继承方法和属性。
 与所有构造函数一样，你可以更改构造函数的原型对象以对所有`GeneratorFunction`实例进行更改。
 
 ## 示例

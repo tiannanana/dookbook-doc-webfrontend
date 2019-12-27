@@ -61,7 +61,7 @@ has the same effect as invoking it as a constructor.
 | Properties | Description |
 | :-- | :-- |
 |**`GeneratorFunction.constructor`**|The initial value is `GeneratorFunction`.|
-|**`GeneratorFunction.prototype`**|The value is `GeneratorPrototype`.|
+|**`GeneratorFunction.prototype.prototype`**|The value is `GeneratorPrototype`.|
 
 ## GeneratorFunction instances
 
