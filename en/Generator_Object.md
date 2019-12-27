@@ -1,7 +1,7 @@
 TOPICS: Generator
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript Generator Object
+# JavaScript `Generator` Object
 
 The **Generator** object is returned by a generator function and it conforms to both the
 [iterable protocol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
@@ -23,9 +23,9 @@ var g = gen(); // "Generator { }"
 
 | Methods | Description |
 | :-- | :-- |
-|**[`Generator.prototype.next()`](/en/webfrontend/Generator.prototype.next)**|Returns a value yielded by the [`yield`](/en/webfrontend/yield) expression. |
-|**[Generator.prototype.return()`](/en/webfrontend/Generator.prototype.return)**|Returns the given value and finishes the generator.|
-|**[Generator.prototype.throw()`](/en/webfrontend/Generator.prototype.throw)**|Throws an error to a generator (also finishes the generator, unless caught from within that generator).|
+|**[`Generator.next()`](/en/webfrontend/Generator.next)**|Returns a value yielded by the [`yield`](/en/webfrontend/yield) expression. |
+|**[`Generator.return()`](/en/webfrontend/Generator.return)**|Returns the given value and finishes the generator.|
+|**[`Generator.throw()`](/en/webfrontend/Generator.throw)**|Throws an error to a generator (also finishes the generator, unless caught from within that generator).|
 
 ## Example
 
@@ -57,10 +57,10 @@ legacy generators support has been removed since Firefox 58 (released on January
 
 | methods | Description |
 | :-- | :-- |
-|**`Generator.prototype.next()`**|Returns a value yielded by the [`yield`](/en/webfrontend/yield) expression. This corresponds to `next()` in the ES2015 generator object.*(This API has not been standardied)*|
-|**`Generator.prototype.close()`**|Closes the generator, so that when calling `next()` an `StopIteration` error will be thrown. This corresponds to the `return()` method in the ES2015 generator object.*(This API has not been standardied)*|
-|**`Generator.prototype.send()`**|Used to send a value to a generator. The value is returned from the [`yield`](/en/webfrontend/yield) expression, and returns a value yielded by the next [`yield`](/en/webfrontend/yield) expression. `send(x)` corresponds to `next(x)` in the ES2015 generator object.*(This API has not been standardied)*|
-|**`Generator.prototype.throw()`**|Throws an error to a generator. This corresponds to the `throw()` method in the ES2015 generator object.*(This API has not been standardied)*|
+|**`Generator.next()`**|Returns a value yielded by the [`yield`](/en/webfrontend/yield) expression. This corresponds to `next()` in the ES2015 generator object.*(This API has not been standardied)*|
+|**`Generator.close()`**|Closes the generator, so that when calling `next()` an `StopIteration` error will be thrown. This corresponds to the `return()` method in the ES2015 generator object.*(This API has not been standardied)*|
+|**`Generator.send()`**|Used to send a value to a generator. The value is returned from the [`yield`](/en/webfrontend/yield) expression, and returns a value yielded by the next [`yield`](/en/webfrontend/yield) expression. `send(x)` corresponds to `next(x)` in the ES2015 generator object.*(This API has not been standardied)*|
+|**`Generator.throw()`**|Throws an error to a generator. This corresponds to the `throw()` method in the ES2015 generator object.*(This API has not been standardied)*|
 
 ### Legacy generator example
 

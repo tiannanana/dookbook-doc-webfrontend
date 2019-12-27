@@ -52,7 +52,7 @@ has the same effect as invoking it as a constructor.
 | Properties | Description |
 | :-- | :-- |
 |**`GeneratorFunction.length`**|The `GeneratorFunction` constructor's `length` property whose value is `1`.|
-|**[`GeneratorFunction.prototype`](/en/webfrontend/GeneratorFunction.prototype)**|Allows the addition of properties to all generator function objects.|
+|**`GeneratorFunction.prototype`**|Allows the addition of properties to all generator function objects.|
 
 ## GeneratorFunction prototype object
 
@@ -61,11 +61,11 @@ has the same effect as invoking it as a constructor.
 | Properties | Description |
 | :-- | :-- |
 |**`GeneratorFunction.constructor`**|The initial value is `GeneratorFunction`.|
-|**`GeneratorFunction.prototype.prototype`**|The value is `GeneratorPrototype`.|
+|**`GeneratorFunction.prototype`**|The value is `GeneratorPrototype`.|
 
 ## GeneratorFunction instances
 
-`GeneratorFunction` instances inherit methods and properties from [`GeneratorFunction.prototype`](/en/webfrontend/GeneratorFunction.prototype).
+`GeneratorFunction` instances inherit methods and properties from `GeneratorFunction.prototype`.
 As with all constructors, you can change the constructor's prototype object to make changes to
 all `GeneratorFunction` instances.
 
