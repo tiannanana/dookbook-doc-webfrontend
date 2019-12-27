@@ -1,7 +1,7 @@
 TOPICS: GeneratorFunction
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript GeneratorFunction Object
+# JavaScript `GeneratorFunction` Object
 
 The `GeneratorFunction` constructor creates a new [`generator function`](/en/webfrontend/function*) object.
 In JavaScript every [`generator function`](/en/webfrontend/function*)
@@ -37,12 +37,12 @@ because such functions are parsed with the rest of the code.
 All arguments passed to the function are treated as the names of the identifiers of the parameters
 in the function to be created, in the order in which they are passed.
 
-!!! warn ""
-Note: [`generator function`](/en/webfrontend/function*) created with the `GeneratorFunction` constructor
-do not create closures to their creation contexts; they always are created in the global scope.
-When running them, they will only be able to access their own local variables and global ones,
-not the ones from the scope in which the `GeneratorFunction` constructor was called.
-This is different from using [`eval`](/en/webfrontend/eval) with code for a generator function expression.
+!!! warn "Note"
+    [`generator function`](/en/webfrontend/function*) created with the `GeneratorFunction` constructor
+    do not create closures to their creation contexts; they always are created in the global scope.
+    When running them, they will only be able to access their own local variables and global ones,
+    not the ones from the scope in which the `GeneratorFunction` constructor was called.
+    This is different from using [`eval`](/en/webfrontend/eval) with code for a generator function expression.
 
 Invoking the GeneratorFunction constructor as a function (without using the [`new operator`](/en/webfrontend/new))
 has the same effect as invoking it as a constructor.
