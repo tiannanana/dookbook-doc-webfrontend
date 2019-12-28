@@ -76,7 +76,7 @@ const y = new Error('I was constructed via the "new" keyword!');
 ### 供应商特定的扩展
 
 !!! warn "非标准"
-此功能是非标准的。 请勿在面向Web的生产环境中使用它：它不适用于每个用户。 操作实现之间也可能存在很大的不兼容性，并且将来的行为可能会更改。
+    此功能是非标准的。 请勿在面向Web的生产环境中使用它：它不适用于每个用户。 操作实现之间也可能存在很大的不兼容性，并且将来的行为可能会更改。
 
 (1) Microsoft
 
@@ -98,7 +98,7 @@ const y = new Error('I was constructed via the "new" keyword!');
 
 | 方法 | 说明 |
 | :-- | :-- |
-|**[`Error.toSource()`](/zh-hans/webfrontend/Error.toSource)**|返回一个字符串，其中包含指定的“Error”对象的来源；可以使用此值创建一个新对象。 覆盖 [`Object.toSource()`](/zh-hans/webfrontend/Object.toSource) 方法。
+|**[`Error.toSource()`](/zh-hans/webfrontend/Error.toSource)**|返回一个字符串，其中包含指定的“Error”对象的来源；可以使用此值创建一个新对象。 覆盖 [`Object.toSource()`](/zh-hans/webfrontend/Object.toSource) 方法。|
 |**[`Error.toString()`](/zh-hans/webfrontend/Error.toString)**|返回表示指定对象的字符串。 覆盖 [`Object.toString()`](zh-hansn/webfrontend/Object.toString) 方法。|
 
 ## 示例

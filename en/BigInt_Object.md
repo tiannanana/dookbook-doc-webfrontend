@@ -1,5 +1,4 @@
 TOPICS: BigInt
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript `BigInt` Object
 
@@ -87,7 +86,8 @@ The `/` operator also works as expected with whole numbers. However,
 since these are `BigInts` and not `BigDecimals`, this operation will round towards `0`,
  which is to say, it will not return any fractional digits.
 
-!!!warn An operation with a fractional result will be truncated when used with a `BigInt`.
+!!! warn ""
+    An operation with a fractional result will be truncated when used with a `BigInt`.
 
 ```JavaScript
 const expected = 4n / 2n;
@@ -194,8 +194,13 @@ Boolean(12n)
 
 | methods | description |
 | :-- | :--|
+<<<<<<< HEAD
 |**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between `-2^^width-1^^` and `2^^width-1^^-1`.|
 |**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and `2^^width^^-1`.|
+=======
+|**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between \\(-2^{width-1}\\) and \\(2^{width-1}-1\\). |
+|**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and \\(2^{width}-1\\).|
+>>>>>>> 9223abf1b37fe361717e657f3948966a0521739b
 
 ## Instance methods
 
@@ -209,8 +214,13 @@ Boolean(12n)
 
 ### Coercion
 
+<<<<<<< HEAD
 Because coercing between [`Number`](/en/webfrontend/Number) and `BigInt` can lead to loss of precision,
 it is recommended to only use `BigInt` when values greater than `2^^53^^` are reasonably expected
+=======
+Because coercing between [Number](/en/webfrontend/Number) and `BigInt` can lead to loss of precision,
+it is recommended to only use `BigInt` when values greater than \((2^{53}\\) are reasonably expected
+>>>>>>> 9223abf1b37fe361717e657f3948966a0521739b
 and not to coerce between the two types.
 
 ### Cryptography
@@ -220,8 +230,13 @@ The operations supported on `BigInts` are not constant time.
 
 ### Use within JSON
 
+<<<<<<< HEAD
 Using [`JSON.stringify()`](/en/webfrontend/JSON.stringify) with any `BigInt` value will raise a `TypeError`
 as `BigInt` values aren't serialized in [`JSON`]((/en/webfrontend/JSON)) by default.
+=======
+Using [`JSON.stringify()`](/en/glossary/JSON) with any `BigInt` value will raise a `TypeError`
+as `BigInt` values aren't serialized in [[JSON]] by default.
+>>>>>>> 9223abf1b37fe361717e657f3948966a0521739b
 However, you can implement your own `toJSON` method if needed:
 
 ```JavaScript
