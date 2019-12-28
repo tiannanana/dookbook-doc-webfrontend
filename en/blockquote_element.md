@@ -21,7 +21,7 @@ attribute, while a text representation of the source can be given using the
 
 ## Attributes
 
-This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_attribute).
+This element's attributes include the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |
