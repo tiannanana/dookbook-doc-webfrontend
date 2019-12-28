@@ -7,7 +7,7 @@ The **`Math.cosh()`** function returns the hyperbolic cosine of a number, that c
 using the constant e:
 
 $$
-\mathtt{\operatorname{Math.cosh(x)}} = \frac{e^^x + e^^{-x}}{2}
+\mathtt{\operatorname{Math.cosh(x)}} = \frac{e^x + e^{-x}}{2}
 $$
 
 ## Syntax
