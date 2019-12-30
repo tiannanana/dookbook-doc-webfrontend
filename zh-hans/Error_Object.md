@@ -118,7 +118,7 @@ try {
 
 ### 处理一个特定错误
 
-你可以通过判断异常的类型来特定处理某一类的异常,即判断 [`constructor`](/zh-hans/webfrontend/Object.prototype.constructor) 属性，
+你可以通过判断异常的类型来特定处理某一类的异常,即判断 [`constructor`](/zh-hans/webfrontend/Object.constructor) 属性，
 当使用现代JavaScript引擎时,可使用 [`instanceof`](/zh-hans/webfrontend/instanceof) 关键字：
 
 ```JavaScript
@@ -141,7 +141,8 @@ try {
 !!! warn "注意"
     在FireFox中抛出自定义类型的异常会显示不正确的行号和文件名。
 
-参考 ["What's a good way to extend Error in JavaScript?" discussion on Stackoverflow](https://stackoverflow.com/questions/1382107/whats-a-good-way-to-extend-error-in-javascript).
+参考 ["What's a good way to extend Error in JavaScript?"](https://stackoverflow.com/questions/1382107/whats-a-good-way-to-extend-error-in-javascript)
+discussion on Stackoverflow.
 
 （1）ES6自定义错误类别
 
