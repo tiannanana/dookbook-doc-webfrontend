@@ -20,7 +20,7 @@ TOPICS: <dl>
 
 ## `<dl>` 属性
 
-该元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attribute)。
+该元素包含[全局属性](/zh-hans/webfrontend/HTML_Global_Attributes)。
 
 ## `<dt>`
 
