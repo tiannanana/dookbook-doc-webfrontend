@@ -22,7 +22,7 @@ Common uses for this element are to implement a *glossary* or to display
 
 ## `<dl>` Attributes
 
-This element only includes the [global attributes](/en/webfrontend/HTML_Global_attribute).
+This element only includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 ## `<dt>`
 

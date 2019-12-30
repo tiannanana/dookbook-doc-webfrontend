@@ -6,7 +6,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 **`Math.cosh()`** 函数返回数值的双曲余弦函数, 可用 constant e 表示:
 
 $$
-\mathtt{\operatorname{Math.cosh(x)}} = \frac{e^^x + e^^{-x}}{2}
+\mathtt{\operatorname{Math.cosh(x)}} = \frac{e^x + e^{-x}}{2}
 $$
 
 ## 语法

@@ -1,5 +1,4 @@
 TOPICS: Number.isSafeInteger
-AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Number.isSafeInteger()`
 
@@ -12,11 +11,11 @@ A safe integer is an integer that
 - whose IEEE-754 representation cannot be the result of rounding any other integer to fit the
 IEEE-754 representation.
 
-For example, `2^53^ - 1` is a safe integer: it can be exactly represented, and no other integer
-rounds to it under any IEEE-754 rounding mode. In contrast, `2^53^` is not a safe integer: it can
-be exactly represented in IEEE-754, but the integer `2^53^ + 1` can't be directly represented
+For example, \\(2^{53} - 1\\)is a safe integer: it can be exactly represented, and no other integer
+rounds to it under any IEEE-754 rounding mode. In contrast, \\(2^{53}\\) is not a safe integer: it can
+be exactly represented in IEEE-754, but the integer \\(2^{53} + 1\\) can't be directly represented
 in IEEE-754 but instead rounds to 253 under round-to-nearest and round-to-zero rounding.
-The safe integers consist of all integers from `-(2^53^ - 1)` inclusive to `2^53^ - 1`
+The safe integers consist of all integers from \\(-(2^{53} - 1)\\) inclusive to \\(2^{53} - 1\\)
 inclusive (± `9007199254740991` or ± 9,007,199,254,740,991).  
 
 Handling values larger or smaller than ~9 quadrillion with full precision requires using an
