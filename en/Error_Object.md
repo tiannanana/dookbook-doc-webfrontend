@@ -1,4 +1,4 @@
-TOPICS: ArrayBuffer
+TOPICS: Error
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # JavaScript `Error` Object
