@@ -133,7 +133,7 @@ try {
 ### Handling a specific error
 
 You can choose to handle only specific error types by testing the error type with the error's
-[`constructor`](/en/webfrontend/Object.prototype.constructor) property or,
+[`constructor`](/en/webfrontend/Object.constructor) property or,
 if you're writing for modern JavaScript engines, [`instanceof`](/en/webfrontend/instanceof) keyword:
 
 ```JavaScript
