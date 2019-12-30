@@ -27,7 +27,7 @@ Math.random()
 
 Note that as numbers in JavaScript are IEEE 754 floating point numbers with round-to-nearest-even
 behavior, the ranges claimed for the functions below (excluding the one for `Math.random()` itself)
-aren't exact. If extremely large bounds are chosen (2^^53 or higher), it's possible in extremely rare
+aren't exact. If extremely large bounds are chosen (2^^53^^ or higher), it's possible in extremely rare
 cases to calculate the usually-excluded upper bound.
 
 ### Getting a random number between 0 (inclusive) and 1 (exclusive)

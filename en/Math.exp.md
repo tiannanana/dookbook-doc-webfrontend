@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Math.exp()`
 
-The **`Math.exp()`** function returns e^^x, where `x` is the argument, and `e` is Euler's number
+The **`Math.exp()`** function returns e^^x^^, where `x` is the argument, and `e` is Euler's number
 (also known as Napier's constant), the base of the natural logarithms.
 
 ## Syntax

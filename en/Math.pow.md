@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Math.pow()`
 
-The **`Math.pow()`** function returns the `base` to the `exponent` power, that is, base^^exponent.
+The **`Math.pow()`** function returns the `base` to the `exponent` power, that is, base^^exponent^^.
 
 ## Syntax
 

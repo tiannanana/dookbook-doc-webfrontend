@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Math.expm1()`
 
-**`Math.expm1()`** 函数返回 E^^x - 1, 其中 `x` 是该函数的参数, `E` 是自然对数的底数 `2.718281828459045`.
+**`Math.expm1()`** 函数返回 E^^x^^ - 1, 其中 `x` 是该函数的参数, `E` 是自然对数的底数 `2.718281828459045`.
 
 ## 语法
 

@@ -53,7 +53,7 @@ Math.fround(1.337); // 1.3370000123977661
 Math.fround(1.337) === 1.337; // false
 ```
 
-2^^150 is too big for a 32-bit float, so `Infinity` is returned:
+2^^150^^ is too big for a 32-bit float, so `Infinity` is returned:
 
 ```javascript
 2 ** 150; // 1.42724769270596e+45

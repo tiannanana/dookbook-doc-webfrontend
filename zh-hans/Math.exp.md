@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Math.exp()`
 
-**`Math.exp()`** 函数返回 e^^x，`x` 表示参数，`e` 是欧拉常数（Euler's constant），自然对数的底数。
+**`Math.exp()`** 函数返回 e^^x^^，`x` 表示参数，`e` 是欧拉常数（Euler's constant），自然对数的底数。
 
 ## 语法
 

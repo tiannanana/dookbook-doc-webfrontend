@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Math.expm1()`
 
-The **`Math.expm1()`** function returns e^^x - 1, where `x` is the argument, and `e` the base of
+The **`Math.expm1()`** function returns e^^x^^ - 1, where `x` is the argument, and `e` the base of
 the natural logarithms.
 
 ## Syntax

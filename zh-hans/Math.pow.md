@@ -3,7 +3,7 @@ AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
 # `Math.pow()`
 
-**`Math.pow()`** 函数返回基数（`base`）的指数（`exponent`）次幂，即 base^^exponent。
+**`Math.pow()`** 函数返回基数（`base`）的指数（`exponent`）次幂，即 base^^exponent^^。
 
 ## 语法
 

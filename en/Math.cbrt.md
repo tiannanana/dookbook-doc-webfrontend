@@ -44,7 +44,7 @@ Math.cbrt(2);  // 1.2599210498948734
 
 ## Polyfill
 
-For all \\(x \geq 0\\), have \\(\sqrt[3]{x} = x^^{1/3}\\) so this can be emulated by the following function:
+For all \\(x \geq 0\\), have \\(\sqrt[3]{x} = x^{1/3}\\) so this can be emulated by the following function:
 
 ```javascript
 if (!Math.cbrt) {
