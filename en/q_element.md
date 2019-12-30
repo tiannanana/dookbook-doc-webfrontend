@@ -22,7 +22,7 @@ the [`<blockquote>`](/en/webfrontend/<blockquote>) element.
 
 ## Attributes
 
-This element includes the [global attributes](/en/webfrontend/HTML_Global_attribute).
+This element includes the [global attributes](/en/webfrontend/HTML_Global_Attributes).
 
 | Attribute | Description |
 | :-- | :-- |

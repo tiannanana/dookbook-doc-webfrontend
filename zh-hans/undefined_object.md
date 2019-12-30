@@ -1,6 +1,6 @@
 TOPICS: undefined
 
-# JavaScript Undefined基本类型: `undefined`
+# JavaScript 全局属性: `undefined`
 
 `undefined`是一个声明未定义的变量的初始值，或没有实际参数的形式参数。
 
