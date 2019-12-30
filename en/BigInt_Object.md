@@ -1,10 +1,10 @@
 TOPICS: BigInt
 
-# JavaScript BigInt Object
+# JavaScript `BigInt` Object
 
 `BigInt` is a built-in object that provides a way to represent whole numbers larger than `253 - 1`,
 which is the largest number JavaScript can reliably represent with the
-[Number](/en/webfrontend/Number) primitive. `BigInt` can be used for arbitrarily large integers.
+[`Number`](/en/webfrontend/Number) primitive. `BigInt` can be used for arbitrarily large integers.
 
 ## Description
 
@@ -27,12 +27,12 @@ const hugeBin = BigInt("0b11111111111111111111111111111111111111111111111111111"
 // ↪ 9007199254740991n
 ```
 
-`BigInt` is similar to [Number](/en/webfrontend/Number) in some ways,
+`BigInt` is similar to [`Number`](/en/webfrontend/Number) in some ways,
 but also differs in a few key matters — it cannot be used with methods in the built-in
-[Math](/en/webfrontend/Math) object and cannot be mixed with instances of
-[Number](/en/webfrontend/Number) in operations; they must be coerced to the same type.
+[`Math`](/en/webfrontend/Math) object and cannot be mixed with instances of
+[`Number`](/en/webfrontend/Number) in operations; they must be coerced to the same type.
 Be careful coercing values back and forth, however,
-as the precision of a `BigInt` may be lost when it is coerced to a [Number](/en/webfrontend/Number).
+as the precision of a `BigInt` may be lost when it is coerced to a [`Number`](/en/webfrontend/Number).
 
 ### Type information
 
@@ -52,7 +52,7 @@ typeof Object(1n) === 'object'; // true
 ### Operators
 
 The following operators may be used with BigInts (or object-wrapped BigInts): `+`, `*`, `-`, `**`, `%`.
- [Bitwise operators](/en/webfrontend/Bitwise_Operators) are supported as well,
+ [`Bitwise` operators](/en/webfrontend/Bitwise) are supported as well,
  except `>>>` (zero-fill right shift) as all BigInts are signed.
  Also unsupported is the unary operator (`+`), in order to not break [asm.js](https://github.com/tc39/proposal-bigint/blob/master/ADVANCED.md#dont-break-asmjs).
 
@@ -99,7 +99,7 @@ const rounded = 5n / 2n;
 
 ### Comparisons
 
-A `BigInt` is not strictly equal to a [Number](/en/webfrontend/Number), but it is loosely so:
+A `BigInt` is not strictly equal to a [`Number`](/en/webfrontend/Number), but it is loosely so:
 
 ```JavaScript
 0n === 0
@@ -109,7 +109,7 @@ A `BigInt` is not strictly equal to a [Number](/en/webfrontend/Number), but it i
 // ↪ true
 ```
 
-A [Number](/en/webfrontend/Number) and a `BigInt` may be compared as usual:
+A [`Number`](/en/webfrontend/Number) and a `BigInt` may be compared as usual:
 
 ```JavaScript
 1n < 2
@@ -151,10 +151,10 @@ o === o // true
 
 ### Conditionals
 
-A `BigInt` behaves like a [Number](/en/webfrontend/Number) in cases where it is converted to
-a [Boolean](/en/webfrontend/Boolean): via the [Boolean](/en/webfrontend/Boolean) function;
+A `BigInt` behaves like a [`Number`](/en/webfrontend/Number) in cases where it is converted to
+a [`Boolean`](/en/webfrontend/Boolean): via the [`Boolean`](/en/webfrontend/Boolean) function;
 when used with [logical operators](/en/webfrontend/Logical_Operator) `||`, `&&`, and `!`;
-or within a conditional test like an [if statement](/en/webfrontend/if_else_statement).
+or within a conditional test like an [`if statement`](/en/webfrontend/if_else_statement).
 
 ```JavaScript
 if (0n) {
@@ -194,8 +194,13 @@ Boolean(12n)
 
 | methods | description |
 | :-- | :--|
+<<<<<<< HEAD
+|**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between `-2^^width-1^^` and `2^^width-1^^-1`.|
+|**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and `2^^width^^-1`.|
+=======
 |**`BigInt.asIntN()`**| Wraps a BigInt value to a signed integer between \\(-2^{width-1}\\) and \\(2^{width-1}-1\\). |
 |**`BigInt.asUintN()`**| Wraps a BigInt value to an unsigned integer between `0` and \\(2^{width}-1\\).|
+>>>>>>> 9223abf1b37fe361717e657f3948966a0521739b
 
 ## Instance methods
 
@@ -209,8 +214,13 @@ Boolean(12n)
 
 ### Coercion
 
+<<<<<<< HEAD
+Because coercing between [`Number`](/en/webfrontend/Number) and `BigInt` can lead to loss of precision,
+it is recommended to only use `BigInt` when values greater than `2^^53^^` are reasonably expected
+=======
 Because coercing between [Number](/en/webfrontend/Number) and `BigInt` can lead to loss of precision,
 it is recommended to only use `BigInt` when values greater than \((2^{53}\\) are reasonably expected
+>>>>>>> 9223abf1b37fe361717e657f3948966a0521739b
 and not to coerce between the two types.
 
 ### Cryptography
@@ -220,8 +230,13 @@ The operations supported on `BigInts` are not constant time.
 
 ### Use within JSON
 
+<<<<<<< HEAD
+Using [`JSON.stringify()`](/en/webfrontend/JSON.stringify) with any `BigInt` value will raise a `TypeError`
+as `BigInt` values aren't serialized in [`JSON`]((/en/webfrontend/JSON)) by default.
+=======
 Using [`JSON.stringify()`](/en/glossary/JSON) with any `BigInt` value will raise a `TypeError`
 as `BigInt` values aren't serialized in [[JSON]] by default.
+>>>>>>> 9223abf1b37fe361717e657f3948966a0521739b
 However, you can implement your own `toJSON` method if needed:
 
 ```JavaScript
