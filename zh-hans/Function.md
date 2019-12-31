@@ -1,7 +1,7 @@
 TOPICS: Function
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript Function 对象 : `Function`
+# JavaScript函数对象 : `Function`
 
 `Function` 构造函数创建一个新的 `Function` 对象。直接调用此构造函数可用动态创建函数，但会遭遇来自 · 的安全问题和相对较小的性能问题。
 然而，与 `eval` 不同的是，`Function` 构造函数只在全局作用域中运行。

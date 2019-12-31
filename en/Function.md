@@ -1,7 +1,7 @@
 TOPICS: Function
 AUTHORS: mdn; mdn@mozilla-community.org; github:mdn
 
-# JavaScript Function Object
+# JavaScript Function Object: `Function`
 
 The `Function` constructor creates a new `Function` **object**. Calling the constructor directly
 can create functions dynamically, but suffers from security and similar (but far less significant)
