@@ -103,7 +103,7 @@ TOPICS: <a>
 <a href="<下载地址>" download="<默认文件名>" title="<文本提示>">下载链接文本</a>
 ```
 
-### 使用 download 属性将 `<canvas>` 保存为 PNG 格式
+### 使用 `download` 属性将 `<canvas>` 保存为 PNG 格式
 
 如果你想允许用户下载一个HTML画布，你可以创建一个下载属性和画布数据作为文件URL链接图像：
 
