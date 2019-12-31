@@ -151,12 +151,6 @@ technology, or who have cognitive concerns may become confused when the new tab,
 or application is opened unexpectedly. Older versions of screen reading software may
 not even announce the behavior.
 
-### Link that opens a new tab or window
-
-```html
-<a target="_blank" href="https://www.wikipedia.org/">Wikipedia (opens in a new window)</a>
-```
-
 ### Link to a non-HTML resource
 
 ```html
